@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Спряжение глагола</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding-top: 30px;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 700px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .conjugation-section {
+            margin-bottom: 20px;
+            text-align: left;
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .conjugation-section h2 {
+            color: #007bff;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .conjugation-section p {
+            margin: 5px 0;
+        }
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #5a6268;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="verb-infinitive">Загрузка спряжения...</h1>
+        <p id="verb-translation"></p>
+
+        <div id="conjugation-details">
+            </div>
+
+        <button class="back-button" onclick="history.back()">Назад</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const verbInfinitive = urlParams.get('verb');
+
+            if (!verbInfinitive) {
+                document.getElementById('verb-infinitive').textContent = 'Глагол не найден.';
+                return;
+            }
+
+            fetch('verbs.json')
+                .then(response => response.json())
+                .then(data => {
+                    const verb = data.find(v => v.infinitive === verbInfinitive);
+
+                    if (verb) {
+                        document.getElementById('verb-infinitive').textContent = `Спряжение: ${verb.infinitive}`;
+                        document.getElementById('verb-translation').textContent = `(${verb.translation})`;
+                        const conjugationDetails = document.getElementById('conjugation-details');
+
+                        for (const tense in verb.conjugation) {
+                            const tenseSection = document.createElement('div');
+                            tenseSection.classList.add('conjugation-section');
+                            tenseSection.innerHTML = `<h2>${capitalizeFirstLetter(tense)}</h2>`;
+                            for (const pronoun in verb.conjugation[tense]) {
+                                tenseSection.innerHTML += `<p><strong>${pronoun}:</strong> ${verb.conjugation[tense][pronoun]}</p>`;
+                            }
+                            conjugationDetails.appendChild(tenseSection);
+                        }
+                    } else {
+                        document.getElementById('verb-infinitive').textContent = 'Глагол не найден.';
+                    }
+                })
+                .catch(error => console.error('Ошибка загрузки глаголов:', error));
+        });
+
+        function capitalizeFirstLetter(string) {
+            return string.charAt(0).toUpperCase() + string.slice(1);
+        }
+    </script>
+</body>
+</html>

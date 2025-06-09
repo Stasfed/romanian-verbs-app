@@ -1,0 +1,798 @@
+[
+  {
+    "romanian": "om",
+    "russian": "человек"
+  },
+  {
+    "romanian": "zi",
+    "russian": "день"
+  },
+  {
+    "romanian": "an",
+    "russian": "год"
+  },
+  {
+    "romanian": "timp",
+    "russian": "время"
+  },
+  {
+    "romanian": "apă",
+    "russian": "вода"
+  },
+  {
+    "romanian": "țară",
+    "russian": "страна"
+  },
+  {
+    "romanian": "lume",
+    "russian": "мир"
+  },
+  {
+    "romanian": "mână",
+    "russian": "рука"
+  },
+  {
+    "romanian": "cap",
+    "russian": "голова"
+  },
+  {
+    "romanian": "casă",
+    "russian": "дом"
+  },
+  {
+    "romanian": "oraș",
+    "russian": "город"
+  },
+  {
+    "romanian": "lucru",
+    "russian": "вещь, дело"
+  },
+  {
+    "romanian": "loc",
+    "russian": "место"
+  },
+  {
+    "romanian": "copil",
+    "russian": "ребенок"
+  },
+  {
+    "romanian": "femeie",
+    "russian": "женщина"
+  },
+  {
+    "romanian": "bărbat",
+    "russian": "мужчина"
+  },
+  {
+    "romanian": "nume",
+    "russian": "имя"
+  },
+  {
+    "romanian": "viață",
+    "russian": "жизнь"
+  },
+  {
+    "romanian": "parte",
+    "russian": "часть"
+  },
+  {
+    "romanian": "ochi",
+    "russian": "глаз"
+  },
+  {
+    "romanian": "mamă",
+    "russian": "мама"
+  },
+  {
+    "romanian": "tată",
+    "russian": "папа"
+  },
+  {
+    "romanian": "frate",
+    "russian": "брат"
+  },
+  {
+    "romanian": "soră",
+    "russian": "сестра"
+  },
+  {
+    "romanian": "prieten",
+    "russian": "друг"
+  },
+  {
+    "romanian": "familie",
+    "russian": "семья"
+  },
+  {
+    "romanian": "serviciu",
+    "russian": "работа, служба"
+  },
+  {
+    "romanian": "școală",
+    "russian": "школа"
+  },
+  {
+    "romanian": "carte",
+    "russian": "книга"
+  },
+  {
+    "romanian": "cuvânt",
+    "russian": "слово"
+  },
+  {
+    "romanian": "idee",
+    "russian": "идея"
+  },
+  {
+    "romanian": "problemă",
+    "russian": "проблема"
+  },
+  {
+    "romanian": "drum",
+    "russian": "дорога"
+  },
+  {
+    "romanian": "masă",
+    "russian": "стол; еда"
+  },
+  {
+    "romanian": "scaun",
+    "russian": "стул"
+  },
+  {
+    "romanian": "ușă",
+    "russian": "дверь"
+  },
+  {
+    "romanian": "fereastră",
+    "russian": "окно"
+  },
+  {
+    "romanian": "cameră",
+    "russian": "комната"
+  },
+  {
+    "romanian": "pat",
+    "russian": "кровать"
+  },
+  {
+    "romanian": "mâncare",
+    "russian": "еда"
+  },
+  {
+    "romanian": "bani",
+    "russian": "деньги"
+  },
+  {
+    "romanian": "mașină",
+    "russian": "машина"
+  },
+  {
+    "romanian": "telefon",
+    "russian": "телефон"
+  },
+  {
+    "romanian": "stradă",
+    "russian": "улица"
+  },
+  {
+    "romanian": "piață",
+    "russian": "рынок, площадь"
+  },
+  {
+    "romanian": "magazin",
+    "russian": "магазин"
+  },
+  {
+    "romanian": "preț",
+    "russian": "цена"
+  },
+  {
+    "romanian": "culoare",
+    "russian": "цвет"
+  },
+  {
+    "romanian": "număr",
+    "russian": "число, номер"
+  },
+  {
+    "romanian": "întrebare",
+    "russian": "вопрос"
+  },
+  {
+    "romanian": "răspuns",
+    "russian": "ответ"
+  },
+  {
+    "romanian": "dimineață",
+    "russian": "утро"
+  },
+  {
+    "romanian": "seară",
+    "russian": "вечер"
+  },
+  {
+    "romanian": "noapte",
+    "russian": "ночь"
+  },
+  {
+    "romanian": "săptămână",
+    "russian": "неделя"
+  },
+  {
+    "romanian": "lună",
+    "russian": "месяц; луна"
+  },
+  {
+    "romanian": "soare",
+    "russian": "солнце"
+  },
+  {
+    "romanian": "stea",
+    "russian": "звезда"
+  },
+  {
+    "romanian": "cer",
+    "russian": "небо"
+  },
+  {
+    "romanian": "pământ",
+    "russian": "земля"
+  },
+  {
+    "romanian": "mare",
+    "russian": "море"
+  },
+  {
+    "romanian": "râu",
+    "russian": "река"
+  },
+  {
+    "romanian": "munte",
+    "russian": "гора"
+  },
+  {
+    "romanian": "copac",
+    "russian": "дерево"
+  },
+  {
+    "romanian": "floare",
+    "russian": "цветок"
+  },
+  {
+    "romanian": "animal",
+    "russian": "животное"
+  },
+  {
+    "romanian": "câine",
+    "russian": "собака"
+  },
+  {
+    "romanian": "pisică",
+    "russian": "кошка"
+  },
+  {
+    "romanian": "pasăre",
+    "russian": "птица"
+  },
+  {
+    "romanian": "pește",
+    "russian": "рыба"
+  },
+  {
+    "romanian": "pădure",
+    "russian": "лес"
+  },
+  {
+    "romanian": "grădină",
+    "russian": "сад"
+  },
+  {
+    "romanian": "câmp",
+    "russian": "поле"
+  },
+  {
+    "romanian": "aer",
+    "russian": "воздух"
+  },
+  {
+    "romanian": "foc",
+    "russian": "огонь"
+  },
+  {
+    "romanian": "căldură",
+    "russian": "тепло"
+  },
+  {
+    "romanian": "frig",
+    "russian": "холод"
+  },
+  {
+    "romanian": "ploaie",
+    "russian": "дождь"
+  },
+  {
+    "romanian": "zăpadă",
+    "russian": "снег"
+  },
+  {
+    "romanian": "vânt",
+    "russian": "ветер"
+  },
+  {
+    "romanian": "nor",
+    "russian": "облако"
+  },
+  {
+    "romanian": "glas",
+    "russian": "голос"
+  },
+  {
+    "romanian": "zgomot",
+    "russian": "шум"
+  },
+  {
+    "romanian": "muzică",
+    "russian": "музыка"
+  },
+  {
+    "romanian": "artă",
+    "russian": "искусство"
+  },
+  {
+    "romanian": "film",
+    "russian": "фильм"
+  },
+  {
+    "romanian": "teatru",
+    "russian": "театр"
+  },
+  {
+    "romanian": "sport",
+    "russian": "спорт"
+  },
+  {
+    "romanian": "joc",
+    "russian": "игра"
+  },
+  {
+    "romanian": "pauză",
+    "russian": "пауза, перерыв"
+  },
+  {
+    "romanian": "ora",
+    "russian": "час"
+  },
+  {
+    "romanian": "minut",
+    "russian": "минута"
+  },
+  {
+    "romanian": "secundă",
+    "russian": "секунда"
+  },
+  {
+    "romanian": "mic dejun",
+    "russian": "завтрак"
+  },
+  {
+    "romanian": "prânz",
+    "russian": "обед"
+  },
+  {
+    "romanian": "cină",
+    "russian": "ужин"
+  },
+  {
+    "romanian": "cafea",
+    "russian": "кофе"
+  },
+  {
+    "romanian": "ceai",
+    "russian": "чай"
+  },
+  {
+    "romanian": "lapte",
+    "russian": "молоко"
+  },
+  {
+    "romanian": "pâine",
+    "russian": "хлеб"
+  },
+  {
+    "romanian": "carne",
+    "russian": "мясо"
+  },
+  {
+    "romanian": "fruct",
+    "russian": "фрукт"
+  },
+  {
+    "romanian": "legumă",
+    "russian": "овощ"
+  },
+  {
+    "romanian": "zahăr",
+    "russian": "сахар"
+  },
+  {
+    "romanian": "sare",
+    "russian": "соль"
+  },
+  {
+    "romanian": "apă minerală",
+    "russian": "минеральная вода"
+  },
+  {
+    "romanian": "vin",
+    "russian": "вино"
+  },
+  {
+    "romanian": "bere",
+    "russian": "пиво"
+  },
+  {
+    "romanian": "suc",
+    "russian": "сок"
+  },
+  {
+    "romanian": "doctor",
+    "russian": "доктор"
+  },
+  {
+    "romanian": "spital",
+    "russian": "больница"
+  },
+  {
+    "romanian": "boală",
+    "russian": "болезнь"
+  },
+  {
+    "romanian": "sănătate",
+    "russian": "здоровье"
+  },
+  {
+    "romanian": "medicament",
+    "russian": "лекарство"
+  },
+  {
+    "romanian": "poliție",
+    "russian": "полиция"
+  },
+  {
+    "romanian": "problemă",
+    "russian": "проблема"
+  },
+  {
+    "romanian": "soluție",
+    "russian": "решение"
+  },
+  {
+    "romanian": "cheie",
+    "russian": "ключ"
+  },
+  {
+    "romanian": "părinte",
+    "russian": "родитель"
+  },
+  {
+    "romanian": "soț",
+    "russian": "муж"
+  },
+  {
+    "romanian": "soție",
+    "russian": "жена"
+  },
+  {
+    "romanian": "bunici",
+    "russian": "бабушка и дедушка"
+  },
+  {
+    "romanian": "nepot",
+    "russian": "внук/племянник"
+  },
+  {
+    "romanian": "verișor",
+    "russian": "кузен/кузина"
+  },
+  {
+    "romanian": "vecin",
+    "russian": "сосед"
+  },
+  {
+    "romanian": "profesor",
+    "russian": "учитель"
+  },
+  {
+    "romanian": "student",
+    "russian": "студент"
+  },
+  {
+    "romanian": "elev",
+    "russian": "ученик"
+  },
+  {
+    "romanian": "clasă",
+    "russian": "класс"
+  },
+  {
+    "romanian": "examen",
+    "russian": "экзамен"
+  },
+  {
+    "romanian": "notă",
+    "russian": "оценка; нота"
+  },
+  {
+    "romanian": "caiet",
+    "russian": "тетрадь"
+  },
+  {
+    "romanian": "creion",
+    "russian": "карандаш"
+  },
+  {
+    "romanian": "pix",
+    "russian": "ручка (шариковая)"
+  },
+  {
+    "romanian": "computer",
+    "russian": "компьютер"
+  },
+  {
+    "romanian": "internet",
+    "russian": "интернет"
+  },
+  {
+    "romanian": "telefon mobil",
+    "russian": "мобильный телефон"
+  },
+  {
+    "romanian": "e-mail",
+    "russian": "электронная почта"
+  },
+  {
+    "romanian": "adresă",
+    "russian": "адрес"
+  },
+  {
+    "romanian": "scrisoare",
+    "russian": "письмо"
+  },
+  {
+    "romanian": "pachet",
+    "russian": "посылка, пакет"
+  },
+  {
+    "romanian": "bilet",
+    "russian": "билет"
+  },
+  {
+    "romanian": "avion",
+    "russian": "самолет"
+  },
+  {
+    "romanian": "tren",
+    "russian": "поезд"
+  },
+  {
+    "romanian": "autobuz",
+    "russian": "автобус"
+  },
+  {
+    "romanian": "taxi",
+    "russian": "такси"
+  },
+  {
+    "romanian": "stație",
+    "russian": "станция, остановка"
+  },
+  {
+    "romanian": "aeroport",
+    "russian": "аэропорт"
+  },
+  {
+    "romanian": "gară",
+    "russian": "вокзал"
+  },
+  {
+    "romanian": "bagaj",
+    "russian": "багаж"
+  },
+  {
+    "romanian": "hotel",
+    "russian": "отель"
+  },
+  {
+    "romanian": "restaurant",
+    "russian": "ресторан"
+  },
+  {
+    "romanian": "nota de plată",
+    "russian": "счет (в ресторане)"
+  },
+  {
+    "romanian": "tip",
+    "russian": "тип, парень"
+  },
+  {
+    "romanian": "fată",
+    "russian": "девочка, девушка"
+  },
+  {
+    "romanian": "băiat",
+    "russian": "мальчик"
+  },
+  {
+    "romanian": "domn",
+    "russian": "господин"
+  },
+  {
+    "romanian": "doamnă",
+    "russian": "госпожа"
+  },
+  {
+    "romanian": "domnișoară",
+    "russian": "барышня"
+  },
+  {
+    "romanian": "culoare",
+    "russian": "цвет"
+  },
+  {
+    "romanian": "roșu",
+    "russian": "красный"
+  },
+  {
+    "romanian": "verde",
+    "russian": "зеленый"
+  },
+  {
+    "romanian": "albastru",
+    "russian": "синий"
+  },
+  {
+    "romanian": "galben",
+    "russian": "желтый"
+  },
+  {
+    "romanian": "negru",
+    "russian": "черный"
+  },
+  {
+    "romanian": "alb",
+    "russian": "белый"
+  },
+  {
+    "romanian": "gri",
+    "russian": "серый"
+  },
+  {
+    "romanian": "portocaliu",
+    "russian": "оранжевый"
+  },
+  {
+    "romanian": "roz",
+    "russian": "розовый"
+  },
+  {
+    "romanian": "mov",
+    "russian": "фиолетовый"
+  },
+  {
+    "romanian": "maro",
+    "russian": "коричневый"
+  },
+  {
+    "romanian": "dimensiune",
+    "russian": "размер"
+  },
+  {
+    "romanian": "formă",
+    "russian": "форма"
+  },
+  {
+    "romanian": "greutate",
+    "russian": "вес"
+  },
+  {
+    "romanian": "distanță",
+    "russian": "расстояние"
+  },
+  {
+    "romanian": "viteză",
+    "russian": "скорость"
+  },
+  {
+    "romanian": "putere",
+    "russian": "сила, мощь"
+  },
+  {
+    "romanian": "energie",
+    "russian": "энергия"
+  },
+  {
+    "romanian": "adevăr",
+    "russian": "правда"
+  },
+  {
+    "romanian": "minciună",
+    "russian": "ложь"
+  },
+  {
+    "romanian": "dragoste",
+    "russian": "любовь"
+  },
+  {
+    "romanian": "ură",
+    "russian": "ненависть"
+  },
+  {
+    "romanian": "bucurie",
+    "russian": "радость"
+  },
+  {
+    "romanian": "tristețe",
+    "russian": "грусть"
+  },
+  {
+    "romanian": "frică",
+    "russian": "страх"
+  },
+  {
+    "romanian": "curaj",
+    "russian": "смелость"
+  },
+  {
+    "romanian": "pace",
+    "russian": "мир (отсутствие войны)"
+  },
+  {
+    "romanian": "război",
+    "russian": "война"
+  },
+  {
+    "romanian": "dreptate",
+    "russian": "справедливость, право"
+  },
+  {
+    "romanian": "lege",
+    "russian": "закон"
+  },
+  {
+    "romanian": "guvern",
+    "russian": "правительство"
+  },
+  {
+    "romanian": "istorie",
+    "russian": "история"
+  },
+  {
+    "romanian": "cultură",
+    "russian": "культура"
+  },
+  {
+    "romanian": "religie",
+    "russian": "религия"
+  },
+  {
+    "romanian": "limbă",
+    "russian": "язык (речь)"
+  },
+  {
+    "romanian": "articol",
+    "russian": "статья"
+  },
+  {
+    "romanian": "știre",
+    "russian": "новость"
+  },
+  {
+    "romanian": "jurnal",
+    "russian": "газета, дневник"
+  },
+  {
+    "romanian": "radio",
+    "russian": "радио"
+  }
+]

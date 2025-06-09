@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточки глаголов</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; /* Изменено на flex-start */
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding-top: 30px; /* Добавлен отступ сверху */
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 80%; /* Увеличена ширина для карточек */
+            max-width: 700px;
+            margin-bottom: 20px; /* Отступ снизу */
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .verb-card {
+            background-color: #e9ecef;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        .verb-card h2 {
+            color: #007bff;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .verb-card p {
+            margin: 5px 0;
+            font-size: 1.1em;
+        }
+        .verb-card button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 10px;
+        }
+        .verb-card button:hover {
+            background-color: #0056b3;
+        }
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #5a6268;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Карточки глаголов</h1>
+        <div id="verb-cards-container">
+            </div>
+        <button class="back-button" onclick="history.back()">Назад</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('verbs.json')
+                .then(response => response.json())
+                .then(data => {
+                    const container = document.getElementById('verb-cards-container');
+                    data.forEach(verb => {
+                        const card = document.createElement('div');
+                        card.classList.add('verb-card');
+                        card.innerHTML = `
+                            <h2>${verb.infinitive}</h2>
+                            <p><strong>Перевод:</strong> ${verb.translation}</p>
+                            <button onclick="location.href='conjugation_detail.html?verb=${encodeURIComponent(verb.infinitive)}'">Спряжение</button>
+                        `;
+                        container.appendChild(card);
+                    });
+                })
+                .catch(error => console.error('Ошибка загрузки глаголов:', error));
+        });
+    </script>
+</body>
+</html>

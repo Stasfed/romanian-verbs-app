@@ -1,0 +1,1010 @@
+[
+  {
+    "romanian": "mare",
+    "russian": "большой"
+  },
+  {
+    "romanian": "mic",
+    "russian": "маленький"
+  },
+  {
+    "romanian": "nou",
+    "russian": "новый"
+  },
+  {
+    "romanian": "vechi",
+    "russian": "старый"
+  },
+  {
+    "romanian": "bun",
+    "russian": "хороший"
+  },
+  {
+    "romanian": "rău",
+    "russian": "плохой"
+  },
+  {
+    "romanian": "frumos",
+    "russian": "красивый"
+  },
+  {
+    "romanian": "urât",
+    "russian": "уродливый"
+  },
+  {
+    "romanian": "cald",
+    "russian": "теплый"
+  },
+  {
+    "romanian": "rece",
+    "russian": "холодный"
+  },
+  {
+    "romanian": "fericit",
+    "russian": "счастливый"
+  },
+  {
+    "romanian": "trist",
+    "russian": "грустный"
+  },
+  {
+    "romanian": "rapid",
+    "russian": "быстрый"
+  },
+  {
+    "romanian": "lent",
+    "russian": "медленный"
+  },
+  {
+    "romanian": "înalt",
+    "russian": "высокий"
+  },
+  {
+    "romanian": "scund",
+    "russian": "низкий"
+  },
+  {
+    "romanian": "greu",
+    "russian": "тяжелый; трудный"
+  },
+  {
+    "romanian": "ușor",
+    "russian": "легкий"
+  },
+  {
+    "romanian": "plin",
+    "russian": "полный"
+  },
+  {
+    "romanian": "gol",
+    "russian": "пустой"
+  },
+  {
+    "romanian": "curat",
+    "russian": "чистый"
+  },
+  {
+    "romanian": "murdar",
+    "russian": "грязный"
+  },
+  {
+    "romanian": "deschis",
+    "russian": "открытый"
+  },
+  {
+    "romanian": "închis",
+    "russian": "закрытый; темный (о цвете)"
+  },
+  {
+    "romanian": "tare",
+    "russian": "твердый; громкий"
+  },
+  {
+    "romanian": "moale",
+    "russian": "мягкий"
+  },
+  {
+    "romanian": "clar",
+    "russian": "ясный"
+  },
+  {
+    "romanian": "confuz",
+    "russian": "запутанный"
+  },
+  {
+    "romanian": "simplu",
+    "russian": "простой"
+  },
+  {
+    "romanian": "complicat",
+    "russian": "сложный"
+  },
+  {
+    "romanian": "adevărat",
+    "russian": "настоящий, истинный"
+  },
+  {
+    "romanian": "fals",
+    "russian": "фальшивый"
+  },
+  {
+    "romanian": "drept",
+    "russian": "правый; прямой; справедливый"
+  },
+  {
+    "romanian": "stâng",
+    "russian": "левый"
+  },
+  {
+    "romanian": "primul",
+    "russian": "первый"
+  },
+  {
+    "romanian": "ultimul",
+    "russian": "последний"
+  },
+  {
+    "romanian": "întreg",
+    "russian": "целый"
+  },
+  {
+    "romanian": "jumătate",
+    "russian": "половинный"
+  },
+  {
+    "romanian": "gros",
+    "russian": "толстый"
+  },
+  {
+    "romanian": "subțire",
+    "russian": "тонкий"
+  },
+  {
+    "romanian": "larg",
+    "russian": "широкий"
+  },
+  {
+    "romanian": "îngust",
+    "russian": "узкий"
+  },
+  {
+    "romanian": "lung",
+    "russian": "длинный"
+  },
+  {
+    "romanian": "scurt",
+    "russian": "короткий"
+  },
+  {
+    "romanian": "adânc",
+    "russian": "глубокий"
+  },
+  {
+    "romanian": "superficial",
+    "russian": "поверхностный"
+  },
+  {
+    "romanian": "luminos",
+    "russian": "светлый, яркий"
+  },
+  {
+    "romanian": "întunecat",
+    "russian": "темный"
+  },
+  {
+    "romanian": "puternic",
+    "russian": "сильный"
+  },
+  {
+    "romanian": "slab",
+    "russian": "слабый"
+  },
+  {
+    "romanian": "bogat",
+    "russian": "богатый"
+  },
+  {
+    "romanian": "sărac",
+    "russian": "бедный"
+  },
+  {
+    "romanian": "tânăr",
+    "russian": "молодой"
+  },
+  {
+    "romanian": "bătrân",
+    "russian": "старый (о людях)"
+  },
+  {
+    "romanian": "ieftin",
+    "russian": "дешевый"
+  },
+  {
+    "romanian": "scump",
+    "russian": "дорогой"
+  },
+  {
+    "romanian": "dulce",
+    "russian": "сладкий"
+  },
+  {
+    "romanian": "amar",
+    "russian": "горький"
+  },
+  {
+    "romanian": "sărat",
+    "russian": "соленый"
+  },
+  {
+    "romanian": "acru",
+    "russian": "кислый"
+  },
+  {
+    "romanian": "crud",
+    "russian": "сырой"
+  },
+  {
+    "romanian": "copt",
+    "russian": "спелый; запеченный"
+  },
+  {
+    "romanian": "gata",
+    "russian": "готовый"
+  },
+  {
+    "romanian": "liber",
+    "russian": "свободный"
+  },
+  {
+    "romanian": "ocupat",
+    "russian": "занятый"
+  },
+  {
+    "romanian": "singur",
+    "russian": "одинокий; единственный"
+  },
+  {
+    "romanian": "ocupat",
+    "russian": "занятой"
+  },
+  {
+    "romanian": "diferit",
+    "russian": "различный"
+  },
+  {
+    "romanian": "asemănător",
+    "russian": "похожий"
+  },
+  {
+    "romanian": "important",
+    "russian": "важный"
+  },
+  {
+    "romanian": "neimportant",
+    "russian": "неважный"
+  },
+  {
+    "romanian": "posibil",
+    "russian": "возможный"
+  },
+  {
+    "romanian": "imposibil",
+    "russian": "невозможный"
+  },
+  {
+    "romanian": "public",
+    "russian": "публичный, общественный"
+  },
+  {
+    "romanian": "privat",
+    "russian": "частный"
+  },
+  {
+    "romanian": "local",
+    "russian": "местный"
+  },
+  {
+    "romanian": "național",
+    "russian": "национальный"
+  },
+  {
+    "romanian": "internațional",
+    "russian": "международный"
+  },
+  {
+    "romanian": "activ",
+    "russian": "активный"
+  },
+  {
+    "romanian": "pasiv",
+    "russian": "пассивный"
+  },
+  {
+    "romanian": "normal",
+    "russian": "нормальный"
+  },
+  {
+    "romanian": "anormal",
+    "russian": "ненормальный"
+  },
+  {
+    "romanian": "corect",
+    "russian": "правильный"
+  },
+  {
+    "romanian": "incorect",
+    "russian": "неправильный"
+  },
+  {
+    "romanian": "sensibil",
+    "russian": "чувствительный"
+  },
+  {
+    "romanian": "insensibil",
+    "russian": "нечувствительный"
+  },
+  {
+    "romanian": "sigur",
+    "russian": "безопасный; уверенный"
+  },
+  {
+    "romanian": "nesigur",
+    "russian": "небезопасный; неуверенный"
+  },
+  {
+    "romanian": "inteligent",
+    "russian": "умный"
+  },
+  {
+    "romanian": "prost",
+    "russian": "глупый"
+  },
+  {
+    "romanian": "cald",
+    "russian": "горячий"
+  },
+  {
+    "romanian": "rece",
+    "russian": "холодный"
+  },
+  {
+    "romanian": "gol",
+    "russian": "пустой"
+  },
+  {
+    "romanian": "plin",
+    "russian": "полный"
+  },
+  {
+    "romanian": "ieftin",
+    "russian": "дешевый"
+  },
+  {
+    "romanian": "scump",
+    "russian": "дорогой"
+  },
+  {
+    "romanian": "sănătos",
+    "russian": "здоровый"
+  },
+  {
+    "romanian": "bolnav",
+    "russian": "больной"
+  },
+  {
+    "romanian": "vesel",
+    "russian": "веселый"
+  },
+  {
+    "romanian": "plictisit",
+    "russian": "скучающий"
+  },
+  {
+    "romanian": "încântat",
+    "russian": "восхищенный"
+  },
+  {
+    "romanian": "supărat",
+    "russian": "сердитый"
+  },
+  {
+    "romanian": "curios",
+    "russian": "любопытный"
+  },
+  {
+    "romanian": "indiferent",
+    "russian": "равнодушный"
+  },
+  {
+    "romanian": "generos",
+    "russian": "щедрый"
+  },
+  {
+    "romanian": "zgârcit",
+    "russian": "скупой"
+  },
+  {
+    "romanian": "politeț",
+    "russian": "вежливый"
+  },
+  {
+    "romanian": "nepoliticos",
+    "russian": "невежливый"
+  },
+  {
+    "romanian": "simplu",
+    "russian": "простой"
+  },
+  {
+    "romanian": "complex",
+    "russian": "сложный"
+  },
+  {
+    "romanian": "uşor",
+    "russian": "легкий"
+  },
+  {
+    "romanian": "dificil",
+    "russian": "трудный"
+  },
+  {
+    "romanian": "rapid",
+    "russian": "быстрый"
+  },
+  {
+    "romanian": "lent",
+    "russian": "медленный"
+  },
+  {
+    "romanian": "curat",
+    "russian": "чистый"
+  },
+  {
+    "romanian": "murdar",
+    "russian": "грязный"
+  },
+  {
+    "romanian": "dulce",
+    "russian": "сладкий"
+  },
+  {
+    "romanian": "amar",
+    "russian": "горький"
+  },
+  {
+    "romanian": "acru",
+    "russian": "кислый"
+  },
+  {
+    "romanian": "sărat",
+    "russian": "соленый"
+  },
+  {
+    "romanian": "tăcut",
+    "russian": "тихий"
+  },
+  {
+    "romanian": "zgomotos",
+    "russian": "шумный"
+  },
+  {
+    "romanian": "uşor (greutate)",
+    "russian": "легкий (по весу)"
+  },
+  {
+    "romanian": "greu (greutate)",
+    "russian": "тяжелый (по весу)"
+  },
+  {
+    "romanian": "nou",
+    "russian": "новый"
+  },
+  {
+    "romanian": "vechi",
+    "russian": "старый"
+  },
+  {
+    "romanian": "tânăr",
+    "russian": "молодой"
+  },
+  {
+    "romanian": "bătrân",
+    "russian": "старый (о человеке)"
+  },
+  {
+    "romanian": "cald",
+    "russian": "теплый"
+  },
+  {
+    "romanian": "rece",
+    "russian": "холодный"
+  },
+  {
+    "romanian": "fierbinte",
+    "russian": "горячий"
+  },
+  {
+    "romanian": "frumos",
+    "russian": "красивый"
+  },
+  {
+    "romanian": "urât",
+    "russian": "некрасивый"
+  },
+  {
+    "romanian": "blând",
+    "russian": "мягкий, нежный, кроткий"
+  },
+  {
+    "romanian": "aspru",
+    "russian": "грубый, суровый"
+  },
+  {
+    "romanian": "adânc",
+    "russian": "глубокий"
+  },
+  {
+    "romanian": "superficial",
+    "russian": "поверхностный"
+  },
+  {
+    "romanian": "înalt",
+    "russian": "высокий"
+  },
+  {
+    "romanian": "scund",
+    "russian": "низкий"
+  },
+  {
+    "romanian": "luminos",
+    "russian": "светлый"
+  },
+  {
+    "romanian": "întunecat",
+    "russian": "темный"
+  },
+  {
+    "romanian": "puternic",
+    "russian": "сильный"
+  },
+  {
+    "romanian": "slab",
+    "russian": "слабый"
+  },
+  {
+    "romanian": "devreme",
+    "russian": "ранний"
+  },
+  {
+    "romanian": "târziu",
+    "russian": "поздний"
+  },
+  {
+    "romanian": "curat",
+    "russian": "чистый"
+  },
+  {
+    "romanian": "murdar",
+    "russian": "грязный"
+  },
+  {
+    "romanian": "bogat",
+    "russian": "богатый"
+  },
+  {
+    "romanian": "sărac",
+    "russian": "бедный"
+  },
+  {
+    "romanian": "deschis (culoare)",
+    "russian": "светлый (о цвете)"
+  },
+  {
+    "romanian": "închis (culoare)",
+    "russian": "темный (о цвете)"
+  },
+  {
+    "romanian": "plăcut",
+    "russian": "приятный"
+  },
+  {
+    "romanian": "neplăcut",
+    "russian": "неприятный"
+  },
+  {
+    "romanian": "liniștit",
+    "russian": "спокойный"
+  },
+  {
+    "romanian": "agitat",
+    "russian": "взволнованный"
+  },
+  {
+    "romanian": "drept (linie)",
+    "russian": "прямой (о линии)"
+  },
+  {
+    "romanian": "curb",
+    "russian": "изогнутый"
+  },
+  {
+    "romanian": "grijuliu",
+    "russian": "заботливый"
+  },
+  {
+    "romanian": "neglijent",
+    "russian": "небрежный"
+  },
+  {
+    "romanian": "onest",
+    "russian": "честный"
+  },
+  {
+    "romanian": "necinstit",
+    "russian": "нечестный"
+  },
+  {
+    "romanian": "real",
+    "russian": "реальный"
+  },
+  {
+    "romanian": "ireal",
+    "russian": "нереальный"
+  },
+  {
+    "romanian": "modern",
+    "russian": "современный"
+  },
+  {
+    "romanian": "tradițional",
+    "russian": "традиционный"
+  },
+  {
+    "romanian": "original",
+    "russian": "оригинальный"
+  },
+  {
+    "romanian": "banal",
+    "russian": "банальный"
+  },
+  {
+    "romanian": "elegant",
+    "russian": "элегантный"
+  },
+  {
+    "romanian": "simplu",
+    "russian": "простой"
+  },
+  {
+    "romanian": "complex",
+    "russian": "сложный"
+  },
+  {
+    "romanian": "dulce (caracter)",
+    "russian": "милый, нежный (о характере)"
+  },
+  {
+    "romanian": "aspru (caracter)",
+    "russian": "жесткий, суровый (о характере)"
+  },
+  {
+    "romanian": "profesional",
+    "russian": "профессиональный"
+  },
+  {
+    "romanian": "amator",
+    "russian": "любительский"
+  },
+  {
+    "romanian": "economic",
+    "russian": "экономический"
+  },
+  {
+    "romanian": "social",
+    "russian": "социальный"
+  },
+  {
+    "romanian": "politic",
+    "russian": "политический"
+  },
+  {
+    "romanian": "cultural",
+    "russian": "культурный"
+  },
+  {
+    "romanian": "istoric",
+    "russian": "исторический"
+  },
+  {
+    "romanian": "științific",
+    "russian": "научный"
+  },
+  {
+    "romanian": "tehnic",
+    "russian": "технический"
+  },
+  {
+    "romanian": "artistic",
+    "russian": "художественный"
+  },
+  {
+    "romanian": "religios",
+    "russian": "религиозный"
+  },
+  {
+    "romanian": "educativ",
+    "russian": "образовательный"
+  },
+  {
+    "romanian": "legal",
+    "russian": "законный"
+  },
+  {
+    "romanian": "ilegal",
+    "russian": "незаконный"
+  },
+  {
+    "romanian": "personal",
+    "russian": "личный"
+  },
+  {
+    "romanian": "oficial",
+    "russian": "официальный"
+  },
+  {
+    "romanian": "privat",
+    "russian": "частный"
+  },
+  {
+    "romanian": "central",
+    "russian": "центральный"
+  },
+  {
+    "romanian": "marginal",
+    "russian": "маргинальный"
+  },
+  {
+    "romanian": "general",
+    "russian": "общий"
+  },
+  {
+    "romanian": "specific",
+    "russian": "специфический"
+  },
+  {
+    "romanian": "natural",
+    "russian": "натуральный"
+  },
+  {
+    "romanian": "artificial",
+    "russian": "искусственный"
+  },
+  {
+    "romanian": "vizibil",
+    "russian": "видимый"
+  },
+  {
+    "romanian": "invizibil",
+    "russian": "невидимый"
+  },
+  {
+    "romanian": "final",
+    "russian": "конечный, финальный"
+  },
+  {
+    "romanian": "inițial",
+    "russian": "начальный"
+  },
+  {
+    "romanian": "viitor",
+    "russian": "будущий"
+  },
+  {
+    "romanian": "trecut",
+    "russian": "прошлый"
+  },
+  {
+    "romanian": "prezent",
+    "russian": "настоящий"
+  },
+  {
+    "romanian": "rapid",
+    "russian": "скорый"
+  },
+  {
+    "romanian": "încet",
+    "russian": "медленный"
+  },
+  {
+    "romanian": "fierbinte",
+    "russian": "горячий"
+  },
+  {
+    "romanian": "rece",
+    "russian": "холодный"
+  },
+  {
+    "romanian": "umed",
+    "russian": "влажный"
+  },
+  {
+    "romanian": "uscat",
+    "russian": "сухой"
+  },
+  {
+    "romanian": "plat",
+    "russian": "плоский"
+  },
+  {
+    "romanian": "rotund",
+    "russian": "круглый"
+  },
+  {
+    "romanian": "dreptunghiular",
+    "russian": "прямоугольный"
+  },
+  {
+    "romanian": "pătrat",
+    "russian": "квадратный"
+  },
+  {
+    "romanian": "triunghiular",
+    "russian": "треугольный"
+  },
+  {
+    "romanian": "subțire",
+    "russian": "тонкий (о форме)"
+  },
+  {
+    "romanian": "gros",
+    "russian": "толстый (о форме)"
+  },
+  {
+    "romanian": "moale",
+    "russian": "мягкий"
+  },
+  {
+    "romanian": "dur",
+    "russian": "твердый"
+  },
+  {
+    "romanian": "gustos",
+    "russian": "вкусный"
+  },
+  {
+    "romanian": "fără gust",
+    "russian": "безвкусный"
+  },
+  {
+    "romanian": "mirositor",
+    "russian": "пахнущий"
+  },
+  {
+    "romanian": "inodor",
+    "russian": "без запаха"
+  },
+  {
+    "romanian": "colorat",
+    "russian": "цветной"
+  },
+  {
+    "romanian": "incolor",
+    "russian": "бесцветный"
+  },
+  {
+    "romanian": "zgomotos",
+    "russian": "шумный"
+  },
+  {
+    "romanian": "silențios",
+    "russian": "тихий, бесшумный"
+  },
+  {
+    "romanian": "luminos",
+    "russian": "светящийся"
+  },
+  {
+    "romanian": "întunecat",
+    "russian": "темный, мрачный"
+  },
+  {
+    "romanian": "viu",
+    "russian": "живой"
+  },
+  {
+    "romanian": "mort",
+    "russian": "мертвый"
+  },
+  {
+    "romanian": "răbdător",
+    "russian": "терпеливый"
+  },
+  {
+    "romanian": "nerăbdător",
+    "russian": "нетерпеливый"
+  },
+  {
+    "romanian": "curajos",
+    "russian": "смелый"
+  },
+  {
+    "romanian": "fricos",
+    "russian": "трусливый"
+  },
+  {
+    "romanian": "creativ",
+    "russian": "творческий"
+  },
+  {
+    "romanian": "distructiv",
+    "russian": "разрушительный"
+  },
+  {
+    "romanian": "constructiv",
+    "russian": "конструктивный"
+  },
+  {
+    "romanian": "eficient",
+    "russian": "эффективный"
+  },
+  {
+    "romanian": "ineficient",
+    "russian": "неэффективный"
+  },
+  {
+    "romanian": "global",
+    "russian": "глобальный"
+  },
+  {
+    "romanian": "regional",
+    "russian": "региональный"
+  },
+  {
+    "romanian": "central",
+    "russian": "центральный"
+  },
+  {
+    "romanian": "periferic",
+    "russian": "периферийный"
+  },
+  {
+    "romanian": "interior",
+    "russian": "внутренний"
+  },
+  {
+    "romanian": "exterior",
+    "russian": "внешний"
+  },
+  {
+    "romanian": "superior",
+    "russian": "верхний, превосходный"
+  },
+  {
+    "romanian": "inferior",
+    "russian": "нижний, худший"
+  },
+  {
+    "romanian": "anterior",
+    "russian": "предыдущий"
+  },
+  {
+    "romanian": "posterior",
+    "russian": "последующий"
+  },
+  {
+    "romanian": "maxim",
+    "russian": "максимальный"
+  },
+  {
+    "romanian": "minim",
+    "russian": "минимальный"
+  },
+  {
+    "romanian": "pozitiv",
+    "russian": "положительный"
+  },
+  {
+    "romanian": "negativ",
+    "russian": "отрицательный"
+  }
+]

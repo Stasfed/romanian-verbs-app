@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест по глаголам</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding-top: 30px;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        #question-display {
+            font-size: 2em;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 30px;
+        }
+        #options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px; /* Отступ между кнопками */
+            margin-bottom: 20px;
+        }
+        .option-button {
+            padding: 15px 20px;
+            font-size: 1.1em;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%; /* Занимает всю ширину */
+        }
+        .option-button:hover:not(:disabled) {
+            background-color: #0056b3;
+        }
+        .option-button:disabled {
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+        .option-button.correct {
+            background-color: #28a745; /* Зеленый для правильного ответа */
+        }
+        .option-button.incorrect {
+            background-color: #dc3545; /* Красный для неправильного ответа */
+        }
+        #next-question-button {
+            padding: 10px 20px;
+            font-size: 1em;
+            color: white;
+            background-color: #6c757d;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+            display: none; /* Изначально скрыта */
+        }
+        #next-question-button:hover {
+            background-color: #5a6268;
+        }
+        .back-button {
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #5a6268;
+        }
+        .message {
+            font-size: 1.2em;
+            color: #555;
+            margin-top: 20px;
+        }
+        .error-message {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Тест по глаголам</h1>
+        <div id="test-area">
+            <p id="loading-message" class="message">Загрузка вопросов...</p>
+            <div id="question-container" style="display: none;">
+                <div id="question-display"></div>
+                <div id="options-container">
+                    </div>
+                <button id="next-question-button">Следующий вопрос</button>
+            </div>
+        </div>
+        <button class="back-button" onclick="history.back()">Назад</button>
+    </div>
+
+    <script>
+        let verbsData = [];
+        let currentQuestionVerb = null;
+        let correctAnswerTranslation = '';
+        let availableOptions = [];
+
+        const questionDisplay = document.getElementById('question-display');
+        const optionsContainer = document.getElementById('options-container');
+        const nextQuestionButton = document.getElementById('next-question-button');
+        const loadingMessage = document.getElementById('loading-message');
+        const questionContainer = document.getElementById('question-container');
+
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('verbs.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    verbsData = data;
+                    if (verbsData.length >= 4) { // Для теста нужно минимум 4 глагола для вариантов
+                        loadingMessage.style.display = 'none';
+                        questionContainer.style.display = 'block';
+                        generateQuestion();
+                    } else {
+                        loadingMessage.textContent = 'Для теста необходимо минимум 4 глагола в файле verbs.json.';
+                        loadingMessage.classList.add('error-message');
+                    }
+                })
+                .catch(error => {
+                    console.error('Ошибка загрузки глаголов:', error);
+                    loadingMessage.textContent = `Ошибка при загрузке глаголов: ${error.message}. Убедитесь, что файл 'verbs.json' существует и содержит достаточное количество данных (минимум 4).`;
+                    loadingMessage.classList.add('error-message');
+                });
+
+            nextQuestionButton.addEventListener('click', generateQuestion);
+        });
+
+        function getRandomElement(arr) {
+            return arr[Math.floor(Math.random() * arr.length)];
+        }
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]]; // Обмен элементами
+            }
+            return array;
+        }
+
+        function generateQuestion() {
+            if (verbsData.length < 4) {
+                questionDisplay.textContent = 'Недостаточно глаголов для генерации вопросов.';
+                optionsContainer.innerHTML = '';
+                nextQuestionButton.style.display = 'none';
+                return;
+            }
+
+            // Выбираем случайный глагол для вопроса
+            currentQuestionVerb = getRandomElement(verbsData);
+            correctAnswerTranslation = currentQuestionVerb.translation;
+
+            // Собираем 3 случайных неправильных варианта
+            let wrongOptions = [];
+            while (wrongOptions.length < 3) {
+                const randomVerb = getRandomElement(verbsData);
+                if (randomVerb.translation !== correctAnswerTranslation && !wrongOptions.includes(randomVerb.translation)) {
+                    wrongOptions.push(randomVerb.translation);
+                }
+            }
+
+            // Собираем все варианты и перемешиваем их
+            availableOptions = shuffleArray([correctAnswerTranslation, ...wrongOptions]);
+
+            questionDisplay.textContent = currentQuestionVerb.infinitive;
+            optionsContainer.innerHTML = ''; // Очищаем предыдущие кнопки
+
+            availableOptions.forEach(option => {
+                const button = document.createElement('button');
+                button.classList.add('option-button');
+                button.textContent = option;
+                button.addEventListener('click', () => checkAnswer(button, option));
+                optionsContainer.appendChild(button);
+            });
+
+            nextQuestionButton.style.display = 'none';
+            enableOptions();
+        }
+
+        function checkAnswer(clickedButton, selectedOption) {
+            disableOptions(); // Отключаем все кнопки после выбора
+
+            if (selectedOption === correctAnswerTranslation) {
+                clickedButton.classList.add('correct');
+            } else {
+                clickedButton.classList.add('incorrect');
+                // Найти и подсветить правильный ответ
+                Array.from(optionsContainer.children).forEach(button => {
+                    if (button.textContent === correctAnswerTranslation) {
+                        button.classList.add('correct');
+                    }
+                });
+            }
+            nextQuestionButton.style.display = 'block'; // Показываем кнопку "Следующий вопрос"
+        }
+
+        function disableOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.disabled = true;
+            });
+        }
+
+        function enableOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.disabled = false;
+                button.classList.remove('correct', 'incorrect'); // Сбрасываем цвета
+            });
+        }
+    </script>
+</body>
+</html>
