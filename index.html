@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Румынские Глаголы</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .header {
+            width: 100%;
+            max-width: 800px;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .header button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            margin: 0 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .header button:hover {
+            background-color: #0056b3;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Card styles - for single card display */
+        #single-card-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .verb-card {
+            background-color: #e9e9e9;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: relative;
+            min-height: 150px; /* Increased height for better readability */
+            width: 90%;
+            max-width: 300px; /* Constrain width for single card */
+            perspective: 1000px; /* For 3D flip effect */
+        }
+
+        .card-content {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s; /* Apply transition to card-content */
+            transform-style: preserve-3d;
+        }
+
+        .verb-card.flipped .card-content {
+            transform: rotateY(180deg);
+        }
+
+        .card-front, .card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden; /* Hide the back of the element when facing away */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            top: 0;
+            left: 0;
+        }
+
+        .card-front {
+            transform: rotateY(0deg);
+        }
+
+        .card-back {
+            transform: rotateY(180deg);
+        }
+
+        .card-front h3, .card-back p {
+            margin: 0;
+            font-size: 1.8em; /* Larger text for better visibility */
+            color: #333;
+            padding: 10px; /* Added padding for text */
+        }
+        .card-back p {
+            color: #007bff;
+        }
+
+
+        .card-navigation {
+            margin-top: 20px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .card-navigation button {
+            background-color: #6c757d;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+        }
+
+        .card-navigation button:hover {
+            background-color: #5a6268;
+        }
+
+        .card-buttons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .card-buttons button {
+            background-color: #28a745;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+        }
+
+        .card-buttons button:hover {
+            background-color: #218838;
+        }
+
+        /* Test styles */
+        .test-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .test-question {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .test-options {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .test-options button {
+            background-color: #007bff;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+        }
+
+        .test-options button:hover:not(.correct):not(.incorrect) {
+            background-color: #0056b3;
+        }
+
+        .test-options button.correct {
+            background-color: #28a745;
+        }
+
+        .test-options button.incorrect {
+            background-color: #dc3545;
+        }
+
+        .test-navigation-buttons {
+            margin-top: 20px;
+        }
+
+        .test-navigation-buttons button {
+            background-color: #6c757d;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            margin: 0 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .test-navigation-buttons button:hover {
+            background-color: #5a6268;
+        }
+    </style>
+</head>
+<body>
+    <h1>Привет! Это тест HTML!</h1>
+    <div class="header">
+        <button onclick="showSection('cards')">Карточки</button>
+        <button onclick="showSection('test')">Тест</button>
+    </div>
+
+    <div class="container">
+        <div id="cards-section">
+            <h2>Румынские Глаголы</h2>
+            <div id="loading-message" style="text-align: center; color: gray;">Загрузка глаголов...</div>
+            <div id="single-card-container" style="display: none;">
+                <div class="verb-card" id="current-verb-card">
+                    <div class="card-content">
+                        <div class="card-front">
+                            <h3 id="card-infinitive"></h3>
+                        </div>
+                        <div class="card-back">
+                            <p id="card-translation"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-navigation">
+                    <button onclick="prevCard()">Предыдущая</button>
+                    <button onclick="nextCard()">Следующая</button>
+                </div>
+                <div class="card-buttons">
+                    <button onclick="openConjugationPage(currentCardIndex)">Показать спряжение</button>
+                </div>
+            </div>
+            </div>
+
+        <div id="test-section" style="display: none;">
+            <h2>Тест на Перевод</h2>
+            <div class="test-question" id="test-question">
+                </div>
+            <div class="test-options" id="test-options">
+                </div>
+            <div class="test-navigation-buttons">
+                <button onclick="generateTestQuestion()">Следующий вопрос</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        console.log("НАЧАЛО СКРИПТА: JavaScript файл загружен и выполняется."); 
+        let verbs = []; 
+        let currentCardIndex = 0; 
+
+        async function loadVerbs() {
+            console.log("loadVerbs: Запуск функции loadVerbs."); 
+            const loadingMessage = document.getElementById('loading-message');
+            loadingMessage.style.display = 'block'; 
+            document.getElementById('single-card-container').style.display = 'none'; 
+
+            try {
+                const response = await fetch('verbs.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status} - Could not load verbs.json. Make sure it's in the same directory and accessible.`);
+                }
+                verbs = await response.json();
+                loadingMessage.style.display = 'none'; 
+                
+                if (!Array.isArray(verbs) || verbs.length === 0) { 
+                    loadingMessage.textContent = 'Файл verbs.json пуст или содержит некорректные данные.';
+                    loadingMessage.style.display = 'block';
+                    document.getElementById('single-card-container').style.display = 'none'; 
+                    console.warn("loadVerbs: Файл verbs.json пуст или некорректен."); 
+                    return;
+                }
+
+                document.getElementById('single-card-container').style.display = 'flex'; 
+                renderSingleCard(); 
+                console.log("loadVerbs: Глаголы успешно загружены и первая карточка отображена."); 
+            } catch (e) {
+                console.error("loadVerbs: Ошибка при загрузке verbs.json:", e); 
+                loadingMessage.textContent = `Ошибка при загрузке глаголов: ${e.message}. Убедитесь, что файл 'verbs.json' находится в той же папке и имеет корректный формат JSON.`;
+                loadingMessage.style.color = 'red';
+                document.getElementById('single-card-container').style.display = 'none'; 
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', loadVerbs);
+
+        const sections = {
+            'cards': document.getElementById('cards-section'),
+            'test': document.getElementById('test-section'),
+            // 'conjugation': document.getElementById('conjugation-section') // Эту секцию мы удалили
+        };
+
+        function showSection(sectionName) {
+            console.log(`showSection: Переключение на секцию: ${sectionName}`); 
+            for (const key in sections) {
+                sections[key].style.display = 'none';
+            }
+            sections[sectionName].style.display = 'block';
+            if (sectionName === 'test') {
+                generateTestQuestion();
+            } else if (sectionName === 'cards') {
+                renderSingleCard(); 
+            }
+        }
+
+        function renderSingleCard() {
+            console.log("renderSingleCard: Рендеринг одиночной карточки."); 
+            if (verbs.length === 0) {
+                document.getElementById('loading-message').textContent = 'Нет доступных глаголов для отображения.';
+                document.getElementById('loading-message').style.display = 'block';
+                document.getElementById('single-card-container').style.display = 'none';
+                console.warn("renderSingleCard: Нет глаголов для рендеринга."); 
+                return;
+            }
+
+            const cardElement = document.getElementById('current-verb-card');
+            const infinitiveElement = document.getElementById('card-infinitive');
+            const translationElement = document.getElementById('card-translation');
+
+            const currentVerb = verbs[currentCardIndex];
+
+            infinitiveElement.textContent = currentVerb.infinitive;
+            translationElement.textContent = currentVerb.translation;
+            cardElement.classList.remove('flipped'); 
+            console.log(`renderSingleCard: Отображена карточка для: ${currentVerb.infinitive}`); 
+        }
+
+        function nextCard() {
+            currentCardIndex = (currentCardIndex + 1) % verbs.length;
+            renderSingleCard();
+            console.log(`nextCard: Переход к следующей карточке. Индекс: ${currentCardIndex}`); 
+        }
+
+        function prevCard() {
+            currentCardIndex = (currentCardIndex - 1 + verbs.length) % verbs.length;
+            renderSingleCard();
+            console.log(`prevCard: Переход к предыдущей карточке. Индекс: ${currentCardIndex}`); 
+        }
+
+        // Add flip functionality to the single card
+        document.getElementById('current-verb-card').addEventListener('click', () => {
+            document.getElementById('current-verb-card').classList.toggle('flipped');
+            console.log("Карточка перевернута."); 
+        });
+
+        // НОВАЯ ФУНКЦИЯ: Открытие страницы спряжения в новой вкладке
+        function openConjugationPage(verbIndex) {
+            console.log("openConjugationPage: Попытка открыть страницу спряжения для глагола с индексом:", verbIndex);
+            if (verbs.length === 0 || verbIndex < 0 || verbIndex >= verbs.length) {
+                console.error("openConjugationPage: Некорректный индекс глагола или глаголы не загружены.");
+                alert("Не удалось открыть спряжение: данные о глаголе отсутствуют.");
+                return;
+            }
+            const verbInfinitive = encodeURIComponent(verbs[verbIndex].infinitive);
+            // Открываем новый файл (назовем его display_conjugation.html) и передаем инфинитив глагола как параметр
+            window.open(`display_conjugation.html?verb=${verbInfinitive}`, '_blank');
+        }
+
+        // --- Удалены функции displayConjugation и generateConjugationTable из этого файла ---
+
+        // Test section logic
+        let currentTestVerb = null;
+
+        function getRandomElement(arr) {
+            return arr[Math.floor(Math.random() * arr.length)];
+        }
+
+        function generateTestQuestion() {
+            console.log("generateTestQuestion: Генерация тестового вопроса."); 
+            if (verbs.length === 0) {
+                document.getElementById('test-question').textContent = "Глаголы не загружены или отсутствуют в файле verbs.json.";
+                document.getElementById('test-options').innerHTML = '';
+                console.warn("generateTestQuestion: Нет глаголов для теста."); 
+                return;
+            }
+
+            const randomVerb = getRandomElement(verbs);
+            currentTestVerb = randomVerb;
+
+            document.getElementById('test-question').innerHTML = `
+                Как переводится глагол "<b>${randomVerb.infinitive}</b>"?
+            `;
+
+            const optionsContainer = document.getElementById('test-options');
+            optionsContainer.innerHTML = ''; 
+
+            let options = new Set();
+            options.add(randomVerb.translation); 
+
+            const allTranslations = verbs.map(v => v.translation).filter(t => t); 
+            while (options.size < 4 && options.size < allTranslations.length) { 
+                const randomTranslation = getRandomElement(allTranslations);
+                if (randomTranslation && randomTranslation !== randomVerb.translation) { 
+                    options.add(randomTranslation);
+                }
+            }
+            while (options.size < 4) {
+                options.add(`Вариант ${options.size + 1}`); 
+            }
+
+
+            const shuffledOptions = Array.from(options).sort(() => Math.random() - 0.5);
+
+            shuffledOptions.forEach(option => {
+                const button = document.createElement('button');
+                button.textContent = option;
+                button.addEventListener('click', () => checkAnswer(button, option));
+                optionsContainer.appendChild(button);
+            });
+            console.log(`generateTestQuestion: Сгенерирован вопрос для: ${randomVerb.infinitive}`); 
+        }
+
+        function checkAnswer(clickedButton, selectedAnswer) {
+            console.log(`checkAnswer: Проверка ответа. Выбрано: ${selectedAnswer}`); 
+            const allButtons = document.querySelectorAll('#test-options button');
+            allButtons.forEach(button => {
+                button.disabled = true; 
+            });
+
+            if (selectedAnswer === currentTestVerb.translation) {
+                clickedButton.classList.add('correct');
+                console.log("checkAnswer: Ответ верный!"); 
+            } else {
+                clickedButton.classList.add('incorrect');
+                allButtons.forEach(button => {
+                    if (button.textContent === currentTestVerb.translation) {
+                        button.classList.add('correct');
+                    }
+                });
+                console.warn(`checkAnswer: Ответ неверный. Правильный: ${currentTestVerb.translation}`); 
+            }
+        }
+
+        showSection('cards');
+        console.log("Общая инициализация завершена. Должна быть показана секция карточек."); 
+    </script>
+</body>
+</html>

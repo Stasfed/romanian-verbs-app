@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест Спряжения Глагола</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            min-height: 400px; /* Добавим минимальную высоту для основного контейнера */
+            display: flex; /* Чтобы содержимое растягивалось */
+            flex-direction: column; /* Элементы внутри будут располагаться вертикально */
+            justify-content: center; /* Центрируем содержимое по вертикали */
+            align-items: center; /* Центрируем содержимое по горизонтали */
+        }
+
+        /* Styles copied from your main file for .conjugation-display and its tables */
+        .conjugation-display {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            width: 100%; /* Убедимся, что занимает всю доступную ширину */
+            box-sizing: border-box; /* Учитываем padding в ширине */
+            min-height: 300px; /* Важно: еще раз убедимся, что у него есть высота */
+        }
+
+        .conjugation-display h3 {
+            text-align: center;
+            margin-bottom: 15px;
+            color: #007bff;
+        }
+
+        .conjugation-display h4 { /* Стиль для заголовков времен (Настоящее время, Прошедшее время) */
+            text-align: left;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .conjugation-display table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .conjugation-display th, .conjugation-display td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .conjugation-display th {
+            background-color: #e2f0ff;
+            color: #333;
+        }
+
+        /* Styling for loading message */
+        #loading-message {
+            text-align: center;
+            color: gray;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Тест отображения спряжения</h1>
+
+    <div class="container">
+        <div id="loading-message">Загрузка глаголов...</div>
+        <div id="conjugation-output" class="conjugation-display" style="display: none;">
+            </div>
+        <div id="error-message" style="color: red; text-align: center; margin-top: 20px; display: none;"></div>
+    </div>
+
+    <script>
+        async function loadAndDisplayConjugation() {
+            const loadingMessage = document.getElementById('loading-message');
+            const conjugationOutput = document.getElementById('conjugation-output');
+            const errorMessage = document.getElementById('error-message');
+
+            loadingMessage.style.display = 'block';
+            conjugationOutput.style.display = 'none';
+            errorMessage.style.display = 'none';
+
+            try {
+                const response = await fetch('verbs.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const verbs = await response.json();
+
+                if (!Array.isArray(verbs) || verbs.length === 0) {
+                    errorMessage.textContent = 'Файл verbs.json пуст или содержит некорректные данные.';
+                    errorMessage.style.display = 'block';
+                    loadingMessage.style.display = 'none';
+                    return;
+                }
+
+                const firstVerb = verbs[0]; // Берем первый глагол для теста
+                const conjugationHtml = generateConjugationTable(firstVerb);
+                conjugationOutput.innerHTML = conjugationHtml;
+                
+                loadingMessage.style.display = 'none';
+                conjugationOutput.style.display = 'block';
+
+                console.log("Спряжение первого глагола успешно отображено.");
+            } catch (e) {
+                console.error("Ошибка при загрузке или отображении спряжения:", e);
+                errorMessage.textContent = `Ошибка: ${e.message}. Убедитесь, что verbs.json существует и корректен.`;
+                errorMessage.style.display = 'block';
+                loadingMessage.style.display = 'none';
+            }
+        }
+
+        // Функция для генерации HTML-таблицы спряжения
+        function generateConjugationTable(verb) {
+            if (!verb || !verb.conjugation) {
+                return '<p style="color: red;">Данные спряжения отсутствуют для этого глагола.</p>';
+            }
+
+            let html = `<h3>Спряжение глагола: ${verb.infinitive}</h3>`;
+            const tenses = {
+                'present': 'Настоящее время',
+                'past': 'Прошедшее время',
+                'future': 'Будущее время'
+            };
+            const persons = ['eu', 'tu', 'el/ea', 'noi', 'voi', 'ei/ele'];
+
+            for (const tenseKey in tenses) { // Итерируем по порядку времен
+                if (verb.conjugation.hasOwnProperty(tenseKey) && verb.conjugation[tenseKey]) {
+                    const tenseData = verb.conjugation[tenseKey];
+                    html += `
+                        <h4>${tenses[tenseKey]}</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Местоимение</th>
+                                    <th>Форма</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                    `;
+                    for (const person of persons) {
+                        if (tenseData.hasOwnProperty(person)) {
+                            html += `
+                                <tr>
+                                    <td>${person}</td>
+                                    <td>${tenseData[person]}</td>
+                                </tr>
+                            `;
+                        }
+                    }
+                    html += `
+                            </tbody>
+                        </table>
+                    `;
+                }
+            }
+            return html;
+        }
+
+        document.addEventListener('DOMContentLoaded', loadAndDisplayConjugation);
+    </script>
+</body>
+</html>

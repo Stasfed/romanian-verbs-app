@@ -1,0 +1,4412 @@
+[
+  {
+    "infinitive": "a vorbi",
+    "translation": "говорить",
+    "conjugation": {
+      "present": {
+        "eu": "vorbiesc",
+        "tu": "vorbiești",
+        "el/ea": "vorbiește",
+        "noi": "vorbiim",
+        "voi": "vorbiiți",
+        "ei/ele": "vorbiesc"
+      },
+      "past": {
+        "eu": "am vorbiit",
+        "tu": "ai vorbiit",
+        "el/ea": "a vorbiit",
+        "noi": "am vorbiit",
+        "voi": "ați vorbiit",
+        "ei/ele": "au vorbiit"
+      },
+      "future": {
+        "eu": "voi vorbii",
+        "tu": "vei vorbii",
+        "el/ea": "va vorbii",
+        "noi": "vom vorbii",
+        "voi": "veți vorbii",
+        "ei/ele": "vor vorbii"
+      }
+    }
+  },
+  {
+    "infinitive": "a învăța",
+    "translation": "учить",
+    "conjugation": {
+      "present": {
+        "eu": "învățaesc",
+        "tu": "învățaești",
+        "el/ea": "învățaește",
+        "noi": "învățaim",
+        "voi": "învățaiți",
+        "ei/ele": "învățaesc"
+      },
+      "past": {
+        "eu": "am învățait",
+        "tu": "ai învățait",
+        "el/ea": "a învățait",
+        "noi": "am învățait",
+        "voi": "ați învățait",
+        "ei/ele": "au învățait"
+      },
+      "future": {
+        "eu": "voi învățai",
+        "tu": "vei învățai",
+        "el/ea": "va învățai",
+        "noi": "vom învățai",
+        "voi": "veți învățai",
+        "ei/ele": "vor învățai"
+      }
+    }
+  },
+  {
+    "infinitive": "a lucra",
+    "translation": "работать",
+    "conjugation": {
+      "present": {
+        "eu": "lucraesc",
+        "tu": "lucraești",
+        "el/ea": "lucraește",
+        "noi": "lucraim",
+        "voi": "lucraiți",
+        "ei/ele": "lucraesc"
+      },
+      "past": {
+        "eu": "am lucrait",
+        "tu": "ai lucrait",
+        "el/ea": "a lucrait",
+        "noi": "am lucrait",
+        "voi": "ați lucrait",
+        "ei/ele": "au lucrait"
+      },
+      "future": {
+        "eu": "voi lucrai",
+        "tu": "vei lucrai",
+        "el/ea": "va lucrai",
+        "noi": "vom lucrai",
+        "voi": "veți lucrai",
+        "ei/ele": "vor lucrai"
+      }
+    }
+  },
+  {
+    "infinitive": "a cânta",
+    "translation": "петь",
+    "conjugation": {
+      "present": {
+        "eu": "cântaesc",
+        "tu": "cântaești",
+        "el/ea": "cântaește",
+        "noi": "cântaim",
+        "voi": "cântaiți",
+        "ei/ele": "cântaesc"
+      },
+      "past": {
+        "eu": "am cântait",
+        "tu": "ai cântait",
+        "el/ea": "a cântait",
+        "noi": "am cântait",
+        "voi": "ați cântait",
+        "ei/ele": "au cântait"
+      },
+      "future": {
+        "eu": "voi cântai",
+        "tu": "vei cântai",
+        "el/ea": "va cântai",
+        "noi": "vom cântai",
+        "voi": "veți cântai",
+        "ei/ele": "vor cântai"
+      }
+    }
+  },
+  {
+    "infinitive": "a asculta",
+    "translation": "слушать",
+    "conjugation": {
+      "present": {
+        "eu": "ascultaesc",
+        "tu": "ascultaești",
+        "el/ea": "ascultaește",
+        "noi": "ascultaim",
+        "voi": "ascultaiți",
+        "ei/ele": "ascultaesc"
+      },
+      "past": {
+        "eu": "am ascultait",
+        "tu": "ai ascultait",
+        "el/ea": "a ascultait",
+        "noi": "am ascultait",
+        "voi": "ați ascultait",
+        "ei/ele": "au ascultait"
+      },
+      "future": {
+        "eu": "voi ascultai",
+        "tu": "vei ascultai",
+        "el/ea": "va ascultai",
+        "noi": "vom ascultai",
+        "voi": "veți ascultai",
+        "ei/ele": "vor ascultai"
+      }
+    }
+  },
+  {
+    "infinitive": "a întreba",
+    "translation": "спрашивать",
+    "conjugation": {
+      "present": {
+        "eu": "întrebaesc",
+        "tu": "întrebaești",
+        "el/ea": "întrebaește",
+        "noi": "întrebaim",
+        "voi": "întrebaiți",
+        "ei/ele": "întrebaesc"
+      },
+      "past": {
+        "eu": "am întrebait",
+        "tu": "ai întrebait",
+        "el/ea": "a întrebait",
+        "noi": "am întrebait",
+        "voi": "ați întrebait",
+        "ei/ele": "au întrebait"
+      },
+      "future": {
+        "eu": "voi întrebai",
+        "tu": "vei întrebai",
+        "el/ea": "va întrebai",
+        "noi": "vom întrebai",
+        "voi": "veți întrebai",
+        "ei/ele": "vor întrebai"
+      }
+    }
+  },
+  {
+    "infinitive": "a aștepta",
+    "translation": "ждать",
+    "conjugation": {
+      "present": {
+        "eu": "așteptaesc",
+        "tu": "așteptaești",
+        "el/ea": "așteptaește",
+        "noi": "așteptaim",
+        "voi": "așteptaiți",
+        "ei/ele": "așteptaesc"
+      },
+      "past": {
+        "eu": "am așteptait",
+        "tu": "ai așteptait",
+        "el/ea": "a așteptait",
+        "noi": "am așteptait",
+        "voi": "ați așteptait",
+        "ei/ele": "au așteptait"
+      },
+      "future": {
+        "eu": "voi așteptai",
+        "tu": "vei așteptai",
+        "el/ea": "va așteptai",
+        "noi": "vom așteptai",
+        "voi": "veți așteptai",
+        "ei/ele": "vor așteptai"
+      }
+    }
+  },
+  {
+    "infinitive": "a cumpăra",
+    "translation": "покупать",
+    "conjugation": {
+      "present": {
+        "eu": "cumpăraesc",
+        "tu": "cumpăraești",
+        "el/ea": "cumpăraește",
+        "noi": "cumpăraim",
+        "voi": "cumpăraiți",
+        "ei/ele": "cumpăraesc"
+      },
+      "past": {
+        "eu": "am cumpărait",
+        "tu": "ai cumpărait",
+        "el/ea": "a cumpărait",
+        "noi": "am cumpărait",
+        "voi": "ați cumpărait",
+        "ei/ele": "au cumpărait"
+      },
+      "future": {
+        "eu": "voi cumpărai",
+        "tu": "vei cumpărai",
+        "el/ea": "va cumpărai",
+        "noi": "vom cumpărai",
+        "voi": "veți cumpărai",
+        "ei/ele": "vor cumpărai"
+      }
+    }
+  },
+  {
+    "infinitive": "a pleca",
+    "translation": "уходить",
+    "conjugation": {
+      "present": {
+        "eu": "plecaesc",
+        "tu": "plecaești",
+        "el/ea": "plecaește",
+        "noi": "plecaim",
+        "voi": "plecaiți",
+        "ei/ele": "plecaesc"
+      },
+      "past": {
+        "eu": "am plecait",
+        "tu": "ai plecait",
+        "el/ea": "a plecait",
+        "noi": "am plecait",
+        "voi": "ați plecait",
+        "ei/ele": "au plecait"
+      },
+      "future": {
+        "eu": "voi plecai",
+        "tu": "vei plecai",
+        "el/ea": "va plecai",
+        "noi": "vom plecai",
+        "voi": "veți plecai",
+        "ei/ele": "vor plecai"
+      }
+    }
+  },
+  {
+    "infinitive": "a călători",
+    "translation": "путешевствовать",
+    "conjugation": {
+      "present": {
+        "eu": "călătoriesc",
+        "tu": "călătoriești",
+        "el/ea": "călătoriește",
+        "noi": "călătoriim",
+        "voi": "călătoriiți",
+        "ei/ele": "călătoriesc"
+      },
+      "past": {
+        "eu": "am călătoriit",
+        "tu": "ai călătoriit",
+        "el/ea": "a călătoriit",
+        "noi": "am călătoriit",
+        "voi": "ați călătoriit",
+        "ei/ele": "au călătoriit"
+      },
+      "future": {
+        "eu": "voi călătorii",
+        "tu": "vei călătorii",
+        "el/ea": "va călătorii",
+        "noi": "vom călătorii",
+        "voi": "veți călătorii",
+        "ei/ele": "vor călătorii"
+      }
+    }
+  },
+  {
+    "infinitive": "a",
+    "translation": "sta сидеть, стоять, оставаться",
+    "conjugation": {
+      "present": {
+        "eu": "aesc",
+        "tu": "aești",
+        "el/ea": "aește",
+        "noi": "aim",
+        "voi": "aiți",
+        "ei/ele": "aesc"
+      },
+      "past": {
+        "eu": "am ait",
+        "tu": "ai ait",
+        "el/ea": "a ait",
+        "noi": "am ait",
+        "voi": "ați ait",
+        "ei/ele": "au ait"
+      },
+      "future": {
+        "eu": "voi ai",
+        "tu": "vei ai",
+        "el/ea": "va ai",
+        "noi": "vom ai",
+        "voi": "veți ai",
+        "ei/ele": "vor ai"
+      }
+    }
+  },
+  {
+    "infinitive": "a iubi",
+    "translation": "любить",
+    "conjugation": {
+      "present": {
+        "eu": "iubiesc",
+        "tu": "iubiești",
+        "el/ea": "iubiește",
+        "noi": "iubiim",
+        "voi": "iubiiți",
+        "ei/ele": "iubiesc"
+      },
+      "past": {
+        "eu": "am iubiit",
+        "tu": "ai iubiit",
+        "el/ea": "a iubiit",
+        "noi": "am iubiit",
+        "voi": "ați iubiit",
+        "ei/ele": "au iubiit"
+      },
+      "future": {
+        "eu": "voi iubii",
+        "tu": "vei iubii",
+        "el/ea": "va iubii",
+        "noi": "vom iubii",
+        "voi": "veți iubii",
+        "ei/ele": "vor iubii"
+      }
+    }
+  },
+  {
+    "infinitive": "a ajuta",
+    "translation": "помогать",
+    "conjugation": {
+      "present": {
+        "eu": "ajutaesc",
+        "tu": "ajutaești",
+        "el/ea": "ajutaește",
+        "noi": "ajutaim",
+        "voi": "ajutaiți",
+        "ei/ele": "ajutaesc"
+      },
+      "past": {
+        "eu": "am ajutait",
+        "tu": "ai ajutait",
+        "el/ea": "a ajutait",
+        "noi": "am ajutait",
+        "voi": "ați ajutait",
+        "ei/ele": "au ajutait"
+      },
+      "future": {
+        "eu": "voi ajutai",
+        "tu": "vei ajutai",
+        "el/ea": "va ajutai",
+        "noi": "vom ajutai",
+        "voi": "veți ajutai",
+        "ei/ele": "vor ajutai"
+      }
+    }
+  },
+  {
+    "infinitive": "a căuta",
+    "translation": "искать",
+    "conjugation": {
+      "present": {
+        "eu": "căutaesc",
+        "tu": "căutaești",
+        "el/ea": "căutaește",
+        "noi": "căutaim",
+        "voi": "căutaiți",
+        "ei/ele": "căutaesc"
+      },
+      "past": {
+        "eu": "am căutait",
+        "tu": "ai căutait",
+        "el/ea": "a căutait",
+        "noi": "am căutait",
+        "voi": "ați căutait",
+        "ei/ele": "au căutait"
+      },
+      "future": {
+        "eu": "voi căutai",
+        "tu": "vei căutai",
+        "el/ea": "va căutai",
+        "noi": "vom căutai",
+        "voi": "veți căutai",
+        "ei/ele": "vor căutai"
+      }
+    }
+  },
+  {
+    "infinitive": "a uita",
+    "translation": "забывать",
+    "conjugation": {
+      "present": {
+        "eu": "uitaesc",
+        "tu": "uitaești",
+        "el/ea": "uitaește",
+        "noi": "uitaim",
+        "voi": "uitaiți",
+        "ei/ele": "uitaesc"
+      },
+      "past": {
+        "eu": "am uitait",
+        "tu": "ai uitait",
+        "el/ea": "a uitait",
+        "noi": "am uitait",
+        "voi": "ați uitait",
+        "ei/ele": "au uitait"
+      },
+      "future": {
+        "eu": "voi uitai",
+        "tu": "vei uitai",
+        "el/ea": "va uitai",
+        "noi": "vom uitai",
+        "voi": "veți uitai",
+        "ei/ele": "vor uitai"
+      }
+    }
+  },
+  {
+    "infinitive": "a explica",
+    "translation": "объяснять",
+    "conjugation": {
+      "present": {
+        "eu": "explicaesc",
+        "tu": "explicaești",
+        "el/ea": "explicaește",
+        "noi": "explicaim",
+        "voi": "explicaiți",
+        "ei/ele": "explicaesc"
+      },
+      "past": {
+        "eu": "am explicait",
+        "tu": "ai explicait",
+        "el/ea": "a explicait",
+        "noi": "am explicait",
+        "voi": "ați explicait",
+        "ei/ele": "au explicait"
+      },
+      "future": {
+        "eu": "voi explicai",
+        "tu": "vei explicai",
+        "el/ea": "va explicai",
+        "noi": "vom explicai",
+        "voi": "veți explicai",
+        "ei/ele": "vor explicai"
+      }
+    }
+  },
+  {
+    "infinitive": "a studia",
+    "translation": "изучать",
+    "conjugation": {
+      "present": {
+        "eu": "studiaesc",
+        "tu": "studiaești",
+        "el/ea": "studiaește",
+        "noi": "studiaim",
+        "voi": "studiaiți",
+        "ei/ele": "studiaesc"
+      },
+      "past": {
+        "eu": "am studiait",
+        "tu": "ai studiait",
+        "el/ea": "a studiait",
+        "noi": "am studiait",
+        "voi": "ați studiait",
+        "ei/ele": "au studiait"
+      },
+      "future": {
+        "eu": "voi studiai",
+        "tu": "vei studiai",
+        "el/ea": "va studiai",
+        "noi": "vom studiai",
+        "voi": "veți studiai",
+        "ei/ele": "vor studiai"
+      }
+    }
+  },
+  {
+    "infinitive": "a juca",
+    "translation": "играть",
+    "conjugation": {
+      "present": {
+        "eu": "jucaesc",
+        "tu": "jucaești",
+        "el/ea": "jucaește",
+        "noi": "jucaim",
+        "voi": "jucaiți",
+        "ei/ele": "jucaesc"
+      },
+      "past": {
+        "eu": "am jucait",
+        "tu": "ai jucait",
+        "el/ea": "a jucait",
+        "noi": "am jucait",
+        "voi": "ați jucait",
+        "ei/ele": "au jucait"
+      },
+      "future": {
+        "eu": "voi jucai",
+        "tu": "vei jucai",
+        "el/ea": "va jucai",
+        "noi": "vom jucai",
+        "voi": "veți jucai",
+        "ei/ele": "vor jucai"
+      }
+    }
+  },
+  {
+    "infinitive": "a schimba",
+    "translation": "изменять",
+    "conjugation": {
+      "present": {
+        "eu": "schimbaesc",
+        "tu": "schimbaești",
+        "el/ea": "schimbaește",
+        "noi": "schimbaim",
+        "voi": "schimbaiți",
+        "ei/ele": "schimbaesc"
+      },
+      "past": {
+        "eu": "am schimbait",
+        "tu": "ai schimbait",
+        "el/ea": "a schimbait",
+        "noi": "am schimbait",
+        "voi": "ați schimbait",
+        "ei/ele": "au schimbait"
+      },
+      "future": {
+        "eu": "voi schimbai",
+        "tu": "vei schimbai",
+        "el/ea": "va schimbai",
+        "noi": "vom schimbai",
+        "voi": "veți schimbai",
+        "ei/ele": "vor schimbai"
+      }
+    }
+  },
+  {
+    "infinitive": "a purta",
+    "translation": "носить",
+    "conjugation": {
+      "present": {
+        "eu": "purtaesc",
+        "tu": "purtaești",
+        "el/ea": "purtaește",
+        "noi": "purtaim",
+        "voi": "purtaiți",
+        "ei/ele": "purtaesc"
+      },
+      "past": {
+        "eu": "am purtait",
+        "tu": "ai purtait",
+        "el/ea": "a purtait",
+        "noi": "am purtait",
+        "voi": "ați purtait",
+        "ei/ele": "au purtait"
+      },
+      "future": {
+        "eu": "voi purtai",
+        "tu": "vei purtai",
+        "el/ea": "va purtai",
+        "noi": "vom purtai",
+        "voi": "veți purtai",
+        "ei/ele": "vor purtai"
+      }
+    }
+  },
+  {
+    "infinitive": "a mânca",
+    "translation": "кушать",
+    "conjugation": {
+      "present": {
+        "eu": "mâncaesc",
+        "tu": "mâncaești",
+        "el/ea": "mâncaește",
+        "noi": "mâncaim",
+        "voi": "mâncaiți",
+        "ei/ele": "mâncaesc"
+      },
+      "past": {
+        "eu": "am mâncait",
+        "tu": "ai mâncait",
+        "el/ea": "a mâncait",
+        "noi": "am mâncait",
+        "voi": "ați mâncait",
+        "ei/ele": "au mâncait"
+      },
+      "future": {
+        "eu": "voi mâncai",
+        "tu": "vei mâncai",
+        "el/ea": "va mâncai",
+        "noi": "vom mâncai",
+        "voi": "veți mâncai",
+        "ei/ele": "vor mâncai"
+      }
+    }
+  },
+  {
+    "infinitive": "a suna",
+    "translation": "звонить",
+    "conjugation": {
+      "present": {
+        "eu": "sunaesc",
+        "tu": "sunaești",
+        "el/ea": "sunaește",
+        "noi": "sunaim",
+        "voi": "sunaiți",
+        "ei/ele": "sunaesc"
+      },
+      "past": {
+        "eu": "am sunait",
+        "tu": "ai sunait",
+        "el/ea": "a sunait",
+        "noi": "am sunait",
+        "voi": "ați sunait",
+        "ei/ele": "au sunait"
+      },
+      "future": {
+        "eu": "voi sunai",
+        "tu": "vei sunai",
+        "el/ea": "va sunai",
+        "noi": "vom sunai",
+        "voi": "veți sunai",
+        "ei/ele": "vor sunai"
+      }
+    }
+  },
+  {
+    "infinitive": "a dansa",
+    "translation": "танцевать",
+    "conjugation": {
+      "present": {
+        "eu": "dansaesc",
+        "tu": "dansaești",
+        "el/ea": "dansaește",
+        "noi": "dansaim",
+        "voi": "dansaiți",
+        "ei/ele": "dansaesc"
+      },
+      "past": {
+        "eu": "am dansait",
+        "tu": "ai dansait",
+        "el/ea": "a dansait",
+        "noi": "am dansait",
+        "voi": "ați dansait",
+        "ei/ele": "au dansait"
+      },
+      "future": {
+        "eu": "voi dansai",
+        "tu": "vei dansai",
+        "el/ea": "va dansai",
+        "noi": "vom dansai",
+        "voi": "veți dansai",
+        "ei/ele": "vor dansai"
+      }
+    }
+  },
+  {
+    "infinitive": "a termina",
+    "translation": "заканчивать",
+    "conjugation": {
+      "present": {
+        "eu": "terminaesc",
+        "tu": "terminaești",
+        "el/ea": "terminaește",
+        "noi": "terminaim",
+        "voi": "terminaiți",
+        "ei/ele": "terminaesc"
+      },
+      "past": {
+        "eu": "am terminait",
+        "tu": "ai terminait",
+        "el/ea": "a terminait",
+        "noi": "am terminait",
+        "voi": "ați terminait",
+        "ei/ele": "au terminait"
+      },
+      "future": {
+        "eu": "voi terminai",
+        "tu": "vei terminai",
+        "el/ea": "va terminai",
+        "noi": "vom terminai",
+        "voi": "veți terminai",
+        "ei/ele": "vor terminai"
+      }
+    }
+  },
+  {
+    "infinitive": "a începe",
+    "translation": "начинать",
+    "conjugation": {
+      "present": {
+        "eu": "începeesc",
+        "tu": "începeești",
+        "el/ea": "începeește",
+        "noi": "începeim",
+        "voi": "începeiți",
+        "ei/ele": "începeesc"
+      },
+      "past": {
+        "eu": "am începeit",
+        "tu": "ai începeit",
+        "el/ea": "a începeit",
+        "noi": "am începeit",
+        "voi": "ați începeit",
+        "ei/ele": "au începeit"
+      },
+      "future": {
+        "eu": "voi începei",
+        "tu": "vei începei",
+        "el/ea": "va începei",
+        "noi": "vom începei",
+        "voi": "veți începei",
+        "ei/ele": "vor începei"
+      }
+    }
+  },
+  {
+    "infinitive": "a preda",
+    "translation": "учить",
+    "conjugation": {
+      "present": {
+        "eu": "predaesc",
+        "tu": "predaești",
+        "el/ea": "predaește",
+        "noi": "predaim",
+        "voi": "predaiți",
+        "ei/ele": "predaesc"
+      },
+      "past": {
+        "eu": "am predait",
+        "tu": "ai predait",
+        "el/ea": "a predait",
+        "noi": "am predait",
+        "voi": "ați predait",
+        "ei/ele": "au predait"
+      },
+      "future": {
+        "eu": "voi predai",
+        "tu": "vei predai",
+        "el/ea": "va predai",
+        "noi": "vom predai",
+        "voi": "veți predai",
+        "ei/ele": "vor predai"
+      }
+    }
+  },
+  {
+    "infinitive": "a aproba",
+    "translation": "подтверждать",
+    "conjugation": {
+      "present": {
+        "eu": "aprobaesc",
+        "tu": "aprobaești",
+        "el/ea": "aprobaește",
+        "noi": "aprobaim",
+        "voi": "aprobaiți",
+        "ei/ele": "aprobaesc"
+      },
+      "past": {
+        "eu": "am aprobait",
+        "tu": "ai aprobait",
+        "el/ea": "a aprobait",
+        "noi": "am aprobait",
+        "voi": "ați aprobait",
+        "ei/ele": "au aprobait"
+      },
+      "future": {
+        "eu": "voi aprobai",
+        "tu": "vei aprobai",
+        "el/ea": "va aprobai",
+        "noi": "vom aprobai",
+        "voi": "veți aprobai",
+        "ei/ele": "vor aprobai"
+      }
+    }
+  },
+  {
+    "infinitive": "a arăta",
+    "translation": "показывать",
+    "conjugation": {
+      "present": {
+        "eu": "arătaesc",
+        "tu": "arătaești",
+        "el/ea": "arătaește",
+        "noi": "arătaim",
+        "voi": "arătaiți",
+        "ei/ele": "arătaesc"
+      },
+      "past": {
+        "eu": "am arătait",
+        "tu": "ai arătait",
+        "el/ea": "a arătait",
+        "noi": "am arătait",
+        "voi": "ați arătait",
+        "ei/ele": "au arătait"
+      },
+      "future": {
+        "eu": "voi arătai",
+        "tu": "vei arătai",
+        "el/ea": "va arătai",
+        "noi": "vom arătai",
+        "voi": "veți arătai",
+        "ei/ele": "vor arătai"
+      }
+    }
+  },
+  {
+    "infinitive": "a intra",
+    "translation": "входить",
+    "conjugation": {
+      "present": {
+        "eu": "intraesc",
+        "tu": "intraești",
+        "el/ea": "intraește",
+        "noi": "intraim",
+        "voi": "intraiți",
+        "ei/ele": "intraesc"
+      },
+      "past": {
+        "eu": "am intrait",
+        "tu": "ai intrait",
+        "el/ea": "a intrait",
+        "noi": "am intrait",
+        "voi": "ați intrait",
+        "ei/ele": "au intrait"
+      },
+      "future": {
+        "eu": "voi intrai",
+        "tu": "vei intrai",
+        "el/ea": "va intrai",
+        "noi": "vom intrai",
+        "voi": "veți intrai",
+        "ei/ele": "vor intrai"
+      }
+    }
+  },
+  {
+    "infinitive": "a ieși",
+    "translation": "выходить",
+    "conjugation": {
+      "present": {
+        "eu": "ieșiesc",
+        "tu": "ieșiești",
+        "el/ea": "ieșiește",
+        "noi": "ieșiim",
+        "voi": "ieșiiți",
+        "ei/ele": "ieșiesc"
+      },
+      "past": {
+        "eu": "am ieșiit",
+        "tu": "ai ieșiit",
+        "el/ea": "a ieșiit",
+        "noi": "am ieșiit",
+        "voi": "ați ieșiit",
+        "ei/ele": "au ieșiit"
+      },
+      "future": {
+        "eu": "voi ieșii",
+        "tu": "vei ieșii",
+        "el/ea": "va ieșii",
+        "noi": "vom ieșii",
+        "voi": "veți ieșii",
+        "ei/ele": "vor ieșii"
+      }
+    }
+  },
+  {
+    "infinitive": "a apăra",
+    "translation": "защищать",
+    "conjugation": {
+      "present": {
+        "eu": "apăraesc",
+        "tu": "apăraești",
+        "el/ea": "apăraește",
+        "noi": "apăraim",
+        "voi": "apăraiți",
+        "ei/ele": "apăraesc"
+      },
+      "past": {
+        "eu": "am apărait",
+        "tu": "ai apărait",
+        "el/ea": "a apărait",
+        "noi": "am apărait",
+        "voi": "ați apărait",
+        "ei/ele": "au apărait"
+      },
+      "future": {
+        "eu": "voi apărai",
+        "tu": "vei apărai",
+        "el/ea": "va apărai",
+        "noi": "vom apărai",
+        "voi": "veți apărai",
+        "ei/ele": "vor apărai"
+      }
+    }
+  },
+  {
+    "infinitive": "a compara",
+    "translation": "сравнивать",
+    "conjugation": {
+      "present": {
+        "eu": "comparaesc",
+        "tu": "comparaești",
+        "el/ea": "comparaește",
+        "noi": "comparaim",
+        "voi": "comparaiți",
+        "ei/ele": "comparaesc"
+      },
+      "past": {
+        "eu": "am comparait",
+        "tu": "ai comparait",
+        "el/ea": "a comparait",
+        "noi": "am comparait",
+        "voi": "ați comparait",
+        "ei/ele": "au comparait"
+      },
+      "future": {
+        "eu": "voi comparai",
+        "tu": "vei comparai",
+        "el/ea": "va comparai",
+        "noi": "vom comparai",
+        "voi": "veți comparai",
+        "ei/ele": "vor comparai"
+      }
+    }
+  },
+  {
+    "infinitive": "a crea",
+    "translation": "создавать",
+    "conjugation": {
+      "present": {
+        "eu": "creaesc",
+        "tu": "creaești",
+        "el/ea": "creaește",
+        "noi": "creaim",
+        "voi": "creaiți",
+        "ei/ele": "creaesc"
+      },
+      "past": {
+        "eu": "am creait",
+        "tu": "ai creait",
+        "el/ea": "a creait",
+        "noi": "am creait",
+        "voi": "ați creait",
+        "ei/ele": "au creait"
+      },
+      "future": {
+        "eu": "voi creai",
+        "tu": "vei creai",
+        "el/ea": "va creai",
+        "noi": "vom creai",
+        "voi": "veți creai",
+        "ei/ele": "vor creai"
+      }
+    }
+  },
+  {
+    "infinitive": "a dăuna",
+    "translation": "повреждать",
+    "conjugation": {
+      "present": {
+        "eu": "dăunaesc",
+        "tu": "dăunaești",
+        "el/ea": "dăunaește",
+        "noi": "dăunaim",
+        "voi": "dăunaiți",
+        "ei/ele": "dăunaesc"
+      },
+      "past": {
+        "eu": "am dăunait",
+        "tu": "ai dăunait",
+        "el/ea": "a dăunait",
+        "noi": "am dăunait",
+        "voi": "ați dăunait",
+        "ei/ele": "au dăunait"
+      },
+      "future": {
+        "eu": "voi dăunai",
+        "tu": "vei dăunai",
+        "el/ea": "va dăunai",
+        "noi": "vom dăunai",
+        "voi": "veți dăunai",
+        "ei/ele": "vor dăunai"
+      }
+    }
+  },
+  {
+    "infinitive": "a decola",
+    "translation": "взлетать",
+    "conjugation": {
+      "present": {
+        "eu": "decolaesc",
+        "tu": "decolaești",
+        "el/ea": "decolaește",
+        "noi": "decolaim",
+        "voi": "decolaiți",
+        "ei/ele": "decolaesc"
+      },
+      "past": {
+        "eu": "am decolait",
+        "tu": "ai decolait",
+        "el/ea": "a decolait",
+        "noi": "am decolait",
+        "voi": "ați decolait",
+        "ei/ele": "au decolait"
+      },
+      "future": {
+        "eu": "voi decolai",
+        "tu": "vei decolai",
+        "el/ea": "va decolai",
+        "noi": "vom decolai",
+        "voi": "veți decolai",
+        "ei/ele": "vor decolai"
+      }
+    }
+  },
+  {
+    "infinitive": "a denumi",
+    "translation": "назвать",
+    "conjugation": {
+      "present": {
+        "eu": "denumiesc",
+        "tu": "denumiești",
+        "el/ea": "denumiește",
+        "noi": "denumiim",
+        "voi": "denumiiți",
+        "ei/ele": "denumiesc"
+      },
+      "past": {
+        "eu": "am denumiit",
+        "tu": "ai denumiit",
+        "el/ea": "a denumiit",
+        "noi": "am denumiit",
+        "voi": "ați denumiit",
+        "ei/ele": "au denumiit"
+      },
+      "future": {
+        "eu": "voi denumii",
+        "tu": "vei denumii",
+        "el/ea": "va denumii",
+        "noi": "vom denumii",
+        "voi": "veți denumii",
+        "ei/ele": "vor denumii"
+      }
+    }
+  },
+  {
+    "infinitive": "a declara",
+    "translation": "заявлять",
+    "conjugation": {
+      "present": {
+        "eu": "declaraesc",
+        "tu": "declaraești",
+        "el/ea": "declaraește",
+        "noi": "declaraim",
+        "voi": "declaraiți",
+        "ei/ele": "declaraesc"
+      },
+      "past": {
+        "eu": "am declarait",
+        "tu": "ai declarait",
+        "el/ea": "a declarait",
+        "noi": "am declarait",
+        "voi": "ați declarait",
+        "ei/ele": "au declarait"
+      },
+      "future": {
+        "eu": "voi declarai",
+        "tu": "vei declarai",
+        "el/ea": "va declarai",
+        "noi": "vom declarai",
+        "voi": "veți declarai",
+        "ei/ele": "vor declarai"
+      }
+    }
+  },
+  {
+    "infinitive": "a dirija",
+    "translation": "направлять",
+    "conjugation": {
+      "present": {
+        "eu": "dirijaesc",
+        "tu": "dirijaești",
+        "el/ea": "dirijaește",
+        "noi": "dirijaim",
+        "voi": "dirijaiți",
+        "ei/ele": "dirijaesc"
+      },
+      "past": {
+        "eu": "am dirijait",
+        "tu": "ai dirijait",
+        "el/ea": "a dirijait",
+        "noi": "am dirijait",
+        "voi": "ați dirijait",
+        "ei/ele": "au dirijait"
+      },
+      "future": {
+        "eu": "voi dirijai",
+        "tu": "vei dirijai",
+        "el/ea": "va dirijai",
+        "noi": "vom dirijai",
+        "voi": "veți dirijai",
+        "ei/ele": "vor dirijai"
+      }
+    }
+  },
+  {
+    "infinitive": "a domina",
+    "translation": "доминировать",
+    "conjugation": {
+      "present": {
+        "eu": "dominaesc",
+        "tu": "dominaești",
+        "el/ea": "dominaește",
+        "noi": "dominaim",
+        "voi": "dominaiți",
+        "ei/ele": "dominaesc"
+      },
+      "past": {
+        "eu": "am dominait",
+        "tu": "ai dominait",
+        "el/ea": "a dominait",
+        "noi": "am dominait",
+        "voi": "ați dominait",
+        "ei/ele": "au dominait"
+      },
+      "future": {
+        "eu": "voi dominai",
+        "tu": "vei dominai",
+        "el/ea": "va dominai",
+        "noi": "vom dominai",
+        "voi": "veți dominai",
+        "ei/ele": "vor dominai"
+      }
+    }
+  },
+  {
+    "infinitive": "a emigra",
+    "translation": "эммигрировать",
+    "conjugation": {
+      "present": {
+        "eu": "emigraesc",
+        "tu": "emigraești",
+        "el/ea": "emigraește",
+        "noi": "emigraim",
+        "voi": "emigraiți",
+        "ei/ele": "emigraesc"
+      },
+      "past": {
+        "eu": "am emigrait",
+        "tu": "ai emigrait",
+        "el/ea": "a emigrait",
+        "noi": "am emigrait",
+        "voi": "ați emigrait",
+        "ei/ele": "au emigrait"
+      },
+      "future": {
+        "eu": "voi emigrai",
+        "tu": "vei emigrai",
+        "el/ea": "va emigrai",
+        "noi": "vom emigrai",
+        "voi": "veți emigrai",
+        "ei/ele": "vor emigrai"
+      }
+    }
+  },
+  {
+    "infinitive": "a exersa",
+    "translation": "практиковать",
+    "conjugation": {
+      "present": {
+        "eu": "exersaesc",
+        "tu": "exersaești",
+        "el/ea": "exersaește",
+        "noi": "exersaim",
+        "voi": "exersaiți",
+        "ei/ele": "exersaesc"
+      },
+      "past": {
+        "eu": "am exersait",
+        "tu": "ai exersait",
+        "el/ea": "a exersait",
+        "noi": "am exersait",
+        "voi": "ați exersait",
+        "ei/ele": "au exersait"
+      },
+      "future": {
+        "eu": "voi exersai",
+        "tu": "vei exersai",
+        "el/ea": "va exersai",
+        "noi": "vom exersai",
+        "voi": "veți exersai",
+        "ei/ele": "vor exersai"
+      }
+    }
+  },
+  {
+    "infinitive": "a funcționa",
+    "translation": "функционировать",
+    "conjugation": {
+      "present": {
+        "eu": "funcționaesc",
+        "tu": "funcționaești",
+        "el/ea": "funcționaește",
+        "noi": "funcționaim",
+        "voi": "funcționaiți",
+        "ei/ele": "funcționaesc"
+      },
+      "past": {
+        "eu": "am funcționait",
+        "tu": "ai funcționait",
+        "el/ea": "a funcționait",
+        "noi": "am funcționait",
+        "voi": "ați funcționait",
+        "ei/ele": "au funcționait"
+      },
+      "future": {
+        "eu": "voi funcționai",
+        "tu": "vei funcționai",
+        "el/ea": "va funcționai",
+        "noi": "vom funcționai",
+        "voi": "veți funcționai",
+        "ei/ele": "vor funcționai"
+      }
+    }
+  },
+  {
+    "infinitive": "a genera",
+    "translation": "генерировать",
+    "conjugation": {
+      "present": {
+        "eu": "generaesc",
+        "tu": "generaești",
+        "el/ea": "generaește",
+        "noi": "generaim",
+        "voi": "generaiți",
+        "ei/ele": "generaesc"
+      },
+      "past": {
+        "eu": "am generait",
+        "tu": "ai generait",
+        "el/ea": "a generait",
+        "noi": "am generait",
+        "voi": "ați generait",
+        "ei/ele": "au generait"
+      },
+      "future": {
+        "eu": "voi generai",
+        "tu": "vei generai",
+        "el/ea": "va generai",
+        "noi": "vom generai",
+        "voi": "veți generai",
+        "ei/ele": "vor generai"
+      }
+    }
+  },
+  {
+    "infinitive": "a ignora",
+    "translation": "игнорировать",
+    "conjugation": {
+      "present": {
+        "eu": "ignoraesc",
+        "tu": "ignoraești",
+        "el/ea": "ignoraește",
+        "noi": "ignoraim",
+        "voi": "ignoraiți",
+        "ei/ele": "ignoraesc"
+      },
+      "past": {
+        "eu": "am ignorait",
+        "tu": "ai ignorait",
+        "el/ea": "a ignorait",
+        "noi": "am ignorait",
+        "voi": "ați ignorait",
+        "ei/ele": "au ignorait"
+      },
+      "future": {
+        "eu": "voi ignorai",
+        "tu": "vei ignorai",
+        "el/ea": "va ignorai",
+        "noi": "vom ignorai",
+        "voi": "veți ignorai",
+        "ei/ele": "vor ignorai"
+      }
+    }
+  },
+  {
+    "infinitive": "a impresiona",
+    "translation": "впечатлять",
+    "conjugation": {
+      "present": {
+        "eu": "impresionaesc",
+        "tu": "impresionaești",
+        "el/ea": "impresionaește",
+        "noi": "impresionaim",
+        "voi": "impresionaiți",
+        "ei/ele": "impresionaesc"
+      },
+      "past": {
+        "eu": "am impresionait",
+        "tu": "ai impresionait",
+        "el/ea": "a impresionait",
+        "noi": "am impresionait",
+        "voi": "ați impresionait",
+        "ei/ele": "au impresionait"
+      },
+      "future": {
+        "eu": "voi impresionai",
+        "tu": "vei impresionai",
+        "el/ea": "va impresionai",
+        "noi": "vom impresionai",
+        "voi": "veți impresionai",
+        "ei/ele": "vor impresionai"
+      }
+    }
+  },
+  {
+    "infinitive": "a indica",
+    "translation": "выделять",
+    "conjugation": {
+      "present": {
+        "eu": "indicaesc",
+        "tu": "indicaești",
+        "el/ea": "indicaește",
+        "noi": "indicaim",
+        "voi": "indicaiți",
+        "ei/ele": "indicaesc"
+      },
+      "past": {
+        "eu": "am indicait",
+        "tu": "ai indicait",
+        "el/ea": "a indicait",
+        "noi": "am indicait",
+        "voi": "ați indicait",
+        "ei/ele": "au indicait"
+      },
+      "future": {
+        "eu": "voi indicai",
+        "tu": "vei indicai",
+        "el/ea": "va indicai",
+        "noi": "vom indicai",
+        "voi": "veți indicai",
+        "ei/ele": "vor indicai"
+      }
+    }
+  },
+  {
+    "infinitive": "a limita",
+    "translation": "ограничивать",
+    "conjugation": {
+      "present": {
+        "eu": "limitaesc",
+        "tu": "limitaești",
+        "el/ea": "limitaește",
+        "noi": "limitaim",
+        "voi": "limitaiți",
+        "ei/ele": "limitaesc"
+      },
+      "past": {
+        "eu": "am limitait",
+        "tu": "ai limitait",
+        "el/ea": "a limitait",
+        "noi": "am limitait",
+        "voi": "ați limitait",
+        "ei/ele": "au limitait"
+      },
+      "future": {
+        "eu": "voi limitai",
+        "tu": "vei limitai",
+        "el/ea": "va limitai",
+        "noi": "vom limitai",
+        "voi": "veți limitai",
+        "ei/ele": "vor limitai"
+      }
+    }
+  },
+  {
+    "infinitive": "a menționa",
+    "translation": "упоминать",
+    "conjugation": {
+      "present": {
+        "eu": "menționaesc",
+        "tu": "menționaești",
+        "el/ea": "menționaește",
+        "noi": "menționaim",
+        "voi": "menționaiți",
+        "ei/ele": "menționaesc"
+      },
+      "past": {
+        "eu": "am menționait",
+        "tu": "ai menționait",
+        "el/ea": "a menționait",
+        "noi": "am menționait",
+        "voi": "ați menționait",
+        "ei/ele": "au menționait"
+      },
+      "future": {
+        "eu": "voi menționai",
+        "tu": "vei menționai",
+        "el/ea": "va menționai",
+        "noi": "vom menționai",
+        "voi": "veți menționai",
+        "ei/ele": "vor menționai"
+      }
+    }
+  },
+  {
+    "infinitive": "a naviga",
+    "translation": "навигировать",
+    "conjugation": {
+      "present": {
+        "eu": "navigaesc",
+        "tu": "navigaești",
+        "el/ea": "navigaește",
+        "noi": "navigaim",
+        "voi": "navigaiți",
+        "ei/ele": "navigaesc"
+      },
+      "past": {
+        "eu": "am navigait",
+        "tu": "ai navigait",
+        "el/ea": "a navigait",
+        "noi": "am navigait",
+        "voi": "ați navigait",
+        "ei/ele": "au navigait"
+      },
+      "future": {
+        "eu": "voi navigai",
+        "tu": "vei navigai",
+        "el/ea": "va navigai",
+        "noi": "vom navigai",
+        "voi": "veți navigai",
+        "ei/ele": "vor navigai"
+      }
+    }
+  },
+  {
+    "infinitive": "a vedea",
+    "translation": "видеть",
+    "conjugation": {
+      "present": {
+        "eu": "vedeaesc",
+        "tu": "vedeaești",
+        "el/ea": "vedeaește",
+        "noi": "vedeaim",
+        "voi": "vedeaiți",
+        "ei/ele": "vedeaesc"
+      },
+      "past": {
+        "eu": "am vedeait",
+        "tu": "ai vedeait",
+        "el/ea": "a vedeait",
+        "noi": "am vedeait",
+        "voi": "ați vedeait",
+        "ei/ele": "au vedeait"
+      },
+      "future": {
+        "eu": "voi vedeai",
+        "tu": "vei vedeai",
+        "el/ea": "va vedeai",
+        "noi": "vom vedeai",
+        "voi": "veți vedeai",
+        "ei/ele": "vor vedeai"
+      }
+    }
+  },
+  {
+    "infinitive": "a cădea",
+    "translation": "падать",
+    "conjugation": {
+      "present": {
+        "eu": "cădeaesc",
+        "tu": "cădeaești",
+        "el/ea": "cădeaește",
+        "noi": "cădeaim",
+        "voi": "cădeaiți",
+        "ei/ele": "cădeaesc"
+      },
+      "past": {
+        "eu": "am cădeait",
+        "tu": "ai cădeait",
+        "el/ea": "a cădeait",
+        "noi": "am cădeait",
+        "voi": "ați cădeait",
+        "ei/ele": "au cădeait"
+      },
+      "future": {
+        "eu": "voi cădeai",
+        "tu": "vei cădeai",
+        "el/ea": "va cădeai",
+        "noi": "vom cădeai",
+        "voi": "veți cădeai",
+        "ei/ele": "vor cădeai"
+      }
+    }
+  },
+  {
+    "infinitive": "a tăcea",
+    "translation": "молчать",
+    "conjugation": {
+      "present": {
+        "eu": "tăceaesc",
+        "tu": "tăceaești",
+        "el/ea": "tăceaește",
+        "noi": "tăceaim",
+        "voi": "tăceaiți",
+        "ei/ele": "tăceaesc"
+      },
+      "past": {
+        "eu": "am tăceait",
+        "tu": "ai tăceait",
+        "el/ea": "a tăceait",
+        "noi": "am tăceait",
+        "voi": "ați tăceait",
+        "ei/ele": "au tăceait"
+      },
+      "future": {
+        "eu": "voi tăceai",
+        "tu": "vei tăceai",
+        "el/ea": "va tăceai",
+        "noi": "vom tăceai",
+        "voi": "veți tăceai",
+        "ei/ele": "vor tăceai"
+      }
+    }
+  },
+  {
+    "infinitive": "a plăcea",
+    "translation": "нравиться",
+    "conjugation": {
+      "present": {
+        "eu": "plăceaesc",
+        "tu": "plăceaești",
+        "el/ea": "plăceaește",
+        "noi": "plăceaim",
+        "voi": "plăceaiți",
+        "ei/ele": "plăceaesc"
+      },
+      "past": {
+        "eu": "am plăceait",
+        "tu": "ai plăceait",
+        "el/ea": "a plăceait",
+        "noi": "am plăceait",
+        "voi": "ați plăceait",
+        "ei/ele": "au plăceait"
+      },
+      "future": {
+        "eu": "voi plăceai",
+        "tu": "vei plăceai",
+        "el/ea": "va plăceai",
+        "noi": "vom plăceai",
+        "voi": "veți plăceai",
+        "ei/ele": "vor plăceai"
+      }
+    }
+  },
+  {
+    "infinitive": "a bea",
+    "translation": "пить",
+    "conjugation": {
+      "present": {
+        "eu": "beaesc",
+        "tu": "beaești",
+        "el/ea": "beaește",
+        "noi": "beaim",
+        "voi": "beaiți",
+        "ei/ele": "beaesc"
+      },
+      "past": {
+        "eu": "am beait",
+        "tu": "ai beait",
+        "el/ea": "a beait",
+        "noi": "am beait",
+        "voi": "ați beait",
+        "ei/ele": "au beait"
+      },
+      "future": {
+        "eu": "voi beai",
+        "tu": "vei beai",
+        "el/ea": "va beai",
+        "noi": "vom beai",
+        "voi": "veți beai",
+        "ei/ele": "vor beai"
+      }
+    }
+  },
+  {
+    "infinitive": "a ședea",
+    "translation": "сидеть",
+    "conjugation": {
+      "present": {
+        "eu": "ședeaesc",
+        "tu": "ședeaești",
+        "el/ea": "ședeaește",
+        "noi": "ședeaim",
+        "voi": "ședeaiți",
+        "ei/ele": "ședeaesc"
+      },
+      "past": {
+        "eu": "am ședeait",
+        "tu": "ai ședeait",
+        "el/ea": "a ședeait",
+        "noi": "am ședeait",
+        "voi": "ați ședeait",
+        "ei/ele": "au ședeait"
+      },
+      "future": {
+        "eu": "voi ședeai",
+        "tu": "vei ședeai",
+        "el/ea": "va ședeai",
+        "noi": "vom ședeai",
+        "voi": "veți ședeai",
+        "ei/ele": "vor ședeai"
+      }
+    }
+  },
+  {
+    "infinitive": "a rămânea",
+    "translation": "оставаться",
+    "conjugation": {
+      "present": {
+        "eu": "rămâneaesc",
+        "tu": "rămâneaești",
+        "el/ea": "rămâneaește",
+        "noi": "rămâneaim",
+        "voi": "rămâneaiți",
+        "ei/ele": "rămâneaesc"
+      },
+      "past": {
+        "eu": "am rămâneait",
+        "tu": "ai rămâneait",
+        "el/ea": "a rămâneait",
+        "noi": "am rămâneait",
+        "voi": "ați rămâneait",
+        "ei/ele": "au rămâneait"
+      },
+      "future": {
+        "eu": "voi rămâneai",
+        "tu": "vei rămâneai",
+        "el/ea": "va rămâneai",
+        "noi": "vom rămâneai",
+        "voi": "veți rămâneai",
+        "ei/ele": "vor rămâneai"
+      }
+    }
+  },
+  {
+    "infinitive": "a zăcea",
+    "translation": "лежать, болеть",
+    "conjugation": {
+      "present": {
+        "eu": "zăceaesc",
+        "tu": "zăceaești",
+        "el/ea": "zăceaește",
+        "noi": "zăceaim",
+        "voi": "zăceaiți",
+        "ei/ele": "zăceaesc"
+      },
+      "past": {
+        "eu": "am zăceait",
+        "tu": "ai zăceait",
+        "el/ea": "a zăceait",
+        "noi": "am zăceait",
+        "voi": "ați zăceait",
+        "ei/ele": "au zăceait"
+      },
+      "future": {
+        "eu": "voi zăceai",
+        "tu": "vei zăceai",
+        "el/ea": "va zăceai",
+        "noi": "vom zăceai",
+        "voi": "veți zăceai",
+        "ei/ele": "vor zăceai"
+      }
+    }
+  },
+  {
+    "infinitive": "a preavechea",
+    "translation": "состариться",
+    "conjugation": {
+      "present": {
+        "eu": "preavecheaesc",
+        "tu": "preavecheaești",
+        "el/ea": "preavecheaește",
+        "noi": "preavecheaim",
+        "voi": "preavecheaiți",
+        "ei/ele": "preavecheaesc"
+      },
+      "past": {
+        "eu": "am preavecheait",
+        "tu": "ai preavecheait",
+        "el/ea": "a preavecheait",
+        "noi": "am preavecheait",
+        "voi": "ați preavecheait",
+        "ei/ele": "au preavecheait"
+      },
+      "future": {
+        "eu": "voi preavecheai",
+        "tu": "vei preavecheai",
+        "el/ea": "va preavecheai",
+        "noi": "vom preavecheai",
+        "voi": "veți preavecheai",
+        "ei/ele": "vor preavecheai"
+      }
+    }
+  },
+  {
+    "infinitive": "a pururea",
+    "translation": "оставаться",
+    "conjugation": {
+      "present": {
+        "eu": "purureaesc",
+        "tu": "purureaești",
+        "el/ea": "purureaește",
+        "noi": "purureaim",
+        "voi": "purureaiți",
+        "ei/ele": "purureaesc"
+      },
+      "past": {
+        "eu": "am purureait",
+        "tu": "ai purureait",
+        "el/ea": "a purureait",
+        "noi": "am purureait",
+        "voi": "ați purureait",
+        "ei/ele": "au purureait"
+      },
+      "future": {
+        "eu": "voi purureai",
+        "tu": "vei purureai",
+        "el/ea": "va purureai",
+        "noi": "vom purureai",
+        "voi": "veți purureai",
+        "ei/ele": "vor purureai"
+      }
+    }
+  },
+  {
+    "infinitive": "a face",
+    "translation": "делать",
+    "conjugation": {
+      "present": {
+        "eu": "faceesc",
+        "tu": "faceești",
+        "el/ea": "faceește",
+        "noi": "faceim",
+        "voi": "faceiți",
+        "ei/ele": "faceesc"
+      },
+      "past": {
+        "eu": "am faceit",
+        "tu": "ai faceit",
+        "el/ea": "a faceit",
+        "noi": "am faceit",
+        "voi": "ați faceit",
+        "ei/ele": "au faceit"
+      },
+      "future": {
+        "eu": "voi facei",
+        "tu": "vei facei",
+        "el/ea": "va facei",
+        "noi": "vom facei",
+        "voi": "veți facei",
+        "ei/ele": "vor facei"
+      }
+    }
+  },
+  {
+    "infinitive": "a scrie",
+    "translation": "писать",
+    "conjugation": {
+      "present": {
+        "eu": "scrieesc",
+        "tu": "scrieești",
+        "el/ea": "scrieește",
+        "noi": "scrieim",
+        "voi": "scrieiți",
+        "ei/ele": "scrieesc"
+      },
+      "past": {
+        "eu": "am scrieit",
+        "tu": "ai scrieit",
+        "el/ea": "a scrieit",
+        "noi": "am scrieit",
+        "voi": "ați scrieit",
+        "ei/ele": "au scrieit"
+      },
+      "future": {
+        "eu": "voi scriei",
+        "tu": "vei scriei",
+        "el/ea": "va scriei",
+        "noi": "vom scriei",
+        "voi": "veți scriei",
+        "ei/ele": "vor scriei"
+      }
+    }
+  },
+  {
+    "infinitive": "a merge",
+    "translation": "идти",
+    "conjugation": {
+      "present": {
+        "eu": "mergeesc",
+        "tu": "mergeești",
+        "el/ea": "mergeește",
+        "noi": "mergeim",
+        "voi": "mergeiți",
+        "ei/ele": "mergeesc"
+      },
+      "past": {
+        "eu": "am mergeit",
+        "tu": "ai mergeit",
+        "el/ea": "a mergeit",
+        "noi": "am mergeit",
+        "voi": "ați mergeit",
+        "ei/ele": "au mergeit"
+      },
+      "future": {
+        "eu": "voi mergei",
+        "tu": "vei mergei",
+        "el/ea": "va mergei",
+        "noi": "vom mergei",
+        "voi": "veți mergei",
+        "ei/ele": "vor mergei"
+      }
+    }
+  },
+  {
+    "infinitive": "a crede",
+    "translation": "верить",
+    "conjugation": {
+      "present": {
+        "eu": "credeesc",
+        "tu": "credeești",
+        "el/ea": "credeește",
+        "noi": "credeim",
+        "voi": "credeiți",
+        "ei/ele": "credeesc"
+      },
+      "past": {
+        "eu": "am credeit",
+        "tu": "ai credeit",
+        "el/ea": "a credeit",
+        "noi": "am credeit",
+        "voi": "ați credeit",
+        "ei/ele": "au credeit"
+      },
+      "future": {
+        "eu": "voi credei",
+        "tu": "vei credei",
+        "el/ea": "va credei",
+        "noi": "vom credei",
+        "voi": "veți credei",
+        "ei/ele": "vor credei"
+      }
+    }
+  },
+  {
+    "infinitive": "a spune",
+    "translation": "говорить",
+    "conjugation": {
+      "present": {
+        "eu": "spuneesc",
+        "tu": "spuneești",
+        "el/ea": "spuneește",
+        "noi": "spuneim",
+        "voi": "spuneiți",
+        "ei/ele": "spuneesc"
+      },
+      "past": {
+        "eu": "am spuneit",
+        "tu": "ai spuneit",
+        "el/ea": "a spuneit",
+        "noi": "am spuneit",
+        "voi": "ați spuneit",
+        "ei/ele": "au spuneit"
+      },
+      "future": {
+        "eu": "voi spunei",
+        "tu": "vei spunei",
+        "el/ea": "va spunei",
+        "noi": "vom spunei",
+        "voi": "veți spunei",
+        "ei/ele": "vor spunei"
+      }
+    }
+  },
+  {
+    "infinitive": "a trimite",
+    "translation": "посылать",
+    "conjugation": {
+      "present": {
+        "eu": "trimiteesc",
+        "tu": "trimiteești",
+        "el/ea": "trimiteește",
+        "noi": "trimiteim",
+        "voi": "trimiteiți",
+        "ei/ele": "trimiteesc"
+      },
+      "past": {
+        "eu": "am trimiteit",
+        "tu": "ai trimiteit",
+        "el/ea": "a trimiteit",
+        "noi": "am trimiteit",
+        "voi": "ați trimiteit",
+        "ei/ele": "au trimiteit"
+      },
+      "future": {
+        "eu": "voi trimitei",
+        "tu": "vei trimitei",
+        "el/ea": "va trimitei",
+        "noi": "vom trimitei",
+        "voi": "veți trimitei",
+        "ei/ele": "vor trimitei"
+      }
+    }
+  },
+  {
+    "infinitive": "a răspunde",
+    "translation": "отвечать",
+    "conjugation": {
+      "present": {
+        "eu": "răspundeesc",
+        "tu": "răspundeești",
+        "el/ea": "răspundeește",
+        "noi": "răspundeim",
+        "voi": "răspundeiți",
+        "ei/ele": "răspundeesc"
+      },
+      "past": {
+        "eu": "am răspundeit",
+        "tu": "ai răspundeit",
+        "el/ea": "a răspundeit",
+        "noi": "am răspundeit",
+        "voi": "ați răspundeit",
+        "ei/ele": "au răspundeit"
+      },
+      "future": {
+        "eu": "voi răspundei",
+        "tu": "vei răspundei",
+        "el/ea": "va răspundei",
+        "noi": "vom răspundei",
+        "voi": "veți răspundei",
+        "ei/ele": "vor răspundei"
+      }
+    }
+  },
+  {
+    "infinitive": "a rupe",
+    "translation": "ломать",
+    "conjugation": {
+      "present": {
+        "eu": "rupeesc",
+        "tu": "rupeești",
+        "el/ea": "rupeește",
+        "noi": "rupeim",
+        "voi": "rupeiți",
+        "ei/ele": "rupeesc"
+      },
+      "past": {
+        "eu": "am rupeit",
+        "tu": "ai rupeit",
+        "el/ea": "a rupeit",
+        "noi": "am rupeit",
+        "voi": "ați rupeit",
+        "ei/ele": "au rupeit"
+      },
+      "future": {
+        "eu": "voi rupei",
+        "tu": "vei rupei",
+        "el/ea": "va rupei",
+        "noi": "vom rupei",
+        "voi": "veți rupei",
+        "ei/ele": "vor rupei"
+      }
+    }
+  },
+  {
+    "infinitive": "a vinde",
+    "translation": "продавать",
+    "conjugation": {
+      "present": {
+        "eu": "vindeesc",
+        "tu": "vindeești",
+        "el/ea": "vindeește",
+        "noi": "vindeim",
+        "voi": "vindeiți",
+        "ei/ele": "vindeesc"
+      },
+      "past": {
+        "eu": "am vindeit",
+        "tu": "ai vindeit",
+        "el/ea": "a vindeit",
+        "noi": "am vindeit",
+        "voi": "ați vindeit",
+        "ei/ele": "au vindeit"
+      },
+      "future": {
+        "eu": "voi vindei",
+        "tu": "vei vindei",
+        "el/ea": "va vindei",
+        "noi": "vom vindei",
+        "voi": "veți vindei",
+        "ei/ele": "vor vindei"
+      }
+    }
+  },
+  {
+    "infinitive": "a pierde",
+    "translation": "терять",
+    "conjugation": {
+      "present": {
+        "eu": "pierdeesc",
+        "tu": "pierdeești",
+        "el/ea": "pierdeește",
+        "noi": "pierdeim",
+        "voi": "pierdeiți",
+        "ei/ele": "pierdeesc"
+      },
+      "past": {
+        "eu": "am pierdeit",
+        "tu": "ai pierdeit",
+        "el/ea": "a pierdeit",
+        "noi": "am pierdeit",
+        "voi": "ați pierdeit",
+        "ei/ele": "au pierdeit"
+      },
+      "future": {
+        "eu": "voi pierdei",
+        "tu": "vei pierdei",
+        "el/ea": "va pierdei",
+        "noi": "vom pierdei",
+        "voi": "veți pierdei",
+        "ei/ele": "vor pierdei"
+      }
+    }
+  },
+  {
+    "infinitive": "a înțelege",
+    "translation": "понимать",
+    "conjugation": {
+      "present": {
+        "eu": "înțelegeesc",
+        "tu": "înțelegeești",
+        "el/ea": "înțelegeește",
+        "noi": "înțelegeim",
+        "voi": "înțelegeiți",
+        "ei/ele": "înțelegeesc"
+      },
+      "past": {
+        "eu": "am înțelegeit",
+        "tu": "ai înțelegeit",
+        "el/ea": "a înțelegeit",
+        "noi": "am înțelegeit",
+        "voi": "ați înțelegeit",
+        "ei/ele": "au înțelegeit"
+      },
+      "future": {
+        "eu": "voi înțelegei",
+        "tu": "vei înțelegei",
+        "el/ea": "va înțelegei",
+        "noi": "vom înțelegei",
+        "voi": "veți înțelegei",
+        "ei/ele": "vor înțelegei"
+      }
+    }
+  },
+  {
+    "infinitive": "a cunoaște",
+    "translation": "знать людей, места",
+    "conjugation": {
+      "present": {
+        "eu": "cunoașteesc",
+        "tu": "cunoașteești",
+        "el/ea": "cunoașteește",
+        "noi": "cunoașteim",
+        "voi": "cunoașteiți",
+        "ei/ele": "cunoașteesc"
+      },
+      "past": {
+        "eu": "am cunoașteit",
+        "tu": "ai cunoașteit",
+        "el/ea": "a cunoașteit",
+        "noi": "am cunoașteit",
+        "voi": "ați cunoașteit",
+        "ei/ele": "au cunoașteit"
+      },
+      "future": {
+        "eu": "voi cunoaștei",
+        "tu": "vei cunoaștei",
+        "el/ea": "va cunoaștei",
+        "noi": "vom cunoaștei",
+        "voi": "veți cunoaștei",
+        "ei/ele": "vor cunoaștei"
+      }
+    }
+  },
+  {
+    "infinitive": "a introduce",
+    "translation": "представлять",
+    "conjugation": {
+      "present": {
+        "eu": "introduceesc",
+        "tu": "introduceești",
+        "el/ea": "introduceește",
+        "noi": "introduceim",
+        "voi": "introduceiți",
+        "ei/ele": "introduceesc"
+      },
+      "past": {
+        "eu": "am introduceit",
+        "tu": "ai introduceit",
+        "el/ea": "a introduceit",
+        "noi": "am introduceit",
+        "voi": "ați introduceit",
+        "ei/ele": "au introduceit"
+      },
+      "future": {
+        "eu": "voi introducei",
+        "tu": "vei introducei",
+        "el/ea": "va introducei",
+        "noi": "vom introducei",
+        "voi": "veți introducei",
+        "ei/ele": "vor introducei"
+      }
+    }
+  },
+  {
+    "infinitive": "a trage",
+    "translation": "тянуть",
+    "conjugation": {
+      "present": {
+        "eu": "trageesc",
+        "tu": "trageești",
+        "el/ea": "trageește",
+        "noi": "trageim",
+        "voi": "trageiți",
+        "ei/ele": "trageesc"
+      },
+      "past": {
+        "eu": "am trageit",
+        "tu": "ai trageit",
+        "el/ea": "a trageit",
+        "noi": "am trageit",
+        "voi": "ați trageit",
+        "ei/ele": "au trageit"
+      },
+      "future": {
+        "eu": "voi tragei",
+        "tu": "vei tragei",
+        "el/ea": "va tragei",
+        "noi": "vom tragei",
+        "voi": "veți tragei",
+        "ei/ele": "vor tragei"
+      }
+    }
+  },
+  {
+    "infinitive": "a duce",
+    "translation": "нести",
+    "conjugation": {
+      "present": {
+        "eu": "duceesc",
+        "tu": "duceești",
+        "el/ea": "duceește",
+        "noi": "duceim",
+        "voi": "duceiți",
+        "ei/ele": "duceesc"
+      },
+      "past": {
+        "eu": "am duceit",
+        "tu": "ai duceit",
+        "el/ea": "a duceit",
+        "noi": "am duceit",
+        "voi": "ați duceit",
+        "ei/ele": "au duceit"
+      },
+      "future": {
+        "eu": "voi ducei",
+        "tu": "vei ducei",
+        "el/ea": "va ducei",
+        "noi": "vom ducei",
+        "voi": "veți ducei",
+        "ei/ele": "vor ducei"
+      }
+    }
+  },
+  {
+    "infinitive": "a aduce",
+    "translation": "принести",
+    "conjugation": {
+      "present": {
+        "eu": "aduceesc",
+        "tu": "aduceești",
+        "el/ea": "aduceește",
+        "noi": "aduceim",
+        "voi": "aduceiți",
+        "ei/ele": "aduceesc"
+      },
+      "past": {
+        "eu": "am aduceit",
+        "tu": "ai aduceit",
+        "el/ea": "a aduceit",
+        "noi": "am aduceit",
+        "voi": "ați aduceit",
+        "ei/ele": "au aduceit"
+      },
+      "future": {
+        "eu": "voi aducei",
+        "tu": "vei aducei",
+        "el/ea": "va aducei",
+        "noi": "vom aducei",
+        "voi": "veți aducei",
+        "ei/ele": "vor aducei"
+      }
+    }
+  },
+  {
+    "infinitive": "a pune",
+    "translation": "положить",
+    "conjugation": {
+      "present": {
+        "eu": "puneesc",
+        "tu": "puneești",
+        "el/ea": "puneește",
+        "noi": "puneim",
+        "voi": "puneiți",
+        "ei/ele": "puneesc"
+      },
+      "past": {
+        "eu": "am puneit",
+        "tu": "ai puneit",
+        "el/ea": "a puneit",
+        "noi": "am puneit",
+        "voi": "ați puneit",
+        "ei/ele": "au puneit"
+      },
+      "future": {
+        "eu": "voi punei",
+        "tu": "vei punei",
+        "el/ea": "va punei",
+        "noi": "vom punei",
+        "voi": "veți punei",
+        "ei/ele": "vor punei"
+      }
+    }
+  },
+  {
+    "infinitive": "a coace",
+    "translation": "печь",
+    "conjugation": {
+      "present": {
+        "eu": "coaceesc",
+        "tu": "coaceești",
+        "el/ea": "coaceește",
+        "noi": "coaceim",
+        "voi": "coaceiți",
+        "ei/ele": "coaceesc"
+      },
+      "past": {
+        "eu": "am coaceit",
+        "tu": "ai coaceit",
+        "el/ea": "a coaceit",
+        "noi": "am coaceit",
+        "voi": "ați coaceit",
+        "ei/ele": "au coaceit"
+      },
+      "future": {
+        "eu": "voi coacei",
+        "tu": "vei coacei",
+        "el/ea": "va coacei",
+        "noi": "vom coacei",
+        "voi": "veți coacei",
+        "ei/ele": "vor coacei"
+      }
+    }
+  },
+  {
+    "infinitive": "a crește",
+    "translation": "расти",
+    "conjugation": {
+      "present": {
+        "eu": "creșteesc",
+        "tu": "creșteești",
+        "el/ea": "creșteește",
+        "noi": "creșteim",
+        "voi": "creșteiți",
+        "ei/ele": "creșteesc"
+      },
+      "past": {
+        "eu": "am creșteit",
+        "tu": "ai creșteit",
+        "el/ea": "a creșteit",
+        "noi": "am creșteit",
+        "voi": "ați creșteit",
+        "ei/ele": "au creșteit"
+      },
+      "future": {
+        "eu": "voi creștei",
+        "tu": "vei creștei",
+        "el/ea": "va creștei",
+        "noi": "vom creștei",
+        "voi": "veți creștei",
+        "ei/ele": "vor creștei"
+      }
+    }
+  },
+  {
+    "infinitive": "a curge",
+    "translation": "течь",
+    "conjugation": {
+      "present": {
+        "eu": "curgeesc",
+        "tu": "curgeești",
+        "el/ea": "curgeește",
+        "noi": "curgeim",
+        "voi": "curgeiți",
+        "ei/ele": "curgeesc"
+      },
+      "past": {
+        "eu": "am curgeit",
+        "tu": "ai curgeit",
+        "el/ea": "a curgeit",
+        "noi": "am curgeit",
+        "voi": "ați curgeit",
+        "ei/ele": "au curgeit"
+      },
+      "future": {
+        "eu": "voi curgei",
+        "tu": "vei curgei",
+        "el/ea": "va curgei",
+        "noi": "vom curgei",
+        "voi": "veți curgei",
+        "ei/ele": "vor curgei"
+      }
+    }
+  },
+  {
+    "infinitive": "a deschide",
+    "translation": "открывать",
+    "conjugation": {
+      "present": {
+        "eu": "deschideesc",
+        "tu": "deschideești",
+        "el/ea": "deschideește",
+        "noi": "deschideim",
+        "voi": "deschideiți",
+        "ei/ele": "deschideesc"
+      },
+      "past": {
+        "eu": "am deschideit",
+        "tu": "ai deschideit",
+        "el/ea": "a deschideit",
+        "noi": "am deschideit",
+        "voi": "ați deschideit",
+        "ei/ele": "au deschideit"
+      },
+      "future": {
+        "eu": "voi deschidei",
+        "tu": "vei deschidei",
+        "el/ea": "va deschidei",
+        "noi": "vom deschidei",
+        "voi": "veți deschidei",
+        "ei/ele": "vor deschidei"
+      }
+    }
+  },
+  {
+    "infinitive": "a închide",
+    "translation": "закрывать",
+    "conjugation": {
+      "present": {
+        "eu": "închideesc",
+        "tu": "închideești",
+        "el/ea": "închideește",
+        "noi": "închideim",
+        "voi": "închideiți",
+        "ei/ele": "închideesc"
+      },
+      "past": {
+        "eu": "am închideit",
+        "tu": "ai închideit",
+        "el/ea": "a închideit",
+        "noi": "am închideit",
+        "voi": "ați închideit",
+        "ei/ele": "au închideit"
+      },
+      "future": {
+        "eu": "voi închidei",
+        "tu": "vei închidei",
+        "el/ea": "va închidei",
+        "noi": "vom închidei",
+        "voi": "veți închidei",
+        "ei/ele": "vor închidei"
+      }
+    }
+  },
+  {
+    "infinitive": "a frânge",
+    "translation": "разбивать",
+    "conjugation": {
+      "present": {
+        "eu": "frângeesc",
+        "tu": "frângeești",
+        "el/ea": "frângeește",
+        "noi": "frângeim",
+        "voi": "frângeiți",
+        "ei/ele": "frângeesc"
+      },
+      "past": {
+        "eu": "am frângeit",
+        "tu": "ai frângeit",
+        "el/ea": "a frângeit",
+        "noi": "am frângeit",
+        "voi": "ați frângeit",
+        "ei/ele": "au frângeit"
+      },
+      "future": {
+        "eu": "voi frângei",
+        "tu": "vei frângei",
+        "el/ea": "va frângei",
+        "noi": "vom frângei",
+        "voi": "veți frângei",
+        "ei/ele": "vor frângei"
+      }
+    }
+  },
+  {
+    "infinitive": "a fugi",
+    "translation": "бежать",
+    "conjugation": {
+      "present": {
+        "eu": "fugiesc",
+        "tu": "fugiești",
+        "el/ea": "fugiește",
+        "noi": "fugiim",
+        "voi": "fugiiți",
+        "ei/ele": "fugiesc"
+      },
+      "past": {
+        "eu": "am fugiit",
+        "tu": "ai fugiit",
+        "el/ea": "a fugiit",
+        "noi": "am fugiit",
+        "voi": "ați fugiit",
+        "ei/ele": "au fugiit"
+      },
+      "future": {
+        "eu": "voi fugii",
+        "tu": "vei fugii",
+        "el/ea": "va fugii",
+        "noi": "vom fugii",
+        "voi": "veți fugii",
+        "ei/ele": "vor fugii"
+      }
+    }
+  },
+  {
+    "infinitive": "a plânge",
+    "translation": "плакать",
+    "conjugation": {
+      "present": {
+        "eu": "plângeesc",
+        "tu": "plângeești",
+        "el/ea": "plângeește",
+        "noi": "plângeim",
+        "voi": "plângeiți",
+        "ei/ele": "plângeesc"
+      },
+      "past": {
+        "eu": "am plângeit",
+        "tu": "ai plângeit",
+        "el/ea": "a plângeit",
+        "noi": "am plângeit",
+        "voi": "ați plângeit",
+        "ei/ele": "au plângeit"
+      },
+      "future": {
+        "eu": "voi plângei",
+        "tu": "vei plângei",
+        "el/ea": "va plângei",
+        "noi": "vom plângei",
+        "voi": "veți plângei",
+        "ei/ele": "vor plângei"
+      }
+    }
+  },
+  {
+    "infinitive": "a promite",
+    "translation": "обещать",
+    "conjugation": {
+      "present": {
+        "eu": "promiteesc",
+        "tu": "promiteești",
+        "el/ea": "promiteește",
+        "noi": "promiteim",
+        "voi": "promiteiți",
+        "ei/ele": "promiteesc"
+      },
+      "past": {
+        "eu": "am promiteit",
+        "tu": "ai promiteit",
+        "el/ea": "a promiteit",
+        "noi": "am promiteit",
+        "voi": "ați promiteit",
+        "ei/ele": "au promiteit"
+      },
+      "future": {
+        "eu": "voi promitei",
+        "tu": "vei promitei",
+        "el/ea": "va promitei",
+        "noi": "vom promitei",
+        "voi": "veți promitei",
+        "ei/ele": "vor promitei"
+      }
+    }
+  },
+  {
+    "infinitive": "a prinde",
+    "translation": "ловить",
+    "conjugation": {
+      "present": {
+        "eu": "prindeesc",
+        "tu": "prindeești",
+        "el/ea": "prindeește",
+        "noi": "prindeim",
+        "voi": "prindeiți",
+        "ei/ele": "prindeesc"
+      },
+      "past": {
+        "eu": "am prindeit",
+        "tu": "ai prindeit",
+        "el/ea": "a prindeit",
+        "noi": "am prindeit",
+        "voi": "ați prindeit",
+        "ei/ele": "au prindeit"
+      },
+      "future": {
+        "eu": "voi prindei",
+        "tu": "vei prindei",
+        "el/ea": "va prindei",
+        "noi": "vom prindei",
+        "voi": "veți prindei",
+        "ei/ele": "vor prindei"
+      }
+    }
+  },
+  {
+    "infinitive": "a râde",
+    "translation": "смеяться",
+    "conjugation": {
+      "present": {
+        "eu": "râdeesc",
+        "tu": "râdeești",
+        "el/ea": "râdeește",
+        "noi": "râdeim",
+        "voi": "râdeiți",
+        "ei/ele": "râdeesc"
+      },
+      "past": {
+        "eu": "am râdeit",
+        "tu": "ai râdeit",
+        "el/ea": "a râdeit",
+        "noi": "am râdeit",
+        "voi": "ați râdeit",
+        "ei/ele": "au râdeit"
+      },
+      "future": {
+        "eu": "voi râdei",
+        "tu": "vei râdei",
+        "el/ea": "va râdei",
+        "noi": "vom râdei",
+        "voi": "veți râdei",
+        "ei/ele": "vor râdei"
+      }
+    }
+  },
+  {
+    "infinitive": "a ajunge",
+    "translation": "прибывать",
+    "conjugation": {
+      "present": {
+        "eu": "ajungeesc",
+        "tu": "ajungeești",
+        "el/ea": "ajungeește",
+        "noi": "ajungeim",
+        "voi": "ajungeiți",
+        "ei/ele": "ajungeesc"
+      },
+      "past": {
+        "eu": "am ajungeit",
+        "tu": "ai ajungeit",
+        "el/ea": "a ajungeit",
+        "noi": "am ajungeit",
+        "voi": "ați ajungeit",
+        "ei/ele": "au ajungeit"
+      },
+      "future": {
+        "eu": "voi ajungei",
+        "tu": "vei ajungei",
+        "el/ea": "va ajungei",
+        "noi": "vom ajungei",
+        "voi": "veți ajungei",
+        "ei/ele": "vor ajungei"
+      }
+    }
+  },
+  {
+    "infinitive": "a atinge",
+    "translation": "трогать",
+    "conjugation": {
+      "present": {
+        "eu": "atingeesc",
+        "tu": "atingeești",
+        "el/ea": "atingeește",
+        "noi": "atingeim",
+        "voi": "atingeiți",
+        "ei/ele": "atingeesc"
+      },
+      "past": {
+        "eu": "am atingeit",
+        "tu": "ai atingeit",
+        "el/ea": "a atingeit",
+        "noi": "am atingeit",
+        "voi": "ați atingeit",
+        "ei/ele": "au atingeit"
+      },
+      "future": {
+        "eu": "voi atingei",
+        "tu": "vei atingei",
+        "el/ea": "va atingei",
+        "noi": "vom atingei",
+        "voi": "veți atingei",
+        "ei/ele": "vor atingei"
+      }
+    }
+  },
+  {
+    "infinitive": "a convinge",
+    "translation": "убеждать",
+    "conjugation": {
+      "present": {
+        "eu": "convingeesc",
+        "tu": "convingeești",
+        "el/ea": "convingeește",
+        "noi": "convingeim",
+        "voi": "convingeiți",
+        "ei/ele": "convingeesc"
+      },
+      "past": {
+        "eu": "am convingeit",
+        "tu": "ai convingeit",
+        "el/ea": "a convingeit",
+        "noi": "am convingeit",
+        "voi": "ați convingeit",
+        "ei/ele": "au convingeit"
+      },
+      "future": {
+        "eu": "voi convingei",
+        "tu": "vei convingei",
+        "el/ea": "va convingei",
+        "noi": "vom convingei",
+        "voi": "veți convingei",
+        "ei/ele": "vor convingei"
+      }
+    }
+  },
+  {
+    "infinitive": "a distruge",
+    "translation": "разрушать",
+    "conjugation": {
+      "present": {
+        "eu": "distrugeesc",
+        "tu": "distrugeești",
+        "el/ea": "distrugeește",
+        "noi": "distrugeim",
+        "voi": "distrugeiți",
+        "ei/ele": "distrugeesc"
+      },
+      "past": {
+        "eu": "am distrugeit",
+        "tu": "ai distrugeit",
+        "el/ea": "a distrugeit",
+        "noi": "am distrugeit",
+        "voi": "ați distrugeit",
+        "ei/ele": "au distrugeit"
+      },
+      "future": {
+        "eu": "voi distrugei",
+        "tu": "vei distrugei",
+        "el/ea": "va distrugei",
+        "noi": "vom distrugei",
+        "voi": "veți distrugei",
+        "ei/ele": "vor distrugei"
+      }
+    }
+  },
+  {
+    "infinitive": "a învinge",
+    "translation": "побеждать",
+    "conjugation": {
+      "present": {
+        "eu": "învingeesc",
+        "tu": "învingeești",
+        "el/ea": "învingeește",
+        "noi": "învingeim",
+        "voi": "învingeiți",
+        "ei/ele": "învingeesc"
+      },
+      "past": {
+        "eu": "am învingeit",
+        "tu": "ai învingeit",
+        "el/ea": "a învingeit",
+        "noi": "am învingeit",
+        "voi": "ați învingeit",
+        "ei/ele": "au învingeit"
+      },
+      "future": {
+        "eu": "voi învingei",
+        "tu": "vei învingei",
+        "el/ea": "va învingei",
+        "noi": "vom învingei",
+        "voi": "veți învingei",
+        "ei/ele": "vor învingei"
+      }
+    }
+  },
+  {
+    "infinitive": "a împinge",
+    "translation": "толкать",
+    "conjugation": {
+      "present": {
+        "eu": "împingeesc",
+        "tu": "împingeești",
+        "el/ea": "împingeește",
+        "noi": "împingeim",
+        "voi": "împingeiți",
+        "ei/ele": "împingeesc"
+      },
+      "past": {
+        "eu": "am împingeit",
+        "tu": "ai împingeit",
+        "el/ea": "a împingeit",
+        "noi": "am împingeit",
+        "voi": "ați împingeit",
+        "ei/ele": "au împingeit"
+      },
+      "future": {
+        "eu": "voi împingei",
+        "tu": "vei împingei",
+        "el/ea": "va împingei",
+        "noi": "vom împingei",
+        "voi": "veți împingei",
+        "ei/ele": "vor împingei"
+      }
+    }
+  },
+  {
+    "infinitive": "a atrage",
+    "translation": "привлекать",
+    "conjugation": {
+      "present": {
+        "eu": "atrageesc",
+        "tu": "atrageești",
+        "el/ea": "atrageește",
+        "noi": "atrageim",
+        "voi": "atrageiți",
+        "ei/ele": "atrageesc"
+      },
+      "past": {
+        "eu": "am atrageit",
+        "tu": "ai atrageit",
+        "el/ea": "a atrageit",
+        "noi": "am atrageit",
+        "voi": "ați atrageit",
+        "ei/ele": "au atrageit"
+      },
+      "future": {
+        "eu": "voi atragei",
+        "tu": "vei atragei",
+        "el/ea": "va atragei",
+        "noi": "vom atragei",
+        "voi": "veți atragei",
+        "ei/ele": "vor atragei"
+      }
+    }
+  },
+  {
+    "infinitive": "a extrage",
+    "translation": "извлекать",
+    "conjugation": {
+      "present": {
+        "eu": "extrageesc",
+        "tu": "extrageești",
+        "el/ea": "extrageește",
+        "noi": "extrageim",
+        "voi": "extrageiți",
+        "ei/ele": "extrageesc"
+      },
+      "past": {
+        "eu": "am extrageit",
+        "tu": "ai extrageit",
+        "el/ea": "a extrageit",
+        "noi": "am extrageit",
+        "voi": "ați extrageit",
+        "ei/ele": "au extrageit"
+      },
+      "future": {
+        "eu": "voi extragei",
+        "tu": "vei extragei",
+        "el/ea": "va extragei",
+        "noi": "vom extragei",
+        "voi": "veți extragei",
+        "ei/ele": "vor extragei"
+      }
+    }
+  },
+  {
+    "infinitive": "a reface",
+    "translation": "перестроить",
+    "conjugation": {
+      "present": {
+        "eu": "refaceesc",
+        "tu": "refaceești",
+        "el/ea": "refaceește",
+        "noi": "refaceim",
+        "voi": "refaceiți",
+        "ei/ele": "refaceesc"
+      },
+      "past": {
+        "eu": "am refaceit",
+        "tu": "ai refaceit",
+        "el/ea": "a refaceit",
+        "noi": "am refaceit",
+        "voi": "ați refaceit",
+        "ei/ele": "au refaceit"
+      },
+      "future": {
+        "eu": "voi refacei",
+        "tu": "vei refacei",
+        "el/ea": "va refacei",
+        "noi": "vom refacei",
+        "voi": "veți refacei",
+        "ei/ele": "vor refacei"
+      }
+    }
+  },
+  {
+    "infinitive": "a preface",
+    "translation": "притворяться",
+    "conjugation": {
+      "present": {
+        "eu": "prefaceesc",
+        "tu": "prefaceești",
+        "el/ea": "prefaceește",
+        "noi": "prefaceim",
+        "voi": "prefaceiți",
+        "ei/ele": "prefaceesc"
+      },
+      "past": {
+        "eu": "am prefaceit",
+        "tu": "ai prefaceit",
+        "el/ea": "a prefaceit",
+        "noi": "am prefaceit",
+        "voi": "ați prefaceit",
+        "ei/ele": "au prefaceit"
+      },
+      "future": {
+        "eu": "voi prefacei",
+        "tu": "vei prefacei",
+        "el/ea": "va prefacei",
+        "noi": "vom prefacei",
+        "voi": "veți prefacei",
+        "ei/ele": "vor prefacei"
+      }
+    }
+  },
+  {
+    "infinitive": "a deduce",
+    "translation": "выводить",
+    "conjugation": {
+      "present": {
+        "eu": "deduceesc",
+        "tu": "deduceești",
+        "el/ea": "deduceește",
+        "noi": "deduceim",
+        "voi": "deduceiți",
+        "ei/ele": "deduceesc"
+      },
+      "past": {
+        "eu": "am deduceit",
+        "tu": "ai deduceit",
+        "el/ea": "a deduceit",
+        "noi": "am deduceit",
+        "voi": "ați deduceit",
+        "ei/ele": "au deduceit"
+      },
+      "future": {
+        "eu": "voi deducei",
+        "tu": "vei deducei",
+        "el/ea": "va deducei",
+        "noi": "vom deducei",
+        "voi": "veți deducei",
+        "ei/ele": "vor deducei"
+      }
+    }
+  },
+  {
+    "infinitive": "a reduce",
+    "translation": "понижать",
+    "conjugation": {
+      "present": {
+        "eu": "reduceesc",
+        "tu": "reduceești",
+        "el/ea": "reduceește",
+        "noi": "reduceim",
+        "voi": "reduceiți",
+        "ei/ele": "reduceesc"
+      },
+      "past": {
+        "eu": "am reduceit",
+        "tu": "ai reduceit",
+        "el/ea": "a reduceit",
+        "noi": "am reduceit",
+        "voi": "ați reduceit",
+        "ei/ele": "au reduceit"
+      },
+      "future": {
+        "eu": "voi reducei",
+        "tu": "vei reducei",
+        "el/ea": "va reducei",
+        "noi": "vom reducei",
+        "voi": "veți reducei",
+        "ei/ele": "vor reducei"
+      }
+    }
+  },
+  {
+    "infinitive": "a reproduce",
+    "translation": "воспроизводить",
+    "conjugation": {
+      "present": {
+        "eu": "reproduceesc",
+        "tu": "reproduceești",
+        "el/ea": "reproduceește",
+        "noi": "reproduceim",
+        "voi": "reproduceiți",
+        "ei/ele": "reproduceesc"
+      },
+      "past": {
+        "eu": "am reproduceit",
+        "tu": "ai reproduceit",
+        "el/ea": "a reproduceit",
+        "noi": "am reproduceit",
+        "voi": "ați reproduceit",
+        "ei/ele": "au reproduceit"
+      },
+      "future": {
+        "eu": "voi reproducei",
+        "tu": "vei reproducei",
+        "el/ea": "va reproducei",
+        "noi": "vom reproducei",
+        "voi": "veți reproducei",
+        "ei/ele": "vor reproducei"
+      }
+    }
+  },
+  {
+    "infinitive": "a corespunde",
+    "translation": "соответствовать",
+    "conjugation": {
+      "present": {
+        "eu": "corespundeesc",
+        "tu": "corespundeești",
+        "el/ea": "corespundeește",
+        "noi": "corespundeim",
+        "voi": "corespundeiți",
+        "ei/ele": "corespundeesc"
+      },
+      "past": {
+        "eu": "am corespundeit",
+        "tu": "ai corespundeit",
+        "el/ea": "a corespundeit",
+        "noi": "am corespundeit",
+        "voi": "ați corespundeit",
+        "ei/ele": "au corespundeit"
+      },
+      "future": {
+        "eu": "voi corespundei",
+        "tu": "vei corespundei",
+        "el/ea": "va corespundei",
+        "noi": "vom corespundei",
+        "voi": "veți corespundei",
+        "ei/ele": "vor corespundei"
+      }
+    }
+  },
+  {
+    "infinitive": "a ascunde",
+    "translation": "прятать",
+    "conjugation": {
+      "present": {
+        "eu": "ascundeesc",
+        "tu": "ascundeești",
+        "el/ea": "ascundeește",
+        "noi": "ascundeim",
+        "voi": "ascundeiți",
+        "ei/ele": "ascundeesc"
+      },
+      "past": {
+        "eu": "am ascundeit",
+        "tu": "ai ascundeit",
+        "el/ea": "a ascundeit",
+        "noi": "am ascundeit",
+        "voi": "ați ascundeit",
+        "ei/ele": "au ascundeit"
+      },
+      "future": {
+        "eu": "voi ascundei",
+        "tu": "vei ascundei",
+        "el/ea": "va ascundei",
+        "noi": "vom ascundei",
+        "voi": "veți ascundei",
+        "ei/ele": "vor ascundei"
+      }
+    }
+  },
+  {
+    "infinitive": "a cuprinde",
+    "translation": "компроментировать",
+    "conjugation": {
+      "present": {
+        "eu": "cuprindeesc",
+        "tu": "cuprindeești",
+        "el/ea": "cuprindeește",
+        "noi": "cuprindeim",
+        "voi": "cuprindeiți",
+        "ei/ele": "cuprindeesc"
+      },
+      "past": {
+        "eu": "am cuprindeit",
+        "tu": "ai cuprindeit",
+        "el/ea": "a cuprindeit",
+        "noi": "am cuprindeit",
+        "voi": "ați cuprindeit",
+        "ei/ele": "au cuprindeit"
+      },
+      "future": {
+        "eu": "voi cuprindei",
+        "tu": "vei cuprindei",
+        "el/ea": "va cuprindei",
+        "noi": "vom cuprindei",
+        "voi": "veți cuprindei",
+        "ei/ele": "vor cuprindei"
+      }
+    }
+  },
+  {
+    "infinitive": "a răspândi",
+    "translation": "распространять",
+    "conjugation": {
+      "present": {
+        "eu": "răspândiesc",
+        "tu": "răspândiești",
+        "el/ea": "răspândiește",
+        "noi": "răspândiim",
+        "voi": "răspândiiți",
+        "ei/ele": "răspândiesc"
+      },
+      "past": {
+        "eu": "am răspândiit",
+        "tu": "ai răspândiit",
+        "el/ea": "a răspândiit",
+        "noi": "am răspândiit",
+        "voi": "ați răspândiit",
+        "ei/ele": "au răspândiit"
+      },
+      "future": {
+        "eu": "voi răspândii",
+        "tu": "vei răspândii",
+        "el/ea": "va răspândii",
+        "noi": "vom răspândii",
+        "voi": "veți răspândii",
+        "ei/ele": "vor răspândii"
+      }
+    }
+  },
+  {
+    "infinitive": "a dispărea",
+    "translation": "исчезать",
+    "conjugation": {
+      "present": {
+        "eu": "dispăreaesc",
+        "tu": "dispăreaești",
+        "el/ea": "dispăreaește",
+        "noi": "dispăreaim",
+        "voi": "dispăreaiți",
+        "ei/ele": "dispăreaesc"
+      },
+      "past": {
+        "eu": "am dispăreait",
+        "tu": "ai dispăreait",
+        "el/ea": "a dispăreait",
+        "noi": "am dispăreait",
+        "voi": "ați dispăreait",
+        "ei/ele": "au dispăreait"
+      },
+      "future": {
+        "eu": "voi dispăreai",
+        "tu": "vei dispăreai",
+        "el/ea": "va dispăreai",
+        "noi": "vom dispăreai",
+        "voi": "veți dispăreai",
+        "ei/ele": "vor dispăreai"
+      }
+    }
+  },
+  {
+    "infinitive": "a veni",
+    "translation": "приходить",
+    "conjugation": {
+      "present": {
+        "eu": "veniesc",
+        "tu": "veniești",
+        "el/ea": "veniește",
+        "noi": "veniim",
+        "voi": "veniiți",
+        "ei/ele": "veniesc"
+      },
+      "past": {
+        "eu": "am veniit",
+        "tu": "ai veniit",
+        "el/ea": "a veniit",
+        "noi": "am veniit",
+        "voi": "ați veniit",
+        "ei/ele": "au veniit"
+      },
+      "future": {
+        "eu": "voi venii",
+        "tu": "vei venii",
+        "el/ea": "va venii",
+        "noi": "vom venii",
+        "voi": "veți venii",
+        "ei/ele": "vor venii"
+      }
+    }
+  },
+  {
+    "infinitive": "a citi",
+    "translation": "читать",
+    "conjugation": {
+      "present": {
+        "eu": "citiesc",
+        "tu": "citiești",
+        "el/ea": "citiește",
+        "noi": "citiim",
+        "voi": "citiiți",
+        "ei/ele": "citiesc"
+      },
+      "past": {
+        "eu": "am citiit",
+        "tu": "ai citiit",
+        "el/ea": "a citiit",
+        "noi": "am citiit",
+        "voi": "ați citiit",
+        "ei/ele": "au citiit"
+      },
+      "future": {
+        "eu": "voi citii",
+        "tu": "vei citii",
+        "el/ea": "va citii",
+        "noi": "vom citii",
+        "voi": "veți citii",
+        "ei/ele": "vor citii"
+      }
+    }
+  },
+  {
+    "infinitive": "a dormi",
+    "translation": "спать",
+    "conjugation": {
+      "present": {
+        "eu": "dormiesc",
+        "tu": "dormiești",
+        "el/ea": "dormiește",
+        "noi": "dormiim",
+        "voi": "dormiiți",
+        "ei/ele": "dormiesc"
+      },
+      "past": {
+        "eu": "am dormiit",
+        "tu": "ai dormiit",
+        "el/ea": "a dormiit",
+        "noi": "am dormiit",
+        "voi": "ați dormiit",
+        "ei/ele": "au dormiit"
+      },
+      "future": {
+        "eu": "voi dormii",
+        "tu": "vei dormii",
+        "el/ea": "va dormii",
+        "noi": "vom dormii",
+        "voi": "veți dormii",
+        "ei/ele": "vor dormii"
+      }
+    }
+  },
+  {
+    "infinitive": "a trăi",
+    "translation": "жить",
+    "conjugation": {
+      "present": {
+        "eu": "trăiesc",
+        "tu": "trăiești",
+        "el/ea": "trăiește",
+        "noi": "trăiim",
+        "voi": "trăiiți",
+        "ei/ele": "trăiesc"
+      },
+      "past": {
+        "eu": "am trăiit",
+        "tu": "ai trăiit",
+        "el/ea": "a trăiit",
+        "noi": "am trăiit",
+        "voi": "ați trăiit",
+        "ei/ele": "au trăiit"
+      },
+      "future": {
+        "eu": "voi trăii",
+        "tu": "vei trăii",
+        "el/ea": "va trăii",
+        "noi": "vom trăii",
+        "voi": "veți trăii",
+        "ei/ele": "vor trăii"
+      }
+    }
+  },
+  {
+    "infinitive": "a privi",
+    "translation": "смотреть",
+    "conjugation": {
+      "present": {
+        "eu": "priviesc",
+        "tu": "priviești",
+        "el/ea": "priviește",
+        "noi": "priviim",
+        "voi": "priviiți",
+        "ei/ele": "priviesc"
+      },
+      "past": {
+        "eu": "am priviit",
+        "tu": "ai priviit",
+        "el/ea": "a priviit",
+        "noi": "am priviit",
+        "voi": "ați priviit",
+        "ei/ele": "au priviit"
+      },
+      "future": {
+        "eu": "voi privii",
+        "tu": "vei privii",
+        "el/ea": "va privii",
+        "noi": "vom privii",
+        "voi": "veți privii",
+        "ei/ele": "vor privii"
+      }
+    }
+  },
+  {
+    "infinitive": "a simți",
+    "translation": "чувствовать",
+    "conjugation": {
+      "present": {
+        "eu": "simțiesc",
+        "tu": "simțiești",
+        "el/ea": "simțiește",
+        "noi": "simțiim",
+        "voi": "simțiiți",
+        "ei/ele": "simțiesc"
+      },
+      "past": {
+        "eu": "am simțiit",
+        "tu": "ai simțiit",
+        "el/ea": "a simțiit",
+        "noi": "am simțiit",
+        "voi": "ați simțiit",
+        "ei/ele": "au simțiit"
+      },
+      "future": {
+        "eu": "voi simții",
+        "tu": "vei simții",
+        "el/ea": "va simții",
+        "noi": "vom simții",
+        "voi": "veți simții",
+        "ei/ele": "vor simții"
+      }
+    }
+  },
+  {
+    "infinitive": "a găsi",
+    "translation": "искать",
+    "conjugation": {
+      "present": {
+        "eu": "găsiesc",
+        "tu": "găsiești",
+        "el/ea": "găsiește",
+        "noi": "găsiim",
+        "voi": "găsiiți",
+        "ei/ele": "găsiesc"
+      },
+      "past": {
+        "eu": "am găsiit",
+        "tu": "ai găsiit",
+        "el/ea": "a găsiit",
+        "noi": "am găsiit",
+        "voi": "ați găsiit",
+        "ei/ele": "au găsiit"
+      },
+      "future": {
+        "eu": "voi găsii",
+        "tu": "vei găsii",
+        "el/ea": "va găsii",
+        "noi": "vom găsii",
+        "voi": "veți găsii",
+        "ei/ele": "vor găsii"
+      }
+    }
+  },
+  {
+    "infinitive": "a hotărî",
+    "translation": "решать",
+    "conjugation": {
+      "present": {
+        "eu": "hotărîesc",
+        "tu": "hotărîești",
+        "el/ea": "hotărîește",
+        "noi": "hotărîim",
+        "voi": "hotărîiți",
+        "ei/ele": "hotărîesc"
+      },
+      "past": {
+        "eu": "am hotărîit",
+        "tu": "ai hotărîit",
+        "el/ea": "a hotărîit",
+        "noi": "am hotărîit",
+        "voi": "ați hotărîit",
+        "ei/ele": "au hotărîit"
+      },
+      "future": {
+        "eu": "voi hotărîi",
+        "tu": "vei hotărîi",
+        "el/ea": "va hotărîi",
+        "noi": "vom hotărîi",
+        "voi": "veți hotărîi",
+        "ei/ele": "vor hotărîi"
+      }
+    }
+  },
+  {
+    "infinitive": "a coborî",
+    "translation": "спускаться",
+    "conjugation": {
+      "present": {
+        "eu": "coborîesc",
+        "tu": "coborîești",
+        "el/ea": "coborîește",
+        "noi": "coborîim",
+        "voi": "coborîiți",
+        "ei/ele": "coborîesc"
+      },
+      "past": {
+        "eu": "am coborîit",
+        "tu": "ai coborîit",
+        "el/ea": "a coborîit",
+        "noi": "am coborîit",
+        "voi": "ați coborîit",
+        "ei/ele": "au coborîit"
+      },
+      "future": {
+        "eu": "voi coborîi",
+        "tu": "vei coborîi",
+        "el/ea": "va coborîi",
+        "noi": "vom coborîi",
+        "voi": "veți coborîi",
+        "ei/ele": "vor coborîi"
+      }
+    }
+  },
+  {
+    "infinitive": "a urî",
+    "translation": "ненавидеть",
+    "conjugation": {
+      "present": {
+        "eu": "urîesc",
+        "tu": "urîești",
+        "el/ea": "urîește",
+        "noi": "urîim",
+        "voi": "urîiți",
+        "ei/ele": "urîesc"
+      },
+      "past": {
+        "eu": "am urîit",
+        "tu": "ai urîit",
+        "el/ea": "a urîit",
+        "noi": "am urîit",
+        "voi": "ați urîit",
+        "ei/ele": "au urîit"
+      },
+      "future": {
+        "eu": "voi urîi",
+        "tu": "vei urîi",
+        "el/ea": "va urîi",
+        "noi": "vom urîi",
+        "voi": "veți urîi",
+        "ei/ele": "vor urîi"
+      }
+    }
+  },
+  {
+    "infinitive": "a împlini",
+    "translation": "заполнять",
+    "conjugation": {
+      "present": {
+        "eu": "împliniesc",
+        "tu": "împliniești",
+        "el/ea": "împliniește",
+        "noi": "împliniim",
+        "voi": "împliniiți",
+        "ei/ele": "împliniesc"
+      },
+      "past": {
+        "eu": "am împliniit",
+        "tu": "ai împliniit",
+        "el/ea": "a împliniit",
+        "noi": "am împliniit",
+        "voi": "ați împliniit",
+        "ei/ele": "au împliniit"
+      },
+      "future": {
+        "eu": "voi împlinii",
+        "tu": "vei împlinii",
+        "el/ea": "va împlinii",
+        "noi": "vom împlinii",
+        "voi": "veți împlinii",
+        "ei/ele": "vor împlinii"
+      }
+    }
+  },
+  {
+    "infinitive": "a primi",
+    "translation": "получать",
+    "conjugation": {
+      "present": {
+        "eu": "primiesc",
+        "tu": "primiești",
+        "el/ea": "primiește",
+        "noi": "primiim",
+        "voi": "primiiți",
+        "ei/ele": "primiesc"
+      },
+      "past": {
+        "eu": "am primiit",
+        "tu": "ai primiit",
+        "el/ea": "a primiit",
+        "noi": "am primiit",
+        "voi": "ați primiit",
+        "ei/ele": "au primiit"
+      },
+      "future": {
+        "eu": "voi primii",
+        "tu": "vei primii",
+        "el/ea": "va primii",
+        "noi": "vom primii",
+        "voi": "veți primii",
+        "ei/ele": "vor primii"
+      }
+    }
+  },
+  {
+    "infinitive": "a oferi",
+    "translation": "предлагать",
+    "conjugation": {
+      "present": {
+        "eu": "oferiesc",
+        "tu": "oferiești",
+        "el/ea": "oferiește",
+        "noi": "oferiim",
+        "voi": "oferiiți",
+        "ei/ele": "oferiesc"
+      },
+      "past": {
+        "eu": "am oferiit",
+        "tu": "ai oferiit",
+        "el/ea": "a oferiit",
+        "noi": "am oferiit",
+        "voi": "ați oferiit",
+        "ei/ele": "au oferiit"
+      },
+      "future": {
+        "eu": "voi oferii",
+        "tu": "vei oferii",
+        "el/ea": "va oferii",
+        "noi": "vom oferii",
+        "voi": "veți oferii",
+        "ei/ele": "vor oferii"
+      }
+    }
+  },
+  {
+    "infinitive": "a descoperi",
+    "translation": "открывать",
+    "conjugation": {
+      "present": {
+        "eu": "descoperiesc",
+        "tu": "descoperiești",
+        "el/ea": "descoperiește",
+        "noi": "descoperiim",
+        "voi": "descoperiiți",
+        "ei/ele": "descoperiesc"
+      },
+      "past": {
+        "eu": "am descoperiit",
+        "tu": "ai descoperiit",
+        "el/ea": "a descoperiit",
+        "noi": "am descoperiit",
+        "voi": "ați descoperiit",
+        "ei/ele": "au descoperiit"
+      },
+      "future": {
+        "eu": "voi descoperii",
+        "tu": "vei descoperii",
+        "el/ea": "va descoperii",
+        "noi": "vom descoperii",
+        "voi": "veți descoperii",
+        "ei/ele": "vor descoperii"
+      }
+    }
+  },
+  {
+    "infinitive": "a acoperi",
+    "translation": "закрывать",
+    "conjugation": {
+      "present": {
+        "eu": "acoperiesc",
+        "tu": "acoperiești",
+        "el/ea": "acoperiește",
+        "noi": "acoperiim",
+        "voi": "acoperiiți",
+        "ei/ele": "acoperiesc"
+      },
+      "past": {
+        "eu": "am acoperiit",
+        "tu": "ai acoperiit",
+        "el/ea": "a acoperiit",
+        "noi": "am acoperiit",
+        "voi": "ați acoperiit",
+        "ei/ele": "au acoperiit"
+      },
+      "future": {
+        "eu": "voi acoperii",
+        "tu": "vei acoperii",
+        "el/ea": "va acoperii",
+        "noi": "vom acoperii",
+        "voi": "veți acoperii",
+        "ei/ele": "vor acoperii"
+      }
+    }
+  },
+  {
+    "infinitive": "a suferi",
+    "translation": "страдать",
+    "conjugation": {
+      "present": {
+        "eu": "suferiesc",
+        "tu": "suferiești",
+        "el/ea": "suferiește",
+        "noi": "suferiim",
+        "voi": "suferiiți",
+        "ei/ele": "suferiesc"
+      },
+      "past": {
+        "eu": "am suferiit",
+        "tu": "ai suferiit",
+        "el/ea": "a suferiit",
+        "noi": "am suferiit",
+        "voi": "ați suferiit",
+        "ei/ele": "au suferiit"
+      },
+      "future": {
+        "eu": "voi suferii",
+        "tu": "vei suferii",
+        "el/ea": "va suferii",
+        "noi": "vom suferii",
+        "voi": "veți suferii",
+        "ei/ele": "vor suferii"
+      }
+    }
+  },
+  {
+    "infinitive": "a stabili",
+    "translation": "устанавливать",
+    "conjugation": {
+      "present": {
+        "eu": "stabiliesc",
+        "tu": "stabiliești",
+        "el/ea": "stabiliește",
+        "noi": "stabiliim",
+        "voi": "stabiliiți",
+        "ei/ele": "stabiliesc"
+      },
+      "past": {
+        "eu": "am stabiliit",
+        "tu": "ai stabiliit",
+        "el/ea": "a stabiliit",
+        "noi": "am stabiliit",
+        "voi": "ați stabiliit",
+        "ei/ele": "au stabiliit"
+      },
+      "future": {
+        "eu": "voi stabilii",
+        "tu": "vei stabilii",
+        "el/ea": "va stabilii",
+        "noi": "vom stabilii",
+        "voi": "veți stabilii",
+        "ei/ele": "vor stabilii"
+      }
+    }
+  },
+  {
+    "infinitive": "a construi",
+    "translation": "строить",
+    "conjugation": {
+      "present": {
+        "eu": "construiesc",
+        "tu": "construiești",
+        "el/ea": "construiește",
+        "noi": "construiim",
+        "voi": "construiiți",
+        "ei/ele": "construiesc"
+      },
+      "past": {
+        "eu": "am construiit",
+        "tu": "ai construiit",
+        "el/ea": "a construiit",
+        "noi": "am construiit",
+        "voi": "ați construiit",
+        "ei/ele": "au construiit"
+      },
+      "future": {
+        "eu": "voi construii",
+        "tu": "vei construii",
+        "el/ea": "va construii",
+        "noi": "vom construii",
+        "voi": "veți construii",
+        "ei/ele": "vor construii"
+      }
+    }
+  },
+  {
+    "infinitive": "a locui",
+    "translation": "жить",
+    "conjugation": {
+      "present": {
+        "eu": "locuiesc",
+        "tu": "locuiești",
+        "el/ea": "locuiește",
+        "noi": "locuiim",
+        "voi": "locuiiți",
+        "ei/ele": "locuiesc"
+      },
+      "past": {
+        "eu": "am locuiit",
+        "tu": "ai locuiit",
+        "el/ea": "a locuiit",
+        "noi": "am locuiit",
+        "voi": "ați locuiit",
+        "ei/ele": "au locuiit"
+      },
+      "future": {
+        "eu": "voi locuii",
+        "tu": "vei locuii",
+        "el/ea": "va locuii",
+        "noi": "vom locuii",
+        "voi": "veți locuii",
+        "ei/ele": "vor locuii"
+      }
+    }
+  },
+  {
+    "infinitive": "a munci",
+    "translation": "работать",
+    "conjugation": {
+      "present": {
+        "eu": "munciesc",
+        "tu": "munciești",
+        "el/ea": "munciește",
+        "noi": "munciim",
+        "voi": "munciiți",
+        "ei/ele": "munciesc"
+      },
+      "past": {
+        "eu": "am munciit",
+        "tu": "ai munciit",
+        "el/ea": "a munciit",
+        "noi": "am munciit",
+        "voi": "ați munciit",
+        "ei/ele": "au munciit"
+      },
+      "future": {
+        "eu": "voi muncii",
+        "tu": "vei muncii",
+        "el/ea": "va muncii",
+        "noi": "vom muncii",
+        "voi": "veți muncii",
+        "ei/ele": "vor muncii"
+      }
+    }
+  },
+  {
+    "infinitive": "a reuși",
+    "translation": "следовать",
+    "conjugation": {
+      "present": {
+        "eu": "reușiesc",
+        "tu": "reușiești",
+        "el/ea": "reușiește",
+        "noi": "reușiim",
+        "voi": "reușiiți",
+        "ei/ele": "reușiesc"
+      },
+      "past": {
+        "eu": "am reușiit",
+        "tu": "ai reușiit",
+        "el/ea": "a reușiit",
+        "noi": "am reușiit",
+        "voi": "ați reușiit",
+        "ei/ele": "au reușiit"
+      },
+      "future": {
+        "eu": "voi reușii",
+        "tu": "vei reușii",
+        "el/ea": "va reușii",
+        "noi": "vom reușii",
+        "voi": "veți reușii",
+        "ei/ele": "vor reușii"
+      }
+    }
+  },
+  {
+    "infinitive": "a amărî",
+    "translation": "расстраиваться",
+    "conjugation": {
+      "present": {
+        "eu": "amărîesc",
+        "tu": "amărîești",
+        "el/ea": "amărîește",
+        "noi": "amărîim",
+        "voi": "amărîiți",
+        "ei/ele": "amărîesc"
+      },
+      "past": {
+        "eu": "am amărîit",
+        "tu": "ai amărîit",
+        "el/ea": "a amărîit",
+        "noi": "am amărîit",
+        "voi": "ați amărîit",
+        "ei/ele": "au amărîit"
+      },
+      "future": {
+        "eu": "voi amărîi",
+        "tu": "vei amărîi",
+        "el/ea": "va amărîi",
+        "noi": "vom amărîi",
+        "voi": "veți amărîi",
+        "ei/ele": "vor amărîi"
+      }
+    }
+  },
+  {
+    "infinitive": "a bârfi",
+    "translation": "болтать",
+    "conjugation": {
+      "present": {
+        "eu": "bârfiesc",
+        "tu": "bârfiești",
+        "el/ea": "bârfiește",
+        "noi": "bârfiim",
+        "voi": "bârfiiți",
+        "ei/ele": "bârfiesc"
+      },
+      "past": {
+        "eu": "am bârfiit",
+        "tu": "ai bârfiit",
+        "el/ea": "a bârfiit",
+        "noi": "am bârfiit",
+        "voi": "ați bârfiit",
+        "ei/ele": "au bârfiit"
+      },
+      "future": {
+        "eu": "voi bârfii",
+        "tu": "vei bârfii",
+        "el/ea": "va bârfii",
+        "noi": "vom bârfii",
+        "voi": "veți bârfii",
+        "ei/ele": "vor bârfii"
+      }
+    }
+  },
+  {
+    "infinitive": "a defini",
+    "translation": "определять",
+    "conjugation": {
+      "present": {
+        "eu": "definiesc",
+        "tu": "definiești",
+        "el/ea": "definiește",
+        "noi": "definiim",
+        "voi": "definiiți",
+        "ei/ele": "definiesc"
+      },
+      "past": {
+        "eu": "am definiit",
+        "tu": "ai definiit",
+        "el/ea": "a definiit",
+        "noi": "am definiit",
+        "voi": "ați definiit",
+        "ei/ele": "au definiit"
+      },
+      "future": {
+        "eu": "voi definii",
+        "tu": "vei definii",
+        "el/ea": "va definii",
+        "noi": "vom definii",
+        "voi": "veți definii",
+        "ei/ele": "vor definii"
+      }
+    }
+  },
+  {
+    "infinitive": "a despărți",
+    "translation": "разделять",
+    "conjugation": {
+      "present": {
+        "eu": "despărțiesc",
+        "tu": "despărțiești",
+        "el/ea": "despărțiește",
+        "noi": "despărțiim",
+        "voi": "despărțiiți",
+        "ei/ele": "despărțiesc"
+      },
+      "past": {
+        "eu": "am despărțiit",
+        "tu": "ai despărțiit",
+        "el/ea": "a despărțiit",
+        "noi": "am despărțiit",
+        "voi": "ați despărțiit",
+        "ei/ele": "au despărțiit"
+      },
+      "future": {
+        "eu": "voi despărții",
+        "tu": "vei despărții",
+        "el/ea": "va despărții",
+        "noi": "vom despărții",
+        "voi": "veți despărții",
+        "ei/ele": "vor despărții"
+      }
+    }
+  },
+  {
+    "infinitive": "a împărți",
+    "translation": "разделять",
+    "conjugation": {
+      "present": {
+        "eu": "împărțiesc",
+        "tu": "împărțiești",
+        "el/ea": "împărțiește",
+        "noi": "împărțiim",
+        "voi": "împărțiiți",
+        "ei/ele": "împărțiesc"
+      },
+      "past": {
+        "eu": "am împărțiit",
+        "tu": "ai împărțiit",
+        "el/ea": "a împărțiit",
+        "noi": "am împărțiit",
+        "voi": "ați împărțiit",
+        "ei/ele": "au împărțiit"
+      },
+      "future": {
+        "eu": "voi împărții",
+        "tu": "vei împărții",
+        "el/ea": "va împărții",
+        "noi": "vom împărții",
+        "voi": "veți împărții",
+        "ei/ele": "vor împărții"
+      }
+    }
+  },
+  {
+    "infinitive": "a însoți",
+    "translation": "сопровождать",
+    "conjugation": {
+      "present": {
+        "eu": "însoțiesc",
+        "tu": "însoțiești",
+        "el/ea": "însoțiește",
+        "noi": "însoțiim",
+        "voi": "însoțiiți",
+        "ei/ele": "însoțiesc"
+      },
+      "past": {
+        "eu": "am însoțiit",
+        "tu": "ai însoțiit",
+        "el/ea": "a însoțiit",
+        "noi": "am însoțiit",
+        "voi": "ați însoțiit",
+        "ei/ele": "au însoțiit"
+      },
+      "future": {
+        "eu": "voi însoții",
+        "tu": "vei însoții",
+        "el/ea": "va însoții",
+        "noi": "vom însoții",
+        "voi": "veți însoții",
+        "ei/ele": "vor însoții"
+      }
+    }
+  },
+  {
+    "infinitive": "a izbândi",
+    "translation": "достигать",
+    "conjugation": {
+      "present": {
+        "eu": "izbândiesc",
+        "tu": "izbândiești",
+        "el/ea": "izbândiește",
+        "noi": "izbândiim",
+        "voi": "izbândiiți",
+        "ei/ele": "izbândiesc"
+      },
+      "past": {
+        "eu": "am izbândiit",
+        "tu": "ai izbândiit",
+        "el/ea": "a izbândiit",
+        "noi": "am izbândiit",
+        "voi": "ați izbândiit",
+        "ei/ele": "au izbândiit"
+      },
+      "future": {
+        "eu": "voi izbândii",
+        "tu": "vei izbândii",
+        "el/ea": "va izbândii",
+        "noi": "vom izbândii",
+        "voi": "veți izbândii",
+        "ei/ele": "vor izbândii"
+      }
+    }
+  },
+  {
+    "infinitive": "a liniști",
+    "translation": "успокаиваться",
+    "conjugation": {
+      "present": {
+        "eu": "liniștiesc",
+        "tu": "liniștiești",
+        "el/ea": "liniștiește",
+        "noi": "liniștiim",
+        "voi": "liniștiiți",
+        "ei/ele": "liniștiesc"
+      },
+      "past": {
+        "eu": "am liniștiit",
+        "tu": "ai liniștiit",
+        "el/ea": "a liniștiit",
+        "noi": "am liniștiit",
+        "voi": "ați liniștiit",
+        "ei/ele": "au liniștiit"
+      },
+      "future": {
+        "eu": "voi liniștii",
+        "tu": "vei liniștii",
+        "el/ea": "va liniștii",
+        "noi": "vom liniștii",
+        "voi": "veți liniștii",
+        "ei/ele": "vor liniștii"
+      }
+    }
+  },
+  {
+    "infinitive": "a numi",
+    "translation": "называть",
+    "conjugation": {
+      "present": {
+        "eu": "numiesc",
+        "tu": "numiești",
+        "el/ea": "numiește",
+        "noi": "numiim",
+        "voi": "numiiți",
+        "ei/ele": "numiesc"
+      },
+      "past": {
+        "eu": "am numiit",
+        "tu": "ai numiit",
+        "el/ea": "a numiit",
+        "noi": "am numiit",
+        "voi": "ați numiit",
+        "ei/ele": "au numiit"
+      },
+      "future": {
+        "eu": "voi numii",
+        "tu": "vei numii",
+        "el/ea": "va numii",
+        "noi": "vom numii",
+        "voi": "veți numii",
+        "ei/ele": "vor numii"
+      }
+    }
+  },
+  {
+    "infinitive": "a pedepsi",
+    "translation": "наказывать",
+    "conjugation": {
+      "present": {
+        "eu": "pedepsiesc",
+        "tu": "pedepsiești",
+        "el/ea": "pedepsiește",
+        "noi": "pedepsiim",
+        "voi": "pedepsiiți",
+        "ei/ele": "pedepsiesc"
+      },
+      "past": {
+        "eu": "am pedepsiit",
+        "tu": "ai pedepsiit",
+        "el/ea": "a pedepsiit",
+        "noi": "am pedepsiit",
+        "voi": "ați pedepsiit",
+        "ei/ele": "au pedepsiit"
+      },
+      "future": {
+        "eu": "voi pedepsii",
+        "tu": "vei pedepsii",
+        "el/ea": "va pedepsii",
+        "noi": "vom pedepsii",
+        "voi": "veți pedepsii",
+        "ei/ele": "vor pedepsii"
+      }
+    }
+  },
+  {
+    "infinitive": "a părăsi",
+    "translation": "уходить",
+    "conjugation": {
+      "present": {
+        "eu": "părăsiesc",
+        "tu": "părăsiești",
+        "el/ea": "părăsiește",
+        "noi": "părăsiim",
+        "voi": "părăsiiți",
+        "ei/ele": "părăsiesc"
+      },
+      "past": {
+        "eu": "am părăsiit",
+        "tu": "ai părăsiit",
+        "el/ea": "a părăsiit",
+        "noi": "am părăsiit",
+        "voi": "ați părăsiit",
+        "ei/ele": "au părăsiit"
+      },
+      "future": {
+        "eu": "voi părăsii",
+        "tu": "vei părăsii",
+        "el/ea": "va părăsii",
+        "noi": "vom părăsii",
+        "voi": "veți părăsii",
+        "ei/ele": "vor părăsii"
+      }
+    }
+  },
+  {
+    "infinitive": "a porni",
+    "translation": "начинать",
+    "conjugation": {
+      "present": {
+        "eu": "porniesc",
+        "tu": "porniești",
+        "el/ea": "porniește",
+        "noi": "porniim",
+        "voi": "porniiți",
+        "ei/ele": "porniesc"
+      },
+      "past": {
+        "eu": "am porniit",
+        "tu": "ai porniit",
+        "el/ea": "a porniit",
+        "noi": "am porniit",
+        "voi": "ați porniit",
+        "ei/ele": "au porniit"
+      },
+      "future": {
+        "eu": "voi pornii",
+        "tu": "vei pornii",
+        "el/ea": "va pornii",
+        "noi": "vom pornii",
+        "voi": "veți pornii",
+        "ei/ele": "vor pornii"
+      }
+    }
+  },
+  {
+    "infinitive": "a pregăti",
+    "translation": "приготавливать",
+    "conjugation": {
+      "present": {
+        "eu": "pregătiesc",
+        "tu": "pregătiești",
+        "el/ea": "pregătiește",
+        "noi": "pregătiim",
+        "voi": "pregătiiți",
+        "ei/ele": "pregătiesc"
+      },
+      "past": {
+        "eu": "am pregătiit",
+        "tu": "ai pregătiit",
+        "el/ea": "a pregătiit",
+        "noi": "am pregătiit",
+        "voi": "ați pregătiit",
+        "ei/ele": "au pregătiit"
+      },
+      "future": {
+        "eu": "voi pregătii",
+        "tu": "vei pregătii",
+        "el/ea": "va pregătii",
+        "noi": "vom pregătii",
+        "voi": "veți pregătii",
+        "ei/ele": "vor pregătii"
+      }
+    }
+  },
+  {
+    "infinitive": "a rosti",
+    "translation": "произносить",
+    "conjugation": {
+      "present": {
+        "eu": "rostiesc",
+        "tu": "rostiești",
+        "el/ea": "rostiește",
+        "noi": "rostiim",
+        "voi": "rostiiți",
+        "ei/ele": "rostiesc"
+      },
+      "past": {
+        "eu": "am rostiit",
+        "tu": "ai rostiit",
+        "el/ea": "a rostiit",
+        "noi": "am rostiit",
+        "voi": "ați rostiit",
+        "ei/ele": "au rostiit"
+      },
+      "future": {
+        "eu": "voi rostii",
+        "tu": "vei rostii",
+        "el/ea": "va rostii",
+        "noi": "vom rostii",
+        "voi": "veți rostii",
+        "ei/ele": "vor rostii"
+      }
+    }
+  },
+  {
+    "infinitive": "a sărăci",
+    "translation": "беднеть",
+    "conjugation": {
+      "present": {
+        "eu": "sărăciesc",
+        "tu": "sărăciești",
+        "el/ea": "sărăciește",
+        "noi": "sărăciim",
+        "voi": "sărăciiți",
+        "ei/ele": "sărăciesc"
+      },
+      "past": {
+        "eu": "am sărăciit",
+        "tu": "ai sărăciit",
+        "el/ea": "a sărăciit",
+        "noi": "am sărăciit",
+        "voi": "ați sărăciit",
+        "ei/ele": "au sărăciit"
+      },
+      "future": {
+        "eu": "voi sărăcii",
+        "tu": "vei sărăcii",
+        "el/ea": "va sărăcii",
+        "noi": "vom sărăcii",
+        "voi": "veți sărăcii",
+        "ei/ele": "vor sărăcii"
+      }
+    }
+  },
+  {
+    "infinitive": "a sfârși",
+    "translation": "заканчивать",
+    "conjugation": {
+      "present": {
+        "eu": "sfârșiesc",
+        "tu": "sfârșiești",
+        "el/ea": "sfârșiește",
+        "noi": "sfârșiim",
+        "voi": "sfârșiiți",
+        "ei/ele": "sfârșiesc"
+      },
+      "past": {
+        "eu": "am sfârșiit",
+        "tu": "ai sfârșiit",
+        "el/ea": "a sfârșiit",
+        "noi": "am sfârșiit",
+        "voi": "ați sfârșiit",
+        "ei/ele": "au sfârșiit"
+      },
+      "future": {
+        "eu": "voi sfârșii",
+        "tu": "vei sfârșii",
+        "el/ea": "va sfârșii",
+        "noi": "vom sfârșii",
+        "voi": "veți sfârșii",
+        "ei/ele": "vor sfârșii"
+      }
+    }
+  },
+  {
+    "infinitive": "a se gândi",
+    "translation": "думать",
+    "conjugation": {
+      "present": {
+        "eu": "se gândiesc",
+        "tu": "se gândiești",
+        "el/ea": "se gândiește",
+        "noi": "se gândiim",
+        "voi": "se gândiiți",
+        "ei/ele": "se gândiesc"
+      },
+      "past": {
+        "eu": "am se gândiit",
+        "tu": "ai se gândiit",
+        "el/ea": "a se gândiit",
+        "noi": "am se gândiit",
+        "voi": "ați se gândiit",
+        "ei/ele": "au se gândiit"
+      },
+      "future": {
+        "eu": "voi se gândii",
+        "tu": "vei se gândii",
+        "el/ea": "va se gândii",
+        "noi": "vom se gândii",
+        "voi": "veți se gândii",
+        "ei/ele": "vor se gândii"
+      }
+    }
+  },
+  {
+    "infinitive": "a sosi",
+    "translation": "прибывать",
+    "conjugation": {
+      "present": {
+        "eu": "sosiesc",
+        "tu": "sosiești",
+        "el/ea": "sosiește",
+        "noi": "sosiim",
+        "voi": "sosiiți",
+        "ei/ele": "sosiesc"
+      },
+      "past": {
+        "eu": "am sosiit",
+        "tu": "ai sosiit",
+        "el/ea": "a sosiit",
+        "noi": "am sosiit",
+        "voi": "ați sosiit",
+        "ei/ele": "au sosiit"
+      },
+      "future": {
+        "eu": "voi sosii",
+        "tu": "vei sosii",
+        "el/ea": "va sosii",
+        "noi": "vom sosii",
+        "voi": "veți sosii",
+        "ei/ele": "vor sosii"
+      }
+    }
+  },
+  {
+    "infinitive": "a speria",
+    "translation": "пугать",
+    "conjugation": {
+      "present": {
+        "eu": "speriaesc",
+        "tu": "speriaești",
+        "el/ea": "speriaește",
+        "noi": "speriaim",
+        "voi": "speriaiți",
+        "ei/ele": "speriaesc"
+      },
+      "past": {
+        "eu": "am speriait",
+        "tu": "ai speriait",
+        "el/ea": "a speriait",
+        "noi": "am speriait",
+        "voi": "ați speriait",
+        "ei/ele": "au speriait"
+      },
+      "future": {
+        "eu": "voi speriai",
+        "tu": "vei speriai",
+        "el/ea": "va speriai",
+        "noi": "vom speriai",
+        "voi": "veți speriai",
+        "ei/ele": "vor speriai"
+      }
+    }
+  },
+  {
+    "infinitive": "a stârni",
+    "translation": "провоцировать",
+    "conjugation": {
+      "present": {
+        "eu": "stârniesc",
+        "tu": "stârniești",
+        "el/ea": "stârniește",
+        "noi": "stârniim",
+        "voi": "stârniiți",
+        "ei/ele": "stârniesc"
+      },
+      "past": {
+        "eu": "am stârniit",
+        "tu": "ai stârniit",
+        "el/ea": "a stârniit",
+        "noi": "am stârniit",
+        "voi": "ați stârniit",
+        "ei/ele": "au stârniit"
+      },
+      "future": {
+        "eu": "voi stârnii",
+        "tu": "vei stârnii",
+        "el/ea": "va stârnii",
+        "noi": "vom stârnii",
+        "voi": "veți stârnii",
+        "ei/ele": "vor stârnii"
+      }
+    }
+  },
+  {
+    "infinitive": "a zâmbi",
+    "translation": "улыбаться",
+    "conjugation": {
+      "present": {
+        "eu": "zâmbiesc",
+        "tu": "zâmbiești",
+        "el/ea": "zâmbiește",
+        "noi": "zâmbiim",
+        "voi": "zâmbiiți",
+        "ei/ele": "zâmbiesc"
+      },
+      "past": {
+        "eu": "am zâmbiit",
+        "tu": "ai zâmbiit",
+        "el/ea": "a zâmbiit",
+        "noi": "am zâmbiit",
+        "voi": "ați zâmbiit",
+        "ei/ele": "au zâmbiit"
+      },
+      "future": {
+        "eu": "voi zâmbii",
+        "tu": "vei zâmbii",
+        "el/ea": "va zâmbii",
+        "noi": "vom zâmbii",
+        "voi": "veți zâmbii",
+        "ei/ele": "vor zâmbii"
+      }
+    }
+  }
+]
