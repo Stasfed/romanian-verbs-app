@@ -4,28 +4,28 @@
     "translation": "говорить",
     "conjugation": {
       "present": {
-        "eu": "vorbiesc",
-        "tu": "vorbiești",
-        "el/ea": "vorbiește",
-        "noi": "vorbiim",
-        "voi": "vorbiiți",
-        "ei/ele": "vorbiesc"
+        "eu": "vorbesc",
+        "tu": "vorbești",
+        "el/ea": "vorbește",
+        "noi": "vorbim",
+        "voi": "vorbiți",
+        "ei/ele": "vorbesc"
       },
       "past": {
-        "eu": "am vorbiit",
-        "tu": "ai vorbiit",
-        "el/ea": "a vorbiit",
-        "noi": "am vorbiit",
-        "voi": "ați vorbiit",
-        "ei/ele": "au vorbiit"
+        "eu": "am vorbit",
+        "tu": "ai vorbit",
+        "el/ea": "a vorbit",
+        "noi": "am vorbit",
+        "voi": "ați vorbit",
+        "ei/ele": "au vorbit"
       },
       "future": {
-        "eu": "voi vorbii",
-        "tu": "vei vorbii",
-        "el/ea": "va vorbii",
-        "noi": "vom vorbii",
-        "voi": "veți vorbii",
-        "ei/ele": "vor vorbii"
+        "eu": "voi vorbi",
+        "tu": "vei vorbi",
+        "el/ea": "va vorbi",
+        "noi": "vom vorbi",
+        "voi": "veți vorbi",
+        "ei/ele": "vor vorbi"
       }
     }
   },
@@ -34,28 +34,28 @@
     "translation": "учить",
     "conjugation": {
       "present": {
-        "eu": "învățaesc",
-        "tu": "învățaești",
-        "el/ea": "învățaește",
-        "noi": "învățaim",
-        "voi": "învățaiți",
-        "ei/ele": "învățaesc"
+        "eu": "învățez",
+        "tu": "învățezi",
+        "el/ea": "învățează",
+        "noi": "învățăm",
+        "voi": "învățați",
+        "ei/ele": "învățează"
       },
       "past": {
-        "eu": "am învățait",
-        "tu": "ai învățait",
-        "el/ea": "a învățait",
-        "noi": "am învățait",
-        "voi": "ați învățait",
-        "ei/ele": "au învățait"
+        "eu": "am învățat",
+        "tu": "ai învățat",
+        "el/ea": "a învățat",
+        "noi": "am învățat",
+        "voi": "ați învățat",
+        "ei/ele": "au învățat"
       },
       "future": {
-        "eu": "voi învățai",
-        "tu": "vei învățai",
-        "el/ea": "va învățai",
-        "noi": "vom învățai",
-        "voi": "veți învățai",
-        "ei/ele": "vor învățai"
+        "eu": "voi învăța",
+        "tu": "vei învăța",
+        "el/ea": "va învăța",
+        "noi": "vom învăța",
+        "voi": "veți învăța",
+        "ei/ele": "vor învăța"
       }
     }
   },
@@ -64,28 +64,28 @@
     "translation": "работать",
     "conjugation": {
       "present": {
-        "eu": "lucraesc",
-        "tu": "lucraești",
-        "el/ea": "lucraește",
-        "noi": "lucraim",
-        "voi": "lucraiți",
-        "ei/ele": "lucraesc"
+        "eu": "lucrez",
+        "tu": "lucrezi",
+        "el/ea": "lucrează",
+        "noi": "lucrăm",
+        "voi": "lucrați",
+        "ei/ele": "lucrează"
       },
       "past": {
-        "eu": "am lucrait",
-        "tu": "ai lucrait",
-        "el/ea": "a lucrait",
-        "noi": "am lucrait",
-        "voi": "ați lucrait",
-        "ei/ele": "au lucrait"
+        "eu": "am lucrat",
+        "tu": "ai lucrat",
+        "el/ea": "a lucrat",
+        "noi": "am lucrat",
+        "voi": "ați lucrat",
+        "ei/ele": "au lucrat"
       },
       "future": {
-        "eu": "voi lucrai",
-        "tu": "vei lucrai",
-        "el/ea": "va lucrai",
-        "noi": "vom lucrai",
-        "voi": "veți lucrai",
-        "ei/ele": "vor lucrai"
+        "eu": "voi lucra",
+        "tu": "vei lucra",
+        "el/ea": "va lucra",
+        "noi": "vom lucra",
+        "voi": "veți lucra",
+        "ei/ele": "vor lucra"
       }
     }
   },
@@ -94,28 +94,28 @@
     "translation": "петь",
     "conjugation": {
       "present": {
-        "eu": "cântaesc",
-        "tu": "cântaești",
-        "el/ea": "cântaește",
-        "noi": "cântaim",
-        "voi": "cântaiți",
-        "ei/ele": "cântaesc"
+        "eu": "cântez",
+        "tu": "cântezi",
+        "el/ea": "cântează",
+        "noi": "cântăm",
+        "voi": "cântați",
+        "ei/ele": "cântează"
       },
       "past": {
-        "eu": "am cântait",
-        "tu": "ai cântait",
-        "el/ea": "a cântait",
-        "noi": "am cântait",
-        "voi": "ați cântait",
-        "ei/ele": "au cântait"
+        "eu": "am cântat",
+        "tu": "ai cântat",
+        "el/ea": "a cântat",
+        "noi": "am cântat",
+        "voi": "ați cântat",
+        "ei/ele": "au cântat"
       },
       "future": {
-        "eu": "voi cântai",
-        "tu": "vei cântai",
-        "el/ea": "va cântai",
-        "noi": "vom cântai",
-        "voi": "veți cântai",
-        "ei/ele": "vor cântai"
+        "eu": "voi cânta",
+        "tu": "vei cânta",
+        "el/ea": "va cânta",
+        "noi": "vom cânta",
+        "voi": "veți cânta",
+        "ei/ele": "vor cânta"
       }
     }
   },
@@ -124,28 +124,28 @@
     "translation": "слушать",
     "conjugation": {
       "present": {
-        "eu": "ascultaesc",
-        "tu": "ascultaești",
-        "el/ea": "ascultaește",
-        "noi": "ascultaim",
-        "voi": "ascultaiți",
-        "ei/ele": "ascultaesc"
+        "eu": "ascultez",
+        "tu": "ascultezi",
+        "el/ea": "ascultează",
+        "noi": "ascultăm",
+        "voi": "ascultați",
+        "ei/ele": "ascultează"
       },
       "past": {
-        "eu": "am ascultait",
-        "tu": "ai ascultait",
-        "el/ea": "a ascultait",
-        "noi": "am ascultait",
-        "voi": "ați ascultait",
-        "ei/ele": "au ascultait"
+        "eu": "am ascultat",
+        "tu": "ai ascultat",
+        "el/ea": "a ascultat",
+        "noi": "am ascultat",
+        "voi": "ați ascultat",
+        "ei/ele": "au ascultat"
       },
       "future": {
-        "eu": "voi ascultai",
-        "tu": "vei ascultai",
-        "el/ea": "va ascultai",
-        "noi": "vom ascultai",
-        "voi": "veți ascultai",
-        "ei/ele": "vor ascultai"
+        "eu": "voi asculta",
+        "tu": "vei asculta",
+        "el/ea": "va asculta",
+        "noi": "vom asculta",
+        "voi": "veți asculta",
+        "ei/ele": "vor asculta"
       }
     }
   },
@@ -154,28 +154,28 @@
     "translation": "спрашивать",
     "conjugation": {
       "present": {
-        "eu": "întrebaesc",
-        "tu": "întrebaești",
-        "el/ea": "întrebaește",
-        "noi": "întrebaim",
-        "voi": "întrebaiți",
-        "ei/ele": "întrebaesc"
+        "eu": "întrebez",
+        "tu": "întrebezi",
+        "el/ea": "întrebează",
+        "noi": "întrebăm",
+        "voi": "întrebați",
+        "ei/ele": "întrebează"
       },
       "past": {
-        "eu": "am întrebait",
-        "tu": "ai întrebait",
-        "el/ea": "a întrebait",
-        "noi": "am întrebait",
-        "voi": "ați întrebait",
-        "ei/ele": "au întrebait"
+        "eu": "am întrebat",
+        "tu": "ai întrebat",
+        "el/ea": "a întrebat",
+        "noi": "am întrebat",
+        "voi": "ați întrebat",
+        "ei/ele": "au întrebat"
       },
       "future": {
-        "eu": "voi întrebai",
-        "tu": "vei întrebai",
-        "el/ea": "va întrebai",
-        "noi": "vom întrebai",
-        "voi": "veți întrebai",
-        "ei/ele": "vor întrebai"
+        "eu": "voi întreba",
+        "tu": "vei întreba",
+        "el/ea": "va întreba",
+        "noi": "vom întreba",
+        "voi": "veți întreba",
+        "ei/ele": "vor întreba"
       }
     }
   },
@@ -184,28 +184,28 @@
     "translation": "ждать",
     "conjugation": {
       "present": {
-        "eu": "așteptaesc",
-        "tu": "așteptaești",
-        "el/ea": "așteptaește",
-        "noi": "așteptaim",
-        "voi": "așteptaiți",
-        "ei/ele": "așteptaesc"
+        "eu": "așteptez",
+        "tu": "așteptezi",
+        "el/ea": "așteptează",
+        "noi": "așteptăm",
+        "voi": "așteptați",
+        "ei/ele": "așteptează"
       },
       "past": {
-        "eu": "am așteptait",
-        "tu": "ai așteptait",
-        "el/ea": "a așteptait",
-        "noi": "am așteptait",
-        "voi": "ați așteptait",
-        "ei/ele": "au așteptait"
+        "eu": "am așteptat",
+        "tu": "ai așteptat",
+        "el/ea": "a așteptat",
+        "noi": "am așteptat",
+        "voi": "ați așteptat",
+        "ei/ele": "au așteptat"
       },
       "future": {
-        "eu": "voi așteptai",
-        "tu": "vei așteptai",
-        "el/ea": "va așteptai",
-        "noi": "vom așteptai",
-        "voi": "veți așteptai",
-        "ei/ele": "vor așteptai"
+        "eu": "voi aștepta",
+        "tu": "vei aștepta",
+        "el/ea": "va aștepta",
+        "noi": "vom aștepta",
+        "voi": "veți aștepta",
+        "ei/ele": "vor aștepta"
       }
     }
   },
@@ -214,28 +214,28 @@
     "translation": "покупать",
     "conjugation": {
       "present": {
-        "eu": "cumpăraesc",
-        "tu": "cumpăraești",
-        "el/ea": "cumpăraește",
-        "noi": "cumpăraim",
-        "voi": "cumpăraiți",
-        "ei/ele": "cumpăraesc"
+        "eu": "cumpărez",
+        "tu": "cumpărezi",
+        "el/ea": "cumpărează",
+        "noi": "cumpărăm",
+        "voi": "cumpărați",
+        "ei/ele": "cumpărează"
       },
       "past": {
-        "eu": "am cumpărait",
-        "tu": "ai cumpărait",
-        "el/ea": "a cumpărait",
-        "noi": "am cumpărait",
-        "voi": "ați cumpărait",
-        "ei/ele": "au cumpărait"
+        "eu": "am cumpărat",
+        "tu": "ai cumpărat",
+        "el/ea": "a cumpărat",
+        "noi": "am cumpărat",
+        "voi": "ați cumpărat",
+        "ei/ele": "au cumpărat"
       },
       "future": {
-        "eu": "voi cumpărai",
-        "tu": "vei cumpărai",
-        "el/ea": "va cumpărai",
-        "noi": "vom cumpărai",
-        "voi": "veți cumpărai",
-        "ei/ele": "vor cumpărai"
+        "eu": "voi cumpăra",
+        "tu": "vei cumpăra",
+        "el/ea": "va cumpăra",
+        "noi": "vom cumpăra",
+        "voi": "veți cumpăra",
+        "ei/ele": "vor cumpăra"
       }
     }
   },
@@ -244,28 +244,28 @@
     "translation": "уходить",
     "conjugation": {
       "present": {
-        "eu": "plecaesc",
-        "tu": "plecaești",
-        "el/ea": "plecaește",
-        "noi": "plecaim",
-        "voi": "plecaiți",
-        "ei/ele": "plecaesc"
+        "eu": "plecez",
+        "tu": "plecezi",
+        "el/ea": "plecează",
+        "noi": "plecăm",
+        "voi": "plecați",
+        "ei/ele": "plecează"
       },
       "past": {
-        "eu": "am plecait",
-        "tu": "ai plecait",
-        "el/ea": "a plecait",
-        "noi": "am plecait",
-        "voi": "ați plecait",
-        "ei/ele": "au plecait"
+        "eu": "am plecat",
+        "tu": "ai plecat",
+        "el/ea": "a plecat",
+        "noi": "am plecat",
+        "voi": "ați plecat",
+        "ei/ele": "au plecat"
       },
       "future": {
-        "eu": "voi plecai",
-        "tu": "vei plecai",
-        "el/ea": "va plecai",
-        "noi": "vom plecai",
-        "voi": "veți plecai",
-        "ei/ele": "vor plecai"
+        "eu": "voi pleca",
+        "tu": "vei pleca",
+        "el/ea": "va pleca",
+        "noi": "vom pleca",
+        "voi": "veți pleca",
+        "ei/ele": "vor pleca"
       }
     }
   },
@@ -274,28 +274,28 @@
     "translation": "путешевствовать",
     "conjugation": {
       "present": {
-        "eu": "călătoriesc",
-        "tu": "călătoriești",
-        "el/ea": "călătoriește",
-        "noi": "călătoriim",
-        "voi": "călătoriiți",
-        "ei/ele": "călătoriesc"
+        "eu": "călătoresc",
+        "tu": "călătorești",
+        "el/ea": "călătorește",
+        "noi": "călătorim",
+        "voi": "călătoriți",
+        "ei/ele": "călătoresc"
       },
       "past": {
-        "eu": "am călătoriit",
-        "tu": "ai călătoriit",
-        "el/ea": "a călătoriit",
-        "noi": "am călătoriit",
-        "voi": "ați călătoriit",
-        "ei/ele": "au călătoriit"
+        "eu": "am călătorit",
+        "tu": "ai călătorit",
+        "el/ea": "a călătorit",
+        "noi": "am călătorit",
+        "voi": "ați călătorit",
+        "ei/ele": "au călătorit"
       },
       "future": {
-        "eu": "voi călătorii",
-        "tu": "vei călătorii",
-        "el/ea": "va călătorii",
-        "noi": "vom călătorii",
-        "voi": "veți călătorii",
-        "ei/ele": "vor călătorii"
+        "eu": "voi călători",
+        "tu": "vei călători",
+        "el/ea": "va călători",
+        "noi": "vom călători",
+        "voi": "veți călători",
+        "ei/ele": "vor călători"
       }
     }
   },
@@ -334,28 +334,28 @@
     "translation": "любить",
     "conjugation": {
       "present": {
-        "eu": "iubiesc",
-        "tu": "iubiești",
-        "el/ea": "iubiește",
-        "noi": "iubiim",
-        "voi": "iubiiți",
-        "ei/ele": "iubiesc"
+        "eu": "iubesc",
+        "tu": "iubești",
+        "el/ea": "iubește",
+        "noi": "iubim",
+        "voi": "iubiți",
+        "ei/ele": "iubesc"
       },
       "past": {
-        "eu": "am iubiit",
-        "tu": "ai iubiit",
-        "el/ea": "a iubiit",
-        "noi": "am iubiit",
-        "voi": "ați iubiit",
-        "ei/ele": "au iubiit"
+        "eu": "am iubit",
+        "tu": "ai iubit",
+        "el/ea": "a iubit",
+        "noi": "am iubit",
+        "voi": "ați iubit",
+        "ei/ele": "au iubit"
       },
       "future": {
-        "eu": "voi iubii",
-        "tu": "vei iubii",
-        "el/ea": "va iubii",
-        "noi": "vom iubii",
-        "voi": "veți iubii",
-        "ei/ele": "vor iubii"
+        "eu": "voi iubi",
+        "tu": "vei iubi",
+        "el/ea": "va iubi",
+        "noi": "vom iubi",
+        "voi": "veți iubi",
+        "ei/ele": "vor iubi"
       }
     }
   },
@@ -364,28 +364,28 @@
     "translation": "помогать",
     "conjugation": {
       "present": {
-        "eu": "ajutaesc",
-        "tu": "ajutaești",
-        "el/ea": "ajutaește",
-        "noi": "ajutaim",
-        "voi": "ajutaiți",
-        "ei/ele": "ajutaesc"
+        "eu": "ajutez",
+        "tu": "ajutezi",
+        "el/ea": "ajutează",
+        "noi": "ajutăm",
+        "voi": "ajutați",
+        "ei/ele": "ajutează"
       },
       "past": {
-        "eu": "am ajutait",
-        "tu": "ai ajutait",
-        "el/ea": "a ajutait",
-        "noi": "am ajutait",
-        "voi": "ați ajutait",
-        "ei/ele": "au ajutait"
+        "eu": "am ajutat",
+        "tu": "ai ajutat",
+        "el/ea": "a ajutat",
+        "noi": "am ajutat",
+        "voi": "ați ajutat",
+        "ei/ele": "au ajutat"
       },
       "future": {
-        "eu": "voi ajutai",
-        "tu": "vei ajutai",
-        "el/ea": "va ajutai",
-        "noi": "vom ajutai",
-        "voi": "veți ajutai",
-        "ei/ele": "vor ajutai"
+        "eu": "voi ajuta",
+        "tu": "vei ajuta",
+        "el/ea": "va ajuta",
+        "noi": "vom ajuta",
+        "voi": "veți ajuta",
+        "ei/ele": "vor ajuta"
       }
     }
   },
@@ -394,28 +394,28 @@
     "translation": "искать",
     "conjugation": {
       "present": {
-        "eu": "căutaesc",
-        "tu": "căutaești",
-        "el/ea": "căutaește",
-        "noi": "căutaim",
-        "voi": "căutaiți",
-        "ei/ele": "căutaesc"
+        "eu": "căutez",
+        "tu": "căutezi",
+        "el/ea": "căutează",
+        "noi": "căutăm",
+        "voi": "căutați",
+        "ei/ele": "căutează"
       },
       "past": {
-        "eu": "am căutait",
-        "tu": "ai căutait",
-        "el/ea": "a căutait",
-        "noi": "am căutait",
-        "voi": "ați căutait",
-        "ei/ele": "au căutait"
+        "eu": "am căutat",
+        "tu": "ai căutat",
+        "el/ea": "a căutat",
+        "noi": "am căutat",
+        "voi": "ați căutat",
+        "ei/ele": "au căutat"
       },
       "future": {
-        "eu": "voi căutai",
-        "tu": "vei căutai",
-        "el/ea": "va căutai",
-        "noi": "vom căutai",
-        "voi": "veți căutai",
-        "ei/ele": "vor căutai"
+        "eu": "voi căuta",
+        "tu": "vei căuta",
+        "el/ea": "va căuta",
+        "noi": "vom căuta",
+        "voi": "veți căuta",
+        "ei/ele": "vor căuta"
       }
     }
   },
@@ -424,28 +424,28 @@
     "translation": "забывать",
     "conjugation": {
       "present": {
-        "eu": "uitaesc",
-        "tu": "uitaești",
-        "el/ea": "uitaește",
-        "noi": "uitaim",
-        "voi": "uitaiți",
-        "ei/ele": "uitaesc"
+        "eu": "uitez",
+        "tu": "uitezi",
+        "el/ea": "uitează",
+        "noi": "uităm",
+        "voi": "uitați",
+        "ei/ele": "uitează"
       },
       "past": {
-        "eu": "am uitait",
-        "tu": "ai uitait",
-        "el/ea": "a uitait",
-        "noi": "am uitait",
-        "voi": "ați uitait",
-        "ei/ele": "au uitait"
+        "eu": "am uitat",
+        "tu": "ai uitat",
+        "el/ea": "a uitat",
+        "noi": "am uitat",
+        "voi": "ați uitat",
+        "ei/ele": "au uitat"
       },
       "future": {
-        "eu": "voi uitai",
-        "tu": "vei uitai",
-        "el/ea": "va uitai",
-        "noi": "vom uitai",
-        "voi": "veți uitai",
-        "ei/ele": "vor uitai"
+        "eu": "voi uita",
+        "tu": "vei uita",
+        "el/ea": "va uita",
+        "noi": "vom uita",
+        "voi": "veți uita",
+        "ei/ele": "vor uita"
       }
     }
   },
@@ -454,28 +454,28 @@
     "translation": "объяснять",
     "conjugation": {
       "present": {
-        "eu": "explicaesc",
-        "tu": "explicaești",
-        "el/ea": "explicaește",
-        "noi": "explicaim",
-        "voi": "explicaiți",
-        "ei/ele": "explicaesc"
+        "eu": "explicez",
+        "tu": "explicezi",
+        "el/ea": "explicează",
+        "noi": "explicăm",
+        "voi": "explicați",
+        "ei/ele": "explicează"
       },
       "past": {
-        "eu": "am explicait",
-        "tu": "ai explicait",
-        "el/ea": "a explicait",
-        "noi": "am explicait",
-        "voi": "ați explicait",
-        "ei/ele": "au explicait"
+        "eu": "am explicat",
+        "tu": "ai explicat",
+        "el/ea": "a explicat",
+        "noi": "am explicat",
+        "voi": "ați explicat",
+        "ei/ele": "au explicat"
       },
       "future": {
-        "eu": "voi explicai",
-        "tu": "vei explicai",
-        "el/ea": "va explicai",
-        "noi": "vom explicai",
-        "voi": "veți explicai",
-        "ei/ele": "vor explicai"
+        "eu": "voi explica",
+        "tu": "vei explica",
+        "el/ea": "va explica",
+        "noi": "vom explica",
+        "voi": "veți explica",
+        "ei/ele": "vor explica"
       }
     }
   },
@@ -484,28 +484,28 @@
     "translation": "изучать",
     "conjugation": {
       "present": {
-        "eu": "studiaesc",
-        "tu": "studiaești",
-        "el/ea": "studiaește",
-        "noi": "studiaim",
-        "voi": "studiaiți",
-        "ei/ele": "studiaesc"
+        "eu": "studiez",
+        "tu": "studiezi",
+        "el/ea": "studiează",
+        "noi": "studiăm",
+        "voi": "studiați",
+        "ei/ele": "studiează"
       },
       "past": {
-        "eu": "am studiait",
-        "tu": "ai studiait",
-        "el/ea": "a studiait",
-        "noi": "am studiait",
-        "voi": "ați studiait",
-        "ei/ele": "au studiait"
+        "eu": "am studiat",
+        "tu": "ai studiat",
+        "el/ea": "a studiat",
+        "noi": "am studiat",
+        "voi": "ați studiat",
+        "ei/ele": "au studiat"
       },
       "future": {
-        "eu": "voi studiai",
-        "tu": "vei studiai",
-        "el/ea": "va studiai",
-        "noi": "vom studiai",
-        "voi": "veți studiai",
-        "ei/ele": "vor studiai"
+        "eu": "voi studia",
+        "tu": "vei studia",
+        "el/ea": "va studia",
+        "noi": "vom studia",
+        "voi": "veți studia",
+        "ei/ele": "vor studia"
       }
     }
   },
@@ -514,28 +514,28 @@
     "translation": "играть",
     "conjugation": {
       "present": {
-        "eu": "jucaesc",
-        "tu": "jucaești",
-        "el/ea": "jucaește",
-        "noi": "jucaim",
-        "voi": "jucaiți",
-        "ei/ele": "jucaesc"
+        "eu": "jucez",
+        "tu": "jucezi",
+        "el/ea": "jucează",
+        "noi": "jucăm",
+        "voi": "jucați",
+        "ei/ele": "jucează"
       },
       "past": {
-        "eu": "am jucait",
-        "tu": "ai jucait",
-        "el/ea": "a jucait",
-        "noi": "am jucait",
-        "voi": "ați jucait",
-        "ei/ele": "au jucait"
+        "eu": "am jucat",
+        "tu": "ai jucat",
+        "el/ea": "a jucat",
+        "noi": "am jucat",
+        "voi": "ați jucat",
+        "ei/ele": "au jucat"
       },
       "future": {
-        "eu": "voi jucai",
-        "tu": "vei jucai",
-        "el/ea": "va jucai",
-        "noi": "vom jucai",
-        "voi": "veți jucai",
-        "ei/ele": "vor jucai"
+        "eu": "voi juca",
+        "tu": "vei juca",
+        "el/ea": "va juca",
+        "noi": "vom juca",
+        "voi": "veți juca",
+        "ei/ele": "vor juca"
       }
     }
   },
@@ -544,28 +544,28 @@
     "translation": "изменять",
     "conjugation": {
       "present": {
-        "eu": "schimbaesc",
-        "tu": "schimbaești",
-        "el/ea": "schimbaește",
-        "noi": "schimbaim",
-        "voi": "schimbaiți",
-        "ei/ele": "schimbaesc"
+        "eu": "schimbez",
+        "tu": "schimbezi",
+        "el/ea": "schimbează",
+        "noi": "schimbăm",
+        "voi": "schimbați",
+        "ei/ele": "schimbează"
       },
       "past": {
-        "eu": "am schimbait",
-        "tu": "ai schimbait",
-        "el/ea": "a schimbait",
-        "noi": "am schimbait",
-        "voi": "ați schimbait",
-        "ei/ele": "au schimbait"
+        "eu": "am schimbat",
+        "tu": "ai schimbat",
+        "el/ea": "a schimbat",
+        "noi": "am schimbat",
+        "voi": "ați schimbat",
+        "ei/ele": "au schimbat"
       },
       "future": {
-        "eu": "voi schimbai",
-        "tu": "vei schimbai",
-        "el/ea": "va schimbai",
-        "noi": "vom schimbai",
-        "voi": "veți schimbai",
-        "ei/ele": "vor schimbai"
+        "eu": "voi schimba",
+        "tu": "vei schimba",
+        "el/ea": "va schimba",
+        "noi": "vom schimba",
+        "voi": "veți schimba",
+        "ei/ele": "vor schimba"
       }
     }
   },
@@ -574,28 +574,28 @@
     "translation": "носить",
     "conjugation": {
       "present": {
-        "eu": "purtaesc",
-        "tu": "purtaești",
-        "el/ea": "purtaește",
-        "noi": "purtaim",
-        "voi": "purtaiți",
-        "ei/ele": "purtaesc"
+        "eu": "purtez",
+        "tu": "purtezi",
+        "el/ea": "purtează",
+        "noi": "purtăm",
+        "voi": "purtați",
+        "ei/ele": "purtează"
       },
       "past": {
-        "eu": "am purtait",
-        "tu": "ai purtait",
-        "el/ea": "a purtait",
-        "noi": "am purtait",
-        "voi": "ați purtait",
-        "ei/ele": "au purtait"
+        "eu": "am purtat",
+        "tu": "ai purtat",
+        "el/ea": "a purtat",
+        "noi": "am purtat",
+        "voi": "ați purtat",
+        "ei/ele": "au purtat"
       },
       "future": {
-        "eu": "voi purtai",
-        "tu": "vei purtai",
-        "el/ea": "va purtai",
-        "noi": "vom purtai",
-        "voi": "veți purtai",
-        "ei/ele": "vor purtai"
+        "eu": "voi purta",
+        "tu": "vei purta",
+        "el/ea": "va purta",
+        "noi": "vom purta",
+        "voi": "veți purta",
+        "ei/ele": "vor purta"
       }
     }
   },
@@ -604,28 +604,28 @@
     "translation": "кушать",
     "conjugation": {
       "present": {
-        "eu": "mâncaesc",
-        "tu": "mâncaești",
-        "el/ea": "mâncaește",
-        "noi": "mâncaim",
-        "voi": "mâncaiți",
-        "ei/ele": "mâncaesc"
+        "eu": "mâncez",
+        "tu": "mâncezi",
+        "el/ea": "mâncează",
+        "noi": "mâncăm",
+        "voi": "mâncați",
+        "ei/ele": "mâncează"
       },
       "past": {
-        "eu": "am mâncait",
-        "tu": "ai mâncait",
-        "el/ea": "a mâncait",
-        "noi": "am mâncait",
-        "voi": "ați mâncait",
-        "ei/ele": "au mâncait"
+        "eu": "am mâncat",
+        "tu": "ai mâncat",
+        "el/ea": "a mâncat",
+        "noi": "am mâncat",
+        "voi": "ați mâncat",
+        "ei/ele": "au mâncat"
       },
       "future": {
-        "eu": "voi mâncai",
-        "tu": "vei mâncai",
-        "el/ea": "va mâncai",
-        "noi": "vom mâncai",
-        "voi": "veți mâncai",
-        "ei/ele": "vor mâncai"
+        "eu": "voi mânca",
+        "tu": "vei mânca",
+        "el/ea": "va mânca",
+        "noi": "vom mânca",
+        "voi": "veți mânca",
+        "ei/ele": "vor mânca"
       }
     }
   },
@@ -634,28 +634,28 @@
     "translation": "звонить",
     "conjugation": {
       "present": {
-        "eu": "sunaesc",
-        "tu": "sunaești",
-        "el/ea": "sunaește",
-        "noi": "sunaim",
-        "voi": "sunaiți",
-        "ei/ele": "sunaesc"
+        "eu": "sunez",
+        "tu": "sunezi",
+        "el/ea": "sunează",
+        "noi": "sunăm",
+        "voi": "sunați",
+        "ei/ele": "sunează"
       },
       "past": {
-        "eu": "am sunait",
-        "tu": "ai sunait",
-        "el/ea": "a sunait",
-        "noi": "am sunait",
-        "voi": "ați sunait",
-        "ei/ele": "au sunait"
+        "eu": "am sunat",
+        "tu": "ai sunat",
+        "el/ea": "a sunat",
+        "noi": "am sunat",
+        "voi": "ați sunat",
+        "ei/ele": "au sunat"
       },
       "future": {
-        "eu": "voi sunai",
-        "tu": "vei sunai",
-        "el/ea": "va sunai",
-        "noi": "vom sunai",
-        "voi": "veți sunai",
-        "ei/ele": "vor sunai"
+        "eu": "voi suna",
+        "tu": "vei suna",
+        "el/ea": "va suna",
+        "noi": "vom suna",
+        "voi": "veți suna",
+        "ei/ele": "vor suna"
       }
     }
   },
@@ -664,28 +664,28 @@
     "translation": "танцевать",
     "conjugation": {
       "present": {
-        "eu": "dansaesc",
-        "tu": "dansaești",
-        "el/ea": "dansaește",
-        "noi": "dansaim",
-        "voi": "dansaiți",
-        "ei/ele": "dansaesc"
+        "eu": "dansez",
+        "tu": "dansezi",
+        "el/ea": "dansează",
+        "noi": "dansăm",
+        "voi": "dansați",
+        "ei/ele": "dansează"
       },
       "past": {
-        "eu": "am dansait",
-        "tu": "ai dansait",
-        "el/ea": "a dansait",
-        "noi": "am dansait",
-        "voi": "ați dansait",
-        "ei/ele": "au dansait"
+        "eu": "am dansat",
+        "tu": "ai dansat",
+        "el/ea": "a dansat",
+        "noi": "am dansat",
+        "voi": "ați dansat",
+        "ei/ele": "au dansat"
       },
       "future": {
-        "eu": "voi dansai",
-        "tu": "vei dansai",
-        "el/ea": "va dansai",
-        "noi": "vom dansai",
-        "voi": "veți dansai",
-        "ei/ele": "vor dansai"
+        "eu": "voi dansa",
+        "tu": "vei dansa",
+        "el/ea": "va dansa",
+        "noi": "vom dansa",
+        "voi": "veți dansa",
+        "ei/ele": "vor dansa"
       }
     }
   },
@@ -694,28 +694,28 @@
     "translation": "заканчивать",
     "conjugation": {
       "present": {
-        "eu": "terminaesc",
-        "tu": "terminaești",
-        "el/ea": "terminaește",
-        "noi": "terminaim",
-        "voi": "terminaiți",
-        "ei/ele": "terminaesc"
+        "eu": "terminez",
+        "tu": "terminezi",
+        "el/ea": "terminează",
+        "noi": "terminăm",
+        "voi": "terminați",
+        "ei/ele": "terminează"
       },
       "past": {
-        "eu": "am terminait",
-        "tu": "ai terminait",
-        "el/ea": "a terminait",
-        "noi": "am terminait",
-        "voi": "ați terminait",
-        "ei/ele": "au terminait"
+        "eu": "am terminat",
+        "tu": "ai terminat",
+        "el/ea": "a terminat",
+        "noi": "am terminat",
+        "voi": "ați terminat",
+        "ei/ele": "au terminat"
       },
       "future": {
-        "eu": "voi terminai",
-        "tu": "vei terminai",
-        "el/ea": "va terminai",
-        "noi": "vom terminai",
-        "voi": "veți terminai",
-        "ei/ele": "vor terminai"
+        "eu": "voi termina",
+        "tu": "vei termina",
+        "el/ea": "va termina",
+        "noi": "vom termina",
+        "voi": "veți termina",
+        "ei/ele": "vor termina"
       }
     }
   },
@@ -724,28 +724,28 @@
     "translation": "начинать",
     "conjugation": {
       "present": {
-        "eu": "începeesc",
-        "tu": "începeești",
-        "el/ea": "începeește",
-        "noi": "începeim",
-        "voi": "începeiți",
-        "ei/ele": "începeesc"
+        "eu": "începez",
+        "tu": "începezi",
+        "el/ea": "începează",
+        "noi": "începăm",
+        "voi": "începați",
+        "ei/ele": "începează"
       },
       "past": {
-        "eu": "am începeit",
-        "tu": "ai începeit",
-        "el/ea": "a începeit",
-        "noi": "am începeit",
-        "voi": "ați începeit",
-        "ei/ele": "au începeit"
+        "eu": "am începat",
+        "tu": "ai începat",
+        "el/ea": "a începat",
+        "noi": "am începat",
+        "voi": "ați începat",
+        "ei/ele": "au începat"
       },
       "future": {
-        "eu": "voi începei",
-        "tu": "vei începei",
-        "el/ea": "va începei",
-        "noi": "vom începei",
-        "voi": "veți începei",
-        "ei/ele": "vor începei"
+        "eu": "voi începa",
+        "tu": "vei începa",
+        "el/ea": "va începa",
+        "noi": "vom începa",
+        "voi": "veți începa",
+        "ei/ele": "vor începa"
       }
     }
   },
@@ -754,28 +754,28 @@
     "translation": "учить",
     "conjugation": {
       "present": {
-        "eu": "predaesc",
-        "tu": "predaești",
-        "el/ea": "predaește",
-        "noi": "predaim",
-        "voi": "predaiți",
-        "ei/ele": "predaesc"
+        "eu": "predez",
+        "tu": "predezi",
+        "el/ea": "predează",
+        "noi": "predăm",
+        "voi": "predați",
+        "ei/ele": "predează"
       },
       "past": {
-        "eu": "am predait",
-        "tu": "ai predait",
-        "el/ea": "a predait",
-        "noi": "am predait",
-        "voi": "ați predait",
-        "ei/ele": "au predait"
+        "eu": "am predat",
+        "tu": "ai predat",
+        "el/ea": "a predat",
+        "noi": "am predat",
+        "voi": "ați predat",
+        "ei/ele": "au predat"
       },
       "future": {
-        "eu": "voi predai",
-        "tu": "vei predai",
-        "el/ea": "va predai",
-        "noi": "vom predai",
-        "voi": "veți predai",
-        "ei/ele": "vor predai"
+        "eu": "voi preda",
+        "tu": "vei preda",
+        "el/ea": "va preda",
+        "noi": "vom preda",
+        "voi": "veți preda",
+        "ei/ele": "vor preda"
       }
     }
   },
@@ -784,28 +784,28 @@
     "translation": "подтверждать",
     "conjugation": {
       "present": {
-        "eu": "aprobaesc",
-        "tu": "aprobaești",
-        "el/ea": "aprobaește",
-        "noi": "aprobaim",
-        "voi": "aprobaiți",
-        "ei/ele": "aprobaesc"
+        "eu": "aprobez",
+        "tu": "aprobezi",
+        "el/ea": "aprobează",
+        "noi": "aprobăm",
+        "voi": "aprobați",
+        "ei/ele": "aprobează"
       },
       "past": {
-        "eu": "am aprobait",
-        "tu": "ai aprobait",
-        "el/ea": "a aprobait",
-        "noi": "am aprobait",
-        "voi": "ați aprobait",
-        "ei/ele": "au aprobait"
+        "eu": "am aprobat",
+        "tu": "ai aprobat",
+        "el/ea": "a aprobat",
+        "noi": "am aprobat",
+        "voi": "ați aprobat",
+        "ei/ele": "au aprobat"
       },
       "future": {
-        "eu": "voi aprobai",
-        "tu": "vei aprobai",
-        "el/ea": "va aprobai",
-        "noi": "vom aprobai",
-        "voi": "veți aprobai",
-        "ei/ele": "vor aprobai"
+        "eu": "voi aproba",
+        "tu": "vei aproba",
+        "el/ea": "va aproba",
+        "noi": "vom aproba",
+        "voi": "veți aproba",
+        "ei/ele": "vor aproba"
       }
     }
   },
@@ -814,28 +814,28 @@
     "translation": "показывать",
     "conjugation": {
       "present": {
-        "eu": "arătaesc",
-        "tu": "arătaești",
-        "el/ea": "arătaește",
-        "noi": "arătaim",
-        "voi": "arătaiți",
-        "ei/ele": "arătaesc"
+        "eu": "arătez",
+        "tu": "arătezi",
+        "el/ea": "arătează",
+        "noi": "arătăm",
+        "voi": "arătați",
+        "ei/ele": "arătează"
       },
       "past": {
-        "eu": "am arătait",
-        "tu": "ai arătait",
-        "el/ea": "a arătait",
-        "noi": "am arătait",
-        "voi": "ați arătait",
-        "ei/ele": "au arătait"
+        "eu": "am arătat",
+        "tu": "ai arătat",
+        "el/ea": "a arătat",
+        "noi": "am arătat",
+        "voi": "ați arătat",
+        "ei/ele": "au arătat"
       },
       "future": {
-        "eu": "voi arătai",
-        "tu": "vei arătai",
-        "el/ea": "va arătai",
-        "noi": "vom arătai",
-        "voi": "veți arătai",
-        "ei/ele": "vor arătai"
+        "eu": "voi arăta",
+        "tu": "vei arăta",
+        "el/ea": "va arăta",
+        "noi": "vom arăta",
+        "voi": "veți arăta",
+        "ei/ele": "vor arăta"
       }
     }
   },
@@ -844,28 +844,28 @@
     "translation": "входить",
     "conjugation": {
       "present": {
-        "eu": "intraesc",
-        "tu": "intraești",
-        "el/ea": "intraește",
-        "noi": "intraim",
-        "voi": "intraiți",
-        "ei/ele": "intraesc"
+        "eu": "intrez",
+        "tu": "intrezi",
+        "el/ea": "intrează",
+        "noi": "intrăm",
+        "voi": "intrați",
+        "ei/ele": "intrează"
       },
       "past": {
-        "eu": "am intrait",
-        "tu": "ai intrait",
-        "el/ea": "a intrait",
-        "noi": "am intrait",
-        "voi": "ați intrait",
-        "ei/ele": "au intrait"
+        "eu": "am intrat",
+        "tu": "ai intrat",
+        "el/ea": "a intrat",
+        "noi": "am intrat",
+        "voi": "ați intrat",
+        "ei/ele": "au intrat"
       },
       "future": {
-        "eu": "voi intrai",
-        "tu": "vei intrai",
-        "el/ea": "va intrai",
-        "noi": "vom intrai",
-        "voi": "veți intrai",
-        "ei/ele": "vor intrai"
+        "eu": "voi intra",
+        "tu": "vei intra",
+        "el/ea": "va intra",
+        "noi": "vom intra",
+        "voi": "veți intra",
+        "ei/ele": "vor intra"
       }
     }
   },
@@ -874,28 +874,28 @@
     "translation": "выходить",
     "conjugation": {
       "present": {
-        "eu": "ieșiesc",
-        "tu": "ieșiești",
-        "el/ea": "ieșiește",
-        "noi": "ieșiim",
-        "voi": "ieșiiți",
-        "ei/ele": "ieșiesc"
+        "eu": "ieșesc",
+        "tu": "ieșești",
+        "el/ea": "ieșește",
+        "noi": "ieșim",
+        "voi": "ieșiți",
+        "ei/ele": "ieșesc"
       },
       "past": {
-        "eu": "am ieșiit",
-        "tu": "ai ieșiit",
-        "el/ea": "a ieșiit",
-        "noi": "am ieșiit",
-        "voi": "ați ieșiit",
-        "ei/ele": "au ieșiit"
+        "eu": "am ieșit",
+        "tu": "ai ieșit",
+        "el/ea": "a ieșit",
+        "noi": "am ieșit",
+        "voi": "ați ieșit",
+        "ei/ele": "au ieșit"
       },
       "future": {
-        "eu": "voi ieșii",
-        "tu": "vei ieșii",
-        "el/ea": "va ieșii",
-        "noi": "vom ieșii",
-        "voi": "veți ieșii",
-        "ei/ele": "vor ieșii"
+        "eu": "voi ieși",
+        "tu": "vei ieși",
+        "el/ea": "va ieși",
+        "noi": "vom ieși",
+        "voi": "veți ieși",
+        "ei/ele": "vor ieși"
       }
     }
   },
@@ -904,28 +904,28 @@
     "translation": "защищать",
     "conjugation": {
       "present": {
-        "eu": "apăraesc",
-        "tu": "apăraești",
-        "el/ea": "apăraește",
-        "noi": "apăraim",
-        "voi": "apăraiți",
-        "ei/ele": "apăraesc"
+        "eu": "apărez",
+        "tu": "apărezi",
+        "el/ea": "apărează",
+        "noi": "apărăm",
+        "voi": "apărați",
+        "ei/ele": "apărează"
       },
       "past": {
-        "eu": "am apărait",
-        "tu": "ai apărait",
-        "el/ea": "a apărait",
-        "noi": "am apărait",
-        "voi": "ați apărait",
-        "ei/ele": "au apărait"
+        "eu": "am apărat",
+        "tu": "ai apărat",
+        "el/ea": "a apărat",
+        "noi": "am apărat",
+        "voi": "ați apărat",
+        "ei/ele": "au apărat"
       },
       "future": {
-        "eu": "voi apărai",
-        "tu": "vei apărai",
-        "el/ea": "va apărai",
-        "noi": "vom apărai",
-        "voi": "veți apărai",
-        "ei/ele": "vor apărai"
+        "eu": "voi apăra",
+        "tu": "vei apăra",
+        "el/ea": "va apăra",
+        "noi": "vom apăra",
+        "voi": "veți apăra",
+        "ei/ele": "vor apăra"
       }
     }
   },
@@ -934,28 +934,28 @@
     "translation": "сравнивать",
     "conjugation": {
       "present": {
-        "eu": "comparaesc",
-        "tu": "comparaești",
-        "el/ea": "comparaește",
-        "noi": "comparaim",
-        "voi": "comparaiți",
-        "ei/ele": "comparaesc"
+        "eu": "comparez",
+        "tu": "comparezi",
+        "el/ea": "comparează",
+        "noi": "comparăm",
+        "voi": "comparați",
+        "ei/ele": "comparează"
       },
       "past": {
-        "eu": "am comparait",
-        "tu": "ai comparait",
-        "el/ea": "a comparait",
-        "noi": "am comparait",
-        "voi": "ați comparait",
-        "ei/ele": "au comparait"
+        "eu": "am comparat",
+        "tu": "ai comparat",
+        "el/ea": "a comparat",
+        "noi": "am comparat",
+        "voi": "ați comparat",
+        "ei/ele": "au comparat"
       },
       "future": {
-        "eu": "voi comparai",
-        "tu": "vei comparai",
-        "el/ea": "va comparai",
-        "noi": "vom comparai",
-        "voi": "veți comparai",
-        "ei/ele": "vor comparai"
+        "eu": "voi compara",
+        "tu": "vei compara",
+        "el/ea": "va compara",
+        "noi": "vom compara",
+        "voi": "veți compara",
+        "ei/ele": "vor compara"
       }
     }
   },
@@ -964,28 +964,28 @@
     "translation": "создавать",
     "conjugation": {
       "present": {
-        "eu": "creaesc",
-        "tu": "creaești",
-        "el/ea": "creaește",
-        "noi": "creaim",
-        "voi": "creaiți",
-        "ei/ele": "creaesc"
+        "eu": "creez",
+        "tu": "creezi",
+        "el/ea": "creează",
+        "noi": "creăm",
+        "voi": "creați",
+        "ei/ele": "creează"
       },
       "past": {
-        "eu": "am creait",
-        "tu": "ai creait",
-        "el/ea": "a creait",
-        "noi": "am creait",
-        "voi": "ați creait",
-        "ei/ele": "au creait"
+        "eu": "am creat",
+        "tu": "ai creat",
+        "el/ea": "a creat",
+        "noi": "am creat",
+        "voi": "ați creat",
+        "ei/ele": "au creat"
       },
       "future": {
-        "eu": "voi creai",
-        "tu": "vei creai",
-        "el/ea": "va creai",
-        "noi": "vom creai",
-        "voi": "veți creai",
-        "ei/ele": "vor creai"
+        "eu": "voi crea",
+        "tu": "vei crea",
+        "el/ea": "va crea",
+        "noi": "vom crea",
+        "voi": "veți crea",
+        "ei/ele": "vor crea"
       }
     }
   },
@@ -994,28 +994,28 @@
     "translation": "повреждать",
     "conjugation": {
       "present": {
-        "eu": "dăunaesc",
-        "tu": "dăunaești",
-        "el/ea": "dăunaește",
-        "noi": "dăunaim",
-        "voi": "dăunaiți",
-        "ei/ele": "dăunaesc"
+        "eu": "dăunez",
+        "tu": "dăunezi",
+        "el/ea": "dăunează",
+        "noi": "dăunăm",
+        "voi": "dăunați",
+        "ei/ele": "dăunează"
       },
       "past": {
-        "eu": "am dăunait",
-        "tu": "ai dăunait",
-        "el/ea": "a dăunait",
-        "noi": "am dăunait",
-        "voi": "ați dăunait",
-        "ei/ele": "au dăunait"
+        "eu": "am dăunat",
+        "tu": "ai dăunat",
+        "el/ea": "a dăunat",
+        "noi": "am dăunat",
+        "voi": "ați dăunat",
+        "ei/ele": "au dăunat"
       },
       "future": {
-        "eu": "voi dăunai",
-        "tu": "vei dăunai",
-        "el/ea": "va dăunai",
-        "noi": "vom dăunai",
-        "voi": "veți dăunai",
-        "ei/ele": "vor dăunai"
+        "eu": "voi dăuna",
+        "tu": "vei dăuna",
+        "el/ea": "va dăuna",
+        "noi": "vom dăuna",
+        "voi": "veți dăuna",
+        "ei/ele": "vor dăuna"
       }
     }
   },
@@ -1024,28 +1024,28 @@
     "translation": "взлетать",
     "conjugation": {
       "present": {
-        "eu": "decolaesc",
-        "tu": "decolaești",
-        "el/ea": "decolaește",
-        "noi": "decolaim",
-        "voi": "decolaiți",
-        "ei/ele": "decolaesc"
+        "eu": "decolez",
+        "tu": "decolezi",
+        "el/ea": "decolează",
+        "noi": "decolăm",
+        "voi": "decolați",
+        "ei/ele": "decolează"
       },
       "past": {
-        "eu": "am decolait",
-        "tu": "ai decolait",
-        "el/ea": "a decolait",
-        "noi": "am decolait",
-        "voi": "ați decolait",
-        "ei/ele": "au decolait"
+        "eu": "am decolat",
+        "tu": "ai decolat",
+        "el/ea": "a decolat",
+        "noi": "am decolat",
+        "voi": "ați decolat",
+        "ei/ele": "au decolat"
       },
       "future": {
-        "eu": "voi decolai",
-        "tu": "vei decolai",
-        "el/ea": "va decolai",
-        "noi": "vom decolai",
-        "voi": "veți decolai",
-        "ei/ele": "vor decolai"
+        "eu": "voi decola",
+        "tu": "vei decola",
+        "el/ea": "va decola",
+        "noi": "vom decola",
+        "voi": "veți decola",
+        "ei/ele": "vor decola"
       }
     }
   },
@@ -1054,28 +1054,28 @@
     "translation": "назвать",
     "conjugation": {
       "present": {
-        "eu": "denumiesc",
-        "tu": "denumiești",
-        "el/ea": "denumiește",
-        "noi": "denumiim",
-        "voi": "denumiiți",
-        "ei/ele": "denumiesc"
+        "eu": "denumesc",
+        "tu": "denumești",
+        "el/ea": "denumește",
+        "noi": "denumim",
+        "voi": "denumiți",
+        "ei/ele": "denumesc"
       },
       "past": {
-        "eu": "am denumiit",
-        "tu": "ai denumiit",
-        "el/ea": "a denumiit",
-        "noi": "am denumiit",
-        "voi": "ați denumiit",
-        "ei/ele": "au denumiit"
+        "eu": "am denumit",
+        "tu": "ai denumit",
+        "el/ea": "a denumit",
+        "noi": "am denumit",
+        "voi": "ați denumit",
+        "ei/ele": "au denumit"
       },
       "future": {
-        "eu": "voi denumii",
-        "tu": "vei denumii",
-        "el/ea": "va denumii",
-        "noi": "vom denumii",
-        "voi": "veți denumii",
-        "ei/ele": "vor denumii"
+        "eu": "voi denumi",
+        "tu": "vei denumi",
+        "el/ea": "va denumi",
+        "noi": "vom denumi",
+        "voi": "veți denumi",
+        "ei/ele": "vor denumi"
       }
     }
   },
@@ -1084,28 +1084,28 @@
     "translation": "заявлять",
     "conjugation": {
       "present": {
-        "eu": "declaraesc",
-        "tu": "declaraești",
-        "el/ea": "declaraește",
-        "noi": "declaraim",
-        "voi": "declaraiți",
-        "ei/ele": "declaraesc"
+        "eu": "declarez",
+        "tu": "declarezi",
+        "el/ea": "declarează",
+        "noi": "declarăm",
+        "voi": "declarați",
+        "ei/ele": "declarează"
       },
       "past": {
-        "eu": "am declarait",
-        "tu": "ai declarait",
-        "el/ea": "a declarait",
-        "noi": "am declarait",
-        "voi": "ați declarait",
-        "ei/ele": "au declarait"
+        "eu": "am declarat",
+        "tu": "ai declarat",
+        "el/ea": "a declarat",
+        "noi": "am declarat",
+        "voi": "ați declarat",
+        "ei/ele": "au declarat"
       },
       "future": {
-        "eu": "voi declarai",
-        "tu": "vei declarai",
-        "el/ea": "va declarai",
-        "noi": "vom declarai",
-        "voi": "veți declarai",
-        "ei/ele": "vor declarai"
+        "eu": "voi declara",
+        "tu": "vei declara",
+        "el/ea": "va declara",
+        "noi": "vom declara",
+        "voi": "veți declara",
+        "ei/ele": "vor declara"
       }
     }
   },
@@ -1114,28 +1114,28 @@
     "translation": "направлять",
     "conjugation": {
       "present": {
-        "eu": "dirijaesc",
-        "tu": "dirijaești",
-        "el/ea": "dirijaește",
-        "noi": "dirijaim",
-        "voi": "dirijaiți",
-        "ei/ele": "dirijaesc"
+        "eu": "dirijez",
+        "tu": "dirijezi",
+        "el/ea": "dirijează",
+        "noi": "dirijăm",
+        "voi": "dirijați",
+        "ei/ele": "dirijează"
       },
       "past": {
-        "eu": "am dirijait",
-        "tu": "ai dirijait",
-        "el/ea": "a dirijait",
-        "noi": "am dirijait",
-        "voi": "ați dirijait",
-        "ei/ele": "au dirijait"
+        "eu": "am dirijat",
+        "tu": "ai dirijat",
+        "el/ea": "a dirijat",
+        "noi": "am dirijat",
+        "voi": "ați dirijat",
+        "ei/ele": "au dirijat"
       },
       "future": {
-        "eu": "voi dirijai",
-        "tu": "vei dirijai",
-        "el/ea": "va dirijai",
-        "noi": "vom dirijai",
-        "voi": "veți dirijai",
-        "ei/ele": "vor dirijai"
+        "eu": "voi dirija",
+        "tu": "vei dirija",
+        "el/ea": "va dirija",
+        "noi": "vom dirija",
+        "voi": "veți dirija",
+        "ei/ele": "vor dirija"
       }
     }
   },
@@ -1144,28 +1144,28 @@
     "translation": "доминировать",
     "conjugation": {
       "present": {
-        "eu": "dominaesc",
-        "tu": "dominaești",
-        "el/ea": "dominaește",
-        "noi": "dominaim",
-        "voi": "dominaiți",
-        "ei/ele": "dominaesc"
+        "eu": "dominez",
+        "tu": "dominezi",
+        "el/ea": "dominează",
+        "noi": "dominăm",
+        "voi": "dominați",
+        "ei/ele": "dominează"
       },
       "past": {
-        "eu": "am dominait",
-        "tu": "ai dominait",
-        "el/ea": "a dominait",
-        "noi": "am dominait",
-        "voi": "ați dominait",
-        "ei/ele": "au dominait"
+        "eu": "am dominat",
+        "tu": "ai dominat",
+        "el/ea": "a dominat",
+        "noi": "am dominat",
+        "voi": "ați dominat",
+        "ei/ele": "au dominat"
       },
       "future": {
-        "eu": "voi dominai",
-        "tu": "vei dominai",
-        "el/ea": "va dominai",
-        "noi": "vom dominai",
-        "voi": "veți dominai",
-        "ei/ele": "vor dominai"
+        "eu": "voi domina",
+        "tu": "vei domina",
+        "el/ea": "va domina",
+        "noi": "vom domina",
+        "voi": "veți domina",
+        "ei/ele": "vor domina"
       }
     }
   },
@@ -1174,28 +1174,28 @@
     "translation": "эммигрировать",
     "conjugation": {
       "present": {
-        "eu": "emigraesc",
-        "tu": "emigraești",
-        "el/ea": "emigraește",
-        "noi": "emigraim",
-        "voi": "emigraiți",
-        "ei/ele": "emigraesc"
+        "eu": "emigrez",
+        "tu": "emigrezi",
+        "el/ea": "emigrează",
+        "noi": "emigrăm",
+        "voi": "emigrați",
+        "ei/ele": "emigrează"
       },
       "past": {
-        "eu": "am emigrait",
-        "tu": "ai emigrait",
-        "el/ea": "a emigrait",
-        "noi": "am emigrait",
-        "voi": "ați emigrait",
-        "ei/ele": "au emigrait"
+        "eu": "am emigrat",
+        "tu": "ai emigrat",
+        "el/ea": "a emigrat",
+        "noi": "am emigrat",
+        "voi": "ați emigrat",
+        "ei/ele": "au emigrat"
       },
       "future": {
-        "eu": "voi emigrai",
-        "tu": "vei emigrai",
-        "el/ea": "va emigrai",
-        "noi": "vom emigrai",
-        "voi": "veți emigrai",
-        "ei/ele": "vor emigrai"
+        "eu": "voi emigra",
+        "tu": "vei emigra",
+        "el/ea": "va emigra",
+        "noi": "vom emigra",
+        "voi": "veți emigra",
+        "ei/ele": "vor emigra"
       }
     }
   },
@@ -1204,28 +1204,28 @@
     "translation": "практиковать",
     "conjugation": {
       "present": {
-        "eu": "exersaesc",
-        "tu": "exersaești",
-        "el/ea": "exersaește",
-        "noi": "exersaim",
-        "voi": "exersaiți",
-        "ei/ele": "exersaesc"
+        "eu": "exersez",
+        "tu": "exersezi",
+        "el/ea": "exersează",
+        "noi": "exersăm",
+        "voi": "exersați",
+        "ei/ele": "exersează"
       },
       "past": {
-        "eu": "am exersait",
-        "tu": "ai exersait",
-        "el/ea": "a exersait",
-        "noi": "am exersait",
-        "voi": "ați exersait",
-        "ei/ele": "au exersait"
+        "eu": "am exersat",
+        "tu": "ai exersat",
+        "el/ea": "a exersat",
+        "noi": "am exersat",
+        "voi": "ați exersat",
+        "ei/ele": "au exersat"
       },
       "future": {
-        "eu": "voi exersai",
-        "tu": "vei exersai",
-        "el/ea": "va exersai",
-        "noi": "vom exersai",
-        "voi": "veți exersai",
-        "ei/ele": "vor exersai"
+        "eu": "voi exersa",
+        "tu": "vei exersa",
+        "el/ea": "va exersa",
+        "noi": "vom exersa",
+        "voi": "veți exersa",
+        "ei/ele": "vor exersa"
       }
     }
   },
@@ -1234,28 +1234,28 @@
     "translation": "функционировать",
     "conjugation": {
       "present": {
-        "eu": "funcționaesc",
-        "tu": "funcționaești",
-        "el/ea": "funcționaește",
-        "noi": "funcționaim",
-        "voi": "funcționaiți",
-        "ei/ele": "funcționaesc"
+        "eu": "funcționez",
+        "tu": "funcționezi",
+        "el/ea": "funcționează",
+        "noi": "funcționăm",
+        "voi": "funcționați",
+        "ei/ele": "funcționează"
       },
       "past": {
-        "eu": "am funcționait",
-        "tu": "ai funcționait",
-        "el/ea": "a funcționait",
-        "noi": "am funcționait",
-        "voi": "ați funcționait",
-        "ei/ele": "au funcționait"
+        "eu": "am funcționat",
+        "tu": "ai funcționat",
+        "el/ea": "a funcționat",
+        "noi": "am funcționat",
+        "voi": "ați funcționat",
+        "ei/ele": "au funcționat"
       },
       "future": {
-        "eu": "voi funcționai",
-        "tu": "vei funcționai",
-        "el/ea": "va funcționai",
-        "noi": "vom funcționai",
-        "voi": "veți funcționai",
-        "ei/ele": "vor funcționai"
+        "eu": "voi funcționa",
+        "tu": "vei funcționa",
+        "el/ea": "va funcționa",
+        "noi": "vom funcționa",
+        "voi": "veți funcționa",
+        "ei/ele": "vor funcționa"
       }
     }
   },
@@ -1264,28 +1264,28 @@
     "translation": "генерировать",
     "conjugation": {
       "present": {
-        "eu": "generaesc",
-        "tu": "generaești",
-        "el/ea": "generaește",
-        "noi": "generaim",
-        "voi": "generaiți",
-        "ei/ele": "generaesc"
+        "eu": "generez",
+        "tu": "generezi",
+        "el/ea": "generează",
+        "noi": "generăm",
+        "voi": "generați",
+        "ei/ele": "generează"
       },
       "past": {
-        "eu": "am generait",
-        "tu": "ai generait",
-        "el/ea": "a generait",
-        "noi": "am generait",
-        "voi": "ați generait",
-        "ei/ele": "au generait"
+        "eu": "am generat",
+        "tu": "ai generat",
+        "el/ea": "a generat",
+        "noi": "am generat",
+        "voi": "ați generat",
+        "ei/ele": "au generat"
       },
       "future": {
-        "eu": "voi generai",
-        "tu": "vei generai",
-        "el/ea": "va generai",
-        "noi": "vom generai",
-        "voi": "veți generai",
-        "ei/ele": "vor generai"
+        "eu": "voi genera",
+        "tu": "vei genera",
+        "el/ea": "va genera",
+        "noi": "vom genera",
+        "voi": "veți genera",
+        "ei/ele": "vor genera"
       }
     }
   },
@@ -1294,28 +1294,28 @@
     "translation": "игнорировать",
     "conjugation": {
       "present": {
-        "eu": "ignoraesc",
-        "tu": "ignoraești",
-        "el/ea": "ignoraește",
-        "noi": "ignoraim",
-        "voi": "ignoraiți",
-        "ei/ele": "ignoraesc"
+        "eu": "ignorez",
+        "tu": "ignorezi",
+        "el/ea": "ignorează",
+        "noi": "ignorăm",
+        "voi": "ignorați",
+        "ei/ele": "ignorează"
       },
       "past": {
-        "eu": "am ignorait",
-        "tu": "ai ignorait",
-        "el/ea": "a ignorait",
-        "noi": "am ignorait",
-        "voi": "ați ignorait",
-        "ei/ele": "au ignorait"
+        "eu": "am ignorat",
+        "tu": "ai ignorat",
+        "el/ea": "a ignorat",
+        "noi": "am ignorat",
+        "voi": "ați ignorat",
+        "ei/ele": "au ignorat"
       },
       "future": {
-        "eu": "voi ignorai",
-        "tu": "vei ignorai",
-        "el/ea": "va ignorai",
-        "noi": "vom ignorai",
-        "voi": "veți ignorai",
-        "ei/ele": "vor ignorai"
+        "eu": "voi ignora",
+        "tu": "vei ignora",
+        "el/ea": "va ignora",
+        "noi": "vom ignora",
+        "voi": "veți ignora",
+        "ei/ele": "vor ignora"
       }
     }
   },
@@ -1324,28 +1324,28 @@
     "translation": "впечатлять",
     "conjugation": {
       "present": {
-        "eu": "impresionaesc",
-        "tu": "impresionaești",
-        "el/ea": "impresionaește",
-        "noi": "impresionaim",
-        "voi": "impresionaiți",
-        "ei/ele": "impresionaesc"
+        "eu": "impresionez",
+        "tu": "impresionezi",
+        "el/ea": "impresionează",
+        "noi": "impresionăm",
+        "voi": "impresionați",
+        "ei/ele": "impresionează"
       },
       "past": {
-        "eu": "am impresionait",
-        "tu": "ai impresionait",
-        "el/ea": "a impresionait",
-        "noi": "am impresionait",
-        "voi": "ați impresionait",
-        "ei/ele": "au impresionait"
+        "eu": "am impresionat",
+        "tu": "ai impresionat",
+        "el/ea": "a impresionat",
+        "noi": "am impresionat",
+        "voi": "ați impresionat",
+        "ei/ele": "au impresionat"
       },
       "future": {
-        "eu": "voi impresionai",
-        "tu": "vei impresionai",
-        "el/ea": "va impresionai",
-        "noi": "vom impresionai",
-        "voi": "veți impresionai",
-        "ei/ele": "vor impresionai"
+        "eu": "voi impresiona",
+        "tu": "vei impresiona",
+        "el/ea": "va impresiona",
+        "noi": "vom impresiona",
+        "voi": "veți impresiona",
+        "ei/ele": "vor impresiona"
       }
     }
   },
@@ -1354,28 +1354,28 @@
     "translation": "выделять",
     "conjugation": {
       "present": {
-        "eu": "indicaesc",
-        "tu": "indicaești",
-        "el/ea": "indicaește",
-        "noi": "indicaim",
-        "voi": "indicaiți",
-        "ei/ele": "indicaesc"
+        "eu": "indicez",
+        "tu": "indicezi",
+        "el/ea": "indicează",
+        "noi": "indicăm",
+        "voi": "indicați",
+        "ei/ele": "indicează"
       },
       "past": {
-        "eu": "am indicait",
-        "tu": "ai indicait",
-        "el/ea": "a indicait",
-        "noi": "am indicait",
-        "voi": "ați indicait",
-        "ei/ele": "au indicait"
+        "eu": "am indicat",
+        "tu": "ai indicat",
+        "el/ea": "a indicat",
+        "noi": "am indicat",
+        "voi": "ați indicat",
+        "ei/ele": "au indicat"
       },
       "future": {
-        "eu": "voi indicai",
-        "tu": "vei indicai",
-        "el/ea": "va indicai",
-        "noi": "vom indicai",
-        "voi": "veți indicai",
-        "ei/ele": "vor indicai"
+        "eu": "voi indica",
+        "tu": "vei indica",
+        "el/ea": "va indica",
+        "noi": "vom indica",
+        "voi": "veți indica",
+        "ei/ele": "vor indica"
       }
     }
   },
@@ -1384,28 +1384,28 @@
     "translation": "ограничивать",
     "conjugation": {
       "present": {
-        "eu": "limitaesc",
-        "tu": "limitaești",
-        "el/ea": "limitaește",
-        "noi": "limitaim",
-        "voi": "limitaiți",
-        "ei/ele": "limitaesc"
+        "eu": "limitez",
+        "tu": "limitezi",
+        "el/ea": "limitează",
+        "noi": "limităm",
+        "voi": "limitați",
+        "ei/ele": "limitează"
       },
       "past": {
-        "eu": "am limitait",
-        "tu": "ai limitait",
-        "el/ea": "a limitait",
-        "noi": "am limitait",
-        "voi": "ați limitait",
-        "ei/ele": "au limitait"
+        "eu": "am limitat",
+        "tu": "ai limitat",
+        "el/ea": "a limitat",
+        "noi": "am limitat",
+        "voi": "ați limitat",
+        "ei/ele": "au limitat"
       },
       "future": {
-        "eu": "voi limitai",
-        "tu": "vei limitai",
-        "el/ea": "va limitai",
-        "noi": "vom limitai",
-        "voi": "veți limitai",
-        "ei/ele": "vor limitai"
+        "eu": "voi limita",
+        "tu": "vei limita",
+        "el/ea": "va limita",
+        "noi": "vom limita",
+        "voi": "veți limita",
+        "ei/ele": "vor limita"
       }
     }
   },
@@ -1414,28 +1414,28 @@
     "translation": "упоминать",
     "conjugation": {
       "present": {
-        "eu": "menționaesc",
-        "tu": "menționaești",
-        "el/ea": "menționaește",
-        "noi": "menționaim",
-        "voi": "menționaiți",
-        "ei/ele": "menționaesc"
+        "eu": "menționez",
+        "tu": "menționezi",
+        "el/ea": "menționează",
+        "noi": "menționăm",
+        "voi": "menționați",
+        "ei/ele": "menționează"
       },
       "past": {
-        "eu": "am menționait",
-        "tu": "ai menționait",
-        "el/ea": "a menționait",
-        "noi": "am menționait",
-        "voi": "ați menționait",
-        "ei/ele": "au menționait"
+        "eu": "am menționat",
+        "tu": "ai menționat",
+        "el/ea": "a menționat",
+        "noi": "am menționat",
+        "voi": "ați menționat",
+        "ei/ele": "au menționat"
       },
       "future": {
-        "eu": "voi menționai",
-        "tu": "vei menționai",
-        "el/ea": "va menționai",
-        "noi": "vom menționai",
-        "voi": "veți menționai",
-        "ei/ele": "vor menționai"
+        "eu": "voi menționa",
+        "tu": "vei menționa",
+        "el/ea": "va menționa",
+        "noi": "vom menționa",
+        "voi": "veți menționa",
+        "ei/ele": "vor menționa"
       }
     }
   },
@@ -1444,28 +1444,28 @@
     "translation": "навигировать",
     "conjugation": {
       "present": {
-        "eu": "navigaesc",
-        "tu": "navigaești",
-        "el/ea": "navigaește",
-        "noi": "navigaim",
-        "voi": "navigaiți",
-        "ei/ele": "navigaesc"
+        "eu": "navigez",
+        "tu": "navigezi",
+        "el/ea": "navigează",
+        "noi": "navigăm",
+        "voi": "navigați",
+        "ei/ele": "navigează"
       },
       "past": {
-        "eu": "am navigait",
-        "tu": "ai navigait",
-        "el/ea": "a navigait",
-        "noi": "am navigait",
-        "voi": "ați navigait",
-        "ei/ele": "au navigait"
+        "eu": "am navigat",
+        "tu": "ai navigat",
+        "el/ea": "a navigat",
+        "noi": "am navigat",
+        "voi": "ați navigat",
+        "ei/ele": "au navigat"
       },
       "future": {
-        "eu": "voi navigai",
-        "tu": "vei navigai",
-        "el/ea": "va navigai",
-        "noi": "vom navigai",
-        "voi": "veți navigai",
-        "ei/ele": "vor navigai"
+        "eu": "voi naviga",
+        "tu": "vei naviga",
+        "el/ea": "va naviga",
+        "noi": "vom naviga",
+        "voi": "veți naviga",
+        "ei/ele": "vor naviga"
       }
     }
   },
@@ -1474,28 +1474,28 @@
     "translation": "видеть",
     "conjugation": {
       "present": {
-        "eu": "vedeaesc",
-        "tu": "vedeaești",
-        "el/ea": "vedeaește",
-        "noi": "vedeaim",
-        "voi": "vedeaiți",
-        "ei/ele": "vedeaesc"
+        "eu": "vedeez",
+        "tu": "vedeezi",
+        "el/ea": "vedeează",
+        "noi": "vedeăm",
+        "voi": "vedeați",
+        "ei/ele": "vedeează"
       },
       "past": {
-        "eu": "am vedeait",
-        "tu": "ai vedeait",
-        "el/ea": "a vedeait",
-        "noi": "am vedeait",
-        "voi": "ați vedeait",
-        "ei/ele": "au vedeait"
+        "eu": "am vedeat",
+        "tu": "ai vedeat",
+        "el/ea": "a vedeat",
+        "noi": "am vedeat",
+        "voi": "ați vedeat",
+        "ei/ele": "au vedeat"
       },
       "future": {
-        "eu": "voi vedeai",
-        "tu": "vei vedeai",
-        "el/ea": "va vedeai",
-        "noi": "vom vedeai",
-        "voi": "veți vedeai",
-        "ei/ele": "vor vedeai"
+        "eu": "voi vedea",
+        "tu": "vei vedea",
+        "el/ea": "va vedea",
+        "noi": "vom vedea",
+        "voi": "veți vedea",
+        "ei/ele": "vor vedea"
       }
     }
   },
@@ -1504,28 +1504,28 @@
     "translation": "падать",
     "conjugation": {
       "present": {
-        "eu": "cădeaesc",
-        "tu": "cădeaești",
-        "el/ea": "cădeaește",
-        "noi": "cădeaim",
-        "voi": "cădeaiți",
-        "ei/ele": "cădeaesc"
+        "eu": "cădeez",
+        "tu": "cădeezi",
+        "el/ea": "cădeează",
+        "noi": "cădeăm",
+        "voi": "cădeați",
+        "ei/ele": "cădeează"
       },
       "past": {
-        "eu": "am cădeait",
-        "tu": "ai cădeait",
-        "el/ea": "a cădeait",
-        "noi": "am cădeait",
-        "voi": "ați cădeait",
-        "ei/ele": "au cădeait"
+        "eu": "am cădeat",
+        "tu": "ai cădeat",
+        "el/ea": "a cădeat",
+        "noi": "am cădeat",
+        "voi": "ați cădeat",
+        "ei/ele": "au cădeat"
       },
       "future": {
-        "eu": "voi cădeai",
-        "tu": "vei cădeai",
-        "el/ea": "va cădeai",
-        "noi": "vom cădeai",
-        "voi": "veți cădeai",
-        "ei/ele": "vor cădeai"
+        "eu": "voi cădea",
+        "tu": "vei cădea",
+        "el/ea": "va cădea",
+        "noi": "vom cădea",
+        "voi": "veți cădea",
+        "ei/ele": "vor cădea"
       }
     }
   },
@@ -1534,28 +1534,28 @@
     "translation": "молчать",
     "conjugation": {
       "present": {
-        "eu": "tăceaesc",
-        "tu": "tăceaești",
-        "el/ea": "tăceaește",
-        "noi": "tăceaim",
-        "voi": "tăceaiți",
-        "ei/ele": "tăceaesc"
+        "eu": "tăceez",
+        "tu": "tăceezi",
+        "el/ea": "tăceează",
+        "noi": "tăceăm",
+        "voi": "tăceați",
+        "ei/ele": "tăceează"
       },
       "past": {
-        "eu": "am tăceait",
-        "tu": "ai tăceait",
-        "el/ea": "a tăceait",
-        "noi": "am tăceait",
-        "voi": "ați tăceait",
-        "ei/ele": "au tăceait"
+        "eu": "am tăceat",
+        "tu": "ai tăceat",
+        "el/ea": "a tăceat",
+        "noi": "am tăceat",
+        "voi": "ați tăceat",
+        "ei/ele": "au tăceat"
       },
       "future": {
-        "eu": "voi tăceai",
-        "tu": "vei tăceai",
-        "el/ea": "va tăceai",
-        "noi": "vom tăceai",
-        "voi": "veți tăceai",
-        "ei/ele": "vor tăceai"
+        "eu": "voi tăcea",
+        "tu": "vei tăcea",
+        "el/ea": "va tăcea",
+        "noi": "vom tăcea",
+        "voi": "veți tăcea",
+        "ei/ele": "vor tăcea"
       }
     }
   },
@@ -1564,28 +1564,28 @@
     "translation": "нравиться",
     "conjugation": {
       "present": {
-        "eu": "plăceaesc",
-        "tu": "plăceaești",
-        "el/ea": "plăceaește",
-        "noi": "plăceaim",
-        "voi": "plăceaiți",
-        "ei/ele": "plăceaesc"
+        "eu": "plăceez",
+        "tu": "plăceezi",
+        "el/ea": "plăceează",
+        "noi": "plăceăm",
+        "voi": "plăceați",
+        "ei/ele": "plăceează"
       },
       "past": {
-        "eu": "am plăceait",
-        "tu": "ai plăceait",
-        "el/ea": "a plăceait",
-        "noi": "am plăceait",
-        "voi": "ați plăceait",
-        "ei/ele": "au plăceait"
+        "eu": "am plăceat",
+        "tu": "ai plăceat",
+        "el/ea": "a plăceat",
+        "noi": "am plăceat",
+        "voi": "ați plăceat",
+        "ei/ele": "au plăceat"
       },
       "future": {
-        "eu": "voi plăceai",
-        "tu": "vei plăceai",
-        "el/ea": "va plăceai",
-        "noi": "vom plăceai",
-        "voi": "veți plăceai",
-        "ei/ele": "vor plăceai"
+        "eu": "voi plăcea",
+        "tu": "vei plăcea",
+        "el/ea": "va plăcea",
+        "noi": "vom plăcea",
+        "voi": "veți plăcea",
+        "ei/ele": "vor plăcea"
       }
     }
   },
@@ -1594,28 +1594,28 @@
     "translation": "пить",
     "conjugation": {
       "present": {
-        "eu": "beaesc",
-        "tu": "beaești",
-        "el/ea": "beaește",
-        "noi": "beaim",
-        "voi": "beaiți",
-        "ei/ele": "beaesc"
+        "eu": "beez",
+        "tu": "beezi",
+        "el/ea": "beează",
+        "noi": "beăm",
+        "voi": "beați",
+        "ei/ele": "beează"
       },
       "past": {
-        "eu": "am beait",
-        "tu": "ai beait",
-        "el/ea": "a beait",
-        "noi": "am beait",
-        "voi": "ați beait",
-        "ei/ele": "au beait"
+        "eu": "am beat",
+        "tu": "ai beat",
+        "el/ea": "a beat",
+        "noi": "am beat",
+        "voi": "ați beat",
+        "ei/ele": "au beat"
       },
       "future": {
-        "eu": "voi beai",
-        "tu": "vei beai",
-        "el/ea": "va beai",
-        "noi": "vom beai",
-        "voi": "veți beai",
-        "ei/ele": "vor beai"
+        "eu": "voi bea",
+        "tu": "vei bea",
+        "el/ea": "va bea",
+        "noi": "vom bea",
+        "voi": "veți bea",
+        "ei/ele": "vor bea"
       }
     }
   },
@@ -1624,28 +1624,28 @@
     "translation": "сидеть",
     "conjugation": {
       "present": {
-        "eu": "ședeaesc",
-        "tu": "ședeaești",
-        "el/ea": "ședeaește",
-        "noi": "ședeaim",
-        "voi": "ședeaiți",
-        "ei/ele": "ședeaesc"
+        "eu": "ședeez",
+        "tu": "ședeezi",
+        "el/ea": "ședeează",
+        "noi": "ședeăm",
+        "voi": "ședeați",
+        "ei/ele": "ședeează"
       },
       "past": {
-        "eu": "am ședeait",
-        "tu": "ai ședeait",
-        "el/ea": "a ședeait",
-        "noi": "am ședeait",
-        "voi": "ați ședeait",
-        "ei/ele": "au ședeait"
+        "eu": "am ședeat",
+        "tu": "ai ședeat",
+        "el/ea": "a ședeat",
+        "noi": "am ședeat",
+        "voi": "ați ședeat",
+        "ei/ele": "au ședeat"
       },
       "future": {
-        "eu": "voi ședeai",
-        "tu": "vei ședeai",
-        "el/ea": "va ședeai",
-        "noi": "vom ședeai",
-        "voi": "veți ședeai",
-        "ei/ele": "vor ședeai"
+        "eu": "voi ședea",
+        "tu": "vei ședea",
+        "el/ea": "va ședea",
+        "noi": "vom ședea",
+        "voi": "veți ședea",
+        "ei/ele": "vor ședea"
       }
     }
   },
@@ -1654,28 +1654,28 @@
     "translation": "оставаться",
     "conjugation": {
       "present": {
-        "eu": "rămâneaesc",
-        "tu": "rămâneaești",
-        "el/ea": "rămâneaește",
-        "noi": "rămâneaim",
-        "voi": "rămâneaiți",
-        "ei/ele": "rămâneaesc"
+        "eu": "rămâneez",
+        "tu": "rămâneezi",
+        "el/ea": "rămâneează",
+        "noi": "rămâneăm",
+        "voi": "rămâneați",
+        "ei/ele": "rămâneează"
       },
       "past": {
-        "eu": "am rămâneait",
-        "tu": "ai rămâneait",
-        "el/ea": "a rămâneait",
-        "noi": "am rămâneait",
-        "voi": "ați rămâneait",
-        "ei/ele": "au rămâneait"
+        "eu": "am rămâneat",
+        "tu": "ai rămâneat",
+        "el/ea": "a rămâneat",
+        "noi": "am rămâneat",
+        "voi": "ați rămâneat",
+        "ei/ele": "au rămâneat"
       },
       "future": {
-        "eu": "voi rămâneai",
-        "tu": "vei rămâneai",
-        "el/ea": "va rămâneai",
-        "noi": "vom rămâneai",
-        "voi": "veți rămâneai",
-        "ei/ele": "vor rămâneai"
+        "eu": "voi rămânea",
+        "tu": "vei rămânea",
+        "el/ea": "va rămânea",
+        "noi": "vom rămânea",
+        "voi": "veți rămânea",
+        "ei/ele": "vor rămânea"
       }
     }
   },
@@ -1684,28 +1684,28 @@
     "translation": "лежать, болеть",
     "conjugation": {
       "present": {
-        "eu": "zăceaesc",
-        "tu": "zăceaești",
-        "el/ea": "zăceaește",
-        "noi": "zăceaim",
-        "voi": "zăceaiți",
-        "ei/ele": "zăceaesc"
+        "eu": "zăceez",
+        "tu": "zăceezi",
+        "el/ea": "zăceează",
+        "noi": "zăceăm",
+        "voi": "zăceați",
+        "ei/ele": "zăceează"
       },
       "past": {
-        "eu": "am zăceait",
-        "tu": "ai zăceait",
-        "el/ea": "a zăceait",
-        "noi": "am zăceait",
-        "voi": "ați zăceait",
-        "ei/ele": "au zăceait"
+        "eu": "am zăceat",
+        "tu": "ai zăceat",
+        "el/ea": "a zăceat",
+        "noi": "am zăceat",
+        "voi": "ați zăceat",
+        "ei/ele": "au zăceat"
       },
       "future": {
-        "eu": "voi zăceai",
-        "tu": "vei zăceai",
-        "el/ea": "va zăceai",
-        "noi": "vom zăceai",
-        "voi": "veți zăceai",
-        "ei/ele": "vor zăceai"
+        "eu": "voi zăcea",
+        "tu": "vei zăcea",
+        "el/ea": "va zăcea",
+        "noi": "vom zăcea",
+        "voi": "veți zăcea",
+        "ei/ele": "vor zăcea"
       }
     }
   },
@@ -1714,28 +1714,28 @@
     "translation": "состариться",
     "conjugation": {
       "present": {
-        "eu": "preavecheaesc",
-        "tu": "preavecheaești",
-        "el/ea": "preavecheaește",
-        "noi": "preavecheaim",
-        "voi": "preavecheaiți",
-        "ei/ele": "preavecheaesc"
+        "eu": "preavecheez",
+        "tu": "preavecheezi",
+        "el/ea": "preavecheează",
+        "noi": "preavecheăm",
+        "voi": "preavecheați",
+        "ei/ele": "preavecheează"
       },
       "past": {
-        "eu": "am preavecheait",
-        "tu": "ai preavecheait",
-        "el/ea": "a preavecheait",
-        "noi": "am preavecheait",
-        "voi": "ați preavecheait",
-        "ei/ele": "au preavecheait"
+        "eu": "am preavecheat",
+        "tu": "ai preavecheat",
+        "el/ea": "a preavecheat",
+        "noi": "am preavecheat",
+        "voi": "ați preavecheat",
+        "ei/ele": "au preavecheat"
       },
       "future": {
-        "eu": "voi preavecheai",
-        "tu": "vei preavecheai",
-        "el/ea": "va preavecheai",
-        "noi": "vom preavecheai",
-        "voi": "veți preavecheai",
-        "ei/ele": "vor preavecheai"
+        "eu": "voi preavechea",
+        "tu": "vei preavechea",
+        "el/ea": "va preavechea",
+        "noi": "vom preavechea",
+        "voi": "veți preavechea",
+        "ei/ele": "vor preavechea"
       }
     }
   },
@@ -1744,28 +1744,28 @@
     "translation": "оставаться",
     "conjugation": {
       "present": {
-        "eu": "purureaesc",
-        "tu": "purureaești",
-        "el/ea": "purureaește",
-        "noi": "purureaim",
-        "voi": "purureaiți",
-        "ei/ele": "purureaesc"
+        "eu": "purureez",
+        "tu": "purureezi",
+        "el/ea": "purureează",
+        "noi": "purureăm",
+        "voi": "purureați",
+        "ei/ele": "purureează"
       },
       "past": {
-        "eu": "am purureait",
-        "tu": "ai purureait",
-        "el/ea": "a purureait",
-        "noi": "am purureait",
-        "voi": "ați purureait",
-        "ei/ele": "au purureait"
+        "eu": "am purureat",
+        "tu": "ai purureat",
+        "el/ea": "a purureat",
+        "noi": "am purureat",
+        "voi": "ați purureat",
+        "ei/ele": "au purureat"
       },
       "future": {
-        "eu": "voi purureai",
-        "tu": "vei purureai",
-        "el/ea": "va purureai",
-        "noi": "vom purureai",
-        "voi": "veți purureai",
-        "ei/ele": "vor purureai"
+        "eu": "voi pururea",
+        "tu": "vei pururea",
+        "el/ea": "va pururea",
+        "noi": "vom pururea",
+        "voi": "veți pururea",
+        "ei/ele": "vor pururea"
       }
     }
   },
@@ -1774,28 +1774,28 @@
     "translation": "делать",
     "conjugation": {
       "present": {
-        "eu": "faceesc",
-        "tu": "faceești",
-        "el/ea": "faceește",
-        "noi": "faceim",
-        "voi": "faceiți",
-        "ei/ele": "faceesc"
+        "eu": "facez",
+        "tu": "facezi",
+        "el/ea": "facează",
+        "noi": "facăm",
+        "voi": "facați",
+        "ei/ele": "facează"
       },
       "past": {
-        "eu": "am faceit",
-        "tu": "ai faceit",
-        "el/ea": "a faceit",
-        "noi": "am faceit",
-        "voi": "ați faceit",
-        "ei/ele": "au faceit"
+        "eu": "am facat",
+        "tu": "ai facat",
+        "el/ea": "a facat",
+        "noi": "am facat",
+        "voi": "ați facat",
+        "ei/ele": "au facat"
       },
       "future": {
-        "eu": "voi facei",
-        "tu": "vei facei",
-        "el/ea": "va facei",
-        "noi": "vom facei",
-        "voi": "veți facei",
-        "ei/ele": "vor facei"
+        "eu": "voi faca",
+        "tu": "vei faca",
+        "el/ea": "va faca",
+        "noi": "vom faca",
+        "voi": "veți faca",
+        "ei/ele": "vor faca"
       }
     }
   },
@@ -1804,28 +1804,28 @@
     "translation": "писать",
     "conjugation": {
       "present": {
-        "eu": "scrieesc",
-        "tu": "scrieești",
-        "el/ea": "scrieește",
-        "noi": "scrieim",
-        "voi": "scrieiți",
-        "ei/ele": "scrieesc"
+        "eu": "scriez",
+        "tu": "scriezi",
+        "el/ea": "scriează",
+        "noi": "scriăm",
+        "voi": "scriați",
+        "ei/ele": "scriează"
       },
       "past": {
-        "eu": "am scrieit",
-        "tu": "ai scrieit",
-        "el/ea": "a scrieit",
-        "noi": "am scrieit",
-        "voi": "ați scrieit",
-        "ei/ele": "au scrieit"
+        "eu": "am scriat",
+        "tu": "ai scriat",
+        "el/ea": "a scriat",
+        "noi": "am scriat",
+        "voi": "ați scriat",
+        "ei/ele": "au scriat"
       },
       "future": {
-        "eu": "voi scriei",
-        "tu": "vei scriei",
-        "el/ea": "va scriei",
-        "noi": "vom scriei",
-        "voi": "veți scriei",
-        "ei/ele": "vor scriei"
+        "eu": "voi scria",
+        "tu": "vei scria",
+        "el/ea": "va scria",
+        "noi": "vom scria",
+        "voi": "veți scria",
+        "ei/ele": "vor scria"
       }
     }
   },
@@ -1834,28 +1834,28 @@
     "translation": "идти",
     "conjugation": {
       "present": {
-        "eu": "mergeesc",
-        "tu": "mergeești",
-        "el/ea": "mergeește",
-        "noi": "mergeim",
-        "voi": "mergeiți",
-        "ei/ele": "mergeesc"
+        "eu": "mergez",
+        "tu": "mergezi",
+        "el/ea": "mergează",
+        "noi": "mergăm",
+        "voi": "mergați",
+        "ei/ele": "mergează"
       },
       "past": {
-        "eu": "am mergeit",
-        "tu": "ai mergeit",
-        "el/ea": "a mergeit",
-        "noi": "am mergeit",
-        "voi": "ați mergeit",
-        "ei/ele": "au mergeit"
+        "eu": "am mergat",
+        "tu": "ai mergat",
+        "el/ea": "a mergat",
+        "noi": "am mergat",
+        "voi": "ați mergat",
+        "ei/ele": "au mergat"
       },
       "future": {
-        "eu": "voi mergei",
-        "tu": "vei mergei",
-        "el/ea": "va mergei",
-        "noi": "vom mergei",
-        "voi": "veți mergei",
-        "ei/ele": "vor mergei"
+        "eu": "voi merga",
+        "tu": "vei merga",
+        "el/ea": "va merga",
+        "noi": "vom merga",
+        "voi": "veți merga",
+        "ei/ele": "vor merga"
       }
     }
   },
@@ -1864,28 +1864,28 @@
     "translation": "верить",
     "conjugation": {
       "present": {
-        "eu": "credeesc",
-        "tu": "credeești",
-        "el/ea": "credeește",
-        "noi": "credeim",
-        "voi": "credeiți",
-        "ei/ele": "credeesc"
+        "eu": "credez",
+        "tu": "credezi",
+        "el/ea": "credează",
+        "noi": "credăm",
+        "voi": "credați",
+        "ei/ele": "credează"
       },
       "past": {
-        "eu": "am credeit",
-        "tu": "ai credeit",
-        "el/ea": "a credeit",
-        "noi": "am credeit",
-        "voi": "ați credeit",
-        "ei/ele": "au credeit"
+        "eu": "am credat",
+        "tu": "ai credat",
+        "el/ea": "a credat",
+        "noi": "am credat",
+        "voi": "ați credat",
+        "ei/ele": "au credat"
       },
       "future": {
-        "eu": "voi credei",
-        "tu": "vei credei",
-        "el/ea": "va credei",
-        "noi": "vom credei",
-        "voi": "veți credei",
-        "ei/ele": "vor credei"
+        "eu": "voi creda",
+        "tu": "vei creda",
+        "el/ea": "va creda",
+        "noi": "vom creda",
+        "voi": "veți creda",
+        "ei/ele": "vor creda"
       }
     }
   },
@@ -1894,28 +1894,28 @@
     "translation": "говорить",
     "conjugation": {
       "present": {
-        "eu": "spuneesc",
-        "tu": "spuneești",
-        "el/ea": "spuneește",
-        "noi": "spuneim",
-        "voi": "spuneiți",
-        "ei/ele": "spuneesc"
+        "eu": "spunez",
+        "tu": "spunezi",
+        "el/ea": "spunează",
+        "noi": "spunăm",
+        "voi": "spunați",
+        "ei/ele": "spunează"
       },
       "past": {
-        "eu": "am spuneit",
-        "tu": "ai spuneit",
-        "el/ea": "a spuneit",
-        "noi": "am spuneit",
-        "voi": "ați spuneit",
-        "ei/ele": "au spuneit"
+        "eu": "am spunat",
+        "tu": "ai spunat",
+        "el/ea": "a spunat",
+        "noi": "am spunat",
+        "voi": "ați spunat",
+        "ei/ele": "au spunat"
       },
       "future": {
-        "eu": "voi spunei",
-        "tu": "vei spunei",
-        "el/ea": "va spunei",
-        "noi": "vom spunei",
-        "voi": "veți spunei",
-        "ei/ele": "vor spunei"
+        "eu": "voi spuna",
+        "tu": "vei spuna",
+        "el/ea": "va spuna",
+        "noi": "vom spuna",
+        "voi": "veți spuna",
+        "ei/ele": "vor spuna"
       }
     }
   },
@@ -1924,28 +1924,28 @@
     "translation": "посылать",
     "conjugation": {
       "present": {
-        "eu": "trimiteesc",
-        "tu": "trimiteești",
-        "el/ea": "trimiteește",
-        "noi": "trimiteim",
-        "voi": "trimiteiți",
-        "ei/ele": "trimiteesc"
+        "eu": "trimitez",
+        "tu": "trimitezi",
+        "el/ea": "trimitează",
+        "noi": "trimităm",
+        "voi": "trimitați",
+        "ei/ele": "trimitează"
       },
       "past": {
-        "eu": "am trimiteit",
-        "tu": "ai trimiteit",
-        "el/ea": "a trimiteit",
-        "noi": "am trimiteit",
-        "voi": "ați trimiteit",
-        "ei/ele": "au trimiteit"
+        "eu": "am trimitat",
+        "tu": "ai trimitat",
+        "el/ea": "a trimitat",
+        "noi": "am trimitat",
+        "voi": "ați trimitat",
+        "ei/ele": "au trimitat"
       },
       "future": {
-        "eu": "voi trimitei",
-        "tu": "vei trimitei",
-        "el/ea": "va trimitei",
-        "noi": "vom trimitei",
-        "voi": "veți trimitei",
-        "ei/ele": "vor trimitei"
+        "eu": "voi trimita",
+        "tu": "vei trimita",
+        "el/ea": "va trimita",
+        "noi": "vom trimita",
+        "voi": "veți trimita",
+        "ei/ele": "vor trimita"
       }
     }
   },
@@ -1954,28 +1954,28 @@
     "translation": "отвечать",
     "conjugation": {
       "present": {
-        "eu": "răspundeesc",
-        "tu": "răspundeești",
-        "el/ea": "răspundeește",
-        "noi": "răspundeim",
-        "voi": "răspundeiți",
-        "ei/ele": "răspundeesc"
+        "eu": "răspundez",
+        "tu": "răspundezi",
+        "el/ea": "răspundează",
+        "noi": "răspundăm",
+        "voi": "răspundați",
+        "ei/ele": "răspundează"
       },
       "past": {
-        "eu": "am răspundeit",
-        "tu": "ai răspundeit",
-        "el/ea": "a răspundeit",
-        "noi": "am răspundeit",
-        "voi": "ați răspundeit",
-        "ei/ele": "au răspundeit"
+        "eu": "am răspundat",
+        "tu": "ai răspundat",
+        "el/ea": "a răspundat",
+        "noi": "am răspundat",
+        "voi": "ați răspundat",
+        "ei/ele": "au răspundat"
       },
       "future": {
-        "eu": "voi răspundei",
-        "tu": "vei răspundei",
-        "el/ea": "va răspundei",
-        "noi": "vom răspundei",
-        "voi": "veți răspundei",
-        "ei/ele": "vor răspundei"
+        "eu": "voi răspunda",
+        "tu": "vei răspunda",
+        "el/ea": "va răspunda",
+        "noi": "vom răspunda",
+        "voi": "veți răspunda",
+        "ei/ele": "vor răspunda"
       }
     }
   },
@@ -1984,28 +1984,28 @@
     "translation": "ломать",
     "conjugation": {
       "present": {
-        "eu": "rupeesc",
-        "tu": "rupeești",
-        "el/ea": "rupeește",
-        "noi": "rupeim",
-        "voi": "rupeiți",
-        "ei/ele": "rupeesc"
+        "eu": "rupez",
+        "tu": "rupezi",
+        "el/ea": "rupează",
+        "noi": "rupăm",
+        "voi": "rupați",
+        "ei/ele": "rupează"
       },
       "past": {
-        "eu": "am rupeit",
-        "tu": "ai rupeit",
-        "el/ea": "a rupeit",
-        "noi": "am rupeit",
-        "voi": "ați rupeit",
-        "ei/ele": "au rupeit"
+        "eu": "am rupat",
+        "tu": "ai rupat",
+        "el/ea": "a rupat",
+        "noi": "am rupat",
+        "voi": "ați rupat",
+        "ei/ele": "au rupat"
       },
       "future": {
-        "eu": "voi rupei",
-        "tu": "vei rupei",
-        "el/ea": "va rupei",
-        "noi": "vom rupei",
-        "voi": "veți rupei",
-        "ei/ele": "vor rupei"
+        "eu": "voi rupa",
+        "tu": "vei rupa",
+        "el/ea": "va rupa",
+        "noi": "vom rupa",
+        "voi": "veți rupa",
+        "ei/ele": "vor rupa"
       }
     }
   },
@@ -2014,28 +2014,28 @@
     "translation": "продавать",
     "conjugation": {
       "present": {
-        "eu": "vindeesc",
-        "tu": "vindeești",
-        "el/ea": "vindeește",
-        "noi": "vindeim",
-        "voi": "vindeiți",
-        "ei/ele": "vindeesc"
+        "eu": "vindez",
+        "tu": "vindezi",
+        "el/ea": "vindează",
+        "noi": "vindăm",
+        "voi": "vindați",
+        "ei/ele": "vindează"
       },
       "past": {
-        "eu": "am vindeit",
-        "tu": "ai vindeit",
-        "el/ea": "a vindeit",
-        "noi": "am vindeit",
-        "voi": "ați vindeit",
-        "ei/ele": "au vindeit"
+        "eu": "am vindat",
+        "tu": "ai vindat",
+        "el/ea": "a vindat",
+        "noi": "am vindat",
+        "voi": "ați vindat",
+        "ei/ele": "au vindat"
       },
       "future": {
-        "eu": "voi vindei",
-        "tu": "vei vindei",
-        "el/ea": "va vindei",
-        "noi": "vom vindei",
-        "voi": "veți vindei",
-        "ei/ele": "vor vindei"
+        "eu": "voi vinda",
+        "tu": "vei vinda",
+        "el/ea": "va vinda",
+        "noi": "vom vinda",
+        "voi": "veți vinda",
+        "ei/ele": "vor vinda"
       }
     }
   },
@@ -2044,28 +2044,28 @@
     "translation": "терять",
     "conjugation": {
       "present": {
-        "eu": "pierdeesc",
-        "tu": "pierdeești",
-        "el/ea": "pierdeește",
-        "noi": "pierdeim",
-        "voi": "pierdeiți",
-        "ei/ele": "pierdeesc"
+        "eu": "pierdez",
+        "tu": "pierdezi",
+        "el/ea": "pierdează",
+        "noi": "pierdăm",
+        "voi": "pierdați",
+        "ei/ele": "pierdează"
       },
       "past": {
-        "eu": "am pierdeit",
-        "tu": "ai pierdeit",
-        "el/ea": "a pierdeit",
-        "noi": "am pierdeit",
-        "voi": "ați pierdeit",
-        "ei/ele": "au pierdeit"
+        "eu": "am pierdat",
+        "tu": "ai pierdat",
+        "el/ea": "a pierdat",
+        "noi": "am pierdat",
+        "voi": "ați pierdat",
+        "ei/ele": "au pierdat"
       },
       "future": {
-        "eu": "voi pierdei",
-        "tu": "vei pierdei",
-        "el/ea": "va pierdei",
-        "noi": "vom pierdei",
-        "voi": "veți pierdei",
-        "ei/ele": "vor pierdei"
+        "eu": "voi pierda",
+        "tu": "vei pierda",
+        "el/ea": "va pierda",
+        "noi": "vom pierda",
+        "voi": "veți pierda",
+        "ei/ele": "vor pierda"
       }
     }
   },
@@ -2074,28 +2074,28 @@
     "translation": "понимать",
     "conjugation": {
       "present": {
-        "eu": "înțelegeesc",
-        "tu": "înțelegeești",
-        "el/ea": "înțelegeește",
-        "noi": "înțelegeim",
-        "voi": "înțelegeiți",
-        "ei/ele": "înțelegeesc"
+        "eu": "înțelegez",
+        "tu": "înțelegezi",
+        "el/ea": "înțelegează",
+        "noi": "înțelegăm",
+        "voi": "înțelegați",
+        "ei/ele": "înțelegează"
       },
       "past": {
-        "eu": "am înțelegeit",
-        "tu": "ai înțelegeit",
-        "el/ea": "a înțelegeit",
-        "noi": "am înțelegeit",
-        "voi": "ați înțelegeit",
-        "ei/ele": "au înțelegeit"
+        "eu": "am înțelegat",
+        "tu": "ai înțelegat",
+        "el/ea": "a înțelegat",
+        "noi": "am înțelegat",
+        "voi": "ați înțelegat",
+        "ei/ele": "au înțelegat"
       },
       "future": {
-        "eu": "voi înțelegei",
-        "tu": "vei înțelegei",
-        "el/ea": "va înțelegei",
-        "noi": "vom înțelegei",
-        "voi": "veți înțelegei",
-        "ei/ele": "vor înțelegei"
+        "eu": "voi înțelega",
+        "tu": "vei înțelega",
+        "el/ea": "va înțelega",
+        "noi": "vom înțelega",
+        "voi": "veți înțelega",
+        "ei/ele": "vor înțelega"
       }
     }
   },
@@ -2104,28 +2104,28 @@
     "translation": "знать людей, места",
     "conjugation": {
       "present": {
-        "eu": "cunoașteesc",
-        "tu": "cunoașteești",
-        "el/ea": "cunoașteește",
-        "noi": "cunoașteim",
-        "voi": "cunoașteiți",
-        "ei/ele": "cunoașteesc"
+        "eu": "cunoaștez",
+        "tu": "cunoaștezi",
+        "el/ea": "cunoaștează",
+        "noi": "cunoaștăm",
+        "voi": "cunoaștați",
+        "ei/ele": "cunoaștează"
       },
       "past": {
-        "eu": "am cunoașteit",
-        "tu": "ai cunoașteit",
-        "el/ea": "a cunoașteit",
-        "noi": "am cunoașteit",
-        "voi": "ați cunoașteit",
-        "ei/ele": "au cunoașteit"
+        "eu": "am cunoaștat",
+        "tu": "ai cunoaștat",
+        "el/ea": "a cunoaștat",
+        "noi": "am cunoaștat",
+        "voi": "ați cunoaștat",
+        "ei/ele": "au cunoaștat"
       },
       "future": {
-        "eu": "voi cunoaștei",
-        "tu": "vei cunoaștei",
-        "el/ea": "va cunoaștei",
-        "noi": "vom cunoaștei",
-        "voi": "veți cunoaștei",
-        "ei/ele": "vor cunoaștei"
+        "eu": "voi cunoașta",
+        "tu": "vei cunoașta",
+        "el/ea": "va cunoașta",
+        "noi": "vom cunoașta",
+        "voi": "veți cunoașta",
+        "ei/ele": "vor cunoașta"
       }
     }
   },
@@ -2134,28 +2134,28 @@
     "translation": "представлять",
     "conjugation": {
       "present": {
-        "eu": "introduceesc",
-        "tu": "introduceești",
-        "el/ea": "introduceește",
-        "noi": "introduceim",
-        "voi": "introduceiți",
-        "ei/ele": "introduceesc"
+        "eu": "introducez",
+        "tu": "introducezi",
+        "el/ea": "introducează",
+        "noi": "introducăm",
+        "voi": "introducați",
+        "ei/ele": "introducează"
       },
       "past": {
-        "eu": "am introduceit",
-        "tu": "ai introduceit",
-        "el/ea": "a introduceit",
-        "noi": "am introduceit",
-        "voi": "ați introduceit",
-        "ei/ele": "au introduceit"
+        "eu": "am introducat",
+        "tu": "ai introducat",
+        "el/ea": "a introducat",
+        "noi": "am introducat",
+        "voi": "ați introducat",
+        "ei/ele": "au introducat"
       },
       "future": {
-        "eu": "voi introducei",
-        "tu": "vei introducei",
-        "el/ea": "va introducei",
-        "noi": "vom introducei",
-        "voi": "veți introducei",
-        "ei/ele": "vor introducei"
+        "eu": "voi introduca",
+        "tu": "vei introduca",
+        "el/ea": "va introduca",
+        "noi": "vom introduca",
+        "voi": "veți introduca",
+        "ei/ele": "vor introduca"
       }
     }
   },
@@ -2164,28 +2164,28 @@
     "translation": "тянуть",
     "conjugation": {
       "present": {
-        "eu": "trageesc",
-        "tu": "trageești",
-        "el/ea": "trageește",
-        "noi": "trageim",
-        "voi": "trageiți",
-        "ei/ele": "trageesc"
+        "eu": "tragez",
+        "tu": "tragezi",
+        "el/ea": "tragează",
+        "noi": "tragăm",
+        "voi": "tragați",
+        "ei/ele": "tragează"
       },
       "past": {
-        "eu": "am trageit",
-        "tu": "ai trageit",
-        "el/ea": "a trageit",
-        "noi": "am trageit",
-        "voi": "ați trageit",
-        "ei/ele": "au trageit"
+        "eu": "am tragat",
+        "tu": "ai tragat",
+        "el/ea": "a tragat",
+        "noi": "am tragat",
+        "voi": "ați tragat",
+        "ei/ele": "au tragat"
       },
       "future": {
-        "eu": "voi tragei",
-        "tu": "vei tragei",
-        "el/ea": "va tragei",
-        "noi": "vom tragei",
-        "voi": "veți tragei",
-        "ei/ele": "vor tragei"
+        "eu": "voi traga",
+        "tu": "vei traga",
+        "el/ea": "va traga",
+        "noi": "vom traga",
+        "voi": "veți traga",
+        "ei/ele": "vor traga"
       }
     }
   },
@@ -2194,28 +2194,28 @@
     "translation": "нести",
     "conjugation": {
       "present": {
-        "eu": "duceesc",
-        "tu": "duceești",
-        "el/ea": "duceește",
-        "noi": "duceim",
-        "voi": "duceiți",
-        "ei/ele": "duceesc"
+        "eu": "ducez",
+        "tu": "ducezi",
+        "el/ea": "ducează",
+        "noi": "ducăm",
+        "voi": "ducați",
+        "ei/ele": "ducează"
       },
       "past": {
-        "eu": "am duceit",
-        "tu": "ai duceit",
-        "el/ea": "a duceit",
-        "noi": "am duceit",
-        "voi": "ați duceit",
-        "ei/ele": "au duceit"
+        "eu": "am ducat",
+        "tu": "ai ducat",
+        "el/ea": "a ducat",
+        "noi": "am ducat",
+        "voi": "ați ducat",
+        "ei/ele": "au ducat"
       },
       "future": {
-        "eu": "voi ducei",
-        "tu": "vei ducei",
-        "el/ea": "va ducei",
-        "noi": "vom ducei",
-        "voi": "veți ducei",
-        "ei/ele": "vor ducei"
+        "eu": "voi duca",
+        "tu": "vei duca",
+        "el/ea": "va duca",
+        "noi": "vom duca",
+        "voi": "veți duca",
+        "ei/ele": "vor duca"
       }
     }
   },
@@ -2224,28 +2224,28 @@
     "translation": "принести",
     "conjugation": {
       "present": {
-        "eu": "aduceesc",
-        "tu": "aduceești",
-        "el/ea": "aduceește",
-        "noi": "aduceim",
-        "voi": "aduceiți",
-        "ei/ele": "aduceesc"
+        "eu": "aducez",
+        "tu": "aducezi",
+        "el/ea": "aducează",
+        "noi": "aducăm",
+        "voi": "aducați",
+        "ei/ele": "aducează"
       },
       "past": {
-        "eu": "am aduceit",
-        "tu": "ai aduceit",
-        "el/ea": "a aduceit",
-        "noi": "am aduceit",
-        "voi": "ați aduceit",
-        "ei/ele": "au aduceit"
+        "eu": "am aducat",
+        "tu": "ai aducat",
+        "el/ea": "a aducat",
+        "noi": "am aducat",
+        "voi": "ați aducat",
+        "ei/ele": "au aducat"
       },
       "future": {
-        "eu": "voi aducei",
-        "tu": "vei aducei",
-        "el/ea": "va aducei",
-        "noi": "vom aducei",
-        "voi": "veți aducei",
-        "ei/ele": "vor aducei"
+        "eu": "voi aduca",
+        "tu": "vei aduca",
+        "el/ea": "va aduca",
+        "noi": "vom aduca",
+        "voi": "veți aduca",
+        "ei/ele": "vor aduca"
       }
     }
   },
@@ -2254,28 +2254,28 @@
     "translation": "положить",
     "conjugation": {
       "present": {
-        "eu": "puneesc",
-        "tu": "puneești",
-        "el/ea": "puneește",
-        "noi": "puneim",
-        "voi": "puneiți",
-        "ei/ele": "puneesc"
+        "eu": "punez",
+        "tu": "punezi",
+        "el/ea": "punează",
+        "noi": "punăm",
+        "voi": "punați",
+        "ei/ele": "punează"
       },
       "past": {
-        "eu": "am puneit",
-        "tu": "ai puneit",
-        "el/ea": "a puneit",
-        "noi": "am puneit",
-        "voi": "ați puneit",
-        "ei/ele": "au puneit"
+        "eu": "am punat",
+        "tu": "ai punat",
+        "el/ea": "a punat",
+        "noi": "am punat",
+        "voi": "ați punat",
+        "ei/ele": "au punat"
       },
       "future": {
-        "eu": "voi punei",
-        "tu": "vei punei",
-        "el/ea": "va punei",
-        "noi": "vom punei",
-        "voi": "veți punei",
-        "ei/ele": "vor punei"
+        "eu": "voi puna",
+        "tu": "vei puna",
+        "el/ea": "va puna",
+        "noi": "vom puna",
+        "voi": "veți puna",
+        "ei/ele": "vor puna"
       }
     }
   },
@@ -2284,28 +2284,28 @@
     "translation": "печь",
     "conjugation": {
       "present": {
-        "eu": "coaceesc",
-        "tu": "coaceești",
-        "el/ea": "coaceește",
-        "noi": "coaceim",
-        "voi": "coaceiți",
-        "ei/ele": "coaceesc"
+        "eu": "coacez",
+        "tu": "coacezi",
+        "el/ea": "coacează",
+        "noi": "coacăm",
+        "voi": "coacați",
+        "ei/ele": "coacează"
       },
       "past": {
-        "eu": "am coaceit",
-        "tu": "ai coaceit",
-        "el/ea": "a coaceit",
-        "noi": "am coaceit",
-        "voi": "ați coaceit",
-        "ei/ele": "au coaceit"
+        "eu": "am coacat",
+        "tu": "ai coacat",
+        "el/ea": "a coacat",
+        "noi": "am coacat",
+        "voi": "ați coacat",
+        "ei/ele": "au coacat"
       },
       "future": {
-        "eu": "voi coacei",
-        "tu": "vei coacei",
-        "el/ea": "va coacei",
-        "noi": "vom coacei",
-        "voi": "veți coacei",
-        "ei/ele": "vor coacei"
+        "eu": "voi coaca",
+        "tu": "vei coaca",
+        "el/ea": "va coaca",
+        "noi": "vom coaca",
+        "voi": "veți coaca",
+        "ei/ele": "vor coaca"
       }
     }
   },
@@ -2314,28 +2314,28 @@
     "translation": "расти",
     "conjugation": {
       "present": {
-        "eu": "creșteesc",
-        "tu": "creșteești",
-        "el/ea": "creșteește",
-        "noi": "creșteim",
-        "voi": "creșteiți",
-        "ei/ele": "creșteesc"
+        "eu": "creștez",
+        "tu": "creștezi",
+        "el/ea": "creștează",
+        "noi": "creștăm",
+        "voi": "creștați",
+        "ei/ele": "creștează"
       },
       "past": {
-        "eu": "am creșteit",
-        "tu": "ai creșteit",
-        "el/ea": "a creșteit",
-        "noi": "am creșteit",
-        "voi": "ați creșteit",
-        "ei/ele": "au creșteit"
+        "eu": "am creștat",
+        "tu": "ai creștat",
+        "el/ea": "a creștat",
+        "noi": "am creștat",
+        "voi": "ați creștat",
+        "ei/ele": "au creștat"
       },
       "future": {
-        "eu": "voi creștei",
-        "tu": "vei creștei",
-        "el/ea": "va creștei",
-        "noi": "vom creștei",
-        "voi": "veți creștei",
-        "ei/ele": "vor creștei"
+        "eu": "voi creșta",
+        "tu": "vei creșta",
+        "el/ea": "va creșta",
+        "noi": "vom creșta",
+        "voi": "veți creșta",
+        "ei/ele": "vor creșta"
       }
     }
   },
@@ -2344,28 +2344,28 @@
     "translation": "течь",
     "conjugation": {
       "present": {
-        "eu": "curgeesc",
-        "tu": "curgeești",
-        "el/ea": "curgeește",
-        "noi": "curgeim",
-        "voi": "curgeiți",
-        "ei/ele": "curgeesc"
+        "eu": "curgez",
+        "tu": "curgezi",
+        "el/ea": "curgează",
+        "noi": "curgăm",
+        "voi": "curgați",
+        "ei/ele": "curgează"
       },
       "past": {
-        "eu": "am curgeit",
-        "tu": "ai curgeit",
-        "el/ea": "a curgeit",
-        "noi": "am curgeit",
-        "voi": "ați curgeit",
-        "ei/ele": "au curgeit"
+        "eu": "am curgat",
+        "tu": "ai curgat",
+        "el/ea": "a curgat",
+        "noi": "am curgat",
+        "voi": "ați curgat",
+        "ei/ele": "au curgat"
       },
       "future": {
-        "eu": "voi curgei",
-        "tu": "vei curgei",
-        "el/ea": "va curgei",
-        "noi": "vom curgei",
-        "voi": "veți curgei",
-        "ei/ele": "vor curgei"
+        "eu": "voi curga",
+        "tu": "vei curga",
+        "el/ea": "va curga",
+        "noi": "vom curga",
+        "voi": "veți curga",
+        "ei/ele": "vor curga"
       }
     }
   },
@@ -2374,28 +2374,28 @@
     "translation": "открывать",
     "conjugation": {
       "present": {
-        "eu": "deschideesc",
-        "tu": "deschideești",
-        "el/ea": "deschideește",
-        "noi": "deschideim",
-        "voi": "deschideiți",
-        "ei/ele": "deschideesc"
+        "eu": "deschidez",
+        "tu": "deschidezi",
+        "el/ea": "deschidează",
+        "noi": "deschidăm",
+        "voi": "deschidați",
+        "ei/ele": "deschidează"
       },
       "past": {
-        "eu": "am deschideit",
-        "tu": "ai deschideit",
-        "el/ea": "a deschideit",
-        "noi": "am deschideit",
-        "voi": "ați deschideit",
-        "ei/ele": "au deschideit"
+        "eu": "am deschidat",
+        "tu": "ai deschidat",
+        "el/ea": "a deschidat",
+        "noi": "am deschidat",
+        "voi": "ați deschidat",
+        "ei/ele": "au deschidat"
       },
       "future": {
-        "eu": "voi deschidei",
-        "tu": "vei deschidei",
-        "el/ea": "va deschidei",
-        "noi": "vom deschidei",
-        "voi": "veți deschidei",
-        "ei/ele": "vor deschidei"
+        "eu": "voi deschida",
+        "tu": "vei deschida",
+        "el/ea": "va deschida",
+        "noi": "vom deschida",
+        "voi": "veți deschida",
+        "ei/ele": "vor deschida"
       }
     }
   },
@@ -2404,28 +2404,28 @@
     "translation": "закрывать",
     "conjugation": {
       "present": {
-        "eu": "închideesc",
-        "tu": "închideești",
-        "el/ea": "închideește",
-        "noi": "închideim",
-        "voi": "închideiți",
-        "ei/ele": "închideesc"
+        "eu": "închidez",
+        "tu": "închidezi",
+        "el/ea": "închidează",
+        "noi": "închidăm",
+        "voi": "închidați",
+        "ei/ele": "închidează"
       },
       "past": {
-        "eu": "am închideit",
-        "tu": "ai închideit",
-        "el/ea": "a închideit",
-        "noi": "am închideit",
-        "voi": "ați închideit",
-        "ei/ele": "au închideit"
+        "eu": "am închidat",
+        "tu": "ai închidat",
+        "el/ea": "a închidat",
+        "noi": "am închidat",
+        "voi": "ați închidat",
+        "ei/ele": "au închidat"
       },
       "future": {
-        "eu": "voi închidei",
-        "tu": "vei închidei",
-        "el/ea": "va închidei",
-        "noi": "vom închidei",
-        "voi": "veți închidei",
-        "ei/ele": "vor închidei"
+        "eu": "voi închida",
+        "tu": "vei închida",
+        "el/ea": "va închida",
+        "noi": "vom închida",
+        "voi": "veți închida",
+        "ei/ele": "vor închida"
       }
     }
   },
@@ -2434,28 +2434,28 @@
     "translation": "разбивать",
     "conjugation": {
       "present": {
-        "eu": "frângeesc",
-        "tu": "frângeești",
-        "el/ea": "frângeește",
-        "noi": "frângeim",
-        "voi": "frângeiți",
-        "ei/ele": "frângeesc"
+        "eu": "frângez",
+        "tu": "frângezi",
+        "el/ea": "frângează",
+        "noi": "frângăm",
+        "voi": "frângați",
+        "ei/ele": "frângează"
       },
       "past": {
-        "eu": "am frângeit",
-        "tu": "ai frângeit",
-        "el/ea": "a frângeit",
-        "noi": "am frângeit",
-        "voi": "ați frângeit",
-        "ei/ele": "au frângeit"
+        "eu": "am frângat",
+        "tu": "ai frângat",
+        "el/ea": "a frângat",
+        "noi": "am frângat",
+        "voi": "ați frângat",
+        "ei/ele": "au frângat"
       },
       "future": {
-        "eu": "voi frângei",
-        "tu": "vei frângei",
-        "el/ea": "va frângei",
-        "noi": "vom frângei",
-        "voi": "veți frângei",
-        "ei/ele": "vor frângei"
+        "eu": "voi frânga",
+        "tu": "vei frânga",
+        "el/ea": "va frânga",
+        "noi": "vom frânga",
+        "voi": "veți frânga",
+        "ei/ele": "vor frânga"
       }
     }
   },
@@ -2464,28 +2464,28 @@
     "translation": "бежать",
     "conjugation": {
       "present": {
-        "eu": "fugiesc",
-        "tu": "fugiești",
-        "el/ea": "fugiește",
-        "noi": "fugiim",
-        "voi": "fugiiți",
-        "ei/ele": "fugiesc"
+        "eu": "fugesc",
+        "tu": "fugești",
+        "el/ea": "fugește",
+        "noi": "fugim",
+        "voi": "fugiți",
+        "ei/ele": "fugesc"
       },
       "past": {
-        "eu": "am fugiit",
-        "tu": "ai fugiit",
-        "el/ea": "a fugiit",
-        "noi": "am fugiit",
-        "voi": "ați fugiit",
-        "ei/ele": "au fugiit"
+        "eu": "am fugit",
+        "tu": "ai fugit",
+        "el/ea": "a fugit",
+        "noi": "am fugit",
+        "voi": "ați fugit",
+        "ei/ele": "au fugit"
       },
       "future": {
-        "eu": "voi fugii",
-        "tu": "vei fugii",
-        "el/ea": "va fugii",
-        "noi": "vom fugii",
-        "voi": "veți fugii",
-        "ei/ele": "vor fugii"
+        "eu": "voi fugi",
+        "tu": "vei fugi",
+        "el/ea": "va fugi",
+        "noi": "vom fugi",
+        "voi": "veți fugi",
+        "ei/ele": "vor fugi"
       }
     }
   },
@@ -2494,28 +2494,28 @@
     "translation": "плакать",
     "conjugation": {
       "present": {
-        "eu": "plângeesc",
-        "tu": "plângeești",
-        "el/ea": "plângeește",
-        "noi": "plângeim",
-        "voi": "plângeiți",
-        "ei/ele": "plângeesc"
+        "eu": "plângez",
+        "tu": "plângezi",
+        "el/ea": "plângează",
+        "noi": "plângăm",
+        "voi": "plângați",
+        "ei/ele": "plângează"
       },
       "past": {
-        "eu": "am plângeit",
-        "tu": "ai plângeit",
-        "el/ea": "a plângeit",
-        "noi": "am plângeit",
-        "voi": "ați plângeit",
-        "ei/ele": "au plângeit"
+        "eu": "am plângat",
+        "tu": "ai plângat",
+        "el/ea": "a plângat",
+        "noi": "am plângat",
+        "voi": "ați plângat",
+        "ei/ele": "au plângat"
       },
       "future": {
-        "eu": "voi plângei",
-        "tu": "vei plângei",
-        "el/ea": "va plângei",
-        "noi": "vom plângei",
-        "voi": "veți plângei",
-        "ei/ele": "vor plângei"
+        "eu": "voi plânga",
+        "tu": "vei plânga",
+        "el/ea": "va plânga",
+        "noi": "vom plânga",
+        "voi": "veți plânga",
+        "ei/ele": "vor plânga"
       }
     }
   },
@@ -2524,28 +2524,28 @@
     "translation": "обещать",
     "conjugation": {
       "present": {
-        "eu": "promiteesc",
-        "tu": "promiteești",
-        "el/ea": "promiteește",
-        "noi": "promiteim",
-        "voi": "promiteiți",
-        "ei/ele": "promiteesc"
+        "eu": "promitez",
+        "tu": "promitezi",
+        "el/ea": "promitează",
+        "noi": "promităm",
+        "voi": "promitați",
+        "ei/ele": "promitează"
       },
       "past": {
-        "eu": "am promiteit",
-        "tu": "ai promiteit",
-        "el/ea": "a promiteit",
-        "noi": "am promiteit",
-        "voi": "ați promiteit",
-        "ei/ele": "au promiteit"
+        "eu": "am promitat",
+        "tu": "ai promitat",
+        "el/ea": "a promitat",
+        "noi": "am promitat",
+        "voi": "ați promitat",
+        "ei/ele": "au promitat"
       },
       "future": {
-        "eu": "voi promitei",
-        "tu": "vei promitei",
-        "el/ea": "va promitei",
-        "noi": "vom promitei",
-        "voi": "veți promitei",
-        "ei/ele": "vor promitei"
+        "eu": "voi promita",
+        "tu": "vei promita",
+        "el/ea": "va promita",
+        "noi": "vom promita",
+        "voi": "veți promita",
+        "ei/ele": "vor promita"
       }
     }
   },
@@ -2554,28 +2554,28 @@
     "translation": "ловить",
     "conjugation": {
       "present": {
-        "eu": "prindeesc",
-        "tu": "prindeești",
-        "el/ea": "prindeește",
-        "noi": "prindeim",
-        "voi": "prindeiți",
-        "ei/ele": "prindeesc"
+        "eu": "prindez",
+        "tu": "prindezi",
+        "el/ea": "prindează",
+        "noi": "prindăm",
+        "voi": "prindați",
+        "ei/ele": "prindează"
       },
       "past": {
-        "eu": "am prindeit",
-        "tu": "ai prindeit",
-        "el/ea": "a prindeit",
-        "noi": "am prindeit",
-        "voi": "ați prindeit",
-        "ei/ele": "au prindeit"
+        "eu": "am prindat",
+        "tu": "ai prindat",
+        "el/ea": "a prindat",
+        "noi": "am prindat",
+        "voi": "ați prindat",
+        "ei/ele": "au prindat"
       },
       "future": {
-        "eu": "voi prindei",
-        "tu": "vei prindei",
-        "el/ea": "va prindei",
-        "noi": "vom prindei",
-        "voi": "veți prindei",
-        "ei/ele": "vor prindei"
+        "eu": "voi prinda",
+        "tu": "vei prinda",
+        "el/ea": "va prinda",
+        "noi": "vom prinda",
+        "voi": "veți prinda",
+        "ei/ele": "vor prinda"
       }
     }
   },
@@ -2584,28 +2584,28 @@
     "translation": "смеяться",
     "conjugation": {
       "present": {
-        "eu": "râdeesc",
-        "tu": "râdeești",
-        "el/ea": "râdeește",
-        "noi": "râdeim",
-        "voi": "râdeiți",
-        "ei/ele": "râdeesc"
+        "eu": "râdez",
+        "tu": "râdezi",
+        "el/ea": "râdează",
+        "noi": "râdăm",
+        "voi": "râdați",
+        "ei/ele": "râdează"
       },
       "past": {
-        "eu": "am râdeit",
-        "tu": "ai râdeit",
-        "el/ea": "a râdeit",
-        "noi": "am râdeit",
-        "voi": "ați râdeit",
-        "ei/ele": "au râdeit"
+        "eu": "am râdat",
+        "tu": "ai râdat",
+        "el/ea": "a râdat",
+        "noi": "am râdat",
+        "voi": "ați râdat",
+        "ei/ele": "au râdat"
       },
       "future": {
-        "eu": "voi râdei",
-        "tu": "vei râdei",
-        "el/ea": "va râdei",
-        "noi": "vom râdei",
-        "voi": "veți râdei",
-        "ei/ele": "vor râdei"
+        "eu": "voi râda",
+        "tu": "vei râda",
+        "el/ea": "va râda",
+        "noi": "vom râda",
+        "voi": "veți râda",
+        "ei/ele": "vor râda"
       }
     }
   },
@@ -2614,28 +2614,28 @@
     "translation": "прибывать",
     "conjugation": {
       "present": {
-        "eu": "ajungeesc",
-        "tu": "ajungeești",
-        "el/ea": "ajungeește",
-        "noi": "ajungeim",
-        "voi": "ajungeiți",
-        "ei/ele": "ajungeesc"
+        "eu": "ajungez",
+        "tu": "ajungezi",
+        "el/ea": "ajungează",
+        "noi": "ajungăm",
+        "voi": "ajungați",
+        "ei/ele": "ajungează"
       },
       "past": {
-        "eu": "am ajungeit",
-        "tu": "ai ajungeit",
-        "el/ea": "a ajungeit",
-        "noi": "am ajungeit",
-        "voi": "ați ajungeit",
-        "ei/ele": "au ajungeit"
+        "eu": "am ajungat",
+        "tu": "ai ajungat",
+        "el/ea": "a ajungat",
+        "noi": "am ajungat",
+        "voi": "ați ajungat",
+        "ei/ele": "au ajungat"
       },
       "future": {
-        "eu": "voi ajungei",
-        "tu": "vei ajungei",
-        "el/ea": "va ajungei",
-        "noi": "vom ajungei",
-        "voi": "veți ajungei",
-        "ei/ele": "vor ajungei"
+        "eu": "voi ajunga",
+        "tu": "vei ajunga",
+        "el/ea": "va ajunga",
+        "noi": "vom ajunga",
+        "voi": "veți ajunga",
+        "ei/ele": "vor ajunga"
       }
     }
   },
@@ -2644,28 +2644,28 @@
     "translation": "трогать",
     "conjugation": {
       "present": {
-        "eu": "atingeesc",
-        "tu": "atingeești",
-        "el/ea": "atingeește",
-        "noi": "atingeim",
-        "voi": "atingeiți",
-        "ei/ele": "atingeesc"
+        "eu": "atingez",
+        "tu": "atingezi",
+        "el/ea": "atingează",
+        "noi": "atingăm",
+        "voi": "atingați",
+        "ei/ele": "atingează"
       },
       "past": {
-        "eu": "am atingeit",
-        "tu": "ai atingeit",
-        "el/ea": "a atingeit",
-        "noi": "am atingeit",
-        "voi": "ați atingeit",
-        "ei/ele": "au atingeit"
+        "eu": "am atingat",
+        "tu": "ai atingat",
+        "el/ea": "a atingat",
+        "noi": "am atingat",
+        "voi": "ați atingat",
+        "ei/ele": "au atingat"
       },
       "future": {
-        "eu": "voi atingei",
-        "tu": "vei atingei",
-        "el/ea": "va atingei",
-        "noi": "vom atingei",
-        "voi": "veți atingei",
-        "ei/ele": "vor atingei"
+        "eu": "voi atinga",
+        "tu": "vei atinga",
+        "el/ea": "va atinga",
+        "noi": "vom atinga",
+        "voi": "veți atinga",
+        "ei/ele": "vor atinga"
       }
     }
   },
@@ -2674,28 +2674,28 @@
     "translation": "убеждать",
     "conjugation": {
       "present": {
-        "eu": "convingeesc",
-        "tu": "convingeești",
-        "el/ea": "convingeește",
-        "noi": "convingeim",
-        "voi": "convingeiți",
-        "ei/ele": "convingeesc"
+        "eu": "convingez",
+        "tu": "convingezi",
+        "el/ea": "convingează",
+        "noi": "convingăm",
+        "voi": "convingați",
+        "ei/ele": "convingează"
       },
       "past": {
-        "eu": "am convingeit",
-        "tu": "ai convingeit",
-        "el/ea": "a convingeit",
-        "noi": "am convingeit",
-        "voi": "ați convingeit",
-        "ei/ele": "au convingeit"
+        "eu": "am convingat",
+        "tu": "ai convingat",
+        "el/ea": "a convingat",
+        "noi": "am convingat",
+        "voi": "ați convingat",
+        "ei/ele": "au convingat"
       },
       "future": {
-        "eu": "voi convingei",
-        "tu": "vei convingei",
-        "el/ea": "va convingei",
-        "noi": "vom convingei",
-        "voi": "veți convingei",
-        "ei/ele": "vor convingei"
+        "eu": "voi convinga",
+        "tu": "vei convinga",
+        "el/ea": "va convinga",
+        "noi": "vom convinga",
+        "voi": "veți convinga",
+        "ei/ele": "vor convinga"
       }
     }
   },
@@ -2704,28 +2704,28 @@
     "translation": "разрушать",
     "conjugation": {
       "present": {
-        "eu": "distrugeesc",
-        "tu": "distrugeești",
-        "el/ea": "distrugeește",
-        "noi": "distrugeim",
-        "voi": "distrugeiți",
-        "ei/ele": "distrugeesc"
+        "eu": "distrugez",
+        "tu": "distrugezi",
+        "el/ea": "distrugează",
+        "noi": "distrugăm",
+        "voi": "distrugați",
+        "ei/ele": "distrugează"
       },
       "past": {
-        "eu": "am distrugeit",
-        "tu": "ai distrugeit",
-        "el/ea": "a distrugeit",
-        "noi": "am distrugeit",
-        "voi": "ați distrugeit",
-        "ei/ele": "au distrugeit"
+        "eu": "am distrugat",
+        "tu": "ai distrugat",
+        "el/ea": "a distrugat",
+        "noi": "am distrugat",
+        "voi": "ați distrugat",
+        "ei/ele": "au distrugat"
       },
       "future": {
-        "eu": "voi distrugei",
-        "tu": "vei distrugei",
-        "el/ea": "va distrugei",
-        "noi": "vom distrugei",
-        "voi": "veți distrugei",
-        "ei/ele": "vor distrugei"
+        "eu": "voi distruga",
+        "tu": "vei distruga",
+        "el/ea": "va distruga",
+        "noi": "vom distruga",
+        "voi": "veți distruga",
+        "ei/ele": "vor distruga"
       }
     }
   },
@@ -2734,28 +2734,28 @@
     "translation": "побеждать",
     "conjugation": {
       "present": {
-        "eu": "învingeesc",
-        "tu": "învingeești",
-        "el/ea": "învingeește",
-        "noi": "învingeim",
-        "voi": "învingeiți",
-        "ei/ele": "învingeesc"
+        "eu": "învingez",
+        "tu": "învingezi",
+        "el/ea": "învingează",
+        "noi": "învingăm",
+        "voi": "învingați",
+        "ei/ele": "învingează"
       },
       "past": {
-        "eu": "am învingeit",
-        "tu": "ai învingeit",
-        "el/ea": "a învingeit",
-        "noi": "am învingeit",
-        "voi": "ați învingeit",
-        "ei/ele": "au învingeit"
+        "eu": "am învingat",
+        "tu": "ai învingat",
+        "el/ea": "a învingat",
+        "noi": "am învingat",
+        "voi": "ați învingat",
+        "ei/ele": "au învingat"
       },
       "future": {
-        "eu": "voi învingei",
-        "tu": "vei învingei",
-        "el/ea": "va învingei",
-        "noi": "vom învingei",
-        "voi": "veți învingei",
-        "ei/ele": "vor învingei"
+        "eu": "voi învinga",
+        "tu": "vei învinga",
+        "el/ea": "va învinga",
+        "noi": "vom învinga",
+        "voi": "veți învinga",
+        "ei/ele": "vor învinga"
       }
     }
   },
@@ -2764,28 +2764,28 @@
     "translation": "толкать",
     "conjugation": {
       "present": {
-        "eu": "împingeesc",
-        "tu": "împingeești",
-        "el/ea": "împingeește",
-        "noi": "împingeim",
-        "voi": "împingeiți",
-        "ei/ele": "împingeesc"
+        "eu": "împingez",
+        "tu": "împingezi",
+        "el/ea": "împingează",
+        "noi": "împingăm",
+        "voi": "împingați",
+        "ei/ele": "împingează"
       },
       "past": {
-        "eu": "am împingeit",
-        "tu": "ai împingeit",
-        "el/ea": "a împingeit",
-        "noi": "am împingeit",
-        "voi": "ați împingeit",
-        "ei/ele": "au împingeit"
+        "eu": "am împingat",
+        "tu": "ai împingat",
+        "el/ea": "a împingat",
+        "noi": "am împingat",
+        "voi": "ați împingat",
+        "ei/ele": "au împingat"
       },
       "future": {
-        "eu": "voi împingei",
-        "tu": "vei împingei",
-        "el/ea": "va împingei",
-        "noi": "vom împingei",
-        "voi": "veți împingei",
-        "ei/ele": "vor împingei"
+        "eu": "voi împinga",
+        "tu": "vei împinga",
+        "el/ea": "va împinga",
+        "noi": "vom împinga",
+        "voi": "veți împinga",
+        "ei/ele": "vor împinga"
       }
     }
   },
@@ -2794,28 +2794,28 @@
     "translation": "привлекать",
     "conjugation": {
       "present": {
-        "eu": "atrageesc",
-        "tu": "atrageești",
-        "el/ea": "atrageește",
-        "noi": "atrageim",
-        "voi": "atrageiți",
-        "ei/ele": "atrageesc"
+        "eu": "atragez",
+        "tu": "atragezi",
+        "el/ea": "atragează",
+        "noi": "atragăm",
+        "voi": "atragați",
+        "ei/ele": "atragează"
       },
       "past": {
-        "eu": "am atrageit",
-        "tu": "ai atrageit",
-        "el/ea": "a atrageit",
-        "noi": "am atrageit",
-        "voi": "ați atrageit",
-        "ei/ele": "au atrageit"
+        "eu": "am atragat",
+        "tu": "ai atragat",
+        "el/ea": "a atragat",
+        "noi": "am atragat",
+        "voi": "ați atragat",
+        "ei/ele": "au atragat"
       },
       "future": {
-        "eu": "voi atragei",
-        "tu": "vei atragei",
-        "el/ea": "va atragei",
-        "noi": "vom atragei",
-        "voi": "veți atragei",
-        "ei/ele": "vor atragei"
+        "eu": "voi atraga",
+        "tu": "vei atraga",
+        "el/ea": "va atraga",
+        "noi": "vom atraga",
+        "voi": "veți atraga",
+        "ei/ele": "vor atraga"
       }
     }
   },
@@ -2824,28 +2824,28 @@
     "translation": "извлекать",
     "conjugation": {
       "present": {
-        "eu": "extrageesc",
-        "tu": "extrageești",
-        "el/ea": "extrageește",
-        "noi": "extrageim",
-        "voi": "extrageiți",
-        "ei/ele": "extrageesc"
+        "eu": "extragez",
+        "tu": "extragezi",
+        "el/ea": "extragează",
+        "noi": "extragăm",
+        "voi": "extragați",
+        "ei/ele": "extragează"
       },
       "past": {
-        "eu": "am extrageit",
-        "tu": "ai extrageit",
-        "el/ea": "a extrageit",
-        "noi": "am extrageit",
-        "voi": "ați extrageit",
-        "ei/ele": "au extrageit"
+        "eu": "am extragat",
+        "tu": "ai extragat",
+        "el/ea": "a extragat",
+        "noi": "am extragat",
+        "voi": "ați extragat",
+        "ei/ele": "au extragat"
       },
       "future": {
-        "eu": "voi extragei",
-        "tu": "vei extragei",
-        "el/ea": "va extragei",
-        "noi": "vom extragei",
-        "voi": "veți extragei",
-        "ei/ele": "vor extragei"
+        "eu": "voi extraga",
+        "tu": "vei extraga",
+        "el/ea": "va extraga",
+        "noi": "vom extraga",
+        "voi": "veți extraga",
+        "ei/ele": "vor extraga"
       }
     }
   },
@@ -2854,28 +2854,28 @@
     "translation": "перестроить",
     "conjugation": {
       "present": {
-        "eu": "refaceesc",
-        "tu": "refaceești",
-        "el/ea": "refaceește",
-        "noi": "refaceim",
-        "voi": "refaceiți",
-        "ei/ele": "refaceesc"
+        "eu": "refacez",
+        "tu": "refacezi",
+        "el/ea": "refacează",
+        "noi": "refacăm",
+        "voi": "refacați",
+        "ei/ele": "refacează"
       },
       "past": {
-        "eu": "am refaceit",
-        "tu": "ai refaceit",
-        "el/ea": "a refaceit",
-        "noi": "am refaceit",
-        "voi": "ați refaceit",
-        "ei/ele": "au refaceit"
+        "eu": "am refacat",
+        "tu": "ai refacat",
+        "el/ea": "a refacat",
+        "noi": "am refacat",
+        "voi": "ați refacat",
+        "ei/ele": "au refacat"
       },
       "future": {
-        "eu": "voi refacei",
-        "tu": "vei refacei",
-        "el/ea": "va refacei",
-        "noi": "vom refacei",
-        "voi": "veți refacei",
-        "ei/ele": "vor refacei"
+        "eu": "voi refaca",
+        "tu": "vei refaca",
+        "el/ea": "va refaca",
+        "noi": "vom refaca",
+        "voi": "veți refaca",
+        "ei/ele": "vor refaca"
       }
     }
   },
@@ -2884,28 +2884,28 @@
     "translation": "притворяться",
     "conjugation": {
       "present": {
-        "eu": "prefaceesc",
-        "tu": "prefaceești",
-        "el/ea": "prefaceește",
-        "noi": "prefaceim",
-        "voi": "prefaceiți",
-        "ei/ele": "prefaceesc"
+        "eu": "prefacez",
+        "tu": "prefacezi",
+        "el/ea": "prefacează",
+        "noi": "prefacăm",
+        "voi": "prefacați",
+        "ei/ele": "prefacează"
       },
       "past": {
-        "eu": "am prefaceit",
-        "tu": "ai prefaceit",
-        "el/ea": "a prefaceit",
-        "noi": "am prefaceit",
-        "voi": "ați prefaceit",
-        "ei/ele": "au prefaceit"
+        "eu": "am prefacat",
+        "tu": "ai prefacat",
+        "el/ea": "a prefacat",
+        "noi": "am prefacat",
+        "voi": "ați prefacat",
+        "ei/ele": "au prefacat"
       },
       "future": {
-        "eu": "voi prefacei",
-        "tu": "vei prefacei",
-        "el/ea": "va prefacei",
-        "noi": "vom prefacei",
-        "voi": "veți prefacei",
-        "ei/ele": "vor prefacei"
+        "eu": "voi prefaca",
+        "tu": "vei prefaca",
+        "el/ea": "va prefaca",
+        "noi": "vom prefaca",
+        "voi": "veți prefaca",
+        "ei/ele": "vor prefaca"
       }
     }
   },
@@ -2914,28 +2914,28 @@
     "translation": "выводить",
     "conjugation": {
       "present": {
-        "eu": "deduceesc",
-        "tu": "deduceești",
-        "el/ea": "deduceește",
-        "noi": "deduceim",
-        "voi": "deduceiți",
-        "ei/ele": "deduceesc"
+        "eu": "deducez",
+        "tu": "deducezi",
+        "el/ea": "deducează",
+        "noi": "deducăm",
+        "voi": "deducați",
+        "ei/ele": "deducează"
       },
       "past": {
-        "eu": "am deduceit",
-        "tu": "ai deduceit",
-        "el/ea": "a deduceit",
-        "noi": "am deduceit",
-        "voi": "ați deduceit",
-        "ei/ele": "au deduceit"
+        "eu": "am deducat",
+        "tu": "ai deducat",
+        "el/ea": "a deducat",
+        "noi": "am deducat",
+        "voi": "ați deducat",
+        "ei/ele": "au deducat"
       },
       "future": {
-        "eu": "voi deducei",
-        "tu": "vei deducei",
-        "el/ea": "va deducei",
-        "noi": "vom deducei",
-        "voi": "veți deducei",
-        "ei/ele": "vor deducei"
+        "eu": "voi deduca",
+        "tu": "vei deduca",
+        "el/ea": "va deduca",
+        "noi": "vom deduca",
+        "voi": "veți deduca",
+        "ei/ele": "vor deduca"
       }
     }
   },
@@ -2944,28 +2944,28 @@
     "translation": "понижать",
     "conjugation": {
       "present": {
-        "eu": "reduceesc",
-        "tu": "reduceești",
-        "el/ea": "reduceește",
-        "noi": "reduceim",
-        "voi": "reduceiți",
-        "ei/ele": "reduceesc"
+        "eu": "reducez",
+        "tu": "reducezi",
+        "el/ea": "reducează",
+        "noi": "reducăm",
+        "voi": "reducați",
+        "ei/ele": "reducează"
       },
       "past": {
-        "eu": "am reduceit",
-        "tu": "ai reduceit",
-        "el/ea": "a reduceit",
-        "noi": "am reduceit",
-        "voi": "ați reduceit",
-        "ei/ele": "au reduceit"
+        "eu": "am reducat",
+        "tu": "ai reducat",
+        "el/ea": "a reducat",
+        "noi": "am reducat",
+        "voi": "ați reducat",
+        "ei/ele": "au reducat"
       },
       "future": {
-        "eu": "voi reducei",
-        "tu": "vei reducei",
-        "el/ea": "va reducei",
-        "noi": "vom reducei",
-        "voi": "veți reducei",
-        "ei/ele": "vor reducei"
+        "eu": "voi reduca",
+        "tu": "vei reduca",
+        "el/ea": "va reduca",
+        "noi": "vom reduca",
+        "voi": "veți reduca",
+        "ei/ele": "vor reduca"
       }
     }
   },
@@ -2974,28 +2974,28 @@
     "translation": "воспроизводить",
     "conjugation": {
       "present": {
-        "eu": "reproduceesc",
-        "tu": "reproduceești",
-        "el/ea": "reproduceește",
-        "noi": "reproduceim",
-        "voi": "reproduceiți",
-        "ei/ele": "reproduceesc"
+        "eu": "reproducez",
+        "tu": "reproducezi",
+        "el/ea": "reproducează",
+        "noi": "reproducăm",
+        "voi": "reproducați",
+        "ei/ele": "reproducează"
       },
       "past": {
-        "eu": "am reproduceit",
-        "tu": "ai reproduceit",
-        "el/ea": "a reproduceit",
-        "noi": "am reproduceit",
-        "voi": "ați reproduceit",
-        "ei/ele": "au reproduceit"
+        "eu": "am reproducat",
+        "tu": "ai reproducat",
+        "el/ea": "a reproducat",
+        "noi": "am reproducat",
+        "voi": "ați reproducat",
+        "ei/ele": "au reproducat"
       },
       "future": {
-        "eu": "voi reproducei",
-        "tu": "vei reproducei",
-        "el/ea": "va reproducei",
-        "noi": "vom reproducei",
-        "voi": "veți reproducei",
-        "ei/ele": "vor reproducei"
+        "eu": "voi reproduca",
+        "tu": "vei reproduca",
+        "el/ea": "va reproduca",
+        "noi": "vom reproduca",
+        "voi": "veți reproduca",
+        "ei/ele": "vor reproduca"
       }
     }
   },
@@ -3004,28 +3004,28 @@
     "translation": "соответствовать",
     "conjugation": {
       "present": {
-        "eu": "corespundeesc",
-        "tu": "corespundeești",
-        "el/ea": "corespundeește",
-        "noi": "corespundeim",
-        "voi": "corespundeiți",
-        "ei/ele": "corespundeesc"
+        "eu": "corespundez",
+        "tu": "corespundezi",
+        "el/ea": "corespundează",
+        "noi": "corespundăm",
+        "voi": "corespundați",
+        "ei/ele": "corespundează"
       },
       "past": {
-        "eu": "am corespundeit",
-        "tu": "ai corespundeit",
-        "el/ea": "a corespundeit",
-        "noi": "am corespundeit",
-        "voi": "ați corespundeit",
-        "ei/ele": "au corespundeit"
+        "eu": "am corespundat",
+        "tu": "ai corespundat",
+        "el/ea": "a corespundat",
+        "noi": "am corespundat",
+        "voi": "ați corespundat",
+        "ei/ele": "au corespundat"
       },
       "future": {
-        "eu": "voi corespundei",
-        "tu": "vei corespundei",
-        "el/ea": "va corespundei",
-        "noi": "vom corespundei",
-        "voi": "veți corespundei",
-        "ei/ele": "vor corespundei"
+        "eu": "voi corespunda",
+        "tu": "vei corespunda",
+        "el/ea": "va corespunda",
+        "noi": "vom corespunda",
+        "voi": "veți corespunda",
+        "ei/ele": "vor corespunda"
       }
     }
   },
@@ -3034,28 +3034,28 @@
     "translation": "прятать",
     "conjugation": {
       "present": {
-        "eu": "ascundeesc",
-        "tu": "ascundeești",
-        "el/ea": "ascundeește",
-        "noi": "ascundeim",
-        "voi": "ascundeiți",
-        "ei/ele": "ascundeesc"
+        "eu": "ascundez",
+        "tu": "ascundezi",
+        "el/ea": "ascundează",
+        "noi": "ascundăm",
+        "voi": "ascundați",
+        "ei/ele": "ascundează"
       },
       "past": {
-        "eu": "am ascundeit",
-        "tu": "ai ascundeit",
-        "el/ea": "a ascundeit",
-        "noi": "am ascundeit",
-        "voi": "ați ascundeit",
-        "ei/ele": "au ascundeit"
+        "eu": "am ascundat",
+        "tu": "ai ascundat",
+        "el/ea": "a ascundat",
+        "noi": "am ascundat",
+        "voi": "ați ascundat",
+        "ei/ele": "au ascundat"
       },
       "future": {
-        "eu": "voi ascundei",
-        "tu": "vei ascundei",
-        "el/ea": "va ascundei",
-        "noi": "vom ascundei",
-        "voi": "veți ascundei",
-        "ei/ele": "vor ascundei"
+        "eu": "voi ascunda",
+        "tu": "vei ascunda",
+        "el/ea": "va ascunda",
+        "noi": "vom ascunda",
+        "voi": "veți ascunda",
+        "ei/ele": "vor ascunda"
       }
     }
   },
@@ -3064,28 +3064,28 @@
     "translation": "компроментировать",
     "conjugation": {
       "present": {
-        "eu": "cuprindeesc",
-        "tu": "cuprindeești",
-        "el/ea": "cuprindeește",
-        "noi": "cuprindeim",
-        "voi": "cuprindeiți",
-        "ei/ele": "cuprindeesc"
+        "eu": "cuprindez",
+        "tu": "cuprindezi",
+        "el/ea": "cuprindează",
+        "noi": "cuprindăm",
+        "voi": "cuprindați",
+        "ei/ele": "cuprindează"
       },
       "past": {
-        "eu": "am cuprindeit",
-        "tu": "ai cuprindeit",
-        "el/ea": "a cuprindeit",
-        "noi": "am cuprindeit",
-        "voi": "ați cuprindeit",
-        "ei/ele": "au cuprindeit"
+        "eu": "am cuprindat",
+        "tu": "ai cuprindat",
+        "el/ea": "a cuprindat",
+        "noi": "am cuprindat",
+        "voi": "ați cuprindat",
+        "ei/ele": "au cuprindat"
       },
       "future": {
-        "eu": "voi cuprindei",
-        "tu": "vei cuprindei",
-        "el/ea": "va cuprindei",
-        "noi": "vom cuprindei",
-        "voi": "veți cuprindei",
-        "ei/ele": "vor cuprindei"
+        "eu": "voi cuprinda",
+        "tu": "vei cuprinda",
+        "el/ea": "va cuprinda",
+        "noi": "vom cuprinda",
+        "voi": "veți cuprinda",
+        "ei/ele": "vor cuprinda"
       }
     }
   },
@@ -3094,28 +3094,28 @@
     "translation": "распространять",
     "conjugation": {
       "present": {
-        "eu": "răspândiesc",
-        "tu": "răspândiești",
-        "el/ea": "răspândiește",
-        "noi": "răspândiim",
-        "voi": "răspândiiți",
-        "ei/ele": "răspândiesc"
+        "eu": "răspândesc",
+        "tu": "răspândești",
+        "el/ea": "răspândește",
+        "noi": "răspândim",
+        "voi": "răspândiți",
+        "ei/ele": "răspândesc"
       },
       "past": {
-        "eu": "am răspândiit",
-        "tu": "ai răspândiit",
-        "el/ea": "a răspândiit",
-        "noi": "am răspândiit",
-        "voi": "ați răspândiit",
-        "ei/ele": "au răspândiit"
+        "eu": "am răspândit",
+        "tu": "ai răspândit",
+        "el/ea": "a răspândit",
+        "noi": "am răspândit",
+        "voi": "ați răspândit",
+        "ei/ele": "au răspândit"
       },
       "future": {
-        "eu": "voi răspândii",
-        "tu": "vei răspândii",
-        "el/ea": "va răspândii",
-        "noi": "vom răspândii",
-        "voi": "veți răspândii",
-        "ei/ele": "vor răspândii"
+        "eu": "voi răspândi",
+        "tu": "vei răspândi",
+        "el/ea": "va răspândi",
+        "noi": "vom răspândi",
+        "voi": "veți răspândi",
+        "ei/ele": "vor răspândi"
       }
     }
   },
@@ -3124,28 +3124,28 @@
     "translation": "исчезать",
     "conjugation": {
       "present": {
-        "eu": "dispăreaesc",
-        "tu": "dispăreaești",
-        "el/ea": "dispăreaește",
-        "noi": "dispăreaim",
-        "voi": "dispăreaiți",
-        "ei/ele": "dispăreaesc"
+        "eu": "dispăreez",
+        "tu": "dispăreezi",
+        "el/ea": "dispăreează",
+        "noi": "dispăreăm",
+        "voi": "dispăreați",
+        "ei/ele": "dispăreează"
       },
       "past": {
-        "eu": "am dispăreait",
-        "tu": "ai dispăreait",
-        "el/ea": "a dispăreait",
-        "noi": "am dispăreait",
-        "voi": "ați dispăreait",
-        "ei/ele": "au dispăreait"
+        "eu": "am dispăreat",
+        "tu": "ai dispăreat",
+        "el/ea": "a dispăreat",
+        "noi": "am dispăreat",
+        "voi": "ați dispăreat",
+        "ei/ele": "au dispăreat"
       },
       "future": {
-        "eu": "voi dispăreai",
-        "tu": "vei dispăreai",
-        "el/ea": "va dispăreai",
-        "noi": "vom dispăreai",
-        "voi": "veți dispăreai",
-        "ei/ele": "vor dispăreai"
+        "eu": "voi dispărea",
+        "tu": "vei dispărea",
+        "el/ea": "va dispărea",
+        "noi": "vom dispărea",
+        "voi": "veți dispărea",
+        "ei/ele": "vor dispărea"
       }
     }
   },
@@ -3154,28 +3154,28 @@
     "translation": "приходить",
     "conjugation": {
       "present": {
-        "eu": "veniesc",
-        "tu": "veniești",
-        "el/ea": "veniește",
-        "noi": "veniim",
-        "voi": "veniiți",
-        "ei/ele": "veniesc"
+        "eu": "venesc",
+        "tu": "venești",
+        "el/ea": "venește",
+        "noi": "venim",
+        "voi": "veniți",
+        "ei/ele": "venesc"
       },
       "past": {
-        "eu": "am veniit",
-        "tu": "ai veniit",
-        "el/ea": "a veniit",
-        "noi": "am veniit",
-        "voi": "ați veniit",
-        "ei/ele": "au veniit"
+        "eu": "am venit",
+        "tu": "ai venit",
+        "el/ea": "a venit",
+        "noi": "am venit",
+        "voi": "ați venit",
+        "ei/ele": "au venit"
       },
       "future": {
-        "eu": "voi venii",
-        "tu": "vei venii",
-        "el/ea": "va venii",
-        "noi": "vom venii",
-        "voi": "veți venii",
-        "ei/ele": "vor venii"
+        "eu": "voi veni",
+        "tu": "vei veni",
+        "el/ea": "va veni",
+        "noi": "vom veni",
+        "voi": "veți veni",
+        "ei/ele": "vor veni"
       }
     }
   },
@@ -3184,28 +3184,28 @@
     "translation": "читать",
     "conjugation": {
       "present": {
-        "eu": "citiesc",
-        "tu": "citiești",
-        "el/ea": "citiește",
-        "noi": "citiim",
-        "voi": "citiiți",
-        "ei/ele": "citiesc"
+        "eu": "citesc",
+        "tu": "citești",
+        "el/ea": "citește",
+        "noi": "citim",
+        "voi": "citiți",
+        "ei/ele": "citesc"
       },
       "past": {
-        "eu": "am citiit",
-        "tu": "ai citiit",
-        "el/ea": "a citiit",
-        "noi": "am citiit",
-        "voi": "ați citiit",
-        "ei/ele": "au citiit"
+        "eu": "am citit",
+        "tu": "ai citit",
+        "el/ea": "a citit",
+        "noi": "am citit",
+        "voi": "ați citit",
+        "ei/ele": "au citit"
       },
       "future": {
-        "eu": "voi citii",
-        "tu": "vei citii",
-        "el/ea": "va citii",
-        "noi": "vom citii",
-        "voi": "veți citii",
-        "ei/ele": "vor citii"
+        "eu": "voi citi",
+        "tu": "vei citi",
+        "el/ea": "va citi",
+        "noi": "vom citi",
+        "voi": "veți citi",
+        "ei/ele": "vor citi"
       }
     }
   },
@@ -3214,28 +3214,28 @@
     "translation": "спать",
     "conjugation": {
       "present": {
-        "eu": "dormiesc",
-        "tu": "dormiești",
-        "el/ea": "dormiește",
-        "noi": "dormiim",
-        "voi": "dormiiți",
-        "ei/ele": "dormiesc"
+        "eu": "dormesc",
+        "tu": "dormești",
+        "el/ea": "dormește",
+        "noi": "dormim",
+        "voi": "dormiți",
+        "ei/ele": "dormesc"
       },
       "past": {
-        "eu": "am dormiit",
-        "tu": "ai dormiit",
-        "el/ea": "a dormiit",
-        "noi": "am dormiit",
-        "voi": "ați dormiit",
-        "ei/ele": "au dormiit"
+        "eu": "am dormit",
+        "tu": "ai dormit",
+        "el/ea": "a dormit",
+        "noi": "am dormit",
+        "voi": "ați dormit",
+        "ei/ele": "au dormit"
       },
       "future": {
-        "eu": "voi dormii",
-        "tu": "vei dormii",
-        "el/ea": "va dormii",
-        "noi": "vom dormii",
-        "voi": "veți dormii",
-        "ei/ele": "vor dormii"
+        "eu": "voi dormi",
+        "tu": "vei dormi",
+        "el/ea": "va dormi",
+        "noi": "vom dormi",
+        "voi": "veți dormi",
+        "ei/ele": "vor dormi"
       }
     }
   },
@@ -3244,28 +3244,28 @@
     "translation": "жить",
     "conjugation": {
       "present": {
-        "eu": "trăiesc",
-        "tu": "trăiești",
-        "el/ea": "trăiește",
-        "noi": "trăiim",
-        "voi": "trăiiți",
-        "ei/ele": "trăiesc"
+        "eu": "trăesc",
+        "tu": "trăești",
+        "el/ea": "trăește",
+        "noi": "trăim",
+        "voi": "trăiți",
+        "ei/ele": "trăesc"
       },
       "past": {
-        "eu": "am trăiit",
-        "tu": "ai trăiit",
-        "el/ea": "a trăiit",
-        "noi": "am trăiit",
-        "voi": "ați trăiit",
-        "ei/ele": "au trăiit"
+        "eu": "am trăit",
+        "tu": "ai trăit",
+        "el/ea": "a trăit",
+        "noi": "am trăit",
+        "voi": "ați trăit",
+        "ei/ele": "au trăit"
       },
       "future": {
-        "eu": "voi trăii",
-        "tu": "vei trăii",
-        "el/ea": "va trăii",
-        "noi": "vom trăii",
-        "voi": "veți trăii",
-        "ei/ele": "vor trăii"
+        "eu": "voi trăi",
+        "tu": "vei trăi",
+        "el/ea": "va trăi",
+        "noi": "vom trăi",
+        "voi": "veți trăi",
+        "ei/ele": "vor trăi"
       }
     }
   },
@@ -3274,28 +3274,28 @@
     "translation": "смотреть",
     "conjugation": {
       "present": {
-        "eu": "priviesc",
-        "tu": "priviești",
-        "el/ea": "priviește",
-        "noi": "priviim",
-        "voi": "priviiți",
-        "ei/ele": "priviesc"
+        "eu": "privesc",
+        "tu": "privești",
+        "el/ea": "privește",
+        "noi": "privim",
+        "voi": "priviți",
+        "ei/ele": "privesc"
       },
       "past": {
-        "eu": "am priviit",
-        "tu": "ai priviit",
-        "el/ea": "a priviit",
-        "noi": "am priviit",
-        "voi": "ați priviit",
-        "ei/ele": "au priviit"
+        "eu": "am privit",
+        "tu": "ai privit",
+        "el/ea": "a privit",
+        "noi": "am privit",
+        "voi": "ați privit",
+        "ei/ele": "au privit"
       },
       "future": {
-        "eu": "voi privii",
-        "tu": "vei privii",
-        "el/ea": "va privii",
-        "noi": "vom privii",
-        "voi": "veți privii",
-        "ei/ele": "vor privii"
+        "eu": "voi privi",
+        "tu": "vei privi",
+        "el/ea": "va privi",
+        "noi": "vom privi",
+        "voi": "veți privi",
+        "ei/ele": "vor privi"
       }
     }
   },
@@ -3304,28 +3304,28 @@
     "translation": "чувствовать",
     "conjugation": {
       "present": {
-        "eu": "simțiesc",
-        "tu": "simțiești",
-        "el/ea": "simțiește",
-        "noi": "simțiim",
-        "voi": "simțiiți",
-        "ei/ele": "simțiesc"
+        "eu": "simțesc",
+        "tu": "simțești",
+        "el/ea": "simțește",
+        "noi": "simțim",
+        "voi": "simțiți",
+        "ei/ele": "simțesc"
       },
       "past": {
-        "eu": "am simțiit",
-        "tu": "ai simțiit",
-        "el/ea": "a simțiit",
-        "noi": "am simțiit",
-        "voi": "ați simțiit",
-        "ei/ele": "au simțiit"
+        "eu": "am simțit",
+        "tu": "ai simțit",
+        "el/ea": "a simțit",
+        "noi": "am simțit",
+        "voi": "ați simțit",
+        "ei/ele": "au simțit"
       },
       "future": {
-        "eu": "voi simții",
-        "tu": "vei simții",
-        "el/ea": "va simții",
-        "noi": "vom simții",
-        "voi": "veți simții",
-        "ei/ele": "vor simții"
+        "eu": "voi simți",
+        "tu": "vei simți",
+        "el/ea": "va simți",
+        "noi": "vom simți",
+        "voi": "veți simți",
+        "ei/ele": "vor simți"
       }
     }
   },
@@ -3334,28 +3334,28 @@
     "translation": "искать",
     "conjugation": {
       "present": {
-        "eu": "găsiesc",
-        "tu": "găsiești",
-        "el/ea": "găsiește",
-        "noi": "găsiim",
-        "voi": "găsiiți",
-        "ei/ele": "găsiesc"
+        "eu": "găsesc",
+        "tu": "găsești",
+        "el/ea": "găsește",
+        "noi": "găsim",
+        "voi": "găsiți",
+        "ei/ele": "găsesc"
       },
       "past": {
-        "eu": "am găsiit",
-        "tu": "ai găsiit",
-        "el/ea": "a găsiit",
-        "noi": "am găsiit",
-        "voi": "ați găsiit",
-        "ei/ele": "au găsiit"
+        "eu": "am găsit",
+        "tu": "ai găsit",
+        "el/ea": "a găsit",
+        "noi": "am găsit",
+        "voi": "ați găsit",
+        "ei/ele": "au găsit"
       },
       "future": {
-        "eu": "voi găsii",
-        "tu": "vei găsii",
-        "el/ea": "va găsii",
-        "noi": "vom găsii",
-        "voi": "veți găsii",
-        "ei/ele": "vor găsii"
+        "eu": "voi găsi",
+        "tu": "vei găsi",
+        "el/ea": "va găsi",
+        "noi": "vom găsi",
+        "voi": "veți găsi",
+        "ei/ele": "vor găsi"
       }
     }
   },
@@ -3364,28 +3364,28 @@
     "translation": "решать",
     "conjugation": {
       "present": {
-        "eu": "hotărîesc",
-        "tu": "hotărîești",
-        "el/ea": "hotărîește",
-        "noi": "hotărîim",
-        "voi": "hotărîiți",
-        "ei/ele": "hotărîesc"
+        "eu": "hotăresc",
+        "tu": "hotărești",
+        "el/ea": "hotărește",
+        "noi": "hotărim",
+        "voi": "hotăriți",
+        "ei/ele": "hotăresc"
       },
       "past": {
-        "eu": "am hotărîit",
-        "tu": "ai hotărîit",
-        "el/ea": "a hotărîit",
-        "noi": "am hotărîit",
-        "voi": "ați hotărîit",
-        "ei/ele": "au hotărîit"
+        "eu": "am hotărit",
+        "tu": "ai hotărit",
+        "el/ea": "a hotărit",
+        "noi": "am hotărit",
+        "voi": "ați hotărit",
+        "ei/ele": "au hotărit"
       },
       "future": {
-        "eu": "voi hotărîi",
-        "tu": "vei hotărîi",
-        "el/ea": "va hotărîi",
-        "noi": "vom hotărîi",
-        "voi": "veți hotărîi",
-        "ei/ele": "vor hotărîi"
+        "eu": "voi hotări",
+        "tu": "vei hotări",
+        "el/ea": "va hotări",
+        "noi": "vom hotări",
+        "voi": "veți hotări",
+        "ei/ele": "vor hotări"
       }
     }
   },
@@ -3394,28 +3394,28 @@
     "translation": "спускаться",
     "conjugation": {
       "present": {
-        "eu": "coborîesc",
-        "tu": "coborîești",
-        "el/ea": "coborîește",
-        "noi": "coborîim",
-        "voi": "coborîiți",
-        "ei/ele": "coborîesc"
+        "eu": "coboresc",
+        "tu": "coborești",
+        "el/ea": "coborește",
+        "noi": "coborim",
+        "voi": "coboriți",
+        "ei/ele": "coboresc"
       },
       "past": {
-        "eu": "am coborîit",
-        "tu": "ai coborîit",
-        "el/ea": "a coborîit",
-        "noi": "am coborîit",
-        "voi": "ați coborîit",
-        "ei/ele": "au coborîit"
+        "eu": "am coborit",
+        "tu": "ai coborit",
+        "el/ea": "a coborit",
+        "noi": "am coborit",
+        "voi": "ați coborit",
+        "ei/ele": "au coborit"
       },
       "future": {
-        "eu": "voi coborîi",
-        "tu": "vei coborîi",
-        "el/ea": "va coborîi",
-        "noi": "vom coborîi",
-        "voi": "veți coborîi",
-        "ei/ele": "vor coborîi"
+        "eu": "voi cobori",
+        "tu": "vei cobori",
+        "el/ea": "va cobori",
+        "noi": "vom cobori",
+        "voi": "veți cobori",
+        "ei/ele": "vor cobori"
       }
     }
   },
@@ -3424,28 +3424,28 @@
     "translation": "ненавидеть",
     "conjugation": {
       "present": {
-        "eu": "urîesc",
-        "tu": "urîești",
-        "el/ea": "urîește",
-        "noi": "urîim",
-        "voi": "urîiți",
-        "ei/ele": "urîesc"
+        "eu": "uresc",
+        "tu": "urești",
+        "el/ea": "urește",
+        "noi": "urim",
+        "voi": "uriți",
+        "ei/ele": "uresc"
       },
       "past": {
-        "eu": "am urîit",
-        "tu": "ai urîit",
-        "el/ea": "a urîit",
-        "noi": "am urîit",
-        "voi": "ați urîit",
-        "ei/ele": "au urîit"
+        "eu": "am urit",
+        "tu": "ai urit",
+        "el/ea": "a urit",
+        "noi": "am urit",
+        "voi": "ați urit",
+        "ei/ele": "au urit"
       },
       "future": {
-        "eu": "voi urîi",
-        "tu": "vei urîi",
-        "el/ea": "va urîi",
-        "noi": "vom urîi",
-        "voi": "veți urîi",
-        "ei/ele": "vor urîi"
+        "eu": "voi uri",
+        "tu": "vei uri",
+        "el/ea": "va uri",
+        "noi": "vom uri",
+        "voi": "veți uri",
+        "ei/ele": "vor uri"
       }
     }
   },
@@ -3454,28 +3454,28 @@
     "translation": "заполнять",
     "conjugation": {
       "present": {
-        "eu": "împliniesc",
-        "tu": "împliniești",
-        "el/ea": "împliniește",
-        "noi": "împliniim",
-        "voi": "împliniiți",
-        "ei/ele": "împliniesc"
+        "eu": "împlinesc",
+        "tu": "împlinești",
+        "el/ea": "împlinește",
+        "noi": "împlinim",
+        "voi": "împliniți",
+        "ei/ele": "împlinesc"
       },
       "past": {
-        "eu": "am împliniit",
-        "tu": "ai împliniit",
-        "el/ea": "a împliniit",
-        "noi": "am împliniit",
-        "voi": "ați împliniit",
-        "ei/ele": "au împliniit"
+        "eu": "am împlinit",
+        "tu": "ai împlinit",
+        "el/ea": "a împlinit",
+        "noi": "am împlinit",
+        "voi": "ați împlinit",
+        "ei/ele": "au împlinit"
       },
       "future": {
-        "eu": "voi împlinii",
-        "tu": "vei împlinii",
-        "el/ea": "va împlinii",
-        "noi": "vom împlinii",
-        "voi": "veți împlinii",
-        "ei/ele": "vor împlinii"
+        "eu": "voi împlini",
+        "tu": "vei împlini",
+        "el/ea": "va împlini",
+        "noi": "vom împlini",
+        "voi": "veți împlini",
+        "ei/ele": "vor împlini"
       }
     }
   },
@@ -3484,28 +3484,28 @@
     "translation": "получать",
     "conjugation": {
       "present": {
-        "eu": "primiesc",
-        "tu": "primiești",
-        "el/ea": "primiește",
-        "noi": "primiim",
-        "voi": "primiiți",
-        "ei/ele": "primiesc"
+        "eu": "primesc",
+        "tu": "primești",
+        "el/ea": "primește",
+        "noi": "primim",
+        "voi": "primiți",
+        "ei/ele": "primesc"
       },
       "past": {
-        "eu": "am primiit",
-        "tu": "ai primiit",
-        "el/ea": "a primiit",
-        "noi": "am primiit",
-        "voi": "ați primiit",
-        "ei/ele": "au primiit"
+        "eu": "am primit",
+        "tu": "ai primit",
+        "el/ea": "a primit",
+        "noi": "am primit",
+        "voi": "ați primit",
+        "ei/ele": "au primit"
       },
       "future": {
-        "eu": "voi primii",
-        "tu": "vei primii",
-        "el/ea": "va primii",
-        "noi": "vom primii",
-        "voi": "veți primii",
-        "ei/ele": "vor primii"
+        "eu": "voi primi",
+        "tu": "vei primi",
+        "el/ea": "va primi",
+        "noi": "vom primi",
+        "voi": "veți primi",
+        "ei/ele": "vor primi"
       }
     }
   },
@@ -3514,28 +3514,28 @@
     "translation": "предлагать",
     "conjugation": {
       "present": {
-        "eu": "oferiesc",
-        "tu": "oferiești",
-        "el/ea": "oferiește",
-        "noi": "oferiim",
-        "voi": "oferiiți",
-        "ei/ele": "oferiesc"
+        "eu": "oferesc",
+        "tu": "oferești",
+        "el/ea": "oferește",
+        "noi": "oferim",
+        "voi": "oferiți",
+        "ei/ele": "oferesc"
       },
       "past": {
-        "eu": "am oferiit",
-        "tu": "ai oferiit",
-        "el/ea": "a oferiit",
-        "noi": "am oferiit",
-        "voi": "ați oferiit",
-        "ei/ele": "au oferiit"
+        "eu": "am oferit",
+        "tu": "ai oferit",
+        "el/ea": "a oferit",
+        "noi": "am oferit",
+        "voi": "ați oferit",
+        "ei/ele": "au oferit"
       },
       "future": {
-        "eu": "voi oferii",
-        "tu": "vei oferii",
-        "el/ea": "va oferii",
-        "noi": "vom oferii",
-        "voi": "veți oferii",
-        "ei/ele": "vor oferii"
+        "eu": "voi oferi",
+        "tu": "vei oferi",
+        "el/ea": "va oferi",
+        "noi": "vom oferi",
+        "voi": "veți oferi",
+        "ei/ele": "vor oferi"
       }
     }
   },
@@ -3544,28 +3544,28 @@
     "translation": "открывать",
     "conjugation": {
       "present": {
-        "eu": "descoperiesc",
-        "tu": "descoperiești",
-        "el/ea": "descoperiește",
-        "noi": "descoperiim",
-        "voi": "descoperiiți",
-        "ei/ele": "descoperiesc"
+        "eu": "descoperesc",
+        "tu": "descoperești",
+        "el/ea": "descoperește",
+        "noi": "descoperim",
+        "voi": "descoperiți",
+        "ei/ele": "descoperesc"
       },
       "past": {
-        "eu": "am descoperiit",
-        "tu": "ai descoperiit",
-        "el/ea": "a descoperiit",
-        "noi": "am descoperiit",
-        "voi": "ați descoperiit",
-        "ei/ele": "au descoperiit"
+        "eu": "am descoperit",
+        "tu": "ai descoperit",
+        "el/ea": "a descoperit",
+        "noi": "am descoperit",
+        "voi": "ați descoperit",
+        "ei/ele": "au descoperit"
       },
       "future": {
-        "eu": "voi descoperii",
-        "tu": "vei descoperii",
-        "el/ea": "va descoperii",
-        "noi": "vom descoperii",
-        "voi": "veți descoperii",
-        "ei/ele": "vor descoperii"
+        "eu": "voi descoperi",
+        "tu": "vei descoperi",
+        "el/ea": "va descoperi",
+        "noi": "vom descoperi",
+        "voi": "veți descoperi",
+        "ei/ele": "vor descoperi"
       }
     }
   },
@@ -3574,28 +3574,28 @@
     "translation": "закрывать",
     "conjugation": {
       "present": {
-        "eu": "acoperiesc",
-        "tu": "acoperiești",
-        "el/ea": "acoperiește",
-        "noi": "acoperiim",
-        "voi": "acoperiiți",
-        "ei/ele": "acoperiesc"
+        "eu": "acoperesc",
+        "tu": "acoperești",
+        "el/ea": "acoperește",
+        "noi": "acoperim",
+        "voi": "acoperiți",
+        "ei/ele": "acoperesc"
       },
       "past": {
-        "eu": "am acoperiit",
-        "tu": "ai acoperiit",
-        "el/ea": "a acoperiit",
-        "noi": "am acoperiit",
-        "voi": "ați acoperiit",
-        "ei/ele": "au acoperiit"
+        "eu": "am acoperit",
+        "tu": "ai acoperit",
+        "el/ea": "a acoperit",
+        "noi": "am acoperit",
+        "voi": "ați acoperit",
+        "ei/ele": "au acoperit"
       },
       "future": {
-        "eu": "voi acoperii",
-        "tu": "vei acoperii",
-        "el/ea": "va acoperii",
-        "noi": "vom acoperii",
-        "voi": "veți acoperii",
-        "ei/ele": "vor acoperii"
+        "eu": "voi acoperi",
+        "tu": "vei acoperi",
+        "el/ea": "va acoperi",
+        "noi": "vom acoperi",
+        "voi": "veți acoperi",
+        "ei/ele": "vor acoperi"
       }
     }
   },
@@ -3604,28 +3604,28 @@
     "translation": "страдать",
     "conjugation": {
       "present": {
-        "eu": "suferiesc",
-        "tu": "suferiești",
-        "el/ea": "suferiește",
-        "noi": "suferiim",
-        "voi": "suferiiți",
-        "ei/ele": "suferiesc"
+        "eu": "suferesc",
+        "tu": "suferești",
+        "el/ea": "suferește",
+        "noi": "suferim",
+        "voi": "suferiți",
+        "ei/ele": "suferesc"
       },
       "past": {
-        "eu": "am suferiit",
-        "tu": "ai suferiit",
-        "el/ea": "a suferiit",
-        "noi": "am suferiit",
-        "voi": "ați suferiit",
-        "ei/ele": "au suferiit"
+        "eu": "am suferit",
+        "tu": "ai suferit",
+        "el/ea": "a suferit",
+        "noi": "am suferit",
+        "voi": "ați suferit",
+        "ei/ele": "au suferit"
       },
       "future": {
-        "eu": "voi suferii",
-        "tu": "vei suferii",
-        "el/ea": "va suferii",
-        "noi": "vom suferii",
-        "voi": "veți suferii",
-        "ei/ele": "vor suferii"
+        "eu": "voi suferi",
+        "tu": "vei suferi",
+        "el/ea": "va suferi",
+        "noi": "vom suferi",
+        "voi": "veți suferi",
+        "ei/ele": "vor suferi"
       }
     }
   },
@@ -3634,28 +3634,28 @@
     "translation": "устанавливать",
     "conjugation": {
       "present": {
-        "eu": "stabiliesc",
-        "tu": "stabiliești",
-        "el/ea": "stabiliește",
-        "noi": "stabiliim",
-        "voi": "stabiliiți",
-        "ei/ele": "stabiliesc"
+        "eu": "stabilesc",
+        "tu": "stabilești",
+        "el/ea": "stabilește",
+        "noi": "stabilim",
+        "voi": "stabiliți",
+        "ei/ele": "stabilesc"
       },
       "past": {
-        "eu": "am stabiliit",
-        "tu": "ai stabiliit",
-        "el/ea": "a stabiliit",
-        "noi": "am stabiliit",
-        "voi": "ați stabiliit",
-        "ei/ele": "au stabiliit"
+        "eu": "am stabilit",
+        "tu": "ai stabilit",
+        "el/ea": "a stabilit",
+        "noi": "am stabilit",
+        "voi": "ați stabilit",
+        "ei/ele": "au stabilit"
       },
       "future": {
-        "eu": "voi stabilii",
-        "tu": "vei stabilii",
-        "el/ea": "va stabilii",
-        "noi": "vom stabilii",
-        "voi": "veți stabilii",
-        "ei/ele": "vor stabilii"
+        "eu": "voi stabili",
+        "tu": "vei stabili",
+        "el/ea": "va stabili",
+        "noi": "vom stabili",
+        "voi": "veți stabili",
+        "ei/ele": "vor stabili"
       }
     }
   },
@@ -3664,28 +3664,28 @@
     "translation": "строить",
     "conjugation": {
       "present": {
-        "eu": "construiesc",
-        "tu": "construiești",
-        "el/ea": "construiește",
-        "noi": "construiim",
-        "voi": "construiiți",
-        "ei/ele": "construiesc"
+        "eu": "construesc",
+        "tu": "construești",
+        "el/ea": "construește",
+        "noi": "construim",
+        "voi": "construiți",
+        "ei/ele": "construesc"
       },
       "past": {
-        "eu": "am construiit",
-        "tu": "ai construiit",
-        "el/ea": "a construiit",
-        "noi": "am construiit",
-        "voi": "ați construiit",
-        "ei/ele": "au construiit"
+        "eu": "am construit",
+        "tu": "ai construit",
+        "el/ea": "a construit",
+        "noi": "am construit",
+        "voi": "ați construit",
+        "ei/ele": "au construit"
       },
       "future": {
-        "eu": "voi construii",
-        "tu": "vei construii",
-        "el/ea": "va construii",
-        "noi": "vom construii",
-        "voi": "veți construii",
-        "ei/ele": "vor construii"
+        "eu": "voi construi",
+        "tu": "vei construi",
+        "el/ea": "va construi",
+        "noi": "vom construi",
+        "voi": "veți construi",
+        "ei/ele": "vor construi"
       }
     }
   },
@@ -3694,28 +3694,28 @@
     "translation": "жить",
     "conjugation": {
       "present": {
-        "eu": "locuiesc",
-        "tu": "locuiești",
-        "el/ea": "locuiește",
-        "noi": "locuiim",
-        "voi": "locuiiți",
-        "ei/ele": "locuiesc"
+        "eu": "locuesc",
+        "tu": "locuești",
+        "el/ea": "locuește",
+        "noi": "locuim",
+        "voi": "locuiți",
+        "ei/ele": "locuesc"
       },
       "past": {
-        "eu": "am locuiit",
-        "tu": "ai locuiit",
-        "el/ea": "a locuiit",
-        "noi": "am locuiit",
-        "voi": "ați locuiit",
-        "ei/ele": "au locuiit"
+        "eu": "am locuit",
+        "tu": "ai locuit",
+        "el/ea": "a locuit",
+        "noi": "am locuit",
+        "voi": "ați locuit",
+        "ei/ele": "au locuit"
       },
       "future": {
-        "eu": "voi locuii",
-        "tu": "vei locuii",
-        "el/ea": "va locuii",
-        "noi": "vom locuii",
-        "voi": "veți locuii",
-        "ei/ele": "vor locuii"
+        "eu": "voi locui",
+        "tu": "vei locui",
+        "el/ea": "va locui",
+        "noi": "vom locui",
+        "voi": "veți locui",
+        "ei/ele": "vor locui"
       }
     }
   },
@@ -3724,28 +3724,28 @@
     "translation": "работать",
     "conjugation": {
       "present": {
-        "eu": "munciesc",
-        "tu": "munciești",
-        "el/ea": "munciește",
-        "noi": "munciim",
-        "voi": "munciiți",
-        "ei/ele": "munciesc"
+        "eu": "muncesc",
+        "tu": "muncești",
+        "el/ea": "muncește",
+        "noi": "muncim",
+        "voi": "munciți",
+        "ei/ele": "muncesc"
       },
       "past": {
-        "eu": "am munciit",
-        "tu": "ai munciit",
-        "el/ea": "a munciit",
-        "noi": "am munciit",
-        "voi": "ați munciit",
-        "ei/ele": "au munciit"
+        "eu": "am muncit",
+        "tu": "ai muncit",
+        "el/ea": "a muncit",
+        "noi": "am muncit",
+        "voi": "ați muncit",
+        "ei/ele": "au muncit"
       },
       "future": {
-        "eu": "voi muncii",
-        "tu": "vei muncii",
-        "el/ea": "va muncii",
-        "noi": "vom muncii",
-        "voi": "veți muncii",
-        "ei/ele": "vor muncii"
+        "eu": "voi munci",
+        "tu": "vei munci",
+        "el/ea": "va munci",
+        "noi": "vom munci",
+        "voi": "veți munci",
+        "ei/ele": "vor munci"
       }
     }
   },
@@ -3754,28 +3754,28 @@
     "translation": "следовать",
     "conjugation": {
       "present": {
-        "eu": "reușiesc",
-        "tu": "reușiești",
-        "el/ea": "reușiește",
-        "noi": "reușiim",
-        "voi": "reușiiți",
-        "ei/ele": "reușiesc"
+        "eu": "reușesc",
+        "tu": "reușești",
+        "el/ea": "reușește",
+        "noi": "reușim",
+        "voi": "reușiți",
+        "ei/ele": "reușesc"
       },
       "past": {
-        "eu": "am reușiit",
-        "tu": "ai reușiit",
-        "el/ea": "a reușiit",
-        "noi": "am reușiit",
-        "voi": "ați reușiit",
-        "ei/ele": "au reușiit"
+        "eu": "am reușit",
+        "tu": "ai reușit",
+        "el/ea": "a reușit",
+        "noi": "am reușit",
+        "voi": "ați reușit",
+        "ei/ele": "au reușit"
       },
       "future": {
-        "eu": "voi reușii",
-        "tu": "vei reușii",
-        "el/ea": "va reușii",
-        "noi": "vom reușii",
-        "voi": "veți reușii",
-        "ei/ele": "vor reușii"
+        "eu": "voi reuși",
+        "tu": "vei reuși",
+        "el/ea": "va reuși",
+        "noi": "vom reuși",
+        "voi": "veți reuși",
+        "ei/ele": "vor reuși"
       }
     }
   },
@@ -3784,28 +3784,28 @@
     "translation": "расстраиваться",
     "conjugation": {
       "present": {
-        "eu": "amărîesc",
-        "tu": "amărîești",
-        "el/ea": "amărîește",
-        "noi": "amărîim",
-        "voi": "amărîiți",
-        "ei/ele": "amărîesc"
+        "eu": "amăresc",
+        "tu": "amărești",
+        "el/ea": "amărește",
+        "noi": "amărim",
+        "voi": "amăriți",
+        "ei/ele": "amăresc"
       },
       "past": {
-        "eu": "am amărîit",
-        "tu": "ai amărîit",
-        "el/ea": "a amărîit",
-        "noi": "am amărîit",
-        "voi": "ați amărîit",
-        "ei/ele": "au amărîit"
+        "eu": "am amărit",
+        "tu": "ai amărit",
+        "el/ea": "a amărit",
+        "noi": "am amărit",
+        "voi": "ați amărit",
+        "ei/ele": "au amărit"
       },
       "future": {
-        "eu": "voi amărîi",
-        "tu": "vei amărîi",
-        "el/ea": "va amărîi",
-        "noi": "vom amărîi",
-        "voi": "veți amărîi",
-        "ei/ele": "vor amărîi"
+        "eu": "voi amări",
+        "tu": "vei amări",
+        "el/ea": "va amări",
+        "noi": "vom amări",
+        "voi": "veți amări",
+        "ei/ele": "vor amări"
       }
     }
   },
@@ -3814,28 +3814,28 @@
     "translation": "болтать",
     "conjugation": {
       "present": {
-        "eu": "bârfiesc",
-        "tu": "bârfiești",
-        "el/ea": "bârfiește",
-        "noi": "bârfiim",
-        "voi": "bârfiiți",
-        "ei/ele": "bârfiesc"
+        "eu": "bârfesc",
+        "tu": "bârfești",
+        "el/ea": "bârfește",
+        "noi": "bârfim",
+        "voi": "bârfiți",
+        "ei/ele": "bârfesc"
       },
       "past": {
-        "eu": "am bârfiit",
-        "tu": "ai bârfiit",
-        "el/ea": "a bârfiit",
-        "noi": "am bârfiit",
-        "voi": "ați bârfiit",
-        "ei/ele": "au bârfiit"
+        "eu": "am bârfit",
+        "tu": "ai bârfit",
+        "el/ea": "a bârfit",
+        "noi": "am bârfit",
+        "voi": "ați bârfit",
+        "ei/ele": "au bârfit"
       },
       "future": {
-        "eu": "voi bârfii",
-        "tu": "vei bârfii",
-        "el/ea": "va bârfii",
-        "noi": "vom bârfii",
-        "voi": "veți bârfii",
-        "ei/ele": "vor bârfii"
+        "eu": "voi bârfi",
+        "tu": "vei bârfi",
+        "el/ea": "va bârfi",
+        "noi": "vom bârfi",
+        "voi": "veți bârfi",
+        "ei/ele": "vor bârfi"
       }
     }
   },
@@ -3844,28 +3844,28 @@
     "translation": "определять",
     "conjugation": {
       "present": {
-        "eu": "definiesc",
-        "tu": "definiești",
-        "el/ea": "definiește",
-        "noi": "definiim",
-        "voi": "definiiți",
-        "ei/ele": "definiesc"
+        "eu": "definesc",
+        "tu": "definești",
+        "el/ea": "definește",
+        "noi": "definim",
+        "voi": "definiți",
+        "ei/ele": "definesc"
       },
       "past": {
-        "eu": "am definiit",
-        "tu": "ai definiit",
-        "el/ea": "a definiit",
-        "noi": "am definiit",
-        "voi": "ați definiit",
-        "ei/ele": "au definiit"
+        "eu": "am definit",
+        "tu": "ai definit",
+        "el/ea": "a definit",
+        "noi": "am definit",
+        "voi": "ați definit",
+        "ei/ele": "au definit"
       },
       "future": {
-        "eu": "voi definii",
-        "tu": "vei definii",
-        "el/ea": "va definii",
-        "noi": "vom definii",
-        "voi": "veți definii",
-        "ei/ele": "vor definii"
+        "eu": "voi defini",
+        "tu": "vei defini",
+        "el/ea": "va defini",
+        "noi": "vom defini",
+        "voi": "veți defini",
+        "ei/ele": "vor defini"
       }
     }
   },
@@ -3874,28 +3874,28 @@
     "translation": "разделять",
     "conjugation": {
       "present": {
-        "eu": "despărțiesc",
-        "tu": "despărțiești",
-        "el/ea": "despărțiește",
-        "noi": "despărțiim",
-        "voi": "despărțiiți",
-        "ei/ele": "despărțiesc"
+        "eu": "despărțesc",
+        "tu": "despărțești",
+        "el/ea": "despărțește",
+        "noi": "despărțim",
+        "voi": "despărțiți",
+        "ei/ele": "despărțesc"
       },
       "past": {
-        "eu": "am despărțiit",
-        "tu": "ai despărțiit",
-        "el/ea": "a despărțiit",
-        "noi": "am despărțiit",
-        "voi": "ați despărțiit",
-        "ei/ele": "au despărțiit"
+        "eu": "am despărțit",
+        "tu": "ai despărțit",
+        "el/ea": "a despărțit",
+        "noi": "am despărțit",
+        "voi": "ați despărțit",
+        "ei/ele": "au despărțit"
       },
       "future": {
-        "eu": "voi despărții",
-        "tu": "vei despărții",
-        "el/ea": "va despărții",
-        "noi": "vom despărții",
-        "voi": "veți despărții",
-        "ei/ele": "vor despărții"
+        "eu": "voi despărți",
+        "tu": "vei despărți",
+        "el/ea": "va despărți",
+        "noi": "vom despărți",
+        "voi": "veți despărți",
+        "ei/ele": "vor despărți"
       }
     }
   },
@@ -3904,28 +3904,28 @@
     "translation": "разделять",
     "conjugation": {
       "present": {
-        "eu": "împărțiesc",
-        "tu": "împărțiești",
-        "el/ea": "împărțiește",
-        "noi": "împărțiim",
-        "voi": "împărțiiți",
-        "ei/ele": "împărțiesc"
+        "eu": "împărțesc",
+        "tu": "împărțești",
+        "el/ea": "împărțește",
+        "noi": "împărțim",
+        "voi": "împărțiți",
+        "ei/ele": "împărțesc"
       },
       "past": {
-        "eu": "am împărțiit",
-        "tu": "ai împărțiit",
-        "el/ea": "a împărțiit",
-        "noi": "am împărțiit",
-        "voi": "ați împărțiit",
-        "ei/ele": "au împărțiit"
+        "eu": "am împărțit",
+        "tu": "ai împărțit",
+        "el/ea": "a împărțit",
+        "noi": "am împărțit",
+        "voi": "ați împărțit",
+        "ei/ele": "au împărțit"
       },
       "future": {
-        "eu": "voi împărții",
-        "tu": "vei împărții",
-        "el/ea": "va împărții",
-        "noi": "vom împărții",
-        "voi": "veți împărții",
-        "ei/ele": "vor împărții"
+        "eu": "voi împărți",
+        "tu": "vei împărți",
+        "el/ea": "va împărți",
+        "noi": "vom împărți",
+        "voi": "veți împărți",
+        "ei/ele": "vor împărți"
       }
     }
   },
@@ -3934,28 +3934,28 @@
     "translation": "сопровождать",
     "conjugation": {
       "present": {
-        "eu": "însoțiesc",
-        "tu": "însoțiești",
-        "el/ea": "însoțiește",
-        "noi": "însoțiim",
-        "voi": "însoțiiți",
-        "ei/ele": "însoțiesc"
+        "eu": "însoțesc",
+        "tu": "însoțești",
+        "el/ea": "însoțește",
+        "noi": "însoțim",
+        "voi": "însoțiți",
+        "ei/ele": "însoțesc"
       },
       "past": {
-        "eu": "am însoțiit",
-        "tu": "ai însoțiit",
-        "el/ea": "a însoțiit",
-        "noi": "am însoțiit",
-        "voi": "ați însoțiit",
-        "ei/ele": "au însoțiit"
+        "eu": "am însoțit",
+        "tu": "ai însoțit",
+        "el/ea": "a însoțit",
+        "noi": "am însoțit",
+        "voi": "ați însoțit",
+        "ei/ele": "au însoțit"
       },
       "future": {
-        "eu": "voi însoții",
-        "tu": "vei însoții",
-        "el/ea": "va însoții",
-        "noi": "vom însoții",
-        "voi": "veți însoții",
-        "ei/ele": "vor însoții"
+        "eu": "voi însoți",
+        "tu": "vei însoți",
+        "el/ea": "va însoți",
+        "noi": "vom însoți",
+        "voi": "veți însoți",
+        "ei/ele": "vor însoți"
       }
     }
   },
@@ -3964,28 +3964,28 @@
     "translation": "достигать",
     "conjugation": {
       "present": {
-        "eu": "izbândiesc",
-        "tu": "izbândiești",
-        "el/ea": "izbândiește",
-        "noi": "izbândiim",
-        "voi": "izbândiiți",
-        "ei/ele": "izbândiesc"
+        "eu": "izbândesc",
+        "tu": "izbândești",
+        "el/ea": "izbândește",
+        "noi": "izbândim",
+        "voi": "izbândiți",
+        "ei/ele": "izbândesc"
       },
       "past": {
-        "eu": "am izbândiit",
-        "tu": "ai izbândiit",
-        "el/ea": "a izbândiit",
-        "noi": "am izbândiit",
-        "voi": "ați izbândiit",
-        "ei/ele": "au izbândiit"
+        "eu": "am izbândit",
+        "tu": "ai izbândit",
+        "el/ea": "a izbândit",
+        "noi": "am izbândit",
+        "voi": "ați izbândit",
+        "ei/ele": "au izbândit"
       },
       "future": {
-        "eu": "voi izbândii",
-        "tu": "vei izbândii",
-        "el/ea": "va izbândii",
-        "noi": "vom izbândii",
-        "voi": "veți izbândii",
-        "ei/ele": "vor izbândii"
+        "eu": "voi izbândi",
+        "tu": "vei izbândi",
+        "el/ea": "va izbândi",
+        "noi": "vom izbândi",
+        "voi": "veți izbândi",
+        "ei/ele": "vor izbândi"
       }
     }
   },
@@ -3994,28 +3994,28 @@
     "translation": "успокаиваться",
     "conjugation": {
       "present": {
-        "eu": "liniștiesc",
-        "tu": "liniștiești",
-        "el/ea": "liniștiește",
-        "noi": "liniștiim",
-        "voi": "liniștiiți",
-        "ei/ele": "liniștiesc"
+        "eu": "liniștesc",
+        "tu": "liniștești",
+        "el/ea": "liniștește",
+        "noi": "liniștim",
+        "voi": "liniștiți",
+        "ei/ele": "liniștesc"
       },
       "past": {
-        "eu": "am liniștiit",
-        "tu": "ai liniștiit",
-        "el/ea": "a liniștiit",
-        "noi": "am liniștiit",
-        "voi": "ați liniștiit",
-        "ei/ele": "au liniștiit"
+        "eu": "am liniștit",
+        "tu": "ai liniștit",
+        "el/ea": "a liniștit",
+        "noi": "am liniștit",
+        "voi": "ați liniștit",
+        "ei/ele": "au liniștit"
       },
       "future": {
-        "eu": "voi liniștii",
-        "tu": "vei liniștii",
-        "el/ea": "va liniștii",
-        "noi": "vom liniștii",
-        "voi": "veți liniștii",
-        "ei/ele": "vor liniștii"
+        "eu": "voi liniști",
+        "tu": "vei liniști",
+        "el/ea": "va liniști",
+        "noi": "vom liniști",
+        "voi": "veți liniști",
+        "ei/ele": "vor liniști"
       }
     }
   },
@@ -4024,28 +4024,28 @@
     "translation": "называть",
     "conjugation": {
       "present": {
-        "eu": "numiesc",
-        "tu": "numiești",
-        "el/ea": "numiește",
-        "noi": "numiim",
-        "voi": "numiiți",
-        "ei/ele": "numiesc"
+        "eu": "numesc",
+        "tu": "numești",
+        "el/ea": "numește",
+        "noi": "numim",
+        "voi": "numiți",
+        "ei/ele": "numesc"
       },
       "past": {
-        "eu": "am numiit",
-        "tu": "ai numiit",
-        "el/ea": "a numiit",
-        "noi": "am numiit",
-        "voi": "ați numiit",
-        "ei/ele": "au numiit"
+        "eu": "am numit",
+        "tu": "ai numit",
+        "el/ea": "a numit",
+        "noi": "am numit",
+        "voi": "ați numit",
+        "ei/ele": "au numit"
       },
       "future": {
-        "eu": "voi numii",
-        "tu": "vei numii",
-        "el/ea": "va numii",
-        "noi": "vom numii",
-        "voi": "veți numii",
-        "ei/ele": "vor numii"
+        "eu": "voi numi",
+        "tu": "vei numi",
+        "el/ea": "va numi",
+        "noi": "vom numi",
+        "voi": "veți numi",
+        "ei/ele": "vor numi"
       }
     }
   },
@@ -4054,28 +4054,28 @@
     "translation": "наказывать",
     "conjugation": {
       "present": {
-        "eu": "pedepsiesc",
-        "tu": "pedepsiești",
-        "el/ea": "pedepsiește",
-        "noi": "pedepsiim",
-        "voi": "pedepsiiți",
-        "ei/ele": "pedepsiesc"
+        "eu": "pedepsesc",
+        "tu": "pedepsești",
+        "el/ea": "pedepsește",
+        "noi": "pedepsim",
+        "voi": "pedepsiți",
+        "ei/ele": "pedepsesc"
       },
       "past": {
-        "eu": "am pedepsiit",
-        "tu": "ai pedepsiit",
-        "el/ea": "a pedepsiit",
-        "noi": "am pedepsiit",
-        "voi": "ați pedepsiit",
-        "ei/ele": "au pedepsiit"
+        "eu": "am pedepsit",
+        "tu": "ai pedepsit",
+        "el/ea": "a pedepsit",
+        "noi": "am pedepsit",
+        "voi": "ați pedepsit",
+        "ei/ele": "au pedepsit"
       },
       "future": {
-        "eu": "voi pedepsii",
-        "tu": "vei pedepsii",
-        "el/ea": "va pedepsii",
-        "noi": "vom pedepsii",
-        "voi": "veți pedepsii",
-        "ei/ele": "vor pedepsii"
+        "eu": "voi pedepsi",
+        "tu": "vei pedepsi",
+        "el/ea": "va pedepsi",
+        "noi": "vom pedepsi",
+        "voi": "veți pedepsi",
+        "ei/ele": "vor pedepsi"
       }
     }
   },
@@ -4084,28 +4084,28 @@
     "translation": "уходить",
     "conjugation": {
       "present": {
-        "eu": "părăsiesc",
-        "tu": "părăsiești",
-        "el/ea": "părăsiește",
-        "noi": "părăsiim",
-        "voi": "părăsiiți",
-        "ei/ele": "părăsiesc"
+        "eu": "părăsesc",
+        "tu": "părăsești",
+        "el/ea": "părăsește",
+        "noi": "părăsim",
+        "voi": "părăsiți",
+        "ei/ele": "părăsesc"
       },
       "past": {
-        "eu": "am părăsiit",
-        "tu": "ai părăsiit",
-        "el/ea": "a părăsiit",
-        "noi": "am părăsiit",
-        "voi": "ați părăsiit",
-        "ei/ele": "au părăsiit"
+        "eu": "am părăsit",
+        "tu": "ai părăsit",
+        "el/ea": "a părăsit",
+        "noi": "am părăsit",
+        "voi": "ați părăsit",
+        "ei/ele": "au părăsit"
       },
       "future": {
-        "eu": "voi părăsii",
-        "tu": "vei părăsii",
-        "el/ea": "va părăsii",
-        "noi": "vom părăsii",
-        "voi": "veți părăsii",
-        "ei/ele": "vor părăsii"
+        "eu": "voi părăsi",
+        "tu": "vei părăsi",
+        "el/ea": "va părăsi",
+        "noi": "vom părăsi",
+        "voi": "veți părăsi",
+        "ei/ele": "vor părăsi"
       }
     }
   },
@@ -4114,28 +4114,28 @@
     "translation": "начинать",
     "conjugation": {
       "present": {
-        "eu": "porniesc",
-        "tu": "porniești",
-        "el/ea": "porniește",
-        "noi": "porniim",
-        "voi": "porniiți",
-        "ei/ele": "porniesc"
+        "eu": "pornesc",
+        "tu": "pornești",
+        "el/ea": "pornește",
+        "noi": "pornim",
+        "voi": "porniți",
+        "ei/ele": "pornesc"
       },
       "past": {
-        "eu": "am porniit",
-        "tu": "ai porniit",
-        "el/ea": "a porniit",
-        "noi": "am porniit",
-        "voi": "ați porniit",
-        "ei/ele": "au porniit"
+        "eu": "am pornit",
+        "tu": "ai pornit",
+        "el/ea": "a pornit",
+        "noi": "am pornit",
+        "voi": "ați pornit",
+        "ei/ele": "au pornit"
       },
       "future": {
-        "eu": "voi pornii",
-        "tu": "vei pornii",
-        "el/ea": "va pornii",
-        "noi": "vom pornii",
-        "voi": "veți pornii",
-        "ei/ele": "vor pornii"
+        "eu": "voi porni",
+        "tu": "vei porni",
+        "el/ea": "va porni",
+        "noi": "vom porni",
+        "voi": "veți porni",
+        "ei/ele": "vor porni"
       }
     }
   },
@@ -4144,28 +4144,28 @@
     "translation": "приготавливать",
     "conjugation": {
       "present": {
-        "eu": "pregătiesc",
-        "tu": "pregătiești",
-        "el/ea": "pregătiește",
-        "noi": "pregătiim",
-        "voi": "pregătiiți",
-        "ei/ele": "pregătiesc"
+        "eu": "pregătesc",
+        "tu": "pregătești",
+        "el/ea": "pregătește",
+        "noi": "pregătim",
+        "voi": "pregătiți",
+        "ei/ele": "pregătesc"
       },
       "past": {
-        "eu": "am pregătiit",
-        "tu": "ai pregătiit",
-        "el/ea": "a pregătiit",
-        "noi": "am pregătiit",
-        "voi": "ați pregătiit",
-        "ei/ele": "au pregătiit"
+        "eu": "am pregătit",
+        "tu": "ai pregătit",
+        "el/ea": "a pregătit",
+        "noi": "am pregătit",
+        "voi": "ați pregătit",
+        "ei/ele": "au pregătit"
       },
       "future": {
-        "eu": "voi pregătii",
-        "tu": "vei pregătii",
-        "el/ea": "va pregătii",
-        "noi": "vom pregătii",
-        "voi": "veți pregătii",
-        "ei/ele": "vor pregătii"
+        "eu": "voi pregăti",
+        "tu": "vei pregăti",
+        "el/ea": "va pregăti",
+        "noi": "vom pregăti",
+        "voi": "veți pregăti",
+        "ei/ele": "vor pregăti"
       }
     }
   },
@@ -4174,28 +4174,28 @@
     "translation": "произносить",
     "conjugation": {
       "present": {
-        "eu": "rostiesc",
-        "tu": "rostiești",
-        "el/ea": "rostiește",
-        "noi": "rostiim",
-        "voi": "rostiiți",
-        "ei/ele": "rostiesc"
+        "eu": "rostesc",
+        "tu": "rostești",
+        "el/ea": "rostește",
+        "noi": "rostim",
+        "voi": "rostiți",
+        "ei/ele": "rostesc"
       },
       "past": {
-        "eu": "am rostiit",
-        "tu": "ai rostiit",
-        "el/ea": "a rostiit",
-        "noi": "am rostiit",
-        "voi": "ați rostiit",
-        "ei/ele": "au rostiit"
+        "eu": "am rostit",
+        "tu": "ai rostit",
+        "el/ea": "a rostit",
+        "noi": "am rostit",
+        "voi": "ați rostit",
+        "ei/ele": "au rostit"
       },
       "future": {
-        "eu": "voi rostii",
-        "tu": "vei rostii",
-        "el/ea": "va rostii",
-        "noi": "vom rostii",
-        "voi": "veți rostii",
-        "ei/ele": "vor rostii"
+        "eu": "voi rosti",
+        "tu": "vei rosti",
+        "el/ea": "va rosti",
+        "noi": "vom rosti",
+        "voi": "veți rosti",
+        "ei/ele": "vor rosti"
       }
     }
   },
@@ -4204,28 +4204,28 @@
     "translation": "беднеть",
     "conjugation": {
       "present": {
-        "eu": "sărăciesc",
-        "tu": "sărăciești",
-        "el/ea": "sărăciește",
-        "noi": "sărăciim",
-        "voi": "sărăciiți",
-        "ei/ele": "sărăciesc"
+        "eu": "sărăcesc",
+        "tu": "sărăcești",
+        "el/ea": "sărăcește",
+        "noi": "sărăcim",
+        "voi": "sărăciți",
+        "ei/ele": "sărăcesc"
       },
       "past": {
-        "eu": "am sărăciit",
-        "tu": "ai sărăciit",
-        "el/ea": "a sărăciit",
-        "noi": "am sărăciit",
-        "voi": "ați sărăciit",
-        "ei/ele": "au sărăciit"
+        "eu": "am sărăcit",
+        "tu": "ai sărăcit",
+        "el/ea": "a sărăcit",
+        "noi": "am sărăcit",
+        "voi": "ați sărăcit",
+        "ei/ele": "au sărăcit"
       },
       "future": {
-        "eu": "voi sărăcii",
-        "tu": "vei sărăcii",
-        "el/ea": "va sărăcii",
-        "noi": "vom sărăcii",
-        "voi": "veți sărăcii",
-        "ei/ele": "vor sărăcii"
+        "eu": "voi sărăci",
+        "tu": "vei sărăci",
+        "el/ea": "va sărăci",
+        "noi": "vom sărăci",
+        "voi": "veți sărăci",
+        "ei/ele": "vor sărăci"
       }
     }
   },
@@ -4234,28 +4234,28 @@
     "translation": "заканчивать",
     "conjugation": {
       "present": {
-        "eu": "sfârșiesc",
-        "tu": "sfârșiești",
-        "el/ea": "sfârșiește",
-        "noi": "sfârșiim",
-        "voi": "sfârșiiți",
-        "ei/ele": "sfârșiesc"
+        "eu": "sfârșesc",
+        "tu": "sfârșești",
+        "el/ea": "sfârșește",
+        "noi": "sfârșim",
+        "voi": "sfârșiți",
+        "ei/ele": "sfârșesc"
       },
       "past": {
-        "eu": "am sfârșiit",
-        "tu": "ai sfârșiit",
-        "el/ea": "a sfârșiit",
-        "noi": "am sfârșiit",
-        "voi": "ați sfârșiit",
-        "ei/ele": "au sfârșiit"
+        "eu": "am sfârșit",
+        "tu": "ai sfârșit",
+        "el/ea": "a sfârșit",
+        "noi": "am sfârșit",
+        "voi": "ați sfârșit",
+        "ei/ele": "au sfârșit"
       },
       "future": {
-        "eu": "voi sfârșii",
-        "tu": "vei sfârșii",
-        "el/ea": "va sfârșii",
-        "noi": "vom sfârșii",
-        "voi": "veți sfârșii",
-        "ei/ele": "vor sfârșii"
+        "eu": "voi sfârși",
+        "tu": "vei sfârși",
+        "el/ea": "va sfârși",
+        "noi": "vom sfârși",
+        "voi": "veți sfârși",
+        "ei/ele": "vor sfârși"
       }
     }
   },
@@ -4264,28 +4264,28 @@
     "translation": "думать",
     "conjugation": {
       "present": {
-        "eu": "se gândiesc",
-        "tu": "se gândiești",
-        "el/ea": "se gândiește",
-        "noi": "se gândiim",
-        "voi": "se gândiiți",
-        "ei/ele": "se gândiesc"
+        "eu": "se gândesc",
+        "tu": "se gândești",
+        "el/ea": "se gândește",
+        "noi": "se gândim",
+        "voi": "se gândiți",
+        "ei/ele": "se gândesc"
       },
       "past": {
-        "eu": "am se gândiit",
-        "tu": "ai se gândiit",
-        "el/ea": "a se gândiit",
-        "noi": "am se gândiit",
-        "voi": "ați se gândiit",
-        "ei/ele": "au se gândiit"
+        "eu": "am se gândit",
+        "tu": "ai se gândit",
+        "el/ea": "a se gândit",
+        "noi": "am se gândit",
+        "voi": "ați se gândit",
+        "ei/ele": "au se gândit"
       },
       "future": {
-        "eu": "voi se gândii",
-        "tu": "vei se gândii",
-        "el/ea": "va se gândii",
-        "noi": "vom se gândii",
-        "voi": "veți se gândii",
-        "ei/ele": "vor se gândii"
+        "eu": "voi se gândi",
+        "tu": "vei se gândi",
+        "el/ea": "va se gândi",
+        "noi": "vom se gândi",
+        "voi": "veți se gândi",
+        "ei/ele": "vor se gândi"
       }
     }
   },
@@ -4294,28 +4294,28 @@
     "translation": "прибывать",
     "conjugation": {
       "present": {
-        "eu": "sosiesc",
-        "tu": "sosiești",
-        "el/ea": "sosiește",
-        "noi": "sosiim",
-        "voi": "sosiiți",
-        "ei/ele": "sosiesc"
+        "eu": "sosesc",
+        "tu": "sosești",
+        "el/ea": "sosește",
+        "noi": "sosim",
+        "voi": "sosiți",
+        "ei/ele": "sosesc"
       },
       "past": {
-        "eu": "am sosiit",
-        "tu": "ai sosiit",
-        "el/ea": "a sosiit",
-        "noi": "am sosiit",
-        "voi": "ați sosiit",
-        "ei/ele": "au sosiit"
+        "eu": "am sosit",
+        "tu": "ai sosit",
+        "el/ea": "a sosit",
+        "noi": "am sosit",
+        "voi": "ați sosit",
+        "ei/ele": "au sosit"
       },
       "future": {
-        "eu": "voi sosii",
-        "tu": "vei sosii",
-        "el/ea": "va sosii",
-        "noi": "vom sosii",
-        "voi": "veți sosii",
-        "ei/ele": "vor sosii"
+        "eu": "voi sosi",
+        "tu": "vei sosi",
+        "el/ea": "va sosi",
+        "noi": "vom sosi",
+        "voi": "veți sosi",
+        "ei/ele": "vor sosi"
       }
     }
   },
@@ -4324,28 +4324,28 @@
     "translation": "пугать",
     "conjugation": {
       "present": {
-        "eu": "speriaesc",
-        "tu": "speriaești",
-        "el/ea": "speriaește",
-        "noi": "speriaim",
-        "voi": "speriaiți",
-        "ei/ele": "speriaesc"
+        "eu": "speriez",
+        "tu": "speriezi",
+        "el/ea": "speriează",
+        "noi": "speriăm",
+        "voi": "speriați",
+        "ei/ele": "speriează"
       },
       "past": {
-        "eu": "am speriait",
-        "tu": "ai speriait",
-        "el/ea": "a speriait",
-        "noi": "am speriait",
-        "voi": "ați speriait",
-        "ei/ele": "au speriait"
+        "eu": "am speriat",
+        "tu": "ai speriat",
+        "el/ea": "a speriat",
+        "noi": "am speriat",
+        "voi": "ați speriat",
+        "ei/ele": "au speriat"
       },
       "future": {
-        "eu": "voi speriai",
-        "tu": "vei speriai",
-        "el/ea": "va speriai",
-        "noi": "vom speriai",
-        "voi": "veți speriai",
-        "ei/ele": "vor speriai"
+        "eu": "voi speria",
+        "tu": "vei speria",
+        "el/ea": "va speria",
+        "noi": "vom speria",
+        "voi": "veți speria",
+        "ei/ele": "vor speria"
       }
     }
   },
@@ -4354,28 +4354,28 @@
     "translation": "провоцировать",
     "conjugation": {
       "present": {
-        "eu": "stârniesc",
-        "tu": "stârniești",
-        "el/ea": "stârniește",
-        "noi": "stârniim",
-        "voi": "stârniiți",
-        "ei/ele": "stârniesc"
+        "eu": "stârnesc",
+        "tu": "stârnești",
+        "el/ea": "stârnește",
+        "noi": "stârnim",
+        "voi": "stârniți",
+        "ei/ele": "stârnesc"
       },
       "past": {
-        "eu": "am stârniit",
-        "tu": "ai stârniit",
-        "el/ea": "a stârniit",
-        "noi": "am stârniit",
-        "voi": "ați stârniit",
-        "ei/ele": "au stârniit"
+        "eu": "am stârnit",
+        "tu": "ai stârnit",
+        "el/ea": "a stârnit",
+        "noi": "am stârnit",
+        "voi": "ați stârnit",
+        "ei/ele": "au stârnit"
       },
       "future": {
-        "eu": "voi stârnii",
-        "tu": "vei stârnii",
-        "el/ea": "va stârnii",
-        "noi": "vom stârnii",
-        "voi": "veți stârnii",
-        "ei/ele": "vor stârnii"
+        "eu": "voi stârni",
+        "tu": "vei stârni",
+        "el/ea": "va stârni",
+        "noi": "vom stârni",
+        "voi": "veți stârni",
+        "ei/ele": "vor stârni"
       }
     }
   },
@@ -4384,28 +4384,28 @@
     "translation": "улыбаться",
     "conjugation": {
       "present": {
-        "eu": "zâmbiesc",
-        "tu": "zâmbiești",
-        "el/ea": "zâmbiește",
-        "noi": "zâmbiim",
-        "voi": "zâmbiiți",
-        "ei/ele": "zâmbiesc"
+        "eu": "zâmbesc",
+        "tu": "zâmbești",
+        "el/ea": "zâmbește",
+        "noi": "zâmbim",
+        "voi": "zâmbiți",
+        "ei/ele": "zâmbesc"
       },
       "past": {
-        "eu": "am zâmbiit",
-        "tu": "ai zâmbiit",
-        "el/ea": "a zâmbiit",
-        "noi": "am zâmbiit",
-        "voi": "ați zâmbiit",
-        "ei/ele": "au zâmbiit"
+        "eu": "am zâmbit",
+        "tu": "ai zâmbit",
+        "el/ea": "a zâmbit",
+        "noi": "am zâmbit",
+        "voi": "ați zâmbit",
+        "ei/ele": "au zâmbit"
       },
       "future": {
-        "eu": "voi zâmbii",
-        "tu": "vei zâmbii",
-        "el/ea": "va zâmbii",
-        "noi": "vom zâmbii",
-        "voi": "veți zâmbii",
-        "ei/ele": "vor zâmbii"
+        "eu": "voi zâmbi",
+        "tu": "vei zâmbi",
+        "el/ea": "va zâmbi",
+        "noi": "vom zâmbi",
+        "voi": "veți zâmbi",
+        "ei/ele": "vor zâmbi"
       }
     }
   }
