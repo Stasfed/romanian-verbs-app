@@ -4,24 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Спряжение глагола</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --primary-color: #4CAF50; /* Зеленый */
+            --secondary-color: #2196F3; /* Синий */
+            --accent-color: #FFC107; /* Желтый */
+            --text-color: #333;
+            --light-bg: #f9f9f9;
+            --dark-bg: #e0e0e0;
+            --border-color: #ddd;
+            --shadow-light: rgba(0, 0, 0, 0.1);
+            --shadow-medium: rgba(0, 0, 0, 0.2);
+            --border-radius-sm: 5px;
+            --border-radius-md: 8px;
+        }
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', Arial, sans-serif;
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 20px;
-            background-color: #f4f4f4;
-            color: #333;
+            margin: 0; 
+            padding: 20px;
+            background-color: var(--light-bg);
+            color: var(--text-color);
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            font-weight: 700;
         }
 
         .container {
             width: 100%;
             max-width: 800px;
             background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px; 
+            border-radius: var(--border-radius-md);
+            box-shadow: 0 5px 15px var(--shadow-medium); 
             min-height: 400px; 
             display: flex; 
             flex-direction: column; 
@@ -32,43 +57,59 @@
         /* Styles for conjugation display */
         .conjugation-display {
             margin-top: 20px;
-            border: 1px solid #ccc;
-            padding: 20px;
-            border-radius: 8px;
-            background-color: #f9f9f9;
+            border: 1px solid var(--border-color);
+            padding: 25px; /* Увеличен padding */
+            border-radius: var(--border-radius-md);
+            background-color: #ffffff; /* Более чистый фон */
             width: 100%; 
             box-sizing: border-box; 
             min-height: 300px; 
+            box-shadow: 0 2px 8px var(--shadow-light); /* Легкая тень */
         }
 
         .conjugation-display h3 {
             text-align: center;
-            margin-bottom: 15px;
-            color: #007bff;
+            margin-bottom: 20px; /* Увеличен отступ */
+            color: var(--secondary-color);
+            font-size: 2em; /* Увеличен шрифт */
+            font-weight: 700;
         }
 
         .conjugation-display h4 { 
             text-align: left;
-            margin-top: 20px;
-            margin-bottom: 10px;
-            color: #555;
+            margin-top: 30px; /* Увеличен отступ */
+            margin-bottom: 15px; /* Увеличен отступ */
+            color: var(--primary-color);
+            font-size: 1.5em; /* Увеличен шрифт */
+            border-bottom: 2px solid var(--primary-color); /* Добавлена линия под заголовком */
+            padding-bottom: 5px;
         }
 
         .conjugation-display table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 10px;
+            margin-top: 15px;
         }
 
         .conjugation-display th, .conjugation-display td {
-            border: 1px solid #ddd;
-            padding: 8px;
+            border: 1px solid #e0e0e0; /* Более светлая граница таблицы */
+            padding: 12px 15px; /* Увеличен padding */
             text-align: left;
+            font-size: 1.1em;
         }
 
         .conjugation-display th {
-            background-color: #e2f0ff;
-            color: #333;
+            background-color: #E8F5E9; /* Очень светлый зеленый фон */
+            color: var(--primary-color);
+            font-weight: 700;
+            text-transform: uppercase; /* Заглавные буквы */
+        }
+
+        .conjugation-display tr:nth-child(even) {
+            background-color: #f2f2f2; /* Чередующийся фон для строк */
+        }
+        .conjugation-display tr:hover {
+            background-color: #e0e0e0; /* Подсветка при наведении */
         }
 
         /* Styling for loading and error messages */
@@ -78,10 +119,11 @@
             margin-bottom: 20px;
         }
         #loading-message {
-            color: gray;
+            color: #777;
         }
         #error-message {
             color: red;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -89,7 +131,7 @@
     <h1>Спряжение глагола</h1>
 
     <div class="container">
-        <div id="loading-message">Загрузка глаголов...</div>
+        <div id="loading-message" style="display: none;">Загрузка глаголов...</div>
         <div id="conjugation-output" class="conjugation-display" style="display: none;">
             </div>
         <div id="error-message" style="display: none;"></div>
@@ -101,7 +143,7 @@
             const conjugationOutput = document.getElementById('conjugation-output');
             const errorMessage = document.getElementById('error-message');
 
-            loadingMessage.style.display = 'block';
+            loadingMessage.style.display = 'block'; // Показываем сообщение о загрузке
             conjugationOutput.style.display = 'none';
             errorMessage.style.display = 'none';
 
@@ -119,18 +161,16 @@
                     return;
                 }
 
-                // Получаем инфинитив глагола из URL-параметров
                 const urlParams = new URLSearchParams(window.location.search);
                 const requestedInfinitive = urlParams.get('verb');
 
                 if (!requestedInfinitive) {
-                    errorMessage.textContent = 'Глагол для спряжения не указан в URL.';
+                    errorMessage.textContent = 'Глагол для спряжения не указан в URL. Пожалуйста, откройте эту страницу из основного приложения.';
                     errorMessage.style.display = 'block';
                     loadingMessage.style.display = 'none';
                     return;
                 }
 
-                // Находим нужный глагол в массиве
                 const targetVerb = verbs.find(v => v.infinitive === requestedInfinitive);
 
                 if (!targetVerb) {
@@ -155,13 +195,12 @@
             }
         }
 
-        // Функция для генерации HTML-таблицы спряжения (без изменений)
         function generateConjugationTable(verb) {
             if (!verb || !verb.conjugation) {
                 return '<p style="color: red;">Данные спряжения отсутствуют для этого глагола.</p>';
             }
 
-            let html = `<h3>Спряжение глагола: ${verb.infinitive}</h3>`; // Здесь заголовок остается
+            let html = `<h3>${verb.infinitive} (${verb.translation})</h3>`; /* Изменено: инфинитив и перевод в одном заголовке */
             const tenses = {
                 'present': 'Настоящее время',
                 'past': 'Прошедшее время',

@@ -4,15 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Румынские Глаголы</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --primary-color: #4CAF50; /* Зеленый */
+            --secondary-color: #2196F3; /* Синий */
+            --accent-color: #FFC107; /* Желтый */
+            --text-color: #333;
+            --light-bg: #f9f9f9;
+            --dark-bg: #e0e0e0;
+            --border-color: #ddd;
+            --shadow-light: rgba(0, 0, 0, 0.1);
+            --shadow-medium: rgba(0, 0, 0, 0.2);
+            --border-radius-sm: 5px;
+            --border-radius-md: 8px;
+        }
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', Arial, sans-serif;
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 20px;
-            background-color: #f4f4f4;
-            color: #333;
+            margin: 0;
+            padding: 20px;
+            background-color: var(--light-bg);
+            color: var(--text-color);
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            font-weight: 700;
         }
 
         .header {
@@ -20,32 +45,43 @@
             max-width: 800px;
             display: flex;
             justify-content: center;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
         }
 
         .header button {
-            background-color: #007bff;
+            background-color: var(--secondary-color);
             color: white;
-            padding: 10px 20px;
+            padding: 12px 25px;
             border: none;
-            border-radius: 5px;
+            border-radius: var(--border-radius-md);
             cursor: pointer;
-            font-size: 1em;
-            margin: 0 10px;
-            transition: background-color 0.3s ease;
+            font-size: 1.1em;
+            font-weight: 500;
+            margin: 0 15px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 6px var(--shadow-light);
         }
 
         .header button:hover {
-            background-color: #0056b3;
+            background-color: #1976D2;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px var(--shadow-medium);
         }
 
         .container {
             width: 100%;
             max-width: 800px;
             background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: var(--border-radius-md);
+            box-shadow: 0 5px 15px var(--shadow-medium);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 2em;
         }
 
         /* Card styles - for single card display */
@@ -53,21 +89,31 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-top: 20px;
+            margin-top: 30px;
         }
 
         .verb-card {
-            background-color: #e9e9e9;
-            border-radius: 8px;
-            padding: 20px;
+            background-color: var(--dark-bg);
+            border-radius: var(--border-radius-md);
+            padding: 20px; /* Уменьшил padding здесь, чтобы дать больше места для flex-контента */
             text-align: center;
             cursor: pointer;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 5px 10px var(--shadow-light);
             position: relative;
-            min-height: 150px; /* Increased height for better readability */
+            min-height: 180px;
             width: 90%;
-            max-width: 300px; /* Constrain width for single card */
-            perspective: 1000px; /* For 3D flip effect */
+            max-width: 350px;
+            perspective: 1000px;
+            transition: transform 0.3s ease;
+            /* Убедимся, что сама карточка имеет высоту для центрирования */
+            display: flex; /* Добавлено */
+            justify-content: center; /* Добавлено */
+            align-items: center; /* Добавлено */
+        }
+
+        .verb-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px var(--shadow-medium);
         }
 
         .card-content {
@@ -75,8 +121,12 @@
             width: 100%;
             height: 100%;
             text-align: center;
-            transition: transform 0.6s; /* Apply transition to card-content */
+            transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
             transform-style: preserve-3d;
+            /* Убедимся, что card-content занимает всю доступную высоту */
+            display: flex; /* Добавлено */
+            justify-content: center; /* Добавлено */
+            align-items: center; /* Добавлено */
         }
 
         .verb-card.flipped .card-content {
@@ -87,13 +137,17 @@
             position: absolute;
             width: 100%;
             height: 100%;
-            backface-visibility: hidden; /* Hide the back of the element when facing away */
+            backface-visibility: hidden;
+            /* Эти стили уже были, но теперь они работают лучше, т.к. родительские элементы flex */
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            flex-direction: column; /* Текст внутри должен быть в колонке */
+            justify-content: center; /* Центрирование по вертикали */
+            align-items: center; /* Центрирование по горизонтали */
             top: 0;
             left: 0;
+            padding: 10px; /* Дополнительный padding для текста */
+            box-sizing: border-box;
+            text-align: center; /* Убедимся, что текст сам по себе центрирован */
         }
 
         .card-front {
@@ -104,60 +158,73 @@
             transform: rotateY(180deg);
         }
 
-        .card-front h3, .card-back p {
-            margin: 0;
-            font-size: 1.8em; /* Larger text for better visibility */
-            color: #333;
-            padding: 10px; /* Added padding for text */
+        .card-front h3 {
+            margin: 0; /* Убираем стандартные отступы у h3/p */
+            font-size: 2.2em;
+            color: var(--text-color);
+            word-wrap: break-word;
+            text-shadow: 1px 1px 2px var(--shadow-light);
+            text-align: center; /* Важно: для текста внутри */
         }
         .card-back p {
-            color: #007bff;
+            margin: 0; /* Убираем стандартные отступы у h3/p */
+            font-size: 1.8em;
+            color: var(--secondary-color);
+            font-weight: 700;
+            word-wrap: break-word;
+            text-align: center; /* Важно: для текста внутри */
         }
 
 
         .card-navigation {
-            margin-top: 20px;
+            margin-top: 30px;
             display: flex;
-            gap: 15px;
+            gap: 20px;
         }
 
         .card-navigation button {
-            background-color: #6c757d;
+            background-color: #607D8B;
             color: white;
-            padding: 10px 20px;
+            padding: 12px 25px;
             border: none;
-            border-radius: 5px;
+            border-radius: var(--border-radius-md);
             cursor: pointer;
             font-size: 1em;
-            transition: background-color 0.3s ease;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 3px 5px var(--shadow-light);
         }
 
         .card-navigation button:hover {
-            background-color: #5a6268;
+            background-color: #455A64;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 8px var(--shadow-medium);
         }
 
         .card-buttons {
-            margin-top: 20px;
+            margin-top: 25px;
             display: flex;
             justify-content: center;
         }
         
         .card-buttons button {
-            background-color: #28a745;
+            background-color: var(--primary-color);
             color: white;
-            padding: 8px 15px;
+            padding: 10px 20px;
             border: none;
-            border-radius: 4px;
+            border-radius: var(--border-radius-sm);
             cursor: pointer;
             font-size: 1em;
-            transition: background-color 0.3s ease;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 2px 4px var(--shadow-light);
         }
 
         .card-buttons button:hover {
-            background-color: #218838;
+            background-color: #388E3C;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 6px var(--shadow-medium);
         }
 
-        /* Test styles */
+        /* Test styles (без изменений) */
         .test-section {
             display: flex;
             flex-direction: column;
@@ -165,65 +232,93 @@
         }
 
         .test-question {
-            font-size: 1.5em;
-            margin-bottom: 20px;
+            font-size: 1.8em;
+            margin-bottom: 30px;
             text-align: center;
+            line-height: 1.4;
+            color: var(--text-color);
+            font-weight: 500;
         }
 
         .test-options {
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 15px;
             width: 100%;
-            max-width: 400px;
+            max-width: 450px;
         }
 
         .test-options button {
-            background-color: #007bff;
+            background-color: var(--secondary-color);
             color: white;
-            padding: 12px 20px;
+            padding: 15px 25px;
             border: none;
-            border-radius: 5px;
+            border-radius: var(--border-radius-md);
             cursor: pointer;
             font-size: 1.1em;
-            transition: background-color 0.3s ease;
+            font-weight: 500;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 6px var(--shadow-light);
         }
 
         .test-options button:hover:not(.correct):not(.incorrect) {
-            background-color: #0056b3;
+            background-color: #1976D2;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px var(--shadow-medium);
         }
 
         .test-options button.correct {
             background-color: #28a745;
+            box-shadow: 0 4px 6px rgba(40, 167, 69, 0.4);
         }
 
         .test-options button.incorrect {
             background-color: #dc3545;
+            box-shadow: 0 4px 6px rgba(220, 53, 69, 0.4);
+        }
+        
+        .test-options button:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
         }
 
         .test-navigation-buttons {
-            margin-top: 20px;
+            margin-top: 30px;
         }
 
         .test-navigation-buttons button {
-            background-color: #6c757d;
+            background-color: #607D8B;
             color: white;
-            padding: 10px 20px;
+            padding: 12px 25px;
             border: none;
-            border-radius: 5px;
+            border-radius: var(--border-radius-md);
             cursor: pointer;
-            font-size: 1em;
-            margin: 0 5px;
-            transition: background-color 0.3s ease;
+            font-size: 1.1em;
+            margin: 0 10px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 3px 5px var(--shadow-light);
         }
 
         .test-navigation-buttons button:hover {
-            background-color: #5a6268;
+            background-color: #455A64;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 8px var(--shadow-medium);
+        }
+
+        /* Loading message */
+        #loading-message {
+            text-align: center;
+            color: #777;
+            font-size: 1.2em;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Румынский язык</h1>
+    <h1>Румынские Глаголы</h1>
+
     <div class="header">
         <button onclick="showSection('cards')">Карточки</button>
         <button onclick="showSection('test')">Тест</button>
@@ -231,7 +326,7 @@
 
     <div class="container">
         <div id="cards-section">
-            <h2>Румынские Глаголы</h2>
+            <h2>Изучение глаголов</h2>
             <div id="loading-message" style="text-align: center; color: gray;">Загрузка глаголов...</div>
             <div id="single-card-container" style="display: none;">
                 <div class="verb-card" id="current-verb-card">
@@ -252,10 +347,10 @@
                     <button onclick="openConjugationPage(currentCardIndex)">Показать спряжение</button>
                 </div>
             </div>
-            </div>
+        </div>
 
         <div id="test-section" style="display: none;">
-            <h2>Тест на Перевод</h2>
+            <h2>Проверка знаний</h2>
             <div class="test-question" id="test-question">
                 </div>
             <div class="test-options" id="test-options">
@@ -309,7 +404,6 @@
         const sections = {
             'cards': document.getElementById('cards-section'),
             'test': document.getElementById('test-section'),
-            // 'conjugation': document.getElementById('conjugation-section') // Эту секцию мы удалили
         };
 
         function showSection(sectionName) {
@@ -374,11 +468,8 @@
                 return;
             }
             const verbInfinitive = encodeURIComponent(verbs[verbIndex].infinitive);
-            // Открываем новый файл (назовем его display_conjugation.html) и передаем инфинитив глагола как параметр
             window.open(`display_conjugation.html?verb=${verbInfinitive}`, '_blank');
         }
-
-        // --- Удалены функции displayConjugation и generateConjugationTable из этого файла ---
 
         // Test section logic
         let currentTestVerb = null;
