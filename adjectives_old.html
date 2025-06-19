@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прилагательные</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .button-group button {
+            display: block;
+            width: 200px;
+            padding: 15px 20px;
+            margin-bottom: 15px;
+            font-size: 18px;
+            color: white;
+            background-color: #ffc107; /* Желтый цвет для кнопок прилагательных */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .button-group button:hover {
+            background-color: #e0a800;
+        }
+        .button-group button:last-child {
+            margin-bottom: 0;
+        }
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #5a6268;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Прилагательные</h1>
+        <div class="button-group">
+            <button onclick="location.href='adjective_cards.html'">Карточки прилагательных</button>
+            <button onclick="location.href='adjective_declension_selection.html'">Склонение прилагательных</button>
+        </div>
+        <button class="back-button" onclick="location.href='index.html'">На главную</button>
+    </div>
+</body>
+</html>

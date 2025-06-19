@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выбор склонения прилагательного</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #5a6268;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Страница выбора склонения прилагательного (заглушка)</h1>
+        <p>Здесь будет логика для выбора склонения прилагательного.</p>
+        <p id="current-adjective-info"></p>
+        <button id="back-to-cards-btn" class="back-button">Вернуться к карточкам</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const startIndex = urlParams.get('startIndex'); // Получаем startIndex из URL
+            const currentAdjectiveInfo = document.getElementById('current-adjective-info');
+
+            if (startIndex !== null) {
+                currentAdjectiveInfo.textContent = `Вы пришли с карточки с индексом: ${startIndex}.`;
+            } else {
+                currentAdjectiveInfo.textContent = `Вы пришли без указания индекса карточки.`;
+            }
+
+            document.getElementById('back-to-cards-btn').addEventListener('click', () => {
+                // Возвращаемся на страницу карточек, передавая startIndex обратно
+                if (startIndex !== null) {
+                    window.location.href = `adjective_cards.html?startIndex=${startIndex}`;
+                } else {
+                    // Если startIndex не был передан, просто возвращаемся без него
+                    window.location.href = `adjective_cards.html`;
+                }
+            });
+        });
+    </script>
+</body>
+</html>
