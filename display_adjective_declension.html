@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Склонение прилагательного</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding-top: 30px;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        .loading-message, .error-message {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #555;
+        }
+        .error-message {
+            color: red;
+        }
+        .back-button {
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #5a6268;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="adjectiveTitle">Склонение прилагательного</h1>
+        <h2 id="adjectiveTranslation"></h2>
+        <div id="declensionTableContainer">
+            <p class="loading-message">Загрузка склонения...</p>
+        </div>
+        <button class="back-button" onclick="location.href='adjective_cards.html'">Назад к карточкам</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const params = new URLSearchParams(window.location.search);
+            const adjectiveIndex = params.get('index');
+            const adjectiveTitle = document.getElementById('adjectiveTitle');
+            const adjectiveTranslation = document.getElementById('adjectiveTranslation');
+            const declensionTableContainer = document.getElementById('declensionTableContainer');
+
+            if (adjectiveIndex === null) {
+                declensionTableContainer.innerHTML = '<p class="error-message">Прилагательное не выбрано.</p>';
+                return;
+            }
+
+            fetch('adjectives.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Ошибка HTTP: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(adjectivesData => {
+                    const adjective = adjectivesData[parseInt(adjectiveIndex)];
+
+                    if (!adjective) {
+                        declensionTableContainer.innerHTML = '<p class="error-message">Прилагательное с таким индексом не найдено.</p>';
+                        return;
+                    }
+
+                    adjectiveTitle.textContent = `Склонение: ${adjective.romanian}`;
+                    adjectiveTranslation.textContent = `(${adjective.russian})`;
+
+                    if (adjective.declension) {
+                        renderDeclensionTable(adjective.declension);
+                    } else {
+                        declensionTableContainer.innerHTML = '<p class="error-message">Данные о склонении для этого прилагательного отсутствуют.</p>';
+                    }
+                })
+                .catch(error => {
+                    console.error('Ошибка загрузки прилагательных:', error);
+                    declensionTableContainer.innerHTML = `<p class="error-message">Ошибка при загрузке данных: ${error.message}.</p>`;
+                });
+
+            function renderDeclensionTable(declension) {
+                let tableHtml = '<table>';
+                tableHtml += '<thead><tr><th>Число</th><th>Род</th><th>Форма</th></tr></thead><tbody>';
+
+                // Singular forms
+                if (declension.singular) {
+                    if (declension.singular.masculine) {
+                        tableHtml += `<tr><td>Единственное</td><td>Мужской</td><td>${declension.singular.masculine}</td></tr>`;
+                    }
+                    if (declension.singular.feminine) {
+                        tableHtml += `<tr><td>Единственное</td><td>Женский</td><td>${declension.singular.feminine}</td></tr>`;
+                    }
+                    if (declension.singular.masculine_neuter) {
+                         // This covers cases where M and N are the same, or if you prefer to list Neuter separately
+                         tableHtml += `<tr><td>Единственное</td><td>Мужской/Средний</td><td>${declension.singular.masculine_neuter}</td></tr>`;
+                    }
+                }
+
+                // Plural forms
+                if (declension.plural) {
+                    if (declension.plural.masculine) {
+                        tableHtml += `<tr><td>Множественное</td><td>Мужской</td><td>${declension.plural.masculine}</td></tr>`;
+                    }
+                    if (declension.plural.feminine) {
+                        tableHtml += `<tr><td>Множественное</td><td>Женский</td><td>${declension.plural.feminine}</td></tr>`;
+                    }
+                    if (declension.plural.masculine_neuter) {
+                        tableHtml += `<tr><td>Множественное</td><td>Мужской/Средний</td><td>${declension.plural.masculine_neuter}</td></tr>`;
+                    }
+                }
+
+                tableHtml += '</tbody></table>';
+                declensionTableContainer.innerHTML = tableHtml;
+            }
+        });
+    </script>
+</body>
+</html>

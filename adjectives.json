@@ -1,1010 +1,2716 @@
 [
   {
     "romanian": "mare",
-    "russian": "большой"
+    "russian": "большой",
+    "declension": {
+      "singular": {
+        "masculine_neuter": "mare",
+        "feminine": "mare"
+      },
+      "plural": {
+        "masculine_neuter": "mari",
+        "feminine": "mari"
+      }
+    }
   },
   {
     "romanian": "mic",
-    "russian": "маленький"
+    "russian": "маленький",
+    "declension": {
+      "singular": {
+        "masculine": "mic",
+        "feminine": "mică"
+      },
+      "plural": {
+        "masculine": "mici",
+        "feminine": "mici"
+      }
+    }
   },
   {
     "romanian": "nou",
-    "russian": "новый"
+    "russian": "новый",
+    "declension": {
+      "singular": {
+        "masculine": "nou",
+        "feminine": "nouă"
+      },
+      "plural": {
+        "masculine": "noi",
+        "feminine": "noi"
+      }
+    }
   },
   {
     "romanian": "vechi",
-    "russian": "старый"
+    "russian": "старый",
+    "declension": {
+      "singular": {
+        "masculine_neuter": "vechi",
+        "feminine": "veche"
+      },
+      "plural": {
+        "masculine_neuter": "vechi",
+        "feminine": "vechi"
+      }
+    }
   },
   {
     "romanian": "bun",
-    "russian": "хороший"
+    "russian": "хороший",
+    "declension": {
+      "singular": {
+        "masculine": "bun",
+        "feminine": "bună"
+      },
+      "plural": {
+        "masculine": "buni",
+        "feminine": "bune"
+      }
+    }
   },
   {
     "romanian": "rău",
-    "russian": "плохой"
+    "russian": "плохой",
+    "declension": {
+      "singular": {
+        "masculine": "rău",
+        "feminine": "rea"
+      },
+      "plural": {
+        "masculine": "răi",
+        "feminine": "rele"
+      }
+    }
   },
   {
     "romanian": "frumos",
-    "russian": "красивый"
+    "russian": "красивый",
+    "declension": {
+      "singular": {
+        "masculine": "frumos",
+        "feminine": "frumoasă"
+      },
+      "plural": {
+        "masculine": "frumoși",
+        "feminine": "frumoase"
+      }
+    }
   },
   {
     "romanian": "urât",
-    "russian": "уродливый"
+    "russian": "уродливый",
+    "declension": {
+      "singular": {
+        "masculine": "urât",
+        "feminine": "urâtă"
+      },
+      "plural": {
+        "masculine": "urâți",
+        "feminine": "urâte"
+      }
+    }
   },
   {
     "romanian": "cald",
-    "russian": "теплый"
+    "russian": "теплый",
+    "declension": {
+      "singular": {
+        "masculine": "cald",
+        "feminine": "caldă"
+      },
+      "plural": {
+        "masculine": "calzi",
+        "feminine": "calde"
+      }
+    }
   },
   {
     "romanian": "rece",
-    "russian": "холодный"
+    "russian": "холодный",
+    "declension": {
+      "singular": {
+        "masculine_neuter": "rece",
+        "feminine": "rece"
+      },
+      "plural": {
+        "masculine_neuter": "reci",
+        "feminine": "reci"
+      }
+    }
   },
   {
     "romanian": "fericit",
-    "russian": "счастливый"
+    "russian": "счастливый",
+    "declension": {
+      "singular": {
+        "masculine": "fericit",
+        "feminine": "fericită"
+      },
+      "plural": {
+        "masculine": "fericiți",
+        "feminine": "fericite"
+      }
+    }
   },
   {
     "romanian": "trist",
-    "russian": "грустный"
+    "russian": "грустный",
+    "declension": {
+      "singular": {
+        "masculine": "trist",
+        "feminine": "tristă"
+      },
+      "plural": {
+        "masculine": "triști",
+        "feminine": "triste"
+      }
+    }
   },
   {
     "romanian": "rapid",
-    "russian": "быстрый"
+    "russian": "быстрый",
+    "declension": {
+      "singular": {
+        "masculine": "rapid",
+        "feminine": "rapidă"
+      },
+      "plural": {
+        "masculine": "rapizi",
+        "feminine": "rapide"
+      }
+    }
   },
   {
     "romanian": "lent",
-    "russian": "медленный"
+    "russian": "медленный",
+    "declension": {
+      "singular": {
+        "masculine": "lent",
+        "feminine": "lentă"
+      },
+      "plural": {
+        "masculine": "lenți",
+        "feminine": "lente"
+      }
+    }
   },
   {
     "romanian": "înalt",
-    "russian": "высокий"
+    "russian": "высокий",
+    "declension": {
+      "singular": {
+        "masculine": "înalt",
+        "feminine": "înaltă"
+      },
+      "plural": {
+        "masculine": "înalți",
+        "feminine": "înalte"
+      }
+    }
   },
   {
     "romanian": "scund",
-    "russian": "низкий"
+    "russian": "низкий",
+    "declension": {
+      "singular": {
+        "masculine": "scund",
+        "feminine": "scundă"
+      },
+      "plural": {
+        "masculine": "scunzi",
+        "feminine": "scunde"
+      }
+    }
   },
   {
     "romanian": "greu",
-    "russian": "тяжелый; трудный"
+    "russian": "тяжелый; трудный",
+    "declension": {
+      "singular": {
+        "masculine_neuter": "greu",
+        "feminine": "grea"
+      },
+      "plural": {
+        "masculine_neuter": "grei",
+        "feminine": "grele"
+      }
+    }
   },
   {
     "romanian": "ușor",
-    "russian": "легкий"
+    "russian": "легкий",
+    "declension": {
+      "singular": {
+        "masculine_neuter": "ușor",
+        "feminine": "ușoară"
+      },
+      "plural": {
+        "masculine_neuter": "ușori",
+        "feminine": "ușoare"
+      }
+    }
   },
   {
     "romanian": "plin",
-    "russian": "полный"
+    "russian": "полный",
+    "declension": {
+      "singular": {
+        "masculine": "plin",
+        "feminine": "plină"
+      },
+      "plural": {
+        "masculine": "plini",
+        "feminine": "pline"
+      }
+    }
   },
   {
     "romanian": "gol",
-    "russian": "пустой"
+    "russian": "пустой",
+    "declension": {
+      "singular": {
+        "masculine": "gol",
+        "feminine": "goală"
+      },
+      "plural": {
+        "masculine": "goli",
+        "feminine": "goale"
+      }
+    }
   },
   {
     "romanian": "curat",
-    "russian": "чистый"
+    "russian": "чистый",
+    "declension": {
+      "singular": {
+        "masculine": "curat",
+        "feminine": "curată"
+      },
+      "plural": {
+        "masculine": "curați",
+        "feminine": "curate"
+      }
+    }
   },
   {
     "romanian": "murdar",
-    "russian": "грязный"
+    "russian": "грязный",
+    "declension": {
+      "singular": {
+        "masculine": "murdar",
+        "feminine": "murdară"
+      },
+      "plural": {
+        "masculine": "murcari",
+        "feminine": "murdare"
+      }
+    }
   },
   {
     "romanian": "deschis",
-    "russian": "открытый"
+    "russian": "открытый",
+    "declension": {
+      "singular": {
+        "masculine": "deschis",
+        "feminine": "deschisă"
+      },
+      "plural": {
+        "masculine": "deschiși",
+        "feminine": "deschise"
+      }
+    }
   },
   {
     "romanian": "închis",
-    "russian": "закрытый; темный (о цвете)"
+    "russian": "закрытый; темный (о цвете)",
+    "declension": {
+      "singular": {
+        "masculine": "închis",
+        "feminine": "închisă"
+      },
+      "plural": {
+        "masculine": "închiși",
+        "feminine": "închise"
+      }
+    }
   },
   {
     "romanian": "tare",
-    "russian": "твердый; громкий"
+    "russian": "твердый; громкий",
+    "declension": {
+      "singular": {
+        "masculine_neuter": "tare",
+        "feminine": "tare"
+      },
+      "plural": {
+        "masculine_neuter": "tari",
+        "feminine": "tari"
+      }
+    }
   },
   {
     "romanian": "moale",
-    "russian": "мягкий"
+    "russian": "мягкий",
+    "declension": {
+      "singular": {
+        "masculine_neuter": "moale",
+        "feminine": "moale"
+      },
+      "plural": {
+        "masculine_neuter": "moi",
+        "feminine": "moi"
+      }
+    }
   },
   {
     "romanian": "clar",
-    "russian": "ясный"
+    "russian": "ясный",
+    "declension": {
+      "singular": {
+        "masculine": "clar",
+        "feminine": "clară"
+      },
+      "plural": {
+        "masculine": "clari",
+        "feminine": "clare"
+      }
+    }
   },
   {
     "romanian": "confuz",
-    "russian": "запутанный"
+    "russian": "запутанный",
+    "declension": {
+      "singular": {
+        "masculine": "confuz",
+        "feminine": "confuză"
+      },
+      "plural": {
+        "masculine": "confuzi",
+        "feminine": "confuze"
+      }
+    }
   },
   {
     "romanian": "simplu",
-    "russian": "простой"
+    "russian": "простой",
+    "declension": {
+      "singular": {
+        "masculine": "simplu",
+        "feminine": "simplă"
+      },
+      "plural": {
+        "masculine": "simpli",
+        "feminine": "simple"
+      }
+    }
   },
   {
     "romanian": "complicat",
-    "russian": "сложный"
+    "russian": "сложный",
+    "declension": {
+      "singular": {
+        "masculine": "complicat",
+        "feminine": "complicată"
+      },
+      "plural": {
+        "masculine": "complicați",
+        "feminine": "complicate"
+      }
+    }
   },
   {
     "romanian": "adevărat",
-    "russian": "настоящий, истинный"
+    "russian": "настоящий, истинный",
+    "declension": {
+      "singular": {
+        "masculine": "adevărat",
+        "feminine": "adevărată"
+      },
+      "plural": {
+        "masculine": "adevărați",
+        "feminine": "adevărate"
+      }
+    }
   },
   {
     "romanian": "fals",
-    "russian": "фальшивый"
+    "russian": "фальшивый",
+    "declension": {
+      "singular": {
+        "masculine": "fals",
+        "feminine": "falsă"
+      },
+      "plural": {
+        "masculine": "falși",
+        "feminine": "false"
+      }
+    }
   },
   {
     "romanian": "drept",
-    "russian": "правый; прямой; справедливый"
+    "russian": "правый; прямой; справедливый",
+    "declension": {
+      "singular": {
+        "masculine": "drept",
+        "feminine": "dreaptă"
+      },
+      "plural": {
+        "masculine": "drepți",
+        "feminine": "drepte"
+      }
+    }
   },
   {
     "romanian": "stâng",
-    "russian": "левый"
+    "russian": "левый",
+    "declension": {
+      "singular": {
+        "masculine": "stâng",
+        "feminine": "stângă"
+      },
+      "plural": {
+        "masculine": "stângi",
+        "feminine": "stângi"
+      }
+    }
   },
   {
     "romanian": "primul",
-    "russian": "первый"
+    "russian": "первый",
+    "declension": {
+      "singular": {
+        "masculine": "primul",
+        "feminine": "prima"
+      },
+      "plural": {
+        "masculine": "primii",
+        "feminine": "primele"
+      }
+    }
   },
   {
     "romanian": "ultimul",
-    "russian": "последний"
+    "russian": "последний",
+    "declension": {
+      "singular": {
+        "masculine": "ultimul",
+        "feminine": "ultima"
+      },
+      "plural": {
+        "masculine": "ultimii",
+        "feminine": "ultimele"
+      }
+    }
   },
   {
     "romanian": "întreg",
-    "russian": "целый"
+    "russian": "целый",
+    "declension": {
+      "singular": {
+        "masculine": "întreg",
+        "feminine": "întreagă"
+      },
+      "plural": {
+        "masculine": "întregi",
+        "feminine": "întregi"
+      }
+    }
   },
   {
     "romanian": "jumătate",
-    "russian": "половинный"
+    "russian": "половинный",
+    "declension": {
+      "singular": {
+        "masculine_neuter": "jumătate"
+      },
+      "plural": {
+        "masculine_neuter": "jumătăți"
+      }
+    }
   },
   {
     "romanian": "gros",
-    "russian": "толстый"
+    "russian": "толстый",
+    "declension": {
+      "singular": {
+        "masculine": "gros",
+        "feminine": "groasă"
+      },
+      "plural": {
+        "masculine": "groși",
+        "feminine": "groase"
+      }
+    }
   },
   {
     "romanian": "subțire",
-    "russian": "тонкий"
+    "russian": "тонкий",
+    "declension": {
+      "singular": {
+        "masculine_neuter": "subțire",
+        "feminine": "subțire"
+      },
+      "plural": {
+        "masculine_neuter": "subțiri",
+        "feminine": "subțiri"
+      }
+    }
   },
   {
     "romanian": "larg",
-    "russian": "широкий"
+    "russian": "широкий",
+    "declension": {
+      "singular": {
+        "masculine": "larg",
+        "feminine": "largă"
+      },
+      "plural": {
+        "masculine": "largi",
+        "feminine": "largi"
+      }
+    }
   },
   {
     "romanian": "îngust",
-    "russian": "узкий"
+    "russian": "узкий",
+    "declension": {
+      "singular": {
+        "masculine": "îngust",
+        "feminine": "îngustă"
+      },
+      "plural": {
+        "masculine": "înguști",
+        "feminine": "înguste"
+      }
+    }
   },
   {
     "romanian": "lung",
-    "russian": "длинный"
+    "russian": "длинный",
+    "declension": {
+      "singular": {
+        "masculine": "lung",
+        "feminine": "lungă"
+      },
+      "plural": {
+        "masculine": "lungi",
+        "feminine": "lungi"
+      }
+    }
   },
   {
     "romanian": "scurt",
-    "russian": "короткий"
+    "russian": "короткий",
+    "declension": {
+      "singular": {
+        "masculine": "scurt",
+        "feminine": "scurtă"
+      },
+      "plural": {
+        "masculine": "scurți",
+        "feminine": "scurte"
+      }
+    }
   },
   {
     "romanian": "adânc",
-    "russian": "глубокий"
+    "russian": "глубокий",
+    "declension": {
+      "singular": {
+        "masculine": "adânc",
+        "feminine": "adâncă"
+      },
+      "plural": {
+        "masculine": "adânci",
+        "feminine": "adânci"
+      }
+    }
   },
   {
     "romanian": "superficial",
-    "russian": "поверхностный"
+    "russian": "поверхностный",
+    "declension": {
+      "singular": {
+        "masculine": "superficial",
+        "feminine": "superficială"
+      },
+      "plural": {
+        "masculine": "superficiali",
+        "feminine": "superficiale"
+      }
+    }
   },
   {
     "romanian": "luminos",
-    "russian": "светлый, яркий"
+    "russian": "светлый, яркий",
+    "declension": {
+      "singular": {
+        "masculine": "luminos",
+        "feminine": "luminoasă"
+      },
+      "plural": {
+        "masculine": "luminoși",
+        "feminine": "luminoase"
+      }
+    }
   },
   {
     "romanian": "întunecat",
-    "russian": "темный"
+    "russian": "темный",
+    "declension": {
+      "singular": {
+        "masculine": "întunecat",
+        "feminine": "întunecată"
+      },
+      "plural": {
+        "masculine": "întunecați",
+        "feminine": "întunecate"
+      }
+    }
   },
   {
     "romanian": "puternic",
-    "russian": "сильный"
+    "russian": "сильный",
+    "declension": {
+      "singular": {
+        "masculine": "puternic",
+        "feminine": "puternică"
+      },
+      "plural": {
+        "masculine": "puternici",
+        "feminine": "puternice"
+      }
+    }
   },
   {
     "romanian": "slab",
-    "russian": "слабый"
+    "russian": "слабый",
+    "declension": {
+      "singular": {
+        "masculine": "slab",
+        "feminine": "slabă"
+      },
+      "plural": {
+        "masculine": "slabi",
+        "feminine": "slabe"
+      }
+    }
   },
   {
     "romanian": "bogat",
-    "russian": "богатый"
+    "russian": "богатый",
+    "declension": {
+      "singular": {
+        "masculine": "bogat",
+        "feminine": "bogată"
+      },
+      "plural": {
+        "masculine": "bogați",
+        "feminine": "bogate"
+      }
+    }
   },
   {
     "romanian": "sărac",
-    "russian": "бедный"
+    "russian": "бедный",
+    "declension": {
+      "singular": {
+        "masculine": "sărac",
+        "feminine": "săracă"
+      },
+      "plural": {
+        "masculine": "săraci",
+        "feminine": "sărace"
+      }
+    }
   },
   {
     "romanian": "tânăr",
-    "russian": "молодой"
+    "russian": "молодой",
+    "declension": {
+      "singular": {
+        "masculine": "tânăr",
+        "feminine": "tânără"
+      },
+      "plural": {
+        "masculine": "tineri",
+        "feminine": "tinere"
+      }
+    }
   },
   {
     "romanian": "bătrân",
-    "russian": "старый (о людях)"
+    "russian": "старый (о людях)",
+    "declension": {
+      "singular": {
+        "masculine": "bătrân",
+        "feminine": "bătrână"
+      },
+      "plural": {
+        "masculine": "bătrâni",
+        "feminine": "bătrâne"
+      }
+    }
   },
   {
     "romanian": "ieftin",
-    "russian": "дешевый"
+    "russian": "дешевый",
+    "declension": {
+      "singular": {
+        "masculine": "ieftin",
+        "feminine": "ieftină"
+      },
+      "plural": {
+        "masculine": "ieftini",
+        "feminine": "ieftine"
+      }
+    }
   },
   {
     "romanian": "scump",
-    "russian": "дорогой"
+    "russian": "дорогой",
+    "declension": {
+      "singular": {
+        "masculine": "scump",
+        "feminine": "scumpă"
+      },
+      "plural": {
+        "masculine": "scumpi",
+        "feminine": "scumpe"
+      }
+    }
   },
   {
     "romanian": "dulce",
-    "russian": "сладкий"
+    "russian": "сладкий",
+    "declension": {
+      "singular": {
+        "masculine_neuter": "dulce",
+        "feminine": "dulce"
+      },
+      "plural": {
+        "masculine_neuter": "dulci",
+        "feminine": "dulci"
+      }
+    }
   },
   {
     "romanian": "amar",
-    "russian": "горький"
+    "russian": "горький",
+    "declension": {
+      "singular": {
+        "masculine": "amar",
+        "feminine": "amară"
+      },
+      "plural": {
+        "masculine": "amari",
+        "feminine": "amare"
+      }
+    }
   },
   {
     "romanian": "sărat",
-    "russian": "соленый"
+    "russian": "соленый",
+    "declension": {
+      "singular": {
+        "masculine": "sărat",
+        "feminine": "sărată"
+      },
+      "plural": {
+        "masculine": "sărați",
+        "feminine": "sărate"
+      }
+    }
   },
   {
     "romanian": "acru",
-    "russian": "кислый"
+    "russian": "кислый",
+    "declension": {
+      "singular": {
+        "masculine": "acru",
+        "feminine": "acră"
+      },
+      "plural": {
+        "masculine": "acri",
+        "feminine": "acre"
+      }
+    }
   },
   {
     "romanian": "crud",
-    "russian": "сырой"
+    "russian": "сырой",
+    "declension": {
+      "singular": {
+        "masculine": "crud",
+        "feminine": "crudă"
+      },
+      "plural": {
+        "masculine": "cruzi",
+        "feminine": "crude"
+      }
+    }
   },
   {
     "romanian": "copt",
-    "russian": "спелый; запеченный"
+    "russian": "спелый; запеченный",
+    "declension": {
+      "singular": {
+        "masculine": "copt",
+        "feminine": "coaptă"
+      },
+      "plural": {
+        "masculine": "copți",
+        "feminine": "coapte"
+      }
+    }
   },
   {
     "romanian": "gata",
-    "russian": "готовый"
+    "russian": "готовый",
+    "declension": {
+      "singular": {
+        "masculine_neuter": "gata",
+        "feminine": "gata"
+      },
+      "plural": {
+        "masculine_neuter": "gata",
+        "feminine": "gata"
+      }
+    }
   },
   {
     "romanian": "liber",
-    "russian": "свободный"
+    "russian": "свободный",
+    "declension": {
+      "singular": {
+        "masculine": "liber",
+        "feminine": "liberă"
+      },
+      "plural": {
+        "masculine": "liberi",
+        "feminine": "libere"
+      }
+    }
   },
   {
     "romanian": "ocupat",
-    "russian": "занятый"
+    "russian": "занятый",
+    "declension": {
+      "singular": {
+        "masculine": "ocupat",
+        "feminine": "ocupată"
+      },
+      "plural": {
+        "masculine": "ocupați",
+        "feminine": "ocupate"
+      }
+    }
   },
   {
     "romanian": "singur",
-    "russian": "одинокий; единственный"
-  },
-  {
-    "romanian": "ocupat",
-    "russian": "занятой"
+    "russian": "одинокий; единственный",
+    "declension": {
+      "singular": {
+        "masculine": "singur",
+        "feminine": "singură"
+      },
+      "plural": {
+        "masculine": "singuri",
+        "feminine": "singure"
+      }
+    }
   },
   {
     "romanian": "diferit",
-    "russian": "различный"
+    "russian": "различный",
+    "declension": {
+      "singular": {
+        "masculine": "diferit",
+        "feminine": "diferită"
+      },
+      "plural": {
+        "masculine": "diferiți",
+        "feminine": "diferite"
+      }
+    }
   },
   {
     "romanian": "asemănător",
-    "russian": "похожий"
+    "russian": "похожий",
+    "declension": {
+      "singular": {
+        "masculine": "asemănător",
+        "feminine": "asemănătoare"
+      },
+      "plural": {
+        "masculine": "asemănători",
+        "feminine": "asemănătoare"
+      }
+    }
   },
   {
     "romanian": "important",
-    "russian": "важный"
+    "russian": "важный",
+    "declension": {
+      "singular": {
+        "masculine": "important",
+        "feminine": "importantă"
+      },
+      "plural": {
+        "masculine": "importanți",
+        "feminine": "importante"
+      }
+    }
   },
   {
     "romanian": "neimportant",
-    "russian": "неважный"
+    "russian": "неважный",
+    "declension": {
+      "singular": {
+        "masculine": "neimportant",
+        "feminine": "neimportantă"
+      },
+      "plural": {
+        "masculine": "neimportanți",
+        "feminine": "neimportante"
+      }
+    }
   },
   {
     "romanian": "posibil",
-    "russian": "возможный"
+    "russian": "возможный",
+    "declension": {
+      "singular": {
+        "masculine": "posibil",
+        "feminine": "posibilă"
+      },
+      "plural": {
+        "masculine": "posibili",
+        "feminine": "posibile"
+      }
+    }
   },
   {
     "romanian": "imposibil",
-    "russian": "невозможный"
+    "russian": "невозможный",
+    "declension": {
+      "singular": {
+        "masculine": "imposibil",
+        "feminine": "imposibilă"
+      },
+      "plural": {
+        "masculine": "imposibili",
+        "feminine": "imposibile"
+      }
+    }
   },
   {
     "romanian": "public",
-    "russian": "публичный, общественный"
+    "russian": "публичный, общественный",
+    "declension": {
+      "singular": {
+        "masculine": "public",
+        "feminine": "publică"
+      },
+      "plural": {
+        "masculine": "publici",
+        "feminine": "publice"
+      }
+    }
   },
   {
     "romanian": "privat",
-    "russian": "частный"
+    "russian": "частный",
+    "declension": {
+      "singular": {
+        "masculine": "privat",
+        "feminine": "privată"
+      },
+      "plural": {
+        "masculine": "privați",
+        "feminine": "private"
+      }
+    }
   },
   {
     "romanian": "local",
-    "russian": "местный"
+    "russian": "местный",
+    "declension": {
+      "singular": {
+        "masculine": "local",
+        "feminine": "locală"
+      },
+      "plural": {
+        "masculine": "locali",
+        "feminine": "locale"
+      }
+    }
   },
   {
     "romanian": "național",
-    "russian": "национальный"
+    "russian": "национальный",
+    "declension": {
+      "singular": {
+        "masculine": "național",
+        "feminine": "națională"
+      },
+      "plural": {
+        "masculine": "naționali",
+        "feminine": "naționale"
+      }
+    }
   },
   {
     "romanian": "internațional",
-    "russian": "международный"
+    "russian": "международный",
+    "declension": {
+      "singular": {
+        "masculine": "internațional",
+        "feminine": "internațională"
+      },
+      "plural": {
+        "masculine": "internaționali",
+        "feminine": "internaționale"
+      }
+    }
   },
   {
     "romanian": "activ",
-    "russian": "активный"
+    "russian": "активный",
+    "declension": {
+      "singular": {
+        "masculine": "activ",
+        "feminine": "activă"
+      },
+      "plural": {
+        "masculine": "activi",
+        "feminine": "active"
+      }
+    }
   },
   {
     "romanian": "pasiv",
-    "russian": "пассивный"
+    "russian": "пассивный",
+    "declension": {
+      "singular": {
+        "masculine": "pasiv",
+        "feminine": "pasivă"
+      },
+      "plural": {
+        "masculine": "pasivi",
+        "feminine": "pasive"
+      }
+    }
   },
   {
     "romanian": "normal",
-    "russian": "нормальный"
+    "russian": "нормальный",
+    "declension": {
+      "singular": {
+        "masculine": "normal",
+        "feminine": "normală"
+      },
+      "plural": {
+        "masculine": "normali",
+        "feminine": "normale"
+      }
+    }
   },
   {
     "romanian": "anormal",
-    "russian": "ненормальный"
+    "russian": "ненормальный",
+    "declension": {
+      "singular": {
+        "masculine": "anormal",
+        "feminine": "anormală"
+      },
+      "plural": {
+        "masculine": "anormali",
+        "feminine": "anormale"
+      }
+    }
   },
   {
     "romanian": "corect",
-    "russian": "правильный"
+    "russian": "правильный",
+    "declension": {
+      "singular": {
+        "masculine": "corect",
+        "feminine": "corectă"
+      },
+      "plural": {
+        "masculine": "corecți",
+        "feminine": "corecte"
+      }
+    }
   },
   {
     "romanian": "incorect",
-    "russian": "неправильный"
+    "russian": "неправильный",
+    "declension": {
+      "singular": {
+        "masculine": "incorect",
+        "feminine": "incorectă"
+      },
+      "plural": {
+        "masculine": "incorecți",
+        "feminine": "incorecte"
+      }
+    }
   },
   {
     "romanian": "sensibil",
-    "russian": "чувствительный"
+    "russian": "чувствительный",
+    "declension": {
+      "singular": {
+        "masculine": "sensibil",
+        "feminine": "sensibilă"
+      },
+      "plural": {
+        "masculine": "sensibili",
+        "feminine": "sensibile"
+      }
+    }
   },
   {
     "romanian": "insensibil",
-    "russian": "нечувствительный"
+    "russian": "нечувствительный",
+    "declension": {
+      "singular": {
+        "masculine": "insensibil",
+        "feminine": "insensibilă"
+      },
+      "plural": {
+        "masculine": "insensibili",
+        "feminine": "insensibile"
+      }
+    }
   },
   {
     "romanian": "sigur",
-    "russian": "безопасный; уверенный"
+    "russian": "безопасный; уверенный",
+    "declension": {
+      "singular": {
+        "masculine": "sigur",
+        "feminine": "sigură"
+      },
+      "plural": {
+        "masculine": "siguri",
+        "feminine": "sigure"
+      }
+    }
   },
   {
     "romanian": "nesigur",
-    "russian": "небезопасный; неуверенный"
+    "russian": "небезопасный; неуверенный",
+    "declension": {
+      "singular": {
+        "masculine": "nesigur",
+        "feminine": "nesigură"
+      },
+      "plural": {
+        "masculine": "nesiguri",
+        "feminine": "nesigure"
+      }
+    }
   },
   {
     "romanian": "inteligent",
-    "russian": "умный"
+    "russian": "умный",
+    "declension": {
+      "singular": {
+        "masculine": "inteligent",
+        "feminine": "inteligentă"
+      },
+      "plural": {
+        "masculine": "inteligenți",
+        "feminine": "inteligente"
+      }
+    }
   },
   {
     "romanian": "prost",
-    "russian": "глупый"
+    "russian": "глупый",
+    "declension": {
+      "singular": {
+        "masculine": "prost",
+        "feminine": "proastă"
+      },
+      "plural": {
+        "masculine": "proști",
+        "feminine": "proaste"
+      }
+    }
   },
   {
-    "romanian": "cald",
-    "russian": "горячий"
-  },
-  {
-    "romanian": "rece",
-    "russian": "холодный"
-  },
-  {
-    "romanian": "gol",
-    "russian": "пустой"
-  },
-  {
-    "romanian": "plin",
-    "russian": "полный"
-  },
-  {
-    "romanian": "ieftin",
-    "russian": "дешевый"
-  },
-  {
-    "romanian": "scump",
-    "russian": "дорогой"
+    "romanian": "fierbinte",
+    "russian": "горячий",
+    "declension": {
+      "singular": {
+        "masculine": "fierbinte",
+        "feminine": "fierbinte"
+      },
+      "plural": {
+        "masculine": "fierbinți",
+        "feminine": "fierbinți"
+      }
+    }
   },
   {
     "romanian": "sănătos",
-    "russian": "здоровый"
+    "russian": "здоровый",
+    "declension": {
+      "singular": {
+        "masculine": "sănătos",
+        "feminine": "sănătoasă"
+      },
+      "plural": {
+        "masculine": "sănătoși",
+        "feminine": "sănătoase"
+      }
+    }
   },
   {
     "romanian": "bolnav",
-    "russian": "больной"
+    "russian": "больной",
+    "declension": {
+      "singular": {
+        "masculine": "bolnav",
+        "feminine": "bolnavă"
+      },
+      "plural": {
+        "masculine": "bolnavi",
+        "feminine": "bolnave"
+      }
+    }
   },
   {
     "romanian": "vesel",
-    "russian": "веселый"
+    "russian": "веселый",
+    "declension": {
+      "singular": {
+        "masculine": "vesel",
+        "feminine": "veselă"
+      },
+      "plural": {
+        "masculine": "veseli",
+        "feminine": "vesele"
+      }
+    }
   },
   {
     "romanian": "plictisit",
-    "russian": "скучающий"
+    "russian": "скучающий",
+    "declension": {
+      "singular": {
+        "masculine": "plictisit",
+        "feminine": "plictisită"
+      },
+      "plural": {
+        "masculine": "plictisiți",
+        "feminine": "plictisite"
+      }
+    }
   },
   {
     "romanian": "încântat",
-    "russian": "восхищенный"
+    "russian": "восхищенный",
+    "declension": {
+      "singular": {
+        "masculine": "încântat",
+        "feminine": "încântată"
+      },
+      "plural": {
+        "masculine": "încântați",
+        "feminine": "încântate"
+      }
+    }
   },
   {
     "romanian": "supărat",
-    "russian": "сердитый"
+    "russian": "сердитый",
+    "declension": {
+      "singular": {
+        "masculine": "supărat",
+        "feminine": "supărată"
+      },
+      "plural": {
+        "masculine": "supărați",
+        "feminine": "supărate"
+      }
+    }
   },
   {
     "romanian": "curios",
-    "russian": "любопытный"
+    "russian": "любопытный",
+    "declension": {
+      "singular": {
+        "masculine": "curios",
+        "feminine": "curioasă"
+      },
+      "plural": {
+        "masculine": "curioși",
+        "feminine": "curioase"
+      }
+    }
   },
   {
     "romanian": "indiferent",
-    "russian": "равнодушный"
+    "russian": "равнодушный",
+    "declension": {
+      "singular": {
+        "masculine": "indiferent",
+        "feminine": "indiferentă"
+      },
+      "plural": {
+        "masculine": "indiferenți",
+        "feminine": "indiferente"
+      }
+    }
   },
   {
     "romanian": "generos",
-    "russian": "щедрый"
+    "russian": "щедрый",
+    "declension": {
+      "singular": {
+        "masculine": "generos",
+        "feminine": "generoasă"
+      },
+      "plural": {
+        "masculine": "generoși",
+        "feminine": "generoase"
+      }
+    }
   },
   {
     "romanian": "zgârcit",
-    "russian": "скупой"
+    "russian": "скупой",
+    "declension": {
+      "singular": {
+        "masculine": "zgârcit",
+        "feminine": "zgârcită"
+      },
+      "plural": {
+        "masculine": "zgârciți",
+        "feminine": "zgârcite"
+      }
+    }
   },
   {
-    "romanian": "politeț",
-    "russian": "вежливый"
+    "romanian": "politicos",
+    "russian": "вежливый",
+    "declension": {
+      "singular": {
+        "masculine": "politicos",
+        "feminine": "politicoasă"
+      },
+      "plural": {
+        "masculine": "politicoși",
+        "feminine": "politicoase"
+      }
+    }
   },
   {
     "romanian": "nepoliticos",
-    "russian": "невежливый"
-  },
-  {
-    "romanian": "simplu",
-    "russian": "простой"
+    "russian": "невежливый",
+    "declension": {
+      "singular": {
+        "masculine": "nepoliticos",
+        "feminine": "nepoliticoasă"
+      },
+      "plural": {
+        "masculine": "nepoliticoși",
+        "feminine": "nepoliticoase"
+      }
+    }
   },
   {
     "romanian": "complex",
-    "russian": "сложный"
-  },
-  {
-    "romanian": "uşor",
-    "russian": "легкий"
+    "russian": "сложный",
+    "declension": {
+      "singular": {
+        "masculine": "complex",
+        "feminine": "complexă"
+      },
+      "plural": {
+        "masculine": "complexi",
+        "feminine": "complexe"
+      }
+    }
   },
   {
     "romanian": "dificil",
-    "russian": "трудный"
-  },
-  {
-    "romanian": "rapid",
-    "russian": "быстрый"
-  },
-  {
-    "romanian": "lent",
-    "russian": "медленный"
-  },
-  {
-    "romanian": "curat",
-    "russian": "чистый"
-  },
-  {
-    "romanian": "murdar",
-    "russian": "грязный"
-  },
-  {
-    "romanian": "dulce",
-    "russian": "сладкий"
-  },
-  {
-    "romanian": "amar",
-    "russian": "горький"
-  },
-  {
-    "romanian": "acru",
-    "russian": "кислый"
-  },
-  {
-    "romanian": "sărat",
-    "russian": "соленый"
+    "russian": "трудный",
+    "declension": {
+      "singular": {
+        "masculine": "dificil",
+        "feminine": "dificilă"
+      },
+      "plural": {
+        "masculine": "dificili",
+        "feminine": "dificile"
+      }
+    }
   },
   {
     "romanian": "tăcut",
-    "russian": "тихий"
+    "russian": "тихий",
+    "declension": {
+      "singular": {
+        "masculine": "tăcut",
+        "feminine": "tăcută"
+      },
+      "plural": {
+        "masculine": "tăcuți",
+        "feminine": "tăcute"
+      }
+    }
   },
   {
     "romanian": "zgomotos",
-    "russian": "шумный"
-  },
-  {
-    "romanian": "uşor (greutate)",
-    "russian": "легкий (по весу)"
-  },
-  {
-    "romanian": "greu (greutate)",
-    "russian": "тяжелый (по весу)"
-  },
-  {
-    "romanian": "nou",
-    "russian": "новый"
-  },
-  {
-    "romanian": "vechi",
-    "russian": "старый"
-  },
-  {
-    "romanian": "tânăr",
-    "russian": "молодой"
-  },
-  {
-    "romanian": "bătrân",
-    "russian": "старый (о человеке)"
-  },
-  {
-    "romanian": "cald",
-    "russian": "теплый"
-  },
-  {
-    "romanian": "rece",
-    "russian": "холодный"
-  },
-  {
-    "romanian": "fierbinte",
-    "russian": "горячий"
-  },
-  {
-    "romanian": "frumos",
-    "russian": "красивый"
-  },
-  {
-    "romanian": "urât",
-    "russian": "некрасивый"
+    "russian": "шумный",
+    "declension": {
+      "singular": {
+        "masculine": "zgomotos",
+        "feminine": "zgomotoasă"
+      },
+      "plural": {
+        "masculine": "zgomotoși",
+        "feminine": "zgomotoase"
+      }
+    }
   },
   {
     "romanian": "blând",
-    "russian": "мягкий, нежный, кроткий"
+    "russian": "мягкий, нежный, кроткий",
+    "declension": {
+      "singular": {
+        "masculine": "blând",
+        "feminine": "blândă"
+      },
+      "plural": {
+        "masculine": "blânzi",
+        "feminine": "blânde"
+      }
+    }
   },
   {
     "romanian": "aspru",
-    "russian": "грубый, суровый"
-  },
-  {
-    "romanian": "adânc",
-    "russian": "глубокий"
-  },
-  {
-    "romanian": "superficial",
-    "russian": "поверхностный"
-  },
-  {
-    "romanian": "înalt",
-    "russian": "высокий"
-  },
-  {
-    "romanian": "scund",
-    "russian": "низкий"
-  },
-  {
-    "romanian": "luminos",
-    "russian": "светлый"
-  },
-  {
-    "romanian": "întunecat",
-    "russian": "темный"
-  },
-  {
-    "romanian": "puternic",
-    "russian": "сильный"
-  },
-  {
-    "romanian": "slab",
-    "russian": "слабый"
+    "russian": "грубый, суровый",
+    "declension": {
+      "singular": {
+        "masculine": "aspru",
+        "feminine": "aspră"
+      },
+      "plural": {
+        "masculine": "aspri",
+        "feminine": "aspre"
+      }
+    }
   },
   {
     "romanian": "devreme",
-    "russian": "ранний"
+    "russian": "ранний",
+    "declension": {
+      "singular": {
+        "masculine_neuter": "devreme",
+        "feminine": "devreme"
+      },
+      "plural": {
+        "masculine_neuter": "devreme",
+        "feminine": "devreme"
+      }
+    }
   },
   {
     "romanian": "târziu",
-    "russian": "поздний"
-  },
-  {
-    "romanian": "curat",
-    "russian": "чистый"
-  },
-  {
-    "romanian": "murdar",
-    "russian": "грязный"
-  },
-  {
-    "romanian": "bogat",
-    "russian": "богатый"
-  },
-  {
-    "romanian": "sărac",
-    "russian": "бедный"
-  },
-  {
-    "romanian": "deschis (culoare)",
-    "russian": "светлый (о цвете)"
-  },
-  {
-    "romanian": "închis (culoare)",
-    "russian": "темный (о цвете)"
+    "russian": "поздний",
+    "declension": {
+      "singular": {
+        "masculine_neuter": "târziu",
+        "feminine": "târzie"
+      },
+      "plural": {
+        "masculine_neuter": "târzii",
+        "feminine": "târzii"
+      }
+    }
   },
   {
     "romanian": "plăcut",
-    "russian": "приятный"
+    "russian": "приятный",
+    "declension": {
+      "singular": {
+        "masculine": "plăcut",
+        "feminine": "plăcută"
+      },
+      "plural": {
+        "masculine": "plăcuți",
+        "feminine": "plăcute"
+      }
+    }
   },
   {
     "romanian": "neplăcut",
-    "russian": "неприятный"
+    "russian": "неприятный",
+    "declension": {
+      "singular": {
+        "masculine": "neplăcut",
+        "feminine": "neplăcută"
+      },
+      "plural": {
+        "masculine": "neplăcuți",
+        "feminine": "neplăcute"
+      }
+    }
   },
   {
     "romanian": "liniștit",
-    "russian": "спокойный"
+    "russian": "спокойный",
+    "declension": {
+      "singular": {
+        "masculine": "liniștit",
+        "feminine": "liniștită"
+      },
+      "plural": {
+        "masculine": "liniștiți",
+        "feminine": "liniștite"
+      }
+    }
   },
   {
     "romanian": "agitat",
-    "russian": "взволнованный"
-  },
-  {
-    "romanian": "drept (linie)",
-    "russian": "прямой (о линии)"
-  },
-  {
-    "romanian": "curb",
-    "russian": "изогнутый"
+    "russian": "взволнованный",
+    "declension": {
+      "singular": {
+        "masculine": "agitat",
+        "feminine": "agitată"
+      },
+      "plural": {
+        "masculine": "agitați",
+        "feminine": "agitate"
+      }
+    }
   },
   {
     "romanian": "grijuliu",
-    "russian": "заботливый"
+    "russian": "заботливый",
+    "declension": {
+      "singular": {
+        "masculine": "grijuliu",
+        "feminine": "grijulie"
+      },
+      "plural": {
+        "masculine": "grijulii",
+        "feminine": "grijulii"
+      }
+    }
   },
   {
     "romanian": "neglijent",
-    "russian": "небрежный"
+    "russian": "небрежный",
+    "declension": {
+      "singular": {
+        "masculine": "neglijent",
+        "feminine": "neglijentă"
+      },
+      "plural": {
+        "masculine": "neglijenți",
+        "feminine": "neglijente"
+      }
+    }
   },
   {
     "romanian": "onest",
-    "russian": "честный"
+    "russian": "честный",
+    "declension": {
+      "singular": {
+        "masculine": "onest",
+        "feminine": "onestă"
+      },
+      "plural": {
+        "masculine": "onești",
+        "feminine": "oneste"
+      }
+    }
   },
   {
     "romanian": "necinstit",
-    "russian": "нечестный"
+    "russian": "нечестный",
+    "declension": {
+      "singular": {
+        "masculine": "necinstit",
+        "feminine": "necinstită"
+      },
+      "plural": {
+        "masculine": "necinstiți",
+        "feminine": "necinstitate"
+      }
+    }
   },
   {
     "romanian": "real",
-    "russian": "реальный"
+    "russian": "реальный",
+    "declension": {
+      "singular": {
+        "masculine": "real",
+        "feminine": "reală"
+      },
+      "plural": {
+        "masculine": "reali",
+        "feminine": "reale"
+      }
+    }
   },
   {
     "romanian": "ireal",
-    "russian": "нереальный"
+    "russian": "нереальный",
+    "declension": {
+      "singular": {
+        "masculine": "ireal",
+        "feminine": "ireală"
+      },
+      "plural": {
+        "masculine": "ireali",
+        "feminine": "ireale"
+      }
+    }
   },
   {
     "romanian": "modern",
-    "russian": "современный"
+    "russian": "современный",
+    "declension": {
+      "singular": {
+        "masculine": "modern",
+        "feminine": "modernă"
+      },
+      "plural": {
+        "masculine": "moderni",
+        "feminine": "moderne"
+      }
+    }
   },
   {
     "romanian": "tradițional",
-    "russian": "традиционный"
+    "russian": "традиционный",
+    "declension": {
+      "singular": {
+        "masculine": "tradițional",
+        "feminine": "tradițională"
+      },
+      "plural": {
+        "masculine": "tradiționali",
+        "feminine": "tradiționale"
+      }
+    }
   },
   {
     "romanian": "original",
-    "russian": "оригинальный"
+    "russian": "оригинальный",
+    "declension": {
+      "singular": {
+        "masculine": "original",
+        "feminine": "originală"
+      },
+      "plural": {
+        "masculine": "originali",
+        "feminine": "originale"
+      }
+    }
   },
   {
     "romanian": "banal",
-    "russian": "банальный"
+    "russian": "банальный",
+    "declension": {
+      "singular": {
+        "masculine": "banal",
+        "feminine": "banală"
+      },
+      "plural": {
+        "masculine": "banali",
+        "feminine": "banale"
+      }
+    }
   },
   {
     "romanian": "elegant",
-    "russian": "элегантный"
-  },
-  {
-    "romanian": "simplu",
-    "russian": "простой"
-  },
-  {
-    "romanian": "complex",
-    "russian": "сложный"
-  },
-  {
-    "romanian": "dulce (caracter)",
-    "russian": "милый, нежный (о характере)"
-  },
-  {
-    "romanian": "aspru (caracter)",
-    "russian": "жесткий, суровый (о характере)"
+    "russian": "элегантный",
+    "declension": {
+      "singular": {
+        "masculine": "elegant",
+        "feminine": "elegantă"
+      },
+      "plural": {
+        "masculine": "eleganți",
+        "feminine": "elegante"
+      }
+    }
   },
   {
     "romanian": "profesional",
-    "russian": "профессиональный"
+    "russian": "профессиональный",
+    "declension": {
+      "singular": {
+        "masculine": "profesional",
+        "feminine": "profesională"
+      },
+      "plural": {
+        "masculine": "profesionali",
+        "feminine": "profesionale"
+      }
+    }
   },
   {
     "romanian": "amator",
-    "russian": "любительский"
+    "russian": "любительский",
+    "declension": {
+      "singular": {
+        "masculine": "amator",
+        "feminine": "amatoare"
+      },
+      "plural": {
+        "masculine": "amatori",
+        "feminine": "amatoare"
+      }
+    }
   },
   {
     "romanian": "economic",
-    "russian": "экономический"
+    "russian": "экономический",
+    "declension": {
+      "singular": {
+        "masculine": "economic",
+        "feminine": "economică"
+      },
+      "plural": {
+        "masculine": "economici",
+        "feminine": "economice"
+      }
+    }
   },
   {
     "romanian": "social",
-    "russian": "социальный"
+    "russian": "социальный",
+    "declension": {
+      "singular": {
+        "masculine": "social",
+        "feminine": "socială"
+      },
+      "plural": {
+        "masculine": "sociali",
+        "feminine": "sociale"
+      }
+    }
   },
   {
     "romanian": "politic",
-    "russian": "политический"
+    "russian": "политический",
+    "declension": {
+      "singular": {
+        "masculine": "politic",
+        "feminine": "politică"
+      },
+      "plural": {
+        "masculine": "politici",
+        "feminine": "politice"
+      }
+    }
   },
   {
     "romanian": "cultural",
-    "russian": "культурный"
+    "russian": "культурный",
+    "declension": {
+      "singular": {
+        "masculine": "cultural",
+        "feminine": "culturală"
+      },
+      "plural": {
+        "masculine": "culturali",
+        "feminine": "culturale"
+      }
+    }
   },
   {
     "romanian": "istoric",
-    "russian": "исторический"
+    "russian": "исторический",
+    "declension": {
+      "singular": {
+        "masculine": "istoric",
+        "feminine": "istorică"
+      },
+      "plural": {
+        "masculine": "istorici",
+        "feminine": "istorice"
+      }
+    }
   },
   {
     "romanian": "științific",
-    "russian": "научный"
+    "russian": "научный",
+    "declension": {
+      "singular": {
+        "masculine": "științific",
+        "feminine": "științifică"
+      },
+      "plural": {
+        "masculine": "științifici",
+        "feminine": "științifice"
+      }
+    }
   },
   {
     "romanian": "tehnic",
-    "russian": "технический"
+    "russian": "технический",
+    "declension": {
+      "singular": {
+        "masculine": "tehnic",
+        "feminine": "tehnică"
+      },
+      "plural": {
+        "masculine": "tehnici",
+        "feminine": "tehnice"
+      }
+    }
   },
   {
     "romanian": "artistic",
-    "russian": "художественный"
+    "russian": "художественный",
+    "declension": {
+      "singular": {
+        "masculine": "artistic",
+        "feminine": "artistică"
+      },
+      "plural": {
+        "masculine": "artisticl",
+        "feminine": "artistice"
+      }
+    }
   },
   {
     "romanian": "religios",
-    "russian": "религиозный"
+    "russian": "религиозный",
+    "declension": {
+      "singular": {
+        "masculine": "religios",
+        "feminine": "religioasă"
+      },
+      "plural": {
+        "masculine": "religioși",
+        "feminine": "religioase"
+      }
+    }
   },
   {
     "romanian": "educativ",
-    "russian": "образовательный"
+    "russian": "образовательный",
+    "declension": {
+      "singular": {
+        "masculine": "educativ",
+        "feminine": "educativă"
+      },
+      "plural": {
+        "masculine": "educativi",
+        "feminine": "educative"
+      }
+    }
   },
   {
     "romanian": "legal",
-    "russian": "законный"
+    "russian": "законный",
+    "declension": {
+      "singular": {
+        "masculine": "legal",
+        "feminine": "legală"
+      },
+      "plural": {
+        "masculine": "legali",
+        "feminine": "legale"
+      }
+    }
   },
   {
     "romanian": "ilegal",
-    "russian": "незаконный"
+    "russian": "незаконный",
+    "declension": {
+      "singular": {
+        "masculine": "ilegal",
+        "feminine": "ilegală"
+      },
+      "plural": {
+        "masculine": "ilegali",
+        "feminine": "ilegale"
+      }
+    }
   },
   {
     "romanian": "personal",
-    "russian": "личный"
+    "russian": "личный",
+    "declension": {
+      "singular": {
+        "masculine": "personal",
+        "feminine": "personală"
+      },
+      "plural": {
+        "masculine": "personali",
+        "feminine": "personale"
+      }
+    }
   },
   {
     "romanian": "oficial",
-    "russian": "официальный"
-  },
-  {
-    "romanian": "privat",
-    "russian": "частный"
+    "russian": "официальный",
+    "declension": {
+      "singular": {
+        "masculine": "oficial",
+        "feminine": "oficială"
+      },
+      "plural": {
+        "masculine": "oficiali",
+        "feminine": "oficiale"
+      }
+    }
   },
   {
     "romanian": "central",
-    "russian": "центральный"
+    "russian": "центральный",
+    "declension": {
+      "singular": {
+        "masculine": "central",
+        "feminine": "centrală"
+      },
+      "plural": {
+        "masculine": "centrali",
+        "feminine": "centrale"
+      }
+    }
   },
   {
     "romanian": "marginal",
-    "russian": "маргинальный"
+    "russian": "маргинальный",
+    "declension": {
+      "singular": {
+        "masculine": "marginal",
+        "feminine": "marginală"
+      },
+      "plural": {
+        "masculine": "marginali",
+        "feminine": "marginale"
+      }
+    }
   },
   {
     "romanian": "general",
-    "russian": "общий"
+    "russian": "общий",
+    "declension": {
+      "singular": {
+        "masculine": "general",
+        "feminine": "generală"
+      },
+      "plural": {
+        "masculine": "generali",
+        "feminine": "generale"
+      }
+    }
   },
   {
     "romanian": "specific",
-    "russian": "специфический"
+    "russian": "специфический",
+    "declension": {
+      "singular": {
+        "masculine": "specific",
+        "feminine": "specifică"
+      },
+      "plural": {
+        "masculine": "specifici",
+        "feminine": "specifice"
+      }
+    }
   },
   {
     "romanian": "natural",
-    "russian": "натуральный"
+    "russian": "натуральный",
+    "declension": {
+      "singular": {
+        "masculine": "natural",
+        "feminine": "naturală"
+      },
+      "plural": {
+        "masculine": "naturali",
+        "feminine": "naturale"
+      }
+    }
   },
   {
     "romanian": "artificial",
-    "russian": "искусственный"
+    "russian": "искусственный",
+    "declension": {
+      "singular": {
+        "masculine": "artificial",
+        "feminine": "artificială"
+      },
+      "plural": {
+        "masculine": "artificiali",
+        "feminine": "artificiale"
+      }
+    }
   },
   {
     "romanian": "vizibil",
-    "russian": "видимый"
+    "russian": "видимый",
+    "declension": {
+      "singular": {
+        "masculine": "vizibil",
+        "feminine": "vizibilă"
+      },
+      "plural": {
+        "masculine": "vizibili",
+        "feminine": "vizibile"
+      }
+    }
   },
   {
     "romanian": "invizibil",
-    "russian": "невидимый"
+    "russian": "невидимый",
+    "declension": {
+      "singular": {
+        "masculine": "invizibil",
+        "feminine": "invizibilă"
+      },
+      "plural": {
+        "masculine": "invizibili",
+        "feminine": "invizibile"
+      }
+    }
   },
   {
     "romanian": "final",
-    "russian": "конечный, финальный"
+    "russian": "конечный, финальный",
+    "declension": {
+      "singular": {
+        "masculine": "final",
+        "feminine": "finală"
+      },
+      "plural": {
+        "masculine": "finali",
+        "feminine": "finale"
+      }
+    }
   },
   {
     "romanian": "inițial",
-    "russian": "начальный"
+    "russian": "начальный",
+    "declension": {
+      "singular": {
+        "masculine": "inițial",
+        "feminine": "inițială"
+      },
+      "plural": {
+        "masculine": "inițiali",
+        "feminine": "inițiale"
+      }
+    }
   },
   {
     "romanian": "viitor",
-    "russian": "будущий"
+    "russian": "будущий",
+    "declension": {
+      "singular": {
+        "masculine": "viitor",
+        "feminine": "viitoare"
+      },
+      "plural": {
+        "masculine": "viitori",
+        "feminine": "viitoare"
+      }
+    }
   },
   {
     "romanian": "trecut",
-    "russian": "прошлый"
+    "russian": "прошлый",
+    "declension": {
+      "singular": {
+        "masculine": "trecut",
+        "feminine": "trecută"
+      },
+      "plural": {
+        "masculine": "trecuți",
+        "feminine": "trecute"
+      }
+    }
   },
   {
     "romanian": "prezent",
-    "russian": "настоящий"
+    "russian": "настоящий",
+    "declension": {
+      "singular": {
+        "masculine": "prezent",
+        "feminine": "prezentă"
+      },
+      "plural": {
+        "masculine": "prezenți",
+        "feminine": "prezente"
+      }
+    }
   },
   {
     "romanian": "rapid",
-    "russian": "скорый"
+    "russian": "скорый",
+    "declension": {
+      "singular": {
+        "masculine": "rapid",
+        "feminine": "rapidă"
+      },
+      "plural": {
+        "masculine": "rapizi",
+        "feminine": "rapide"
+      }
+    }
   },
   {
     "romanian": "încet",
-    "russian": "медленный"
-  },
-  {
-    "romanian": "fierbinte",
-    "russian": "горячий"
-  },
-  {
-    "romanian": "rece",
-    "russian": "холодный"
+    "russian": "медленный",
+    "declension": {
+      "singular": {
+        "masculine": "încet",
+        "feminine": "încetă"
+      },
+      "plural": {
+        "masculine": "înceti",
+        "feminine": "încete"
+      }
+    }
   },
   {
     "romanian": "umed",
-    "russian": "влажный"
+    "russian": "влажный",
+    "declension": {
+      "singular": {
+        "masculine": "umed",
+        "feminine": "umedă"
+      },
+      "plural": {
+        "masculine": "umezi",
+        "feminine": "umede"
+      }
+    }
   },
   {
     "romanian": "uscat",
-    "russian": "сухой"
+    "russian": "сухой",
+    "declension": {
+      "singular": {
+        "masculine": "uscat",
+        "feminine": "uscată"
+      },
+      "plural": {
+        "masculine": "uscați",
+        "feminine": "uscate"
+      }
+    }
   },
   {
     "romanian": "plat",
-    "russian": "плоский"
+    "russian": "плоский",
+    "declension": {
+      "singular": {
+        "masculine": "plat",
+        "feminine": "plată"
+      },
+      "plural": {
+        "masculine": "plați",
+        "feminine": "plate"
+      }
+    }
   },
   {
     "romanian": "rotund",
-    "russian": "круглый"
+    "russian": "круглый",
+    "declension": {
+      "singular": {
+        "masculine": "rotund",
+        "feminine": "rotundă"
+      },
+      "plural": {
+        "masculine": "rotunzi",
+        "feminine": "rotunde"
+      }
+    }
   },
   {
     "romanian": "dreptunghiular",
-    "russian": "прямоугольный"
+    "russian": "прямоугольный",
+    "declension": {
+      "singular": {
+        "masculine": "dreptunghiular",
+        "feminine": "dreptunghiulară"
+      },
+      "plural": {
+        "masculine": "dreptunghiulari",
+        "feminine": "dreptunghiulare"
+      }
+    }
   },
   {
     "romanian": "pătrat",
-    "russian": "квадратный"
+    "russian": "квадратный",
+    "declension": {
+      "singular": {
+        "masculine": "pătrat",
+        "feminine": "pătrată"
+      },
+      "plural": {
+        "masculine": "pătrați",
+        "feminine": "pătrate"
+      }
+    }
   },
   {
     "romanian": "triunghiular",
-    "russian": "треугольный"
-  },
-  {
-    "romanian": "subțire",
-    "russian": "тонкий (о форме)"
-  },
-  {
-    "romanian": "gros",
-    "russian": "толстый (о форме)"
-  },
-  {
-    "romanian": "moale",
-    "russian": "мягкий"
-  },
-  {
-    "romanian": "dur",
-    "russian": "твердый"
+    "russian": "треугольный",
+    "declension": {
+      "singular": {
+        "masculine": "triunghiular",
+        "feminine": "triunghiulară"
+      },
+      "plural": {
+        "masculine": "triunghiulari",
+        "feminine": "triunghiulare"
+      }
+    }
   },
   {
     "romanian": "gustos",
-    "russian": "вкусный"
+    "russian": "вкусный",
+    "declension": {
+      "singular": {
+        "masculine": "gustos",
+        "feminine": "gustoasă"
+      },
+      "plural": {
+        "masculine": "gustoși",
+        "feminine": "gustoase"
+      }
+    }
   },
   {
     "romanian": "fără gust",
-    "russian": "безвкусный"
+    "russian": "безвкусный",
+    "declension": {
+      "singular": {
+        "masculine_neuter": "fără gust",
+        "feminine": "fără gust"
+      },
+      "plural": {
+        "masculine_neuter": "fără gust",
+        "feminine": "fără gust"
+      }
+    }
   },
   {
     "romanian": "mirositor",
-    "russian": "пахнущий"
+    "russian": "пахнущий",
+    "declension": {
+      "singular": {
+        "masculine": "mirositor",
+        "feminine": "mirositoare"
+      },
+      "plural": {
+        "masculine": "mirositori",
+        "feminine": "mirositoare"
+      }
+    }
   },
   {
     "romanian": "inodor",
-    "russian": "без запаха"
+    "russian": "без запаха",
+    "declension": {
+      "singular": {
+        "masculine": "inodor",
+        "feminine": "inodoră"
+      },
+      "plural": {
+        "masculine": "inodori",
+        "feminine": "inodore"
+      }
+    }
   },
   {
     "romanian": "colorat",
-    "russian": "цветной"
+    "russian": "цветной",
+    "declension": {
+      "singular": {
+        "masculine": "colorat",
+        "feminine": "colorată"
+      },
+      "plural": {
+        "masculine": "colorați",
+        "feminine": "colorate"
+      }
+    }
   },
   {
     "romanian": "incolor",
-    "russian": "бесцветный"
-  },
-  {
-    "romanian": "zgomotos",
-    "russian": "шумный"
+    "russian": "бесцветный",
+    "declension": {
+      "singular": {
+        "masculine": "incolor",
+        "feminine": "incoloră"
+      },
+      "plural": {
+        "masculine": "incolori",
+        "feminine": "incolore"
+      }
+    }
   },
   {
     "romanian": "silențios",
-    "russian": "тихий, бесшумный"
-  },
-  {
-    "romanian": "luminos",
-    "russian": "светящийся"
-  },
-  {
-    "romanian": "întunecat",
-    "russian": "темный, мрачный"
+    "russian": "тихий, бесшумный",
+    "declension": {
+      "singular": {
+        "masculine": "silențios",
+        "feminine": "silențioasă"
+      },
+      "plural": {
+        "masculine": "silențioși",
+        "feminine": "silențioase"
+      }
+    }
   },
   {
     "romanian": "viu",
-    "russian": "живой"
+    "russian": "живой",
+    "declension": {
+      "singular": {
+        "masculine": "viu",
+        "feminine": "vie"
+      },
+      "plural": {
+        "masculine": "vii",
+        "feminine": "vii"
+      }
+    }
   },
   {
     "romanian": "mort",
-    "russian": "мертвый"
+    "russian": "мертвый",
+    "declension": {
+      "singular": {
+        "masculine": "mort",
+        "feminine": "moartă"
+      },
+      "plural": {
+        "masculine": "morți",
+        "feminine": "moarte"
+      }
+    }
   },
   {
     "romanian": "răbdător",
-    "russian": "терпеливый"
+    "russian": "терпеливый",
+    "declension": {
+      "singular": {
+        "masculine": "răbdător",
+        "feminine": "răbdătoare"
+      },
+      "plural": {
+        "masculine": "răbdători",
+        "feminine": "răbdătoare"
+      }
+    }
   },
   {
     "romanian": "nerăbdător",
-    "russian": "нетерпеливый"
+    "russian": "нетерпеливый",
+    "declension": {
+      "singular": {
+        "masculine": "nerăbdător",
+        "feminine": "nerăbdătoare"
+      },
+      "plural": {
+        "masculine": "nerăbdători",
+        "feminine": "nerăbdătoare"
+      }
+    }
   },
   {
     "romanian": "curajos",
-    "russian": "смелый"
+    "russian": "смелый",
+    "declension": {
+      "singular": {
+        "masculine": "curajos",
+        "feminine": "curajoasă"
+      },
+      "plural": {
+        "masculine": "curajoși",
+        "feminine": "curajoase"
+      }
+    }
   },
   {
     "romanian": "fricos",
-    "russian": "трусливый"
+    "russian": "трусливый",
+    "declension": {
+      "singular": {
+        "masculine": "fricos",
+        "feminine": "fricoasă"
+      },
+      "plural": {
+        "masculine": "fricoși",
+        "feminine": "fricoase"
+      }
+    }
   },
   {
     "romanian": "creativ",
-    "russian": "творческий"
+    "russian": "творческий",
+    "declension": {
+      "singular": {
+        "masculine": "creativ",
+        "feminine": "creativă"
+      },
+      "plural": {
+        "masculine": "creativi",
+        "feminine": "creative"
+      }
+    }
   },
   {
     "romanian": "distructiv",
-    "russian": "разрушительный"
+    "russian": "разрушительный",
+    "declension": {
+      "singular": {
+        "masculine": "distructiv",
+        "feminine": "distructivă"
+      },
+      "plural": {
+        "masculine": "distructivi",
+        "feminine": "distructive"
+      }
+    }
   },
   {
     "romanian": "constructiv",
-    "russian": "конструктивный"
+    "russian": "конструктивный",
+    "declension": {
+      "singular": {
+        "masculine": "constructiv",
+        "feminine": "constructivă"
+      },
+      "plural": {
+        "masculine": "constructivi",
+        "feminine": "constructive"
+      }
+    }
   },
   {
     "romanian": "eficient",
-    "russian": "эффективный"
+    "russian": "эффективный",
+    "declension": {
+      "singular": {
+        "masculine": "eficient",
+        "feminine": "eficientă"
+      },
+      "plural": {
+        "masculine": "eficienți",
+        "feminine": "eficiente"
+      }
+    }
   },
   {
     "romanian": "ineficient",
-    "russian": "неэффективный"
+    "russian": "неэффективный",
+    "declension": {
+      "singular": {
+        "masculine": "ineficient",
+        "feminine": "ineficientă"
+      },
+      "plural": {
+        "masculine": "ineficienți",
+        "feminine": "ineficiente"
+      }
+    }
   },
   {
     "romanian": "global",
-    "russian": "глобальный"
+    "russian": "глобальный",
+    "declension": {
+      "singular": {
+        "masculine": "global",
+        "feminine": "globală"
+      },
+      "plural": {
+        "masculine": "globali",
+        "feminine": "globale"
+      }
+    }
   },
   {
     "romanian": "regional",
-    "russian": "региональный"
-  },
-  {
-    "romanian": "central",
-    "russian": "центральный"
+    "russian": "региональный",
+    "declension": {
+      "singular": {
+        "masculine": "regional",
+        "feminine": "regională"
+      },
+      "plural": {
+        "masculine": "regionali",
+        "feminine": "regionale"
+      }
+    }
   },
   {
     "romanian": "periferic",
-    "russian": "периферийный"
+    "russian": "периферийный",
+    "declension": {
+      "singular": {
+        "masculine": "periferic",
+        "feminine": "periferică"
+      },
+      "plural": {
+        "masculine": "periferici",
+        "feminine": "periferice"
+      }
+    }
   },
   {
     "romanian": "interior",
-    "russian": "внутренний"
+    "russian": "внутренний",
+    "declension": {
+      "singular": {
+        "masculine": "interior",
+        "feminine": "interioară"
+      },
+      "plural": {
+        "masculine": "interiori",
+        "feminine": "interioare"
+      }
+    }
   },
   {
     "romanian": "exterior",
-    "russian": "внешний"
+    "russian": "внешний",
+    "declension": {
+      "singular": {
+        "masculine": "exterior",
+        "feminine": "exterioară"
+      },
+      "plural": {
+        "masculine": "exteriori",
+        "feminine": "exterioare"
+      }
+    }
   },
   {
     "romanian": "superior",
-    "russian": "верхний, превосходный"
+    "russian": "верхний, превосходный",
+    "declension": {
+      "singular": {
+        "masculine": "superior",
+        "feminine": "superioară"
+      },
+      "plural": {
+        "masculine": "superiori",
+        "feminine": "superioare"
+      }
+    }
   },
   {
     "romanian": "inferior",
-    "russian": "нижний, худший"
+    "russian": "нижний, худший",
+    "declension": {
+      "singular": {
+        "masculine": "inferior",
+        "feminine": "inferioară"
+      },
+      "plural": {
+        "masculine": "inferiori",
+        "feminine": "inferioare"
+      }
+    }
   },
   {
     "romanian": "anterior",
-    "russian": "предыдущий"
+    "russian": "предыдущий",
+    "declension": {
+      "singular": {
+        "masculine": "anterior",
+        "feminine": "anterioară"
+      },
+      "plural": {
+        "masculine": "anteriori",
+        "feminine": "anterioare"
+      }
+    }
   },
   {
     "romanian": "posterior",
-    "russian": "последующий"
+    "russian": "последующий",
+    "declension": {
+      "singular": {
+        "masculine": "posterior",
+        "feminine": "posterioară"
+      },
+      "plural": {
+        "masculine": "posteriori",
+        "feminine": "posterioare"
+      }
+    }
   },
   {
     "romanian": "maxim",
-    "russian": "максимальный"
+    "russian": "максимальный",
+    "declension": {
+      "singular": {
+        "masculine": "maxim",
+        "feminine": "maximă"
+      },
+      "plural": {
+        "masculine": "maximi",
+        "feminine": "maxime"
+      }
+    }
   },
   {
     "romanian": "minim",
-    "russian": "минимальный"
+    "russian": "минимальный",
+    "declension": {
+      "singular": {
+        "masculine": "minim",
+        "feminine": "minimă"
+      },
+      "plural": {
+        "masculine": "minimi",
+        "feminine": "minime"
+      }
+    }
   },
   {
     "romanian": "pozitiv",
-    "russian": "положительный"
+    "russian": "положительный",
+    "declension": {
+      "singular": {
+        "masculine": "pozitiv",
+        "feminine": "pozitivă"
+      },
+      "plural": {
+        "masculine": "pozitivi",
+        "feminine": "pozitive"
+      }
+    }
   },
   {
     "romanian": "negativ",
-    "russian": "отрицательный"
+    "russian": "отрицательный",
+    "declension": {
+      "singular": {
+        "masculine": "negativ",
+        "feminine": "negativă"
+      },
+      "plural": {
+        "masculine": "negativi",
+        "feminine": "negative"
+      }
+    }
   }
 ]

@@ -45,15 +45,12 @@
             position: relative;
             transform-style: preserve-3d;
             transition: transform 0.6s;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            background-color: #fff;
             cursor: pointer;
         }
         .flashcard.flipped {
             transform: rotateY(180deg);
         }
-        .flashcard-face {
+        .flashcard-front, .flashcard-back {
             position: absolute;
             width: 100%;
             height: 100%;
@@ -61,67 +58,50 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 1.8em;
+            font-size: 2em;
             font-weight: bold;
             color: #333;
+            border: 2px solid #ffc107; /* Желтая рамка для прилагательных */
             border-radius: 8px;
+            background-color: #fff;
             padding: 20px;
             box-sizing: border-box;
-            text-align: center;
-        }
-        .flashcard-front {
-            background-color: #e9ecef;
-            color: #007bff;
         }
         .flashcard-back {
-            background-color: #d1ecf1;
-            color: #0c5460;
             transform: rotateY(180deg);
+            background-color: #ffe082; /* Светло-желтый фон для обратной стороны */
         }
-
-        /* Кнопки управления карточками */
-        .card-controls {
+        .controls {
+            margin-top: 20px;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             width: 100%;
+            flex-wrap: wrap; /* Для адаптивности */
+        }
+        .controls button {
+            padding: 10px 15px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin: 5px; /* Для отступов между кнопками */
+        }
+        .controls button:hover {
+            background-color: #0056b3;
+        }
+        .controls button.back-button {
+            background-color: #6c757d;
+        }
+        .controls button.back-button:hover {
+            background-color: #5a6268;
+        }
+        .loading-message, .error-message {
             margin-top: 20px;
-        }
-        .card-controls button {
-            padding: 10px 20px;
-            font-size: 1em;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-        #prev-card-btn, #next-card-btn {
-            background-color: #6c757d;
-        }
-        #prev-card-btn:hover, #next-card-btn:hover {
-            background-color: #5a6268;
-        }
-
-        /* Кнопка "Назад" */
-        .back-button {
-            margin-top: 30px;
-            padding: 10px 20px;
-            background-color: #6c757d;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-        .back-button:hover {
-            background-color: #5a6268;
-        }
-
-        /* Сообщение о загрузке/ошибке */
-        .message {
-            font-size: 1.2em;
+            font-size: 16px;
             color: #555;
-            margin-top: 20px;
         }
         .error-message {
             color: red;
@@ -131,20 +111,25 @@
 <body>
     <div class="container">
         <h1>Карточки прилагательных</h1>
-        <div id="flashcard-area">
-            <p id="loading-message" class="message">Загрузка карточек...</p>
-            <div class="flashcard-container" style="display: none;">
-                <div class="flashcard" id="flashcard">
-                    <div class="flashcard-face flashcard-front" id="card-front"></div>
-                    <div class="flashcard-face flashcard-back" id="card-back"></div>
+
+        <div class="flashcard-container">
+            <div class="flashcard" id="flashcard">
+                <div class="flashcard-front" id="card-front">
+                    Загрузка...
+                </div>
+                <div class="flashcard-back" id="card-back">
+                    Загрузка...
                 </div>
             </div>
-            <div class="card-controls" style="display: none;">
-                <button id="prev-card-btn">Предыдущая</button>
-                <button id="next-card-btn">Следующая</button>
-            </div>
         </div>
-        <button class="back-button" onclick="history.back()">Назад</button>
+
+        <div class="controls">
+            <button id="prev-card-btn">Предыдущее</button>
+            <button id="next-card-btn">Следующее</button>
+            <button id="show-declension-btn">Склонение</button>
+            <button class="back-button" onclick="location.href='adjectives.html'">На страницу прилагательных</button>
+        </div>
+        <p id="loading-message" class="loading-message"></p>
     </div>
 
     <script>
@@ -153,27 +138,23 @@
         const flashcard = document.getElementById('flashcard');
         const cardFront = document.getElementById('card-front');
         const cardBack = document.getElementById('card-back');
-        const flashcardContainer = document.querySelector('.flashcard-container');
-        const cardControls = document.querySelector('.card-controls');
         const loadingMessage = document.getElementById('loading-message');
 
-        document.addEventListener('DOMContentLoaded', function() {
-            fetch('adjectives.json') // Загружаем adjectives.json
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('adjectives.json')
                 .then(response => {
                     if (!response.ok) {
-                        throw new Error('Network response was not ok ' + response.statusText);
+                        throw new Error(`Ошибка HTTP: ${response.status}`);
                     }
                     return response.json();
                 })
                 .then(data => {
                     adjectivesData = data;
                     if (adjectivesData.length > 0) {
-                        loadingMessage.style.display = 'none';
-                        flashcardContainer.style.display = 'block';
-                        cardControls.style.display = 'flex';
                         displayCard();
+                        loadingMessage.style.display = 'none'; // Скрыть сообщение о загрузке
                     } else {
-                        loadingMessage.textContent = 'Нет доступных прилагательных для отображения.';
+                        loadingMessage.textContent = 'Прилагательные не найдены в файле.';
                         loadingMessage.classList.add('error-message');
                     }
                 })
@@ -186,6 +167,16 @@
             flashcard.addEventListener('click', flipCard);
             document.getElementById('next-card-btn').addEventListener('click', showNextCard);
             document.getElementById('prev-card-btn').addEventListener('click', showPrevCard);
+            
+            // Обработчик для новой кнопки "Склонение"
+            document.getElementById('show-declension-btn').addEventListener('click', () => {
+                if (adjectivesData.length > 0) {
+                    // Передаем индекс текущего прилагательного на страницу склонения
+                    location.href = `display_adjective_declension.html?index=${currentCardIndex}`;
+                } else {
+                    alert('Нет прилагательных для отображения склонения.');
+                }
+            });
         });
 
         function displayCard() {

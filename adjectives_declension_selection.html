@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выбор склонения прилагательного</title>
+    <style>
+        /* ... (Ваши стили) ... */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Страница выбора склонения прилагательного (заглушка)</h1>
+        <p>Здесь будет логика для выбора склонения прилагательного.</p>
+        <p id="current-adjective-info"></p>
+        <button id="back-to-cards-btn" class="back-button">Вернуться к карточкам</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const startIndex = urlParams.get('startIndex'); // Получаем startIndex из URL
+
+            const currentAdjectiveInfo = document.getElementById('current-adjective-info');
+            if (startIndex !== null) {
+                currentAdjectiveInfo.textContent = `Вы пришли с карточки с индексом: ${startIndex}.`;
+            } else {
+                currentAdjectiveInfo.textContent = `Вы пришли без указания индекса карточки.`;
+            }
+
+            document.getElementById('back-to-cards-btn').addEventListener('click', () => {
+                // Важно: возвращаемся на страницу карточек, передавая startIndex обратно
+                if (startIndex !== null) {
+                    window.location.href = `adjective_cards.html?startIndex=${startIndex}`;
+                } else {
+                    // Если startIndex не был передан (что не должно происходить, если переход был с adjective_cards),
+                    // просто возвращаемся без него.
+                    window.location.href = `adjective_cards.html`;
+                }
+            });
+        });
+    </script>
+</body>
+</html>
