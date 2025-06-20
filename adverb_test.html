@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест по наречиям</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding-top: 30px;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .test-area {
+            margin-bottom: 20px;
+        }
+        .question {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .options-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .option-button {
+            padding: 12px 20px;
+            font-size: 1.1em;
+            background-color: #17a2b8; /* Цвет для наречий */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.1s ease;
+        }
+        .option-button:hover {
+            background-color: #138496;
+            transform: translateY(-2px);
+        }
+        .option-button:active {
+            transform: translateY(0);
+        }
+        .option-button.correct {
+            background-color: #28a745; /* Зеленый для правильного */
+        }
+        .option-button.incorrect {
+            background-color: #dc3545; /* Красный для неправильного */
+        }
+        .message {
+            font-size: 1.1em;
+            margin-top: 15px;
+            min-height: 25px; /* Чтобы избежать "прыгания" макета */
+        }
+        .score {
+            font-size: 1.2em;
+            margin-top: 20px;
+            color: #555;
+        }
+        .next-button {
+            padding: 12px 25px;
+            font-size: 1.1em;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+        .next-button:hover {
+            background-color: #0056b3;
+        }
+
+        .home-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .home-button:hover {
+            background-color: #5a6268;
+        }
+
+        /* Сообщение о загрузке/ошибке */
+        .loading-message {
+            font-size: 1.2em;
+            color: #666;
+            margin-top: 20px;
+        }
+        .error-message {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Тест по наречиям</h1>
+
+        <div class="loading-message" id="loading-message">Загрузка наречий для теста...</div>
+
+        <div class="test-area" id="test-area" style="display: none;">
+            <div class="question" id="question"></div>
+            <div class="options-grid" id="options">
+                </div>
+            <div class="message" id="message"></div>
+            <div class="score" id="score">Правильно: 0 / Всего: 0</div>
+            <button id="next-question-btn" class="next-button">Следующий вопрос</button>
+        </div>
+        
+        <a href="adverbs.html" class="home-button">Вернуться к выбору наречий</a>
+    </div>
+
+    <script>
+        let adverbsData = [];
+        let currentQuestionIndex = 0;
+        let scoreCorrect = 0;
+        let scoreTotal = 0;
+        const optionsCount = 4; // Количество вариантов ответов
+
+        const questionElement = document.getElementById('question');
+        const optionsContainer = document.getElementById('options');
+        const messageElement = document.getElementById('message');
+        const scoreElement = document.getElementById('score');
+        const nextQuestionBtn = document.getElementById('next-question-btn');
+        const loadingMessage = document.getElementById('loading-message');
+        const testArea = document.getElementById('test-area');
+
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('adverbs.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    adverbsData = data;
+                    if (adverbsData.length >= optionsCount) { // Убедимся, что достаточно слов для теста
+                        startTest();
+                        loadingMessage.style.display = 'none';
+                        testArea.style.display = 'block';
+                    } else {
+                        loadingMessage.textContent = `Для теста требуется как минимум ${optionsCount} наречий. В файле найдено: ${adverbsData.length}.`;
+                        loadingMessage.classList.add('error-message');
+                    }
+                })
+                .catch(error => {
+                    console.error('Ошибка загрузки наречий:', error);
+                    loadingMessage.textContent = `Ошибка при загрузке наречий: ${error.message}. Убедитесь, что файл 'adverbs.json' существует и содержит корректные данные.`;
+                    loadingMessage.classList.add('error-message');
+                });
+
+            nextQuestionBtn.addEventListener('click', () => {
+                resetOptions();
+                displayQuestion();
+            });
+        });
+
+        function startTest() {
+            shuffleArray(adverbsData); // Перемешиваем наречия для случайного порядка вопросов
+            displayQuestion();
+        }
+
+        function displayQuestion() {
+            if (adverbsData.length < optionsCount) {
+                messageElement.textContent = 'Недостаточно наречий для проведения теста.';
+                nextQuestionBtn.disabled = true;
+                return;
+            }
+
+            const currentAdverb = adverbsData[currentQuestionIndex];
+            questionElement.textContent = `Как переводится "${currentAdverb.romanian}"?`;
+
+            const correctOption = currentAdverb.russian;
+            let options = [correctOption];
+
+            // Добавляем случайные неправильные варианты
+            while (options.length < optionsCount) {
+                const randomIndex = Math.floor(Math.random() * adverbsData.length);
+                const randomAdverb = adverbsData[randomIndex].russian;
+                if (!options.includes(randomAdverb)) {
+                    options.push(randomAdverb);
+                }
+            }
+
+            shuffleArray(options); // Перемешиваем варианты ответов
+
+            optionsContainer.innerHTML = ''; // Очищаем предыдущие варианты
+            options.forEach(option => {
+                const button = document.createElement('button');
+                button.textContent = option;
+                button.classList.add('option-button');
+                button.addEventListener('click', () => checkAnswer(button, option, correctOption));
+                optionsContainer.appendChild(button);
+            });
+
+            messageElement.textContent = '';
+            nextQuestionBtn.disabled = true; // Отключаем кнопку "Следующий" до ответа
+            updateScoreDisplay();
+        }
+
+        function checkAnswer(clickedButton, selectedAnswer, correctAnswer) {
+            scoreTotal++;
+            if (selectedAnswer === correctAnswer) {
+                clickedButton.classList.add('correct');
+                messageElement.textContent = 'Правильно!';
+                messageElement.style.color = 'green';
+                scoreCorrect++;
+            } else {
+                clickedButton.classList.add('incorrect');
+                messageElement.textContent = `Неправильно. Правильный ответ: "${correctAnswer}"`;
+                messageElement.style.color = 'red';
+                // Выделяем правильный ответ, если он не был выбран
+                Array.from(optionsContainer.children).forEach(button => {
+                    if (button.textContent === correctAnswer) {
+                        button.classList.add('correct');
+                    }
+                });
+            }
+
+            disableOptions(); // Отключаем все кнопки после ответа
+            nextQuestionBtn.disabled = false; // Включаем кнопку "Следующий"
+            updateScoreDisplay();
+
+            // Переходим к следующему вопросу после короткой задержки
+            // Удалено автоматическое переключение, теперь по кнопке "Следующий"
+        }
+
+        function disableOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.disabled = true;
+            });
+        }
+
+        function resetOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.classList.remove('correct', 'incorrect');
+                button.disabled = false;
+            });
+            messageElement.textContent = '';
+            messageElement.style.color = ''; // Сбросить цвет сообщения
+
+            currentQuestionIndex = (currentQuestionIndex + 1) % adverbsData.length; // Переход к следующему вопросу
+        }
+
+        function updateScoreDisplay() {
+            scoreElement.textContent = `Правильно: ${scoreCorrect} / Всего: ${scoreTotal}`;
+        }
+
+        // Вспомогательная функция для перемешивания массива (Fisher-Yates)
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+    </script>
+</body>
+</html>

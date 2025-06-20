@@ -1,0 +1,1150 @@
+[
+  {
+    "romanian": "bine",
+    "russian": "хорошо"
+  },
+  {
+    "romanian": "rău",
+    "russian": "плохо"
+  },
+  {
+    "romanian": "repede",
+    "russian": "быстро"
+  },
+  {
+    "romanian": "încet",
+    "russian": "медленно"
+  },
+  {
+    "romanian": "acum",
+    "russian": "сейчас"
+  },
+  {
+    "romanian": "ieri",
+    "russian": "вчера"
+  },
+  {
+    "romanian": "astăzi",
+    "russian": "сегодня"
+  },
+  {
+    "romanian": "mâine",
+    "russian": "завтра"
+  },
+  {
+    "romanian": "aici",
+    "russian": "здесь"
+  },
+  {
+    "romanian": "acolo",
+    "russian": "там"
+  },
+  {
+    "romanian": "afară",
+    "russian": "снаружи"
+  },
+  {
+    "romanian": "înăuntru",
+    "russian": "внутри"
+  },
+  {
+    "romanian": "sus",
+    "russian": "вверху"
+  },
+  {
+    "romanian": "jos",
+    "russian": "внизу"
+  },
+  {
+    "romanian": "deseori",
+    "russian": "часто"
+  },
+  {
+    "romanian": "niciodată",
+    "russian": "никогда"
+  },
+  {
+    "romanian": "întotdeauna",
+    "russian": "всегда"
+  },
+  {
+    "romanian": "rareori",
+    "russian": "редко"
+  },
+  {
+    "romanian": "curând",
+    "russian": "скоро"
+  },
+  {
+    "romanian": "târziu",
+    "russian": "поздно"
+  },
+  {
+    "romanian": "devreme",
+    "russian": "рано"
+  },
+  {
+    "romanian": "mult",
+    "russian": "много"
+  },
+  {
+    "romanian": "puțin",
+    "russian": "мало"
+  },
+  {
+    "romanian": "mai mult",
+    "russian": "больше"
+  },
+  {
+    "romanian": "mai puțin",
+    "russian": "меньше"
+  },
+  {
+    "romanian": "aproape",
+    "russian": "почти"
+  },
+  {
+    "romanian": "exact",
+    "russian": "точно"
+  },
+  {
+    "romanian": "probabil",
+    "russian": "вероятно"
+  },
+  {
+    "romanian": "poate",
+    "russian": "может быть"
+  },
+  {
+    "romanian": "cu siguranță",
+    "russian": "наверняка"
+  },
+  {
+    "romanian": "într-adevăr",
+    "russian": "действительно"
+  },
+  {
+    "romanian": "numai",
+    "russian": "только"
+  },
+  {
+    "romanian": "chiar",
+    "russian": "даже"
+  },
+  {
+    "romanian": "deja",
+    "russian": "уже"
+  },
+  {
+    "romanian": "încă",
+    "russian": "еще"
+  },
+  {
+    "romanian": "totuși",
+    "russian": "однако"
+  },
+  {
+    "romanian": "aşadar",
+    "russian": "следовательно"
+  },
+  {
+    "romanian": "de asemenea",
+    "russian": "также"
+  },
+  {
+    "romanian": "apoi",
+    "russian": "затем"
+  },
+  {
+    "romanian": "înainte",
+    "russian": "раньше, прежде"
+  },
+  {
+    "romanian": "după",
+    "russian": "после"
+  },
+  {
+    "romanian": "împreună",
+    "russian": "вместе"
+  },
+  {
+    "romanian": "separat",
+    "russian": "отдельно"
+  },
+  {
+    "romanian": "tare",
+    "russian": "громко, сильно"
+  },
+  {
+    "romanian": "încet",
+    "russian": "тихо"
+  },
+  {
+    "romanian": "complet",
+    "russian": "полностью"
+  },
+  {
+    "romanian": "aproape",
+    "russian": "близко"
+  },
+  {
+    "romanian": "departe",
+    "russian": "далеко"
+  },
+  {
+    "romanian": "undeva",
+    "russian": "где-то"
+  },
+  {
+    "romanian": "nicăieri",
+    "russian": "нигде"
+  },
+  {
+    "romanian": "oriunde",
+    "russian": "где угодно"
+  },
+  {
+    "romanian": "cumva",
+    "russian": "как-то"
+  },
+  {
+    "romanian": "oricum",
+    "russian": "как угодно"
+  },
+  {
+    "romanian": "vreodată",
+    "russian": "когда-либо"
+  },
+  {
+    "romanian": "niciodată",
+    "russian": "никогда"
+  },
+  {
+    "romanian": "întotdeauna",
+    "russian": "всегда"
+  },
+  {
+    "romanian": "zilnic",
+    "russian": "ежедневно"
+  },
+  {
+    "romanian": "săptămânal",
+    "russian": "еженедельно"
+  },
+  {
+    "romanian": "lunar",
+    "russian": "ежемесячно"
+  },
+  {
+    "romanian": "anual",
+    "russian": "ежегодно"
+  },
+  {
+    "romanian": "aproape",
+    "russian": "около"
+  },
+  {
+    "romanian": "deschis",
+    "russian": "открыто"
+  },
+  {
+    "romanian": "închis",
+    "russian": "закрыто"
+  },
+  {
+    "romanian": "direct",
+    "russian": "прямо"
+  },
+  {
+    "romanian": "indirect",
+    "russian": "косвенно"
+  },
+  {
+    "romanian": "sigur",
+    "russian": "безопасно, уверенно"
+  },
+  {
+    "romanian": "periculos",
+    "russian": "опасно"
+  },
+  {
+    "romanian": "simplu",
+    "russian": "просто"
+  },
+  {
+    "romanian": "complicat",
+    "russian": "сложно"
+  },
+  {
+    "romanian": "personal",
+    "russian": "лично"
+  },
+  {
+    "romanian": "public",
+    "russian": "публично"
+  },
+  {
+    "romanian": "total",
+    "russian": "полностью"
+  },
+  {
+    "romanian": "parțial",
+    "russian": "частично"
+  },
+  {
+    "romanian": "în mod normal",
+    "russian": "обычно"
+  },
+  {
+    "romanian": "excepțional",
+    "russian": "исключительно"
+  },
+  {
+    "romanian": "cu atenție",
+    "russian": "внимательно"
+  },
+  {
+    "romanian": "neglijent",
+    "russian": "небрежно"
+  },
+  {
+    "romanian": "serios",
+    "russian": "серьезно"
+  },
+  {
+    "romanian": "glumeț",
+    "russian": "шутливо"
+  },
+  {
+    "romanian": "efectiv",
+    "russian": "эффективно"
+  },
+  {
+    "romanian": "inutil",
+    "russian": "бесполезно"
+  },
+  {
+    "romanian": "legal",
+    "russian": "легально"
+  },
+  {
+    "romanian": "ilegal",
+    "russian": "нелегально"
+  },
+  {
+    "romanian": "clar",
+    "russian": "ясно"
+  },
+  {
+    "romanian": "confuz",
+    "russian": "смутно"
+  },
+  {
+    "romanian": "tare",
+    "russian": "громко"
+  },
+  {
+    "romanian": "liniștit",
+    "russian": "спокойно"
+  },
+  {
+    "romanian": "corect",
+    "russian": "правильно"
+  },
+  {
+    "romanian": "incorect",
+    "russian": "неправильно"
+  },
+  {
+    "romanian": "real",
+    "russian": "реально"
+  },
+  {
+    "romanian": "ireal",
+    "russian": "нереально"
+  },
+  {
+    "romanian": "foarte",
+    "russian": "очень"
+  },
+  {
+    "romanian": "destul de",
+    "russian": "довольно"
+  },
+  {
+    "romanian": "deloc",
+    "russian": "совсем нет"
+  },
+  {
+    "romanian": "absolut",
+    "russian": "абсолютно"
+  },
+  {
+    "romanian": "evident",
+    "russian": "очевидно"
+  },
+  {
+    "romanian": "desigur",
+    "russian": "конечно"
+  },
+  {
+    "romanian": "subit",
+    "russian": "внезапно"
+  },
+  {
+    "romanian": "treptat",
+    "russian": "постепенно"
+  },
+  {
+    "romanian": "înainte de toate",
+    "russian": "прежде всего"
+  },
+  {
+    "romanian": "la urma urmei",
+    "russian": "в конце концов"
+  },
+  {
+    "romanian": "în principiu",
+    "russian": "в принципе"
+  },
+  {
+    "romanian": "în practică",
+    "russian": "на практике"
+  },
+  {
+    "romanian": "în general",
+    "russian": "в общем"
+  },
+  {
+    "romanian": "în special",
+    "russian": "в особенности"
+  },
+  {
+    "romanian": "aproximativ",
+    "russian": "приблизительно"
+  },
+  {
+    "romanian": "precis",
+    "russian": "точно"
+  },
+  {
+    "romanian": "zilnic",
+    "russian": "ежедневно"
+  },
+  {
+    "romanian": "nocturn",
+    "russian": "ночью"
+  },
+  {
+    "romanian": "dimineața",
+    "russian": "утром"
+  },
+  {
+    "romanian": "seara",
+    "russian": "вечером"
+  },
+  {
+    "romanian": "la prânz",
+    "russian": "в полдень"
+  },
+  {
+    "romanian": "la miezul nopții",
+    "russian": "в полночь"
+  },
+  {
+    "romanian": "oriunde",
+    "russian": "где угодно"
+  },
+  {
+    "romanian": "nicăieri",
+    "russian": "нигде"
+  },
+  {
+    "romanian": "pretutindeni",
+    "russian": "повсюду"
+  },
+  {
+    "romanian": "jos",
+    "russian": "вниз"
+  },
+  {
+    "romanian": "sus",
+    "russian": "вверх"
+  },
+  {
+    "romanian": "înapoi",
+    "russian": "назад"
+  },
+  {
+    "romanian": "înainte",
+    "russian": "вперед"
+  },
+  {
+    "romanian": "dreapta",
+    "russian": "направо"
+  },
+  {
+    "romanian": "stânga",
+    "russian": "налево"
+  },
+  {
+    "romanian": "aproape",
+    "russian": "рядом"
+  },
+  {
+    "romanian": "departe",
+    "russian": "далеко"
+  },
+  {
+    "romanian": "împreună",
+    "russian": "вместе"
+  },
+  {
+    "romanian": "singur",
+    "russian": "один, в одиночку"
+  },
+  {
+    "romanian": "într-un fel",
+    "russian": "каким-то образом"
+  },
+  {
+    "romanian": "în niciun caz",
+    "russian": "ни в коем случае"
+  },
+  {
+    "romanian": "așa",
+    "russian": "так"
+  },
+  {
+    "romanian": "altfel",
+    "russian": "иначе"
+  },
+  {
+    "romanian": "asemenea",
+    "russian": "подобно"
+  },
+  {
+    "romanian": "diferit",
+    "russian": "по-другому"
+  },
+  {
+    "romanian": "în mod egal",
+    "russian": "равно"
+  },
+  {
+    "romanian": "în mod similar",
+    "russian": "аналогично"
+  },
+  {
+    "romanian": "mai bine",
+    "russian": "лучше"
+  },
+  {
+    "romanian": "mai rău",
+    "russian": "хуже"
+  },
+  {
+    "romanian": "mai repede",
+    "russian": "быстрее"
+  },
+  {
+    "romanian": "mai încet",
+    "russian": "медленнее"
+  },
+  {
+    "romanian": "mai sus",
+    "russian": "выше"
+  },
+  {
+    "romanian": "mai jos",
+    "russian": "ниже"
+  },
+  {
+    "romanian": "mai aproape",
+    "russian": "ближе"
+  },
+  {
+    "romanian": "mai departe",
+    "russian": "дальше"
+  },
+  {
+    "romanian": "mai mult",
+    "russian": "больше"
+  },
+  {
+    "romanian": "mai puțin",
+    "russian": "меньше"
+  },
+  {
+    "romanian": "cel mai bine",
+    "russian": "лучше всего"
+  },
+  {
+    "romanian": "cel mai rău",
+    "russian": "хуже всего"
+  },
+  {
+    "romanian": "cel mai repede",
+    "russian": "быстрее всего"
+  },
+  {
+    "romanian": "cel mai încet",
+    "russian": "медленнее всего"
+  },
+  {
+    "romanian": "acolo",
+    "russian": "туда"
+  },
+  {
+    "romanian": "aici",
+    "russian": "сюда"
+  },
+  {
+    "romanian": "acolo",
+    "russian": "оттуда"
+  },
+  {
+    "romanian": "aici",
+    "russian": "отсюда"
+  },
+  {
+    "romanian": "astă-seară",
+    "russian": "сегодня вечером"
+  },
+  {
+    "romanian": "noaptea",
+    "russian": "ночью"
+  },
+  {
+    "romanian": "ziua",
+    "russian": "днем"
+  },
+  {
+    "romanian": "dimineața",
+    "russian": "по утрам"
+  },
+  {
+    "romanian": "vara",
+    "russian": "летом"
+  },
+  {
+    "romanian": "iarna",
+    "russian": "зимой"
+  },
+  {
+    "romanian": "primăvara",
+    "russian": "весной"
+  },
+  {
+    "romanian": "toamna",
+    "russian": "осенью"
+  },
+  {
+    "romanian": "înainte de Crăciun",
+    "russian": "перед Рождеством"
+  },
+  {
+    "romanian": "după Paște",
+    "russian": "после Пасхи"
+  },
+  {
+    "romanian": "cu mult timp în urmă",
+    "russian": "давным-давно"
+  },
+  {
+    "romanian": "într-un minut",
+    "russian": "через минуту"
+  },
+  {
+    "romanian": "până acum",
+    "russian": "до сих пор"
+  },
+  {
+    "romanian": "de atunci",
+    "russian": "с тех пор"
+  },
+  {
+    "romanian": "între timp",
+    "russian": "тем временем"
+  },
+  {
+    "romanian": "din nou",
+    "russian": "снова"
+  },
+  {
+    "romanian": "împreună",
+    "russian": "вместе"
+  },
+  {
+    "romanian": "separat",
+    "russian": "отдельно"
+  },
+  {
+    "romanian": "singur",
+    "russian": "в одиночку"
+  },
+  {
+    "romanian": "în grup",
+    "russian": "в группе"
+  },
+  {
+    "romanian": "aproape",
+    "russian": "почти"
+  },
+  {
+    "romanian": "întocmai",
+    "russian": "точно"
+  },
+  {
+    "romanian": "cu siguranță",
+    "russian": "конечно"
+  },
+  {
+    "romanian": "posibil",
+    "russian": "возможно"
+  },
+  {
+    "romanian": "probabil",
+    "russian": "вероятно"
+  },
+  {
+    "romanian": "evident",
+    "russian": "очевидно"
+  },
+  {
+    "romanian": "desigur",
+    "russian": "разумеется"
+  },
+  {
+    "romanian": "într-adevăr",
+    "russian": "действительно"
+  },
+  {
+    "romanian": "de fapt",
+    "russian": "на самом деле"
+  },
+  {
+    "romanian": "în special",
+    "russian": "в частности"
+  },
+  {
+    "romanian": "în general",
+    "russian": "в целом"
+  },
+  {
+    "romanian": "în mod normal",
+    "russian": "нормально"
+  },
+  {
+    "romanian": "brusc",
+    "russian": "внезапно"
+  },
+  {
+    "romanian": "lent",
+    "russian": "медленно"
+  },
+  {
+    "romanian": "repede",
+    "russian": "быстро"
+  },
+  {
+    "romanian": "bine",
+    "russian": "хорошо"
+  },
+  {
+    "romanian": "rău",
+    "russian": "плохо"
+  },
+  {
+    "romanian": "frumos",
+    "russian": "красиво"
+  },
+  {
+    "romanian": "urât",
+    "russian": "уродливо"
+  },
+  {
+    "romanian": "cald",
+    "russian": "тепло"
+  },
+  {
+    "romanian": "rece",
+    "russian": "холодно"
+  },
+  {
+    "romanian": "uşor",
+    "russian": "легко"
+  },
+  {
+    "romanian": "greu",
+    "russian": "тяжело"
+  },
+  {
+    "romanian": "simplu",
+    "russian": "просто"
+  },
+  {
+    "romanian": "complex",
+    "russian": "сложно"
+  },
+  {
+    "romanian": "clar",
+    "russian": "ясно"
+  },
+  {
+    "romanian": "obscur",
+    "russian": "темно"
+  },
+  {
+    "romanian": "deschis",
+    "russian": "открыто"
+  },
+  {
+    "romanian": "închis",
+    "russian": "закрыто"
+  },
+  {
+    "romanian": "plin",
+    "russian": "полно"
+  },
+  {
+    "romanian": "gol",
+    "russian": "пусто"
+  },
+  {
+    "romanian": "drept",
+    "russian": "прямо"
+  },
+  {
+    "romanian": "strâmb",
+    "russian": "криво"
+  },
+  {
+    "romanian": "adevărat",
+    "russian": "правдиво"
+  },
+  {
+    "romanian": "fals",
+    "russian": "ложно"
+  },
+  {
+    "romanian": "plin",
+    "russian": "полностью"
+  },
+  {
+    "romanian": "aproape",
+    "russian": "почти"
+  },
+  {
+    "romanian": "întreg",
+    "russian": "целиком"
+  },
+  {
+    "romanian": "parțial",
+    "russian": "частично"
+  },
+  {
+    "romanian": "permanent",
+    "russian": "постоянно"
+  },
+  {
+    "romanian": "temporar",
+    "russian": "временно"
+  },
+  {
+    "romanian": "trecător",
+    "russian": "мимолетно"
+  },
+  {
+    "romanian": "actual",
+    "russian": "актуально"
+  },
+  {
+    "romanian": "istoric",
+    "russian": "исторически"
+  },
+  {
+    "romanian": "viitor",
+    "russian": "в будущем"
+  },
+  {
+    "romanian": "trecut",
+    "russian": "в прошлом"
+  },
+  {
+    "romanian": "prezent",
+    "russian": "в настоящем"
+  },
+  {
+    "romanian": "recent",
+    "russian": "недавно"
+  },
+  {
+    "romanian": "de curând",
+    "russian": "в последнее время"
+  },
+  {
+    "romanian": "mai demult",
+    "russian": "давно"
+  },
+  {
+    "romanian": "odinioară",
+    "russian": "когда-то"
+  },
+  {
+    "romanian": "întotdeauna",
+    "russian": "всегда"
+  },
+  {
+    "romanian": "niciodată",
+    "russian": "никогда"
+  },
+  {
+    "romanian": "deseori",
+    "russian": "часто"
+  },
+  {
+    "romanian": "rareori",
+    "russian": "редко"
+  },
+  {
+    "romanian": "adesea",
+    "russian": "часто"
+  },
+  {
+    "romanian": "foarte rar",
+    "russian": "очень редко"
+  },
+  {
+    "romanian": "uneori",
+    "russian": "иногда"
+  },
+  {
+    "romanian": "aproape întotdeauna",
+    "russian": "почти всегда"
+  },
+  {
+    "romanian": "aproape niciodată",
+    "russian": "почти никогда"
+  },
+  {
+    "romanian": "cu greu",
+    "russian": "едва"
+  },
+  {
+    "romanian": "cu ușurință",
+    "russian": "легко"
+  },
+  {
+    "romanian": "cu dificultate",
+    "russian": "с трудом"
+  },
+  {
+    "romanian": "într-un mod special",
+    "russian": "особым образом"
+  },
+  {
+    "romanian": "în general",
+    "russian": "как правило"
+  },
+  {
+    "romanian": "în particular",
+    "russian": "в частности"
+  },
+  {
+    "romanian": "de exemplu",
+    "russian": "например"
+  },
+  {
+    "romanian": "adică",
+    "russian": "то есть"
+  },
+  {
+    "romanian": "într-adevăr",
+    "russian": "на самом деле"
+  },
+  {
+    "romanian": "pe bune",
+    "russian": "по-настоящему"
+  },
+  {
+    "romanian": "sincer",
+    "russian": "искренне"
+  },
+  {
+    "romanian": "evident",
+    "russian": "очевидно"
+  },
+  {
+    "romanian": "clar",
+    "russian": "ясно"
+  },
+  {
+    "romanian": "precis",
+    "russian": "точно"
+  },
+  {
+    "romanian": "absolut",
+    "russian": "абсолютно"
+  },
+  {
+    "romanian": "complet",
+    "russian": "полностью"
+  },
+  {
+    "romanian": "aproximativ",
+    "russian": "приблизительно"
+  },
+  {
+    "romanian": "mai ales",
+    "russian": "особенно"
+  },
+  {
+    "romanian": "în plus",
+    "russian": "кроме того"
+  },
+  {
+    "romanian": "de asemenea",
+    "russian": "также"
+  },
+  {
+    "romanian": "totodată",
+    "russian": "одновременно"
+  },
+  {
+    "romanian": "apoi",
+    "russian": "потом"
+  },
+  {
+    "romanian": "ulterior",
+    "russian": "впоследствии"
+  },
+  {
+    "romanian": "înainte",
+    "russian": "раньше"
+  },
+  {
+    "romanian": "după aceea",
+    "russian": "после этого"
+  },
+  {
+    "romanian": "mai târziu",
+    "russian": "позже"
+  },
+  {
+    "romanian": "mai devreme",
+    "russian": "раньше"
+  },
+  {
+    "romanian": "imediat",
+    "russian": "немедленно"
+  },
+  {
+    "romanian": "instantaneu",
+    "russian": "мгновенно"
+  },
+  {
+    "romanian": "brusc",
+    "russian": "внезапно"
+  },
+  {
+    "romanian": "treptat",
+    "russian": "постепенно"
+  },
+  {
+    "romanian": "în cele din urmă",
+    "russian": "в конце концов"
+  },
+  {
+    "romanian": "finalmente",
+    "russian": "наконец"
+  },
+  {
+    "romanian": "aici și acum",
+    "russian": "здесь и сейчас"
+  },
+  {
+    "romanian": "oriunde",
+    "russian": "куда угодно"
+  },
+  {
+    "romanian": "nicăieri",
+    "russian": "никуда"
+  },
+  {
+    "romanian": "undeva",
+    "russian": "куда-то"
+  },
+  {
+    "romanian": "sus",
+    "russian": "вверх"
+  },
+  {
+    "romanian": "jos",
+    "russian": "вниз"
+  },
+  {
+    "romanian": "în față",
+    "russian": "впереди"
+  },
+  {
+    "romanian": "în spate",
+    "russian": "сзади"
+  },
+  {
+    "romanian": "la stânga",
+    "russian": "слева"
+  },
+  {
+    "romanian": "la dreapta",
+    "russian": "справа"
+  },
+  {
+    "romanian": "în centru",
+    "russian": "в центре"
+  },
+  {
+    "romanian": "la periferie",
+    "russian": "на периферии"
+  },
+  {
+    "romanian": "în interior",
+    "russian": "внутри"
+  },
+  {
+    "romanian": "în exterior",
+    "russian": "снаружи"
+  },
+  {
+    "romanian": "din când în când",
+    "russian": "время от времени"
+  },
+  {
+    "romanian": "până la urmă",
+    "russian": "в конечном итоге"
+  },
+  {
+    "romanian": "în curând",
+    "russian": "вскоре"
+  },
+  {
+    "romanian": "cât mai curând",
+    "russian": "как можно скорее"
+  },
+  {
+    "romanian": "cât de des",
+    "russian": "как часто"
+  },
+  {
+    "romanian": "cât de mult",
+    "russian": "как много"
+  },
+  {
+    "romanian": "cât de repede",
+    "russian": "как быстро"
+  },
+  {
+    "romanian": "cât de bine",
+    "russian": "как хорошо"
+  }
+]

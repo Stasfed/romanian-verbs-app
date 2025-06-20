@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Изучение румынского</title>
+    <title>Наречия</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -33,49 +33,49 @@
             margin-bottom: 15px;
             font-size: 18px;
             color: white;
-            background-color: #007bff;
+            background-color: #17a2b8; /* Цвет для наречий */
             border: none;
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s ease;
         }
         .button-group button:hover {
-            background-color: #0056b3;
+            background-color: #138496;
         }
         .button-group button:last-child {
             margin-bottom: 0;
         }
-        /* Стиль для неактивных кнопок, если они все еще есть */
-        .button-group button:disabled {
-            background-color: #ccc;
-            cursor: not-allowed;
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #5a6268;
         }
 
-        /* Добавлен стиль для кнопки "Наречия" */
-        .adverbs-button {
-            background-color: #17a2b8; /* Цвет для наречий, чтобы отличать */
+        /* Стиль для кнопки "Тест по наречиям", если нужен отдельный цвет */
+        .test-button {
+            background-color: #dc3545; /* Красный цвет для теста */
         }
-        .adverbs-button:hover {
-            background-color: #138496;
-        }
-
-        /* Добавлен стиль для кнопки "Существительные" */
-        .nouns-button {
-            background-color: #ffc107; /* Желтый цвет для существительных */
-        }
-        .nouns-button:hover {
-            background-color: #e0a800;
+        .test-button:hover {
+            background-color: #c82333;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Румынский язык</h1>
+        <h1>Наречия</h1>
         <div class="button-group">
-            <button onclick="location.href='nouns.html'" class="nouns-button">Существительные</button>
-            <button onclick="location.href='adjectives.html'">Прилагательные</button>
-            <button onclick="location.href='adverbs.html'" class="adverbs-button">Наречия</button>
-            </div>
+            <button onclick="location.href='adverb_cards.html'">Карточки по наречиям</button>
+            <button onclick="location.href='adverb_test.html'" class="test-button">Тест по наречиям</button>
+        </div>
+        <button class="back-button" onclick="location.href='index.html'">Назад</button>
     </div>
 </body>
 </html>
