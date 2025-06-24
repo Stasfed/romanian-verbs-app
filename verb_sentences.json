@@ -1,0 +1,1046 @@
+[
+  {
+    "infinitive": "a vorbi",
+    "translation": "говорить",
+    "sentences": [
+      {"romanian": "Eu vorbesc română.", "english": "Я говорю по-румынски.", "pronoun": "eu", "conjugated_verb": "vorbesc"},
+      {"romanian": "Tu vorbești cu prietenii tăi.", "english": "Ты говоришь со своими друзьями.", "pronoun": "tu", "conjugated_verb": "vorbești"},
+      {"romanian": "El vorbește foarte repede.", "english": "Он говорит очень быстро.", "pronoun": "el/ea", "conjugated_verb": "vorbește"},
+      {"romanian": "Noi vorbim despre planurile noastre.", "english": "Мы говорим о наших планах.", "pronoun": "noi", "conjugated_verb": "vorbim"},
+      {"romanian": "Voi vorbiți prea tare.", "english": "Вы говорите слишком громко.", "pronoun": "voi", "conjugated_verb": "vorbiți"},
+      {"romanian": "Ei vorbesc la telefon.", "english": "Они говорят по телефону.", "pronoun": "ei/ele", "conjugated_verb": "vorbesc"}
+    ]
+  },
+  {
+    "infinitive": "a învăța",
+    "translation": "учить",
+    "sentences": [
+      {"romanian": "Eu învăț limba română.", "english": "Я учу румынский язык.", "pronoun": "eu", "conjugated_verb": "învăț"},
+      {"romanian": "Tu înveți la școală.", "english": "Ты учишься в школе.", "pronoun": "tu", "conjugated_verb": "înveți"},
+      {"romanian": "Ea învață să cânte.", "english": "Она учится петь.", "pronoun": "el/ea", "conjugated_verb": "învață"},
+      {"romanian": "Noi învățăm lucruri noi în fiecare zi.", "english": "Мы учим новые вещи каждый день.", "pronoun": "noi", "conjugated_verb": "învățăm"},
+      {"romanian": "Voi învățați din greșeli.", "english": "Вы учитесь на ошибках.", "pronoun": "voi", "conjugated_verb": "învățați"},
+      {"romanian": "Ei învață pentru examen.", "english": "Они учатся к экзамену.", "pronoun": "ei/ele", "conjugated_verb": "învață"}
+    ]
+  },
+  {
+    "infinitive": "a merge",
+    "translation": "идти",
+    "sentences": [
+      {"romanian": "Eu merg la muncă.", "english": "Я иду на работу.", "pronoun": "eu", "conjugated_verb": "merg"},
+      {"romanian": "Tu mergi acasă.", "english": "Ты идешь домой.", "pronoun": "tu", "conjugated_verb": "mergi"},
+      {"romanian": "El merge în parc.", "english": "Он идет в парк.", "pronoun": "el/ea", "conjugated_verb": "merge"},
+      {"romanian": "Noi mergem la cumpărături.", "english": "Мы идем за покупками.", "pronoun": "noi", "conjugated_verb": "mergem"},
+      {"romanian": "Voi mergeți repede.", "english": "Вы идете быстро.", "pronoun": "voi", "conjugated_verb": "mergeți"},
+      {"romanian": "Ele merg la film.", "english": "Они идут в кино.", "pronoun": "ei/ele", "conjugated_verb": "merg"}
+    ]
+  },
+  {
+    "infinitive": "a mânca",
+    "translation": "есть",
+    "sentences": [
+      {"romanian": "Eu mănânc un măr.", "english": "Я ем яблоко.", "pronoun": "eu", "conjugated_verb": "mănânc"},
+      {"romanian": "Tu mănânci supă.", "english": "Ты ешь суп.", "pronoun": "tu", "conjugated_verb": "mănânci"},
+      {"romanian": "Ea mănâncă o salată.", "english": "Она ест салат.", "pronoun": "el/ea", "conjugated_verb": "mănâncă"},
+      {"romanian": "Noi mâncăm pizza.", "english": "Мы едим пиццу.", "pronoun": "noi", "conjugated_verb": "mâncăm"},
+      {"romanian": "Voi mâncați sănătos.", "english": "Вы едите здоровую пищу.", "pronoun": "voi", "conjugated_verb": "mâncați"},
+      {"romanian": "Ei mănâncă la restaurant.", "english": "Они едят в ресторане.", "pronoun": "ei/ele", "conjugated_verb": "mănâncă"}
+    ]
+  },
+  {
+    "infinitive": "a bea",
+    "translation": "пить",
+    "sentences": [
+      {"romanian": "Eu beau apă.", "english": "Я пью воду.", "pronoun": "eu", "conjugated_verb": "beau"},
+      {"romanian": "Tu bei cafea.", "english": "Ты пьешь кофе.", "pronoun": "tu", "conjugated_verb": "bei"},
+      {"romanian": "El bea lapte.", "english": "Он пьет молоко.", "pronoun": "el/ea", "conjugated_verb": "bea"},
+      {"romanian": "Noi bem ceai.", "english": "Мы пьем чай.", "pronoun": "noi", "conjugated_verb": "bem"},
+      {"romanian": "Voi beți suc.", "english": "Вы пьете сок.", "pronoun": "voi", "conjugated_verb": "beți"},
+      {"romanian": "Ele beau vin.", "english": "Они пьют вино.", "pronoun": "ei/ele", "conjugated_verb": "beau"}
+    ]
+  },
+  {
+    "infinitive": "a citi",
+    "translation": "читать",
+    "sentences": [
+      {"romanian": "Eu citesc o carte.", "english": "Я читаю книгу.", "pronoun": "eu", "conjugated_verb": "citesc"},
+      {"romanian": "Tu citești ziarul.", "english": "Ты читаешь газету.", "pronoun": "tu", "conjugated_verb": "citești"},
+      {"romanian": "Ea citește un e-mail.", "english": "Она читает электронное письмо.", "pronoun": "el/ea", "conjugated_verb": "citește"},
+      {"romanian": "Noi citim în fiecare seară.", "english": "Мы читаем каждый вечер.", "pronoun": "noi", "conjugated_verb": "citim"},
+      {"romanian": "Voi citiți repede.", "english": "Вы читаете быстро.", "pronoun": "voi", "conjugated_verb": "citiți"},
+      {"romanian": "Ei citesc povești.", "english": "Они читают истории.", "pronoun": "ei/ele", "conjugated_verb": "citesc"}
+    ]
+  },
+  {
+    "infinitive": "a scrie",
+    "translation": "писать",
+    "sentences": [
+      {"romanian": "Eu scriu o scrisoare.", "english": "Я пишу письмо.", "pronoun": "eu", "conjugated_verb": "scriu"},
+      {"romanian": "Tu scrii un mesaj.", "english": "Ты пишешь сообщение.", "pronoun": "tu", "conjugated_verb": "scrii"},
+      {"romanian": "El scrie un roman.", "english": "Он пишет роман.", "pronoun": "el/ea", "conjugated_verb": "scrie"},
+      {"romanian": "Noi scriem temele.", "english": "Мы пишем домашние задания.", "pronoun": "noi", "conjugated_verb": "scriem"},
+      {"romanian": "Voi scrieți bine.", "english": "Вы хорошо пишете.", "pronoun": "voi", "conjugated_verb": "scrieți"},
+      {"romanian": "Ele scriu poezii.", "english": "Они пишут стихи.", "pronoun": "ei/ele", "conjugated_verb": "scriu"}
+    ]
+  },
+  {
+    "infinitive": "a lucra",
+    "translation": "работать",
+    "sentences": [
+      {"romanian": "Eu lucrez la birou.", "english": "Я работаю в офисе.", "pronoun": "eu", "conjugated_verb": "lucrez"},
+      {"romanian": "Tu lucrezi sâmbăta?", "english": "Ты работаешь по субботам?", "pronoun": "tu", "conjugated_verb": "lucrezi"},
+      {"romanian": "Ea lucrează mult.", "english": "Она много работает.", "pronoun": "el/ea", "conjugated_verb": "lucrează"},
+      {"romanian": "Noi lucrăm la un proiect nou.", "english": "Мы работаем над новым проектом.", "pronoun": "noi", "conjugated_verb": "lucrăm"},
+      {"romanian": "Voi lucrați în echipă.", "english": "Вы работаете в команде.", "pronoun": "voi", "conjugated_verb": "lucrați"},
+      {"romanian": "Ei lucrează până târziu.", "english": "Они работают допоздна.", "pronoun": "ei/ele", "conjugated_verb": "lucrează"}
+    ]
+  },
+  {
+    "infinitive": "a dormi",
+    "translation": "спать",
+    "sentences": [
+      {"romanian": "Eu dorm opt ore pe noapte.", "english": "Я сплю восемь часов в сутки.", "pronoun": "eu", "conjugated_verb": "dorm"},
+      {"romanian": "Tu dormi bine?", "english": "Ты хорошо спишь?", "pronoun": "tu", "conjugated_verb": "dormi"},
+      {"romanian": "El doarme profund.", "english": "Он крепко спит.", "pronoun": "el/ea", "conjugated_verb": "doarme"},
+      {"romanian": "Noi dormim devreme.", "english": "Мы ложимся спать рано.", "pronoun": "noi", "conjugated_verb": "dormim"},
+      {"romanian": "Voi dormiți la prânz?", "english": "Вы спите днем?", "pronoun": "voi", "conjugated_verb": "dormiți"},
+      {"romanian": "Ele dorm mult.", "english": "Они много спят.", "pronoun": "ei/ele", "conjugated_verb": "dorm"}
+    ]
+  },
+  {
+    "infinitive": "a vedea",
+    "translation": "видеть",
+    "sentences": [
+      {"romanian": "Eu văd un film.", "english": "Я смотрю фильм.", "pronoun": "eu", "conjugated_verb": "văd"},
+      {"romanian": "Tu vezi ceva interesant?", "english": "Ты видишь что-то интересное?", "pronoun": "tu", "conjugated_verb": "vezi"},
+      {"romanian": "El vede clar.", "english": "Он ясно видит.", "pronoun": "el/ea", "conjugated_verb": "vede"},
+      {"romanian": "Noi vedem un peisaj frumos.", "english": "Мы видим красивый пейзаж.", "pronoun": "noi", "conjugated_verb": "vedem"},
+      {"romanian": "Voi vedeți viitorul?", "english": "Вы видите будущее?", "pronoun": "voi", "conjugated_verb": "vedeți"},
+      {"romanian": "Ei văd realitatea.", "english": "Они видят реальность.", "pronoun": "ei/ele", "conjugated_verb": "văd"}
+    ]
+  },
+  {
+    "infinitive": "a auzi",
+    "translation": "слышать",
+    "sentences": [
+      {"romanian": "Eu aud o muzică bună.", "english": "Я слышу хорошую музыку.", "pronoun": "eu", "conjugated_verb": "aud"},
+      {"romanian": "Tu auzi ce spun eu?", "english": "Ты слышишь, что я говорю?", "pronoun": "tu", "conjugated_verb": "auzi"},
+      {"romanian": "El aude zgomotul.", "english": "Он слышит шум.", "pronoun": "el/ea", "conjugated_verb": "aude"},
+      {"romanian": "Noi auzim vestea.", "english": "Мы слышим новость.", "pronoun": "noi", "conjugated_verb": "auzim"},
+      {"romanian": "Voi auziți bine?", "english": "Вы хорошо слышите?", "pronoun": "voi", "conjugated_verb": "auziți"},
+      {"romanian": "Ele aud păsările.", "english": "Они слышат птиц.", "pronoun": "ei/ele", "conjugated_verb": "aud"}
+    ]
+  },
+  {
+    "infinitive": "a merge",
+    "translation": "идти",
+    "sentences": [
+      {"romanian": "Eu merg la piață.", "english": "Я иду на рынок.", "pronoun": "eu", "conjugated_verb": "merg"},
+      {"romanian": "Tu mergi la culcare.", "english": "Ты идешь спать.", "pronoun": "tu", "conjugated_verb": "mergi"},
+      {"romanian": "El merge la bibliotecă.", "english": "Он идет в библиотеку.", "pronoun": "el/ea", "conjugated_verb": "merge"},
+      {"romanian": "Noi mergem la plimbare.", "english": "Мы идем гулять.", "pronoun": "noi", "conjugated_verb": "mergem"},
+      {"romanian": "Voi mergeți la concert.", "english": "Вы идете на концерт.", "pronoun": "voi", "conjugated_verb": "mergeți"},
+      {"romanian": "Ei merg la mare.", "english": "Они едут на море.", "pronoun": "ei/ele", "conjugated_verb": "merg"}
+    ]
+  },
+  {
+    "infinitive": "a veni",
+    "translation": "приходить",
+    "sentences": [
+      {"romanian": "Eu vin acasă.", "english": "Я прихожу домой.", "pronoun": "eu", "conjugated_verb": "vin"},
+      {"romanian": "Tu vii cu noi?", "english": "Ты идешь с нами?", "pronoun": "tu", "conjugated_verb": "vii"},
+      {"romanian": "El vine mâine.", "english": "Он приходит завтра.", "pronoun": "el/ea", "conjugated_verb": "vine"},
+      {"romanian": "Noi venim la petrecere.", "english": "Мы приходим на вечеринку.", "pronoun": "noi", "conjugated_verb": "venim"},
+      {"romanian": "Voi veniți des aici?", "english": "Вы часто сюда приходите?", "pronoun": "voi", "conjugated_verb": "veniți"},
+      {"romanian": "Ele vin târziu.", "english": "Они приходят поздно.", "pronoun": "ei/ele", "conjugated_verb": "vin"}
+    ]
+  },
+  {
+    "infinitive": "a face",
+    "translation": "делать",
+    "sentences": [
+      {"romanian": "Eu fac sport în fiecare zi.", "english": "Я занимаюсь спортом каждый день.", "pronoun": "eu", "conjugated_verb": "fac"},
+      {"romanian": "Tu faci teme acum?", "english": "Ты сейчас делаешь домашнее задание?", "pronoun": "tu", "conjugated_verb": "faci"},
+      {"romanian": "Ea face o prăjitură.", "english": "Она печет торт.", "pronoun": "el/ea", "conjugated_verb": "face"},
+      {"romanian": "Noi facem planuri de călătorie.", "english": "Мы строим планы на путешествие.", "pronoun": "noi", "conjugated_verb": "facem"},
+      {"romanian": "Voi faceți mult zgomot.", "english": "Вы много шумите.", "pronoun": "voi", "conjugated_verb": "faceți"},
+      {"romanian": "Ei fac cumpărături.", "english": "Они делают покупки.", "pronoun": "ei/ele", "conjugated_verb": "fac"}
+    ]
+  },
+  {
+    "infinitive": "a ști",
+    "translation": "знать",
+    "sentences": [
+      {"romanian": "Eu știu răspunsul.", "english": "Я знаю ответ.", "pronoun": "eu", "conjugated_verb": "știu"},
+      {"romanian": "Tu știi adevărul?", "english": "Ты знаешь правду?", "pronoun": "tu", "conjugated_verb": "știi"},
+      {"romanian": "El știe multe limbi străine.", "english": "Он знает много иностранных языков.", "pronoun": "el/ea", "conjugated_verb": "știe"},
+      {"romanian": "Noi știm ce să facem.", "english": "Мы знаем, что делать.", "pronoun": "noi", "conjugated_verb": "știm"},
+      {"romanian": "Voi știți drumul?", "english": "Вы знаете дорогу?", "pronoun": "voi", "conjugated_verb": "știți"},
+      {"romanian": "Ele știu totul.", "english": "Они знают все.", "pronoun": "ei/ele", "conjugated_verb": "știu"}
+    ]
+  },
+  {
+    "infinitive": "a vrea",
+    "translation": "хотеть",
+    "sentences": [
+      {"romanian": "Eu vreau o cafea.", "english": "Я хочу кофе.", "pronoun": "eu", "conjugated_verb": "vreau"},
+      {"romanian": "Tu vrei să pleci?", "english": "Ты хочешь уйти?", "pronoun": "tu", "conjugated_verb": "vrei"},
+      {"romanian": "El vrea să mănânce.", "english": "Он хочет есть.", "pronoun": "el/ea", "conjugated_verb": "vrea"},
+      {"romanian": "Noi vrem să călătorim.", "english": "Мы хотим путешествовать.", "pronoun": "noi", "conjugated_verb": "vrem"},
+      {"romanian": "Voi vreți să învățați?", "english": "Вы хотите учиться?", "pronoun": "voi", "conjugated_verb": "vreți"},
+      {"romanian": "Ei vor să se joace.", "english": "Они хотят играть.", "pronoun": "ei/ele", "conjugated_verb": "vor"}
+    ]
+  },
+  {
+    "infinitive": "a putea",
+    "translation": "мочь",
+    "sentences": [
+      {"romanian": "Eu pot să te ajut.", "english": "Я могу тебе помочь.", "pronoun": "eu", "conjugated_verb": "pot"},
+      {"romanian": "Tu poți să vii mâine?", "english": "Ты можешь прийти завтра?", "pronoun": "tu", "conjugated_verb": "poți"},
+      {"romanian": "Ea poate să vorbească franceză.", "english": "Она может говорить по-французски.", "pronoun": "el/ea", "conjugated_verb": "poate"},
+      {"romanian": "Noi putem să mergem.", "english": "Мы можем идти.", "pronoun": "noi", "conjugated_verb": "putem"},
+      {"romanian": "Voi puteți să rezolvați problema?", "english": "Вы можете решить проблему?", "pronoun": "voi", "conjugated_verb": "puteți"},
+      {"romanian": "Ei pot să danseze.", "english": "Они могут танцевать.", "pronoun": "ei/ele", "conjugated_verb": "pot"}
+    ]
+  },
+  {
+    "infinitive": "a da",
+    "translation": "давать",
+    "sentences": [
+      {"romanian": "Eu dau un cadou.", "english": "Я даю подарок.", "pronoun": "eu", "conjugated_verb": "dau"},
+      {"romanian": "Tu dai bani?", "english": "Ты даешь деньги?", "pronoun": "tu", "conjugated_verb": "dai"},
+      {"romanian": "El dă sfaturi bune.", "english": "Он дает хорошие советы.", "pronoun": "el/ea", "conjugated_verb": "dă"},
+      {"romanian": "Noi dăm mâncare pisicii.", "english": "Мы даем еду кошке.", "pronoun": "noi", "conjugated_verb": "dăm"},
+      {"romanian": "Voi dați o petrecere?", "english": "Вы устраиваете вечеринку?", "pronoun": "voi", "conjugated_verb": "dați"},
+      {"romanian": "Ei dau flori.", "english": "Они дают цветы.", "pronoun": "ei/ele", "conjugated_verb": "dau"}
+    ]
+  },
+  {
+    "infinitive": "a merge",
+    "translation": "ходить",
+    "sentences": [
+      {"romanian": "Eu merg la doctor.", "english": "Я иду к врачу.", "pronoun": "eu", "conjugated_verb": "merg"},
+      {"romanian": "Tu mergi la facultate.", "english": "Ты идешь в университет.", "pronoun": "tu", "conjugated_verb": "mergi"},
+      {"romanian": "Ea merge la piață.", "english": "Она идет на рынок.", "pronoun": "el/ea", "conjugated_verb": "merge"},
+      {"romanian": "Noi mergem la schi.", "english": "Мы едем кататься на лыжах.", "pronoun": "noi", "conjugated_verb": "mergem"},
+      {"romanian": "Voi mergeți la concert.", "english": "Вы идете на концерт.", "pronoun": "voi", "conjugated_verb": "mergeți"},
+      {"romanian": "Ei merg la bunici.", "english": "Они идут к бабушке и дедушке.", "pronoun": "ei/ele", "conjugated_verb": "merg"}
+    ]
+  },
+  {
+    "infinitive": "a bea",
+    "translation": "пить",
+    "sentences": [
+      {"romanian": "Eu beau ceai verde.", "english": "Я пью зеленый чай.", "pronoun": "eu", "conjugated_verb": "beau"},
+      {"romanian": "Tu bei apă minerală.", "english": "Ты пьешь минеральную воду.", "pronoun": "tu", "conjugated_verb": "bei"},
+      {"romanian": "El bea bere.", "english": "Он пьет пиво.", "pronoun": "el/ea", "conjugated_verb": "bea"},
+      {"romanian": "Noi bem vin roșu.", "english": "Мы пьем красное вино.", "pronoun": "noi", "conjugated_verb": "bem"},
+      {"romanian": "Voi beți lapte cald.", "english": "Вы пьете теплое молоко.", "pronoun": "voi", "conjugated_verb": "beți"},
+      {"romanian": "Ele beau suc natural.", "english": "Они пьют натуральный сок.", "pronoun": "ei/ele", "conjugated_verb": "beau"}
+    ]
+  },
+  {
+    "infinitive": "a cânta",
+    "translation": "петь",
+    "sentences": [
+      {"romanian": "Eu cânt la chitară.", "english": "Я играю на гитаре.", "pronoun": "eu", "conjugated_verb": "cânt"},
+      {"romanian": "Tu cânți frumos.", "english": "Ты красиво поешь.", "pronoun": "tu", "conjugated_verb": "cânți"},
+      {"romanian": "Ea cântă o melodie tristă.", "english": "Она поет грустную песню.", "pronoun": "el/ea", "conjugated_verb": "cântă"},
+      {"romanian": "Noi cântăm în cor.", "english": "Мы поем в хоре.", "pronoun": "noi", "conjugated_verb": "cântăm"},
+      {"romanian": "Voi cântați la petrecere?", "english": "Вы поете на вечеринке?", "pronoun": "voi", "conjugated_verb": "cântați"},
+      {"romanian": "Ei cântă cântece populare.", "english": "Они поют народные песни.", "pronoun": "ei/ele", "conjugated_verb": "cântă"}
+    ]
+  },
+  {
+    "infinitive": "a dansa",
+    "translation": "танцевать",
+    "sentences": [
+      {"romanian": "Eu dansez în fiecare seară.", "english": "Я танцую каждый вечер.", "pronoun": "eu", "conjugated_verb": "dansez"},
+      {"romanian": "Tu dansezi bine?", "english": "Ты хорошо танцуешь?", "pronoun": "tu", "conjugated_verb": "dansezi"},
+      {"romanian": "El dansează un vals.", "english": "Он танцует вальс.", "pronoun": "el/ea", "conjugated_verb": "dansează"},
+      {"romanian": "Noi dansăm la nuntă.", "english": "Мы танцуем на свадьбе.", "pronoun": "noi", "conjugated_verb": "dansăm"},
+      {"romanian": "Voi dansați modern.", "english": "Вы танцуете современно.", "pronoun": "voi", "conjugated_verb": "dansați"},
+      {"romanian": "Ele dansează cu grație.", "english": "Они танцуют грациозно.", "pronoun": "ei/ele", "conjugated_verb": "dansează"}
+    ]
+  },
+  {
+    "infinitive": "a privi",
+    "translation": "смотреть",
+    "sentences": [
+      {"romanian": "Eu privesc la televizor.", "english": "Я смотрю телевизор.", "pronoun": "eu", "conjugated_verb": "privesc"},
+      {"romanian": "Tu privești cerul?", "english": "Ты смотришь на небо?", "pronoun": "tu", "conjugated_verb": "privești"},
+      {"romanian": "El privește pe fereastră.", "english": "Он смотрит в окно.", "pronoun": "el/ea", "conjugated_verb": "privește"},
+      {"romanian": "Noi privim un spectacol.", "english": "Мы смотрим представление.", "pronoun": "noi", "conjugated_verb": "privim"},
+      {"romanian": "Voi priviți cu atenție.", "english": "Вы смотрите внимательно.", "pronoun": "voi", "conjugated_verb": "priviți"},
+      {"romanian": "Ei privesc imaginile.", "english": "Они смотрят изображения.", "pronoun": "ei/ele", "conjugated_verb": "privesc"}
+    ]
+  },
+  {
+    "infinitive": "a simți",
+    "translation": "чувствовать",
+    "sentences": [
+      {"romanian": "Eu simt frigul.", "english": "Я чувствую холод.", "pronoun": "eu", "conjugated_verb": "simt"},
+      {"romanian": "Tu simți durerea?", "english": "Ты чувствуешь боль?", "pronoun": "tu", "conjugated_verb": "simți"},
+      {"romanian": "El simte bucurie.", "english": "Он чувствует радость.", "pronoun": "el/ea", "conjugated_verb": "simte"},
+      {"romanian": "Noi simțim mirosul de flori.", "english": "Мы чувствуем запах цветов.", "pronoun": "noi", "conjugated_verb": "simțim"},
+      {"romanian": "Voi simțiți căldura?", "english": "Вы чувствуете тепло?", "pronoun": "voi", "conjugated_verb": "simțiți"},
+      {"romanian": "Ei simt oboseala.", "english": "Они чувствуют усталость.", "pronoun": "ei/ele", "conjugated_verb": "simt"}
+    ]
+  },
+  {
+    "infinitive": "a fugi",
+    "translation": "бежать",
+    "sentences": [
+      {"romanian": "Eu fug repede.", "english": "Я быстро бегу.", "pronoun": "eu", "conjugated_verb": "fug"},
+      {"romanian": "Tu fugi de probleme.", "english": "Ты бежишь от проблем.", "pronoun": "tu", "conjugated_verb": "fugi"},
+      {"romanian": "El fuge de acasă.", "english": "Он убегает из дома.", "pronoun": "el/ea", "conjugated_verb": "fuge"},
+      {"romanian": "Noi fugim la munte.", "english": "Мы убегаем в горы.", "pronoun": "noi", "conjugated_verb": "fugim"},
+      {"romanian": "Voi fugiți de responsabilități.", "english": "Вы убегаете от ответственности.", "pronoun": "voi", "conjugated_verb": "fugiți"},
+      {"romanian": "Ei fug din calea pericolului.", "english": "Они бегут от опасности.", "pronoun": "ei/ele", "conjugated_verb": "fug"}
+    ]
+  },
+  {
+    "infinitive": "a crede",
+    "translation": "верить",
+    "sentences": [
+      {"romanian": "Eu cred în tine.", "english": "Я верю в тебя.", "pronoun": "eu", "conjugated_verb": "cred"},
+      {"romanian": "Tu crezi în Dumnezeu?", "english": "Ты веришь в Бога?", "pronoun": "tu", "conjugated_verb": "crezi"},
+      {"romanian": "El crede în destin.", "english": "Он верит в судьбу.", "pronoun": "el/ea", "conjugated_verb": "crede"},
+      {"romanian": "Noi credem în viitor.", "english": "Мы верим в будущее.", "pronoun": "noi", "conjugated_verb": "credem"},
+      {"romanian": "Voi credeți ce spun eu?", "english": "Вы верите тому, что я говорю?", "pronoun": "voi", "conjugated_verb": "credeți"},
+      {"romanian": "Ei cred în minuni.", "english": "Они верят в чудеса.", "pronoun": "ei/ele", "conjugated_verb": "cred"}
+    ]
+  },
+  {
+    "infinitive": "a cumpăra",
+    "translation": "покупать",
+    "sentences": [
+      {"romanian": "Eu cumpăr pâine.", "english": "Я покупаю хлеб.", "pronoun": "eu", "conjugated_verb": "cumpăr"},
+      {"romanian": "Tu cumperi fructe?", "english": "Ты покупаешь фрукты?", "pronoun": "tu", "conjugated_verb": "cumperi"},
+      {"romanian": "El cumpără o mașină nouă.", "english": "Он покупает новую машину.", "pronoun": "el/ea", "conjugated_verb": "cumpără"},
+      {"romanian": "Noi cumpărăm cadouri.", "english": "Мы покупаем подарки.", "pronoun": "noi", "conjugated_verb": "cumpărăm"},
+      {"romanian": "Voi cumpărați online.", "english": "Вы покупаете онлайн.", "pronoun": "voi", "conjugated_verb": "cumpărați"},
+      {"romanian": "Ele cumpără haine.", "english": "Они покупают одежду.", "pronoun": "ei/ele", "conjugated_verb": "cumpără"}
+    ]
+  },
+  {
+    "infinitive": "a vinde",
+    "translation": "продавать",
+    "sentences": [
+      {"romanian": "Eu vând casa veche.", "english": "Я продаю старый дом.", "pronoun": "eu", "conjugated_verb": "vând"},
+      {"romanian": "Tu vinzi mașina?", "english": "Ты продаешь машину?", "pronoun": "tu", "conjugated_verb": "vinzi"},
+      {"romanian": "El vinde flori.", "english": "Он продает цветы.", "pronoun": "el/ea", "conjugated_verb": "vinde"},
+      {"romanian": "Noi vindem produse locale.", "english": "Мы продаем местные продукты.", "pronoun": "noi", "conjugated_verb": "vindem"},
+      {"romanian": "Voi vindeți la preț bun.", "english": "Вы продаете по хорошей цене.", "pronoun": "voi", "conjugated_verb": "vindeți"},
+      {"romanian": "Ei vând opere de artă.", "english": "Они продают произведения искусства.", "pronoun": "ei/ele", "conjugated_verb": "vând"}
+    ]
+  },
+  {
+    "infinitive": "a deschide",
+    "translation": "открывать",
+    "sentences": [
+      {"romanian": "Eu deschid ușa.", "english": "Я открываю дверь.", "pronoun": "eu", "conjugated_verb": "deschid"},
+      {"romanian": "Tu deschizi fereastra?", "english": "Ты открываешь окно?", "pronoun": "tu", "conjugated_verb": "deschizi"},
+      {"romanian": "El deschide o carte.", "english": "Он открывает книгу.", "pronoun": "el/ea", "conjugated_verb": "deschide"},
+      {"romanian": "Noi deschidem magazinul la 9.", "english": "Мы открываем магазин в 9.", "pronoun": "noi", "conjugated_verb": "deschidem"},
+      {"romanian": "Voi deschideți o afacere nouă?", "english": "Вы открываете новый бизнес?", "pronoun": "voi", "conjugated_verb": "deschideți"},
+      {"romanian": "Ele deschid inimile.", "english": "Они открывают сердца.", "pronoun": "ei/ele", "conjugated_verb": "deschid"}
+    ]
+  },
+  {
+    "infinitive": "a închide",
+    "translation": "закрывать",
+    "sentences": [
+      {"romanian": "Eu închid laptopul.", "english": "Я закрываю ноутбук.", "pronoun": "eu", "conjugated_verb": "închid"},
+      {"romanian": "Tu închizi lumina.", "english": "Ты выключаешь свет.", "pronoun": "tu", "conjugated_verb": "închizi"},
+      {"romanian": "Ea închide ochii.", "english": "Она закрывает глаза.", "pronoun": "el/ea", "conjugated_verb": "închide"},
+      {"romanian": "Noi închidem ușa cu cheia.", "english": "Мы закрываем дверь ключом.", "pronoun": "noi", "conjugated_verb": "închidem"},
+      {"romanian": "Voi închideți afacerea?", "english": "Вы закрываете бизнес?", "pronoun": "voi", "conjugated_verb": "închideți"},
+      {"romanian": "Ei închid fereastra.", "english": "Они закрывают окно.", "pronoun": "ei/ele", "conjugated_verb": "închid"}
+    ]
+  },
+  {
+    "infinitive": "a începe",
+    "translation": "начинать",
+    "sentences": [
+      {"romanian": "Eu încep un proiect nou.", "english": "Я начинаю новый проект.", "pronoun": "eu", "conjugated_verb": "încep"},
+      {"romanian": "Tu începi să înveți?", "english": "Ты начинаешь учиться?", "pronoun": "tu", "conjugated_verb": "începi"},
+      {"romanian": "El începe o nouă viață.", "english": "Он начинает новую жизнь.", "pronoun": "el/ea", "conjugated_verb": "începe"},
+      {"romanian": "Noi începem să lucrăm acum.", "english": "Мы начинаем работать сейчас.", "pronoun": "noi", "conjugated_verb": "începem"},
+      {"romanian": "Voi începeți cursurile?", "english": "Вы начинаете курсы?", "pronoun": "voi", "conjugated_verb": "începeți"},
+      {"romanian": "Ei încep să se joace.", "english": "Они начинают играть.", "pronoun": "ei/ele", "conjugated_verb": "încep"}
+    ]
+  },
+  {
+    "infinitive": "a termina",
+    "translation": "заканчивать",
+    "sentences": [
+      {"romanian": "Eu termin de citit.", "english": "Я заканчиваю читать.", "pronoun": "eu", "conjugated_verb": "termin"},
+      {"romanian": "Tu termini munca la timp?", "english": "Ты заканчиваешь работу вовремя?", "pronoun": "tu", "conjugated_verb": "termini"},
+      {"romanian": "Ea termină școala anul acesta.", "english": "Она заканчивает школу в этом году.", "pronoun": "el/ea", "conjugated_verb": "termină"},
+      {"romanian": "Noi terminăm proiectul mâine.", "english": "Мы заканчиваем проект завтра.", "pronoun": "noi", "conjugated_verb": "terminăm"},
+      {"romanian": "Voi terminați repede?", "english": "Вы быстро заканчиваете?", "pronoun": "voi", "conjugated_verb": "terminați"},
+      {"romanian": "Ei termină de mâncat.", "english": "Они заканчивают есть.", "pronoun": "ei/ele", "conjugated_verb": "termină"}
+    ]
+  },
+  {
+    "infinitive": "a găsi",
+    "translation": "находить",
+    "sentences": [
+      {"romanian": "Eu găsesc cheile.", "english": "Я нахожу ключи.", "pronoun": "eu", "conjugated_verb": "găsesc"},
+      {"romanian": "Tu găsești fericirea?", "english": "Ты находишь счастье?", "pronoun": "tu", "conjugated_verb": "găsești"},
+      {"romanian": "El găsește soluții.", "english": "Он находит решения.", "pronoun": "el/ea", "conjugated_verb": "găsește"},
+      {"romanian": "Noi găsim inspirație.", "english": "Мы находим вдохновение.", "pronoun": "noi", "conjugated_verb": "găsim"},
+      {"romanian": "Voi găsiți drumul corect?", "english": "Вы находите правильный путь?", "pronoun": "voi", "conjugated_verb": "găsiți"},
+      {"romanian": "Ei găsesc noi oportunități.", "english": "Они находят новые возможности.", "pronoun": "ei/ele", "conjugated_verb": "găsesc"}
+    ]
+  },
+  {
+    "infinitive": "a pierde",
+    "translation": "терять",
+    "sentences": [
+      {"romanian": "Eu pierd timpul.", "english": "Я теряю время.", "pronoun": "eu", "conjugated_verb": "pierd"},
+      {"romanian": "Tu pierzi răbdarea?", "english": "Ты теряешь терпение?", "pronoun": "tu", "conjugated_verb": "pierzi"},
+      {"romanian": "El pierde meciul.", "english": "Он проигрывает матч.", "pronoun": "el/ea", "conjugated_verb": "pierde"},
+      {"romanian": "Noi pierdem speranța.", "english": "Мы теряем надежду.", "pronoun": "noi", "conjugated_verb": "pierdem"},
+      {"romanian": "Voi pierdeți cheile des?", "english": "Вы часто теряете ключи?", "pronoun": "voi", "conjugated_verb": "pierdeți"},
+      {"romanian": "Ei pierd bani.", "english": "Они теряют деньги.", "pronoun": "ei/ele", "conjugated_verb": "pierd"}
+    ]
+  },
+  {
+    "infinitive": "a aștepta",
+    "translation": "ждать",
+    "sentences": [
+      {"romanian": "Eu aștept autobuzul.", "english": "Я жду автобус.", "pronoun": "eu", "conjugated_verb": "aștept"},
+      {"romanian": "Tu aștepți pe cineva?", "english": "Ты кого-то ждешь?", "pronoun": "tu", "conjugated_verb": "aștepți"},
+      {"romanian": "El așteaptă o veste bună.", "english": "Он ждет хороших новостей.", "pronoun": "el/ea", "conjugated_verb": "așteaptă"},
+      {"romanian": "Noi așteptăm rezultatele.", "english": "Мы ждем результаты.", "pronoun": "noi", "conjugated_verb": "așteptăm"},
+      {"romanian": "Voi așteptați de mult timp?", "english": "Вы давно ждете?", "pronoun": "voi", "conjugated_verb": "așteptați"},
+      {"romanian": "Ei așteaptă ploaia.", "english": "Они ждут дождя.", "pronoun": "ei/ele", "conjugated_verb": "așteaptă"}
+    ]
+  },
+  {
+    "infinitive": "a iubi",
+    "translation": "любить",
+    "sentences": [
+      {"romanian": "Eu iubesc animalele.", "english": "Я люблю животных.", "pronoun": "eu", "conjugated_verb": "iubesc"},
+      {"romanian": "Tu iubești muzica clasică?", "english": "Ты любишь классическую музыку?", "pronoun": "tu", "conjugated_verb": "iubești"},
+      {"romanian": "El iubește să călătorească.", "english": "Он любит путешествовать.", "pronoun": "el/ea", "conjugated_verb": "iubește"},
+      {"romanian": "Noi iubim natura.", "english": "Мы любим природу.", "pronoun": "noi", "conjugated_verb": "iubim"},
+      {"romanian": "Voi iubiți țara voastră?", "english": "Вы любите свою страну?", "pronoun": "voi", "conjugated_verb": "iubiți"},
+      {"romanian": "Ei iubesc viața.", "english": "Они любят жизнь.", "pronoun": "ei/ele", "conjugated_verb": "iubesc"}
+    ]
+  },
+  {
+    "infinitive": "a urî",
+    "translation": "ненавидеть",
+    "sentences": [
+      {"romanian": "Eu urăsc minciuna.", "english": "Я ненавижу ложь.", "pronoun": "eu", "conjugated_verb": "urăsc"},
+      {"romanian": "Tu urăști iarna?", "english": "Ты ненавидишь зиму?", "pronoun": "tu", "conjugated_verb": "urăști"},
+      {"romanian": "El urăște nedreptatea.", "english": "Он ненавидит несправедливость.", "pronoun": "el/ea", "conjugated_verb": "urăște"},
+      {"romanian": "Noi urâm violența.", "english": "Мы ненавидим насилие.", "pronoun": "noi", "conjugated_verb": "urâm"},
+      {"romanian": "Voi urâți zgomotul?", "english": "Вы ненавидите шум?", "pronoun": "voi", "conjugated_verb": "urâți"},
+      {"romanian": "Ei urăsc răul.", "english": "Они ненавидят зло.", "pronoun": "ei/ele", "conjugated_verb": "urăsc"}
+    ]
+  },
+  {
+    "infinitive": "a pune",
+    "translation": "класть",
+    "sentences": [
+      {"romanian": "Eu pun cartea pe masă.", "english": "Я кладу книгу на стол.", "pronoun": "eu", "conjugated_verb": "pun"},
+      {"romanian": "Tu pui întrebări.", "english": "Ты задаешь вопросы.", "pronoun": "tu", "conjugated_verb": "pui"},
+      {"romanian": "El pune ordine.", "english": "Он наводит порядок.", "pronoun": "el/ea", "conjugated_verb": "pune"},
+      {"romanian": "Noi punem masa.", "english": "Мы накрываем на стол.", "pronoun": "noi", "conjugated_verb": "punem"},
+      {"romanian": "Voi puneți flori în vază.", "english": "Вы ставите цветы в вазу.", "pronoun": "voi", "conjugated_verb": "puneți"},
+      {"romanian": "Ei pun bazele unui proiect.", "english": "Они закладывают основы проекта.", "pronoun": "ei/ele", "conjugated_verb": "pun"}
+    ]
+  },
+  {
+    "infinitive": "a lua",
+    "translation": "брать",
+    "sentences": [
+      {"romanian": "Eu iau autobuzul.", "english": "Я сажусь на автобус.", "pronoun": "eu", "conjugated_verb": "iau"},
+      {"romanian": "Tu iei medicamente?", "english": "Ты принимаешь лекарства?", "pronoun": "tu", "conjugated_verb": "iei"},
+      {"romanian": "El ia o decizie.", "english": "Он принимает решение.", "pronoun": "el/ea", "conjugated_verb": "ia"},
+      {"romanian": "Noi luăm micul dejun.", "english": "Мы завтракаем.", "pronoun": "noi", "conjugated_verb": "luăm"},
+      {"romanian": "Voi luați responsabilitatea?", "english": "Вы берете на себя ответственность?", "pronoun": "voi", "conjugated_verb": "luați"},
+      {"romanian": "Ei iau o pauză.", "english": "Они берут перерыв.", "pronoun": "ei/ele", "conjugated_verb": "iau"}
+    ]
+  },
+  {
+    "infinitive": "a cere",
+    "translation": "просить",
+    "sentences": [
+      {"romanian": "Eu cer ajutor.", "english": "Я прошу помощи.", "pronoun": "eu", "conjugated_verb": "cer"},
+      {"romanian": "Tu ceri explicații?", "english": "Ты просишь объяснений?", "pronoun": "tu", "conjugated_verb": "ceri"},
+      {"romanian": "El cere iertare.", "english": "Он просит прощения.", "pronoun": "el/ea", "conjugated_verb": "cere"},
+      {"romanian": "Noi cerem dreptate.", "english": "Мы требуем справедливости.", "pronoun": "noi", "conjugated_verb": "cerem"},
+      {"romanian": "Voi cereți bani?", "english": "Вы просите деньги?", "pronoun": "voi", "conjugated_verb": "cereți"},
+      {"romanian": "Ei cer sfaturi.", "english": "Они просят совета.", "pronoun": "ei/ele", "conjugated_verb": "cer"}
+    ]
+  },
+  {
+    "infinitive": "a răspunde",
+    "translation": "отвечать",
+    "sentences": [
+      {"romanian": "Eu răspund la telefon.", "english": "Я отвечаю на звонок.", "pronoun": "eu", "conjugated_verb": "răspund"},
+      {"romanian": "Tu răspunzi repede?", "english": "Ты быстро отвечаешь?", "pronoun": "tu", "conjugated_verb": "răspunzi"},
+      {"romanian": "Ea răspunde la întrebări.", "english": "Она отвечает на вопросы.", "pronoun": "el/ea", "conjugated_verb": "răspunde"},
+      {"romanian": "Noi răspundem la e-mailuri.", "english": "Мы отвечаем на электронные письма.", "pronoun": "noi", "conjugated_verb": "răspundem"},
+      {"romanian": "Voi răspundeți corect?", "english": "Вы правильно отвечаете?", "pronoun": "voi", "conjugated_verb": "răspundeți"},
+      {"romanian": "Ei răspund la provocări.", "english": "Они отвечают на вызовы.", "pronoun": "ei/ele", "conjugated_verb": "răspund"}
+    ]
+  },
+  {
+    "infinitive": "a găti",
+    "translation": "готовить",
+    "sentences": [
+      {"romanian": "Eu gătesc cina.", "english": "Я готовлю ужин.", "pronoun": "eu", "conjugated_verb": "gătesc"},
+      {"romanian": "Tu gătești bine?", "english": "Ты хорошо готовишь?", "pronoun": "tu", "conjugated_verb": "gătești"},
+      {"romanian": "El gătește paste.", "english": "Он готовит пасту.", "pronoun": "el/ea", "conjugated_verb": "gătește"},
+      {"romanian": "Noi gătim împreună.", "english": "Мы готовим вместе.", "pronoun": "noi", "conjugated_verb": "gătim"},
+      {"romanian": "Voi gătiți deserturi?", "english": "Вы готовите десерты?", "pronoun": "voi", "conjugated_verb": "gătiți"},
+      {"romanian": "Ei gătesc mâncare tradițională.", "english": "Они готовят традиционную еду.", "pronoun": "ei/ele", "conjugated_verb": "gătesc"}
+    ]
+  },
+  {
+    "infinitive": "a spăla",
+    "translation": "мыть",
+    "sentences": [
+      {"romanian": "Eu spăl vasele.", "english": "Я мою посуду.", "pronoun": "eu", "conjugated_verb": "spăl"},
+      {"romanian": "Tu speli rufele?", "english": "Ты стираешь белье?", "pronoun": "tu", "conjugated_verb": "speli"},
+      {"romanian": "Ea spală mașina.", "english": "Она моет машину.", "pronoun": "el/ea", "conjugated_verb": "spală"},
+      {"romanian": "Noi spălăm fructe.", "english": "Мы моем фрукты.", "pronoun": "noi", "conjugated_verb": "spălăm"},
+      {"romanian": "Voi spălați mâinile?", "english": "Вы моете руки?", "pronoun": "voi", "conjugated_verb": "spălați"},
+      {"romanian": "Ei spală geamurile.", "english": "Они моют окна.", "pronoun": "ei/ele", "conjugated_verb": "spală"}
+    ]
+  },
+  {
+    "infinitive": "a bea",
+    "translation": "пить",
+    "sentences": [
+      {"romanian": "Eu beau un pahar de apă.", "english": "Я пью стакан воды.", "pronoun": "eu", "conjugated_verb": "beau"},
+      {"romanian": "Tu bei limonadă?", "english": "Ты пьешь лимонад?", "pronoun": "tu", "conjugated_verb": "bei"},
+      {"romanian": "El bea un suc rece.", "english": "Он пьет холодный сок.", "pronoun": "el/ea", "conjugated_verb": "bea"},
+      {"romanian": "Noi bem cafea dimineața.", "english": "Мы пьем кофе по утрам.", "pronoun": "noi", "conjugated_verb": "bem"},
+      {"romanian": "Voi beți ceai negru?", "english": "Вы пьете черный чай?", "pronoun": "voi", "conjugated_verb": "beți"},
+      {"romanian": "Ele beau apă de izvor.", "english": "Они пьют родниковую воду.", "pronoun": "ei/ele", "conjugated_verb": "beau"}
+    ]
+  },
+  {
+    "infinitive": "a începe",
+    "translation": "начинать",
+    "sentences": [
+      {"romanian": "Eu încep să citesc o carte nouă.", "english": "Я начинаю читать новую книгу.", "pronoun": "eu", "conjugated_verb": "încep"},
+      {"romanian": "Tu începi să lucrezi?", "english": "Ты начинаешь работать?", "pronoun": "tu", "conjugated_verb": "începi"},
+      {"romanian": "Ea începe cursul de muzică.", "english": "Она начинает музыкальный курс.", "pronoun": "el/ea", "conjugated_verb": "începe"},
+      {"romanian": "Noi începem să construim o casă.", "english": "Мы начинаем строить дом.", "pronoun": "noi", "conjugated_verb": "începem"},
+      {"romanian": "Voi începeți o afacere?", "english": "Вы начинаете бизнес?", "pronoun": "voi", "conjugated_verb": "începeți"},
+      {"romanian": "Ei încep o nouă viață împreună.", "english": "Они начинают новую жизнь вместе.", "pronoun": "ei/ele", "conjugated_verb": "încep"}
+    ]
+  },
+  {
+    "infinitive": "a sfârși",
+    "translation": "заканчивать, кончать",
+    "sentences": [
+      {"romanian": "Eu sfârșesc lucrul la ora cinci.", "english": "Я заканчиваю работу в пять часов.", "pronoun": "eu", "conjugated_verb": "sfârșesc"},
+      {"romanian": "Tu sfârșești temele?", "english": "Ты заканчиваешь домашние задания?", "pronoun": "tu", "conjugated_verb": "sfârșești"},
+      {"romanian": "El sfârșește povestea.", "english": "Он заканчивает рассказ.", "pronoun": "el/ea", "conjugated_verb": "sfârșește"},
+      {"romanian": "Noi sfârșim proiectul curând.", "english": "Мы скоро закончим проект.", "pronoun": "noi", "conjugated_verb": "sfârșim"},
+      {"romanian": "Voi sfârșiți capitolul?", "english": "Вы заканчиваете главу?", "pronoun": "voi", "conjugated_verb": "sfârșiți"},
+      {"romanian": "Ei sfârșesc ziua la mare.", "english": "Они заканчивают день у моря.", "pronoun": "ei/ele", "conjugated_verb": "sfârșesc"}
+    ]
+  },
+  {
+    "infinitive": "a găsi",
+    "translation": "находить",
+    "sentences": [
+      {"romanian": "Eu găsesc mereu o soluție.", "english": "Я всегда нахожу решение.", "pronoun": "eu", "conjugated_verb": "găsesc"},
+      {"romanian": "Tu găsești bani pe jos?", "english": "Ты находишь деньги на полу?", "pronoun": "tu", "conjugated_verb": "găsești"},
+      {"romanian": "Ea găsește drumul spre casă.", "english": "Она находит дорогу домой.", "pronoun": "el/ea", "conjugated_verb": "găsește"},
+      {"romanian": "Noi găsim inspirația în natură.", "english": "Мы находим вдохновение в природе.", "pronoun": "noi", "conjugated_verb": "găsim"},
+      {"romanian": "Voi găsiți fericirea în lucruri mici?", "english": "Вы находите счастье в мелочах?", "pronoun": "voi", "conjugated_verb": "găsiți"},
+      {"romanian": "Ei găsesc un loc de parcare.", "english": "Они находят парковочное место.", "pronoun": "ei/ele", "conjugated_verb": "găsesc"}
+    ]
+  },
+  {
+    "infinitive": "a pierde",
+    "translation": "терять",
+    "sentences": [
+      {"romanian": "Eu pierd cheile des.", "english": "Я часто теряю ключи.", "pronoun": "eu", "conjugated_verb": "pierd"},
+      {"romanian": "Tu pierzi controlul?", "english": "Ты теряешь контроль?", "pronoun": "tu", "conjugated_verb": "pierzi"},
+      {"romanian": "El pierde timpul cu prostii.", "english": "Он тратит время на глупости.", "pronoun": "el/ea", "conjugated_verb": "pierde"},
+      {"romanian": "Noi pierdem meciul.", "english": "Мы проигрываем матч.", "pronoun": "noi", "conjugated_verb": "pierdem"},
+      {"romanian": "Voi pierdeți speranța ușor?", "english": "Вы легко теряете надежду?", "pronoun": "voi", "conjugated_verb": "pierdeți"},
+      {"romanian": "Ei pierd bani la jocuri.", "english": "Они теряют деньги в играх.", "pronoun": "ei/ele", "conjugated_verb": "pierd"}
+    ]
+  },
+  {
+    "infinitive": "a asculta",
+    "translation": "слушать",
+    "sentences": [
+      {"romanian": "Eu ascult muzică clasică.", "english": "Я слушаю классическую музыку.", "pronoun": "eu", "conjugated_verb": "ascult"},
+      {"romanian": "Tu asculți radioul?", "english": "Ты слушаешь радио?", "pronoun": "tu", "conjugated_verb": "asculți"},
+      {"romanian": "El ascultă știrile.", "english": "Он слушает новости.", "pronoun": "el/ea", "conjugated_verb": "ascultă"},
+      {"romanian": "Noi ascultăm sfaturi.", "english": "Мы слушаем советы.", "pronoun": "noi", "conjugated_verb": "ascultăm"},
+      {"romanian": "Voi ascultați cu atenție?", "english": "Вы слушаете внимательно?", "pronoun": "voi", "conjugated_verb": "ascultați"},
+      {"romanian": "Ei ascultă profesorul.", "english": "Они слушают учителя.", "pronoun": "ei/ele", "conjugated_verb": "ascultă"}
+    ]
+  },
+  {
+    "infinitive": "a aduce",
+    "translation": "приносить",
+    "sentences": [
+      {"romanian": "Eu aduc flori.", "english": "Я приношу цветы.", "pronoun": "eu", "conjugated_verb": "aduc"},
+      {"romanian": "Tu aduci vești bune?", "english": "Ты приносишь хорошие новости?", "pronoun": "tu", "conjugated_verb": "aduci"},
+      {"romanian": "Ea aduce o carte.", "english": "Она приносит книгу.", "pronoun": "el/ea", "conjugated_verb": "aduce"},
+      {"romanian": "Noi aducem cadouri.", "english": "Мы приносим подарки.", "pronoun": "noi", "conjugated_verb": "aducem"},
+      {"romanian": "Voi aduceți aminte?", "english": "Вы вспоминаете?", "pronoun": "voi", "conjugated_verb": "aduți"},
+      {"romanian": "Ei aduc cafea.", "english": "Они приносят кофе.", "pronoun": "ei/ele", "conjugated_verb": "aduc"}
+    ]
+  },
+  {
+    "infinitive": "a pleca",
+    "translation": "уезжать, уходить",
+    "sentences": [
+      {"romanian": "Eu plec acasă.", "english": "Я ухожу домой.", "pronoun": "eu", "conjugated_verb": "plec"},
+      {"romanian": "Tu pleci acum?", "english": "Ты сейчас уходишь?", "pronoun": "tu", "conjugated_verb": "pleci"},
+      {"romanian": "El pleacă în vacanță.", "english": "Он уезжает в отпуск.", "pronoun": "el/ea", "conjugated_verb": "pleacă"},
+      {"romanian": "Noi plecăm la munte.", "english": "Мы уезжаем в горы.", "pronoun": "noi", "conjugated_verb": "plecăm"},
+      {"romanian": "Voi plecați diseară?", "english": "Вы уезжаете этим вечером?", "pronoun": "voi", "conjugated_verb": "plecați"},
+      {"romanian": "Ele pleacă devreme.", "english": "Они уходят рано.", "pronoun": "ei/ele", "conjugated_verb": "pleacă"}
+    ]
+  },
+  {
+    "infinitive": "a ajunge",
+    "translation": "достигать, приезжать",
+    "sentences": [
+      {"romanian": "Eu ajung la timp.", "english": "Я прибываю вовремя.", "pronoun": "eu", "conjugated_verb": "ajung"},
+      {"romanian": "Tu ajungi la destinație?", "english": "Ты добираешься до места назначения?", "pronoun": "tu", "conjugated_verb": "ajungi"},
+      {"romanian": "El ajunge acasă târziu.", "english": "Он приезжает домой поздно.", "pronoun": "el/ea", "conjugated_verb": "ajunge"},
+      {"romanian": "Noi ajungem la aeroport.", "english": "Мы прибываем в аэропорт.", "pronoun": "noi", "conjugated_verb": "ajungem"},
+      {"romanian": "Voi ajungeți departe?", "english": "Вы далеко заходите?", "pronoun": "voi", "conjugated_verb": "ajungeți"},
+      {"romanian": "Ei ajung la concluzii.", "english": "Они приходят к выводам.", "pronoun": "ei/ele", "conjugated_verb": "ajung"}
+    ]
+  },
+  {
+    "infinitive": "a se juca",
+    "translation": "играть",
+    "sentences": [
+      {"romanian": "Eu mă joc cu câinele.", "english": "Я играю с собакой.", "pronoun": "eu", "conjugated_verb": "mă joc"},
+      {"romanian": "Tu te joci fotbal?", "english": "Ты играешь в футбол?", "pronoun": "tu", "conjugated_verb": "te joci"},
+      {"romanian": "El se joacă pe calculator.", "english": "Он играет на компьютере.", "pronoun": "el/ea", "conjugated_verb": "se joacă"},
+      {"romanian": "Noi ne jucăm cărți.", "english": "Мы играем в карты.", "pronoun": "noi", "conjugated_verb": "ne jucăm"},
+      {"romanian": "Voi vă jucați în parc?", "english": "Вы играете в парке?", "pronoun": "voi", "conjugated_verb": "vă jucați"},
+      {"romanian": "Ei se joacă afară.", "english": "Они играют на улице.", "pronoun": "ei/ele", "conjugated_verb": "se joacă"}
+    ]
+  },
+  {
+    "infinitive": "a înțelege",
+    "translation": "понимать",
+    "sentences": [
+      {"romanian": "Eu înțeleg limba română.", "english": "Я понимаю румынский язык.", "pronoun": "eu", "conjugated_verb": "înțeleg"},
+      {"romanian": "Tu înțelegi problema?", "english": "Ты понимаешь проблему?", "pronoun": "tu", "conjugated_verb": "înțelegi"},
+      {"romanian": "El înțelege repede.", "english": "Он быстро понимает.", "pronoun": "el/ea", "conjugated_verb": "înțelege"},
+      {"romanian": "Noi înțelegem lecția.", "english": "Мы понимаем урок.", "pronoun": "noi", "conjugated_verb": "înțelegem"},
+      {"romanian": "Voi înțelegeți conceptul?", "english": "Вы понимаете концепцию?", "pronoun": "voi", "conjugated_verb": "înțelegeți"},
+      {"romanian": "Ei înțeleg situația.", "english": "Они понимают ситуацию.", "pronoun": "ei/ele", "conjugated_verb": "înțeleg"}
+    ]
+  },
+  {
+    "infinitive": "a uita",
+    "translation": "забывать",
+    "sentences": [
+      {"romanian": "Eu uit cheile.", "english": "Я забываю ключи.", "pronoun": "eu", "conjugated_verb": "uit"},
+      {"romanian": "Tu uiți numele meu?", "english": "Ты забываешь мое имя?", "pronoun": "tu", "conjugated_verb": "uiți"},
+      {"romanian": "El uită detaliile.", "english": "Он забывает детали.", "pronoun": "el/ea", "conjugated_verb": "uită"},
+      {"romanian": "Noi uităm de griji.", "english": "Мы забываем о заботах.", "pronoun": "noi", "conjugated_verb": "uităm"},
+      {"romanian": "Voi uitați aniversările?", "english": "Вы забываете годовщины?", "pronoun": "voi", "conjugated_verb": "uitați"},
+      {"romanian": "Ei uită repede.", "english": "Они быстро забывают.", "pronoun": "ei/ele", "conjugated_verb": "uită"}
+    ]
+  },
+  {
+    "infinitive": "a aminti",
+    "translation": "помнить, напоминать",
+    "sentences": [
+      {"romanian": "Eu îmi amintesc totul.", "english": "Я все помню.", "pronoun": "eu", "conjugated_verb": "îmi amintesc"},
+      {"romanian": "Tu îți amintești ziua?", "english": "Ты помнишь этот день?", "pronoun": "tu", "conjugated_verb": "îți amintești"},
+      {"romanian": "El își amintește copilăria.", "english": "Он помнит детство.", "pronoun": "el/ea", "conjugated_verb": "își amintește"},
+      {"romanian": "Noi ne amintim de vacanță.", "english": "Мы вспоминаем об отпуске.", "pronoun": "noi", "conjugated_verb": "ne amintim"},
+      {"romanian": "Voi vă amintiți evenimentul?", "english": "Вы помните событие?", "pronoun": "voi", "conjugated_verb": "vă amintiți"},
+      {"romanian": "Ei își amintesc trecutul.", "english": "Они помнят прошлое.", "pronoun": "ei/ele", "conjugated_verb": "își amintesc"}
+    ]
+  },
+  {
+    "infinitive": "a explica",
+    "translation": "объяснять",
+    "sentences": [
+      {"romanian": "Eu explic lecția.", "english": "Я объясняю урок.", "pronoun": "eu", "conjugated_verb": "explic"},
+      {"romanian": "Tu explici clar?", "english": "Ты ясно объясняешь?", "pronoun": "tu", "conjugated_verb": "explici"},
+      {"romanian": "Ea explică problema.", "english": "Она объясняет проблему.", "pronoun": "el/ea", "conjugated_verb": "explică"},
+      {"romanian": "Noi explicăm regulile.", "english": "Мы объясняем правила.", "pronoun": "noi", "conjugated_verb": "explicăm"},
+      {"romanian": "Voi explicați bine?", "english": "Вы хорошо объясняете?", "pronoun": "voi", "conjugated_verb": "explicați"},
+      {"romanian": "Ei explică situația.", "english": "Они объясняют ситуацию.", "pronoun": "ei/ele", "conjugated_verb": "explică"}
+    ]
+  },
+  {
+    "infinitive": "a întreba",
+    "translation": "спрашивать",
+    "sentences": [
+      {"romanian": "Eu întreb profesorul.", "english": "Я спрашиваю учителя.", "pronoun": "eu", "conjugated_verb": "întreb"},
+      {"romanian": "Tu întrebi pe cineva?", "english": "Ты кого-то спрашиваешь?", "pronoun": "tu", "conjugated_verb": "întrebi"},
+      {"romanian": "El întreabă despre preț.", "english": "Он спрашивает о цене.", "pronoun": "el/ea", "conjugated_verb": "întreabă"},
+      {"romanian": "Noi întrebăm despre detalii.", "english": "Мы спрашиваем о деталях.", "pronoun": "noi", "conjugated_verb": "întrebăm"},
+      {"romanian": "Voi întrebați multe?", "english": "Вы много спрашиваете?", "pronoun": "voi", "conjugated_verb": "întrebați"},
+      {"romanian": "Ei întreabă direcția.", "english": "Они спрашивают направление.", "pronoun": "ei/ele", "conjugated_verb": "întreabă"}
+    ]
+  },
+  {
+    "infinitive": "a trimite",
+    "translation": "отправлять",
+    "sentences": [
+      {"romanian": "Eu trimit un e-mail.", "english": "Я отправляю электронное письмо.", "pronoun": "eu", "conjugated_verb": "trimit"},
+      {"romanian": "Tu trimiți un pachet?", "english": "Ты отправляешь посылку?", "pronoun": "tu", "conjugated_verb": "trimiți"},
+      {"romanian": "El trimite mesaje.", "english": "Он отправляет сообщения.", "pronoun": "el/ea", "conjugated_verb": "trimite"},
+      {"romanian": "Noi trimitem invitații.", "english": "Мы отправляем приглашения.", "pronoun": "noi", "conjugated_verb": "trimitem"},
+      {"romanian": "Voi trimiteți scrisori?", "english": "Вы отправляете письма?", "pronoun": "voi", "conjugated_verb": "trimiteți"},
+      {"romanian": "Ei trimit flori.", "english": "Они отправляют цветы.", "pronoun": "ei/ele", "conjugated_verb": "trimit"}
+    ]
+  },
+  {
+    "infinitive": "a primi",
+    "translation": "получать",
+    "sentences": [
+      {"romanian": "Eu primesc un cadou.", "english": "Я получаю подарок.", "pronoun": "eu", "conjugated_verb": "primesc"},
+      {"romanian": "Tu primești vești bune?", "english": "Ты получаешь хорошие новости?", "pronoun": "tu", "conjugated_verb": "primești"},
+      {"romanian": "El primește o scrisoare.", "english": "Он получает письмо.", "pronoun": "el/ea", "conjugated_verb": "primește"},
+      {"romanian": "Noi primim vizitatori.", "english": "Мы принимаем посетителей.", "pronoun": "noi", "conjugated_verb": "primim"},
+      {"romanian": "Voi primiți pachete?", "english": "Вы получаете посылки?", "pronoun": "voi", "conjugated_verb": "primiți"},
+      {"romanian": "Ei primesc aplauze.", "english": "Они получают аплодисменты.", "pronoun": "ei/ele", "conjugated_verb": "primesc"}
+    ]
+  },
+  {
+    "infinitive": "a decide",
+    "translation": "решать",
+    "sentences": [
+      {"romanian": "Eu decid ce să fac.", "english": "Я решаю, что делать.", "pronoun": "eu", "conjugated_verb": "decid"},
+      {"romanian": "Tu decizi repede?", "english": "Ты быстро решаешь?", "pronoun": "tu", "conjugated_verb": "decizi"},
+      {"romanian": "El decide să plece.", "english": "Он решает уехать.", "pronoun": "el/ea", "conjugated_verb": "decide"},
+      {"romanian": "Noi decidem împreună.", "english": "Мы решаем вместе.", "pronoun": "noi", "conjugated_verb": "decidem"},
+      {"romanian": "Voi decideți viitorul?", "english": "Вы решаете будущее?", "pronoun": "voi", "conjugated_verb": "decideți"},
+      {"romanian": "Ei decid să rămână.", "english": "Они решают остаться.", "pronoun": "ei/ele", "conjugated_verb": "decid"}
+    ]
+  },
+  {
+    "infinitive": "a schimba",
+    "translation": "менять",
+    "sentences": [
+      {"romanian": "Eu schimb hainele.", "english": "Я меняю одежду.", "pronoun": "eu", "conjugated_verb": "schimb"},
+      {"romanian": "Tu schimbi planurile?", "english": "Ты меняешь планы?", "pronoun": "tu", "conjugated_verb": "schimbi"},
+      {"romanian": "Ea schimbă stilul.", "english": "Она меняет стиль.", "pronoun": "el/ea", "conjugated_verb": "schimbă"},
+      {"romanian": "Noi schimbăm locul.", "english": "Мы меняем место.", "pronoun": "noi", "conjugated_verb": "schimbăm"},
+      {"romanian": "Voi schimbați valuta?", "english": "Вы меняете валюту?", "pronoun": "voi", "conjugated_verb": "schimbați"},
+      {"romanian": "Ei schimbă lumea.", "english": "Они меняют мир.", "pronoun": "ei/ele", "conjugated_verb": "schimbă"}
+    ]
+  },
+  {
+    "infinitive": "a visa",
+    "translation": "мечтать, видеть сны",
+    "sentences": [
+      {"romanian": "Eu visez frumos.", "english": "Я вижу красивые сны.", "pronoun": "eu", "conjugated_verb": "visez"},
+      {"romanian": "Tu visezi la o vacanță?", "english": "Ты мечтаешь об отпуске?", "pronoun": "tu", "conjugated_verb": "visezi"},
+      {"romanian": "El visează la succes.", "english": "Он мечтает об успехе.", "pronoun": "el/ea", "conjugated_verb": "visează"},
+      {"romanian": "Noi visăm la un viitor mai bun.", "english": "Мы мечтаем о лучшем будущем.", "pronoun": "noi", "conjugated_verb": "visăm"},
+      {"romanian": "Voi visați des?", "english": "Вы часто видите сны?", "pronoun": "voi", "conjugated_verb": "visați"},
+      {"romanian": "Ei visează cu ochii deschiși.", "english": "Они мечтают с открытыми глазами.", "pronoun": "ei/ele", "conjugated_verb": "visează"}
+    ]
+  },
+  {
+    "infinitive": "a crede",
+    "translation": "верить",
+    "sentences": [
+      {"romanian": "Eu cred că e adevărat.", "english": "Я верю, что это правда.", "pronoun": "eu", "conjugated_verb": "cred"},
+      {"romanian": "Tu crezi în povestea lui?", "english": "Ты веришь в его историю?", "pronoun": "tu", "conjugated_verb": "crezi"},
+      {"romanian": "El crede în el însuși.", "english": "Он верит в себя.", "pronoun": "el/ea", "conjugated_verb": "crede"},
+      {"romanian": "Noi credem în noi.", "english": "Мы верим в себя.", "pronoun": "noi", "conjugated_verb": "credem"},
+      {"romanian": "Voi credeți în magie?", "english": "Вы верите в магию?", "pronoun": "voi", "conjugated_verb": "credeți"},
+      {"romanian": "Ei cred în visurile lor.", "english": "Они верят в свои мечты.", "pronoun": "ei/ele", "conjugated_verb": "cred"}
+    ]
+  },
+  {
+    "infinitive": "a simți",
+    "translation": "чувствовать",
+    "sentences": [
+      {"romanian": "Eu simt căldura soarelui.", "english": "Я чувствую тепло солнца.", "pronoun": "eu", "conjugated_verb": "simt"},
+      {"romanian": "Tu simți ploaia?", "english": "Ты чувствуешь дождь?", "pronoun": "tu", "conjugated_verb": "simți"},
+      {"romanian": "El simte o emoție puternică.", "english": "Он чувствует сильную эмоцию.", "pronoun": "el/ea", "conjugated_verb": "simte"},
+      {"romanian": "Noi simțim gustul mâncării.", "english": "Мы чувствуем вкус еды.", "pronoun": "noi", "conjugated_verb": "simțim"},
+      {"romanian": "Voi simțiți mirosul de flori?", "english": "Вы чувствуете запах цветов?", "pronoun": "voi", "conjugated_verb": "simțiți"},
+      {"romanian": "Ei simt vântul.", "english": "Они чувствуют ветер.", "pronoun": "ei/ele", "conjugated_verb": "simt"}
+    ]
+  },
+  {
+    "infinitive": "a reuși",
+    "translation": "удаваться, преуспевать",
+    "sentences": [
+      {"romanian": "Eu reușesc mereu.", "english": "Мне всегда удается.", "pronoun": "eu", "conjugated_verb": "reușesc"},
+      {"romanian": "Tu reușești să termini?", "english": "Тебе удастся закончить?", "pronoun": "tu", "conjugated_verb": "reușești"},
+      {"romanian": "El reușește în tot ce face.", "english": "Ему удается все, что он делает.", "pronoun": "el/ea", "conjugated_verb": "reușește"},
+      {"romanian": "Noi reușim împreună.", "english": "Нам удается вместе.", "pronoun": "noi", "conjugated_verb": "reușim"},
+      {"romanian": "Voi reușiți să ajungeți?", "english": "Вам удастся прибыть?", "pronoun": "voi", "conjugated_verb": "reușiți"},
+      {"romanian": "Ei reușesc să învețe rapid.", "english": "Им удается быстро учиться.", "pronoun": "ei/ele", "conjugated_verb": "reușesc"}
+    ]
+  },
+  {
+    "infinitive": "a sta",
+    "translation": "стоять, находиться, оставаться",
+    "sentences": [
+      {"romanian": "Eu stau acasă.", "english": "Я остаюсь дома.", "pronoun": "eu", "conjugated_verb": "stau"},
+      {"romanian": "Tu stai aici?", "english": "Ты остаешься здесь?", "pronoun": "tu", "conjugated_verb": "stai"},
+      {"romanian": "El stă pe scaun.", "english": "Он сидит на стуле.", "pronoun": "el/ea", "conjugated_verb": "stă"},
+      {"romanian": "Noi stăm la masă.", "english": "Мы сидим за столом.", "pronoun": "noi", "conjugated_verb": "stăm"},
+      {"romanian": "Voi stați prea mult.", "english": "Вы слишком долго остаетесь.", "pronoun": "voi", "conjugated_verb": "stați"},
+      {"romanian": "Ei stau în picioare.", "english": "Они стоят.", "pronoun": "ei/ele", "conjugated_verb": "stau"}
+    ]
+  },
+  {
+    "infinitive": "a fi",
+    "translation": "быть",
+    "sentences": [
+      {"romanian": "Eu sunt student.", "english": "Я студент.", "pronoun": "eu", "conjugated_verb": "sunt"},
+      {"romanian": "Tu ești fericit.", "english": "Ты счастлив.", "pronoun": "tu", "conjugated_verb": "ești"},
+      {"romanian": "El este medic.", "english": "Он врач.", "pronoun": "el/ea", "conjugated_verb": "este"},
+      {"romanian": "Noi suntem prieteni.", "english": "Мы друзья.", "pronoun": "noi", "conjugated_verb": "suntem"},
+      {"romanian": "Voi sunteți acasă.", "english": "Вы дома.", "pronoun": "voi", "conjugated_verb": "sunteți"},
+      {"romanian": "Ei sunt profesori.", "english": "Они учителя.", "pronoun": "ei/ele", "conjugated_verb": "sunt"}
+    ]
+  },
+  {
+    "infinitive": "a avea",
+    "translation": "иметь",
+    "sentences": [
+      {"romanian": "Eu am o carte.", "english": "У меня есть книга.", "pronoun": "eu", "conjugated_verb": "am"},
+      {"romanian": "Tu ai timp?", "english": "У тебя есть время?", "pronoun": "tu", "conjugated_verb": "ai"},
+      {"romanian": "El are o mașină.", "english": "У него есть машина.", "pronoun": "el/ea", "conjugated_verb": "are"},
+      {"romanian": "Noi avem idei noi.", "english": "У нас есть новые идеи.", "pronoun": "noi", "conjugated_verb": "avem"},
+      {"romanian": "Voi aveți întrebări?", "english": "У вас есть вопросы?", "pronoun": "voi", "conjugated_verb": "aveți"},
+      {"romanian": "Ei au mult de lucru.", "english": "У них много работы.", "pronoun": "ei/ele", "conjugated_verb": "au"}
+    ]
+  },
+  {
+    "infinitive": "a vrea",
+    "translation": "хотеть",
+    "sentences": [
+      {"romanian": "Eu vreau să dorm.", "english": "Я хочу спать.", "pronoun": "eu", "conjugated_verb": "vreau"},
+      {"romanian": "Tu vrei să mănânci?", "english": "Ты хочешь есть?", "pronoun": "tu", "conjugated_verb": "vrei"},
+      {"romanian": "El vrea o vacanță.", "english": "Он хочет отпуск.", "pronoun": "el/ea", "conjugated_verb": "vrea"},
+      {"romanian": "Noi vrem pace.", "english": "Мы хотим мира.", "pronoun": "noi", "conjugated_verb": "vrem"},
+      {"romanian": "Voi vreți să mergeți?", "english": "Вы хотите идти?", "pronoun": "voi", "conjugated_verb": "vreți"},
+      {"romanian": "Ei vor să învețe.", "english": "Они хотят учиться.", "pronoun": "ei/ele", "conjugated_verb": "vor"}
+    ]
+  },
+  {
+    "infinitive": "a putea",
+    "translation": "мочь",
+    "sentences": [
+      {"romanian": "Eu pot să alerg.", "english": "Я могу бегать.", "pronoun": "eu", "conjugated_verb": "pot"},
+      {"romanian": "Tu poți să o faci?", "english": "Ты можешь это сделать?", "pronoun": "tu", "conjugated_verb": "poți"},
+      {"romanian": "Ea poate să citească.", "english": "Она может читать.", "pronoun": "el/ea", "conjugated_verb": "poate"},
+      {"romanian": "Noi putem să câștigăm.", "english": "Мы можем выиграть.", "pronoun": "noi", "conjugated_verb": "putem"},
+      {"romanian": "Voi puteți să mă ajutați?", "english": "Вы можете мне помочь?", "pronoun": "voi", "conjugated_verb": "puteți"},
+      {"romanian": "Ei pot să danseze.", "english": "Они могут танцевать.", "pronoun": "ei/ele", "conjugated_verb": "pot"}
+    ]
+  },
+  {
+    "infinitive": "a zice",
+    "translation": "говорить, сказать",
+    "sentences": [
+      {"romanian": "Eu zic adevărul.", "english": "Я говорю правду.", "pronoun": "eu", "conjugated_verb": "zic"},
+      {"romanian": "Tu zici poezii?", "english": "Ты читаешь стихи?", "pronoun": "tu", "conjugated_verb": "zici"},
+      {"romanian": "El zice o poveste.", "english": "Он рассказывает историю.", "pronoun": "el/ea", "conjugated_verb": "zice"},
+      {"romanian": "Noi zicem o rugăciune.", "english": "Мы произносим молитву.", "pronoun": "noi", "conjugated_verb": "zicem"},
+      {"romanian": "Voi ziceți la revedere.", "english": "Вы говорите до свидания.", "pronoun": "voi", "conjugated_verb": "ziceți"},
+      {"romanian": "Ei zic bancuri.", "english": "Они рассказывают анекдоты.", "pronoun": "ei/ele", "conjugated_verb": "zic"}
+    ]
+  },
+  {
+    "infinitive": "a rămâne",
+    "translation": "оставаться",
+    "sentences": [
+      {"romanian": "Eu rămân acasă.", "english": "Я остаюсь дома.", "pronoun": "eu", "conjugated_verb": "rămân"},
+      {"romanian": "Tu rămâi cu noi?", "english": "Ты остаешься с нами?", "pronoun": "tu", "conjugated_verb": "rămâi"},
+      {"romanian": "El rămâne în pat.", "english": "Он остается в постели.", "pronoun": "el/ea", "conjugated_verb": "rămâne"},
+      {"romanian": "Noi rămânem prieteni.", "english": "Мы остаемся друзьями.", "pronoun": "noi", "conjugated_verb": "rămânem"},
+      {"romanian": "Voi rămâneți până târziu?", "english": "Вы остаетесь до поздна?", "pronoun": "voi", "conjugated_verb": "rămâneți"},
+      {"romanian": "Ei rămân calmi.", "english": "Они остаются спокойными.", "pronoun": "ei/ele", "conjugated_verb": "rămân"}
+    ]
+  },
+  {
+    "infinitive": "a simți",
+    "translation": "чувствовать",
+    "sentences": [
+      {"romanian": "Eu simt bine.", "english": "Я чувствую себя хорошо.", "pronoun": "eu", "conjugated_verb": "simt"},
+      {"romanian": "Tu simți nevoia de schimbare?", "english": "Ты чувствуешь потребность в изменениях?", "pronoun": "tu", "conjugated_verb": "simți"},
+      {"romanian": "Ea simte căldura.", "english": "Она чувствует тепло.", "pronoun": "el/ea", "conjugated_verb": "simte"},
+      {"romanian": "Noi simțim speranța.", "english": "Мы чувствуем надежду.", "pronoun": "noi", "conjugated_verb": "simțim"},
+      {"romanian": "Voi simțiți entuziasmul?", "english": "Вы чувствуете энтузиазм?", "pronoun": "voi", "conjugated_verb": "simțiți"},
+      {"romanian": "Ei simt presiunea.", "english": "Они чувствуют давление.", "pronoun": "ei/ele", "conjugated_verb": "simt"}
+    ]
+  },
+  {
+    "infinitive": "a auzi",
+    "translation": "слышать",
+    "sentences": [
+      {"romanian": "Eu aud zgomote ciudate.", "english": "Я слышу странные звуки.", "pronoun": "eu", "conjugated_verb": "aud"},
+      {"romanian": "Tu auzi bine cu această muzică?", "english": "Ты хорошо слышишь с этой музыкой?", "pronoun": "tu", "conjugated_verb": "auzi"},
+      {"romanian": "El aude un secret.", "english": "Он слышит секрет.", "pronoun": "el/ea", "conjugated_verb": "aude"},
+      {"romanian": "Noi auzim discuții în apropiere.", "english": "Мы слышим разговоры поблизости.", "pronoun": "noi", "conjugated_verb": "auzim"},
+      {"romanian": "Voi auziți mesajul?", "english": "Вы слышите сообщение?", "pronoun": "voi", "conjugated_verb": "auziți"},
+      {"romanian": "Ei aud tot ce se întâmplă.", "english": "Они слышат все, что происходит.", "pronoun": "ei/ele", "conjugated_verb": "aud"}
+    ]
+  },
+  {
+    "infinitive": "a sta",
+    "translation": "находиться",
+    "sentences": [
+      {"romanian": "Eu stau în pat.", "english": "Я нахожусь в постели.", "pronoun": "eu", "conjugated_verb": "stau"},
+      {"romanian": "Tu stai la masă?", "english": "Ты сидишь за столом?", "pronoun": "tu", "conjugated_verb": "stai"},
+      {"romanian": "El stă lângă fereastră.", "english": "Он стоит у окна.", "pronoun": "el/ea", "conjugated_verb": "stă"},
+      {"romanian": "Noi stăm în bucătărie.", "english": "Мы находимся на кухне.", "pronoun": "noi", "conjugated_verb": "stăm"},
+      {"romanian": "Voi stați pe loc?", "english": "Вы стоите на месте?", "pronoun": "voi", "conjugated_verb": "stați"},
+      {"romanian": "Ei stau în grădină.", "english": "Они находятся в саду.", "pronoun": "ei/ele", "conjugated_verb": "stau"}
+    ]
+  },
+  {
+    "infinitive": "a trece",
+    "translation": "проходить",
+    "sentences": [
+      {"romanian": "Eu trec pe stradă.", "english": "Я иду по улице.", "pronoun": "eu", "conjugated_verb": "trec"},
+      {"romanian": "Tu treci examenul?", "english": "Ты сдаешь экзамен?", "pronoun": "tu", "conjugated_verb": "treci"},
+      {"romanian": "El trece pe lângă mine.", "english": "Он проходит мимо меня.", "pronoun": "el/ea", "conjugated_verb": "trece"},
+      {"romanian": "Noi trecem prin dificultăți.", "english": "Мы проходим через трудности.", "pronoun": "noi", "conjugated_verb": "trecem"},
+      {"romanian": "Voi treceți podul?", "english": "Вы проходите мост?", "pronoun": "voi", "conjugated_verb": "treceți"},
+      {"romanian": "Ei trec timpul împreună.", "english": "Они проводят время вместе.", "pronoun": "ei/ele", "conjugated_verb": "trec"}
+    ]
+  },
+  {
+    "infinitive": "a sta",
+    "translation": "стоять",
+    "sentences": [
+      {"romanian": "Eu stau în picioare.", "english": "Я стою.", "pronoun": "eu", "conjugated_verb": "stau"},
+      {"romanian": "Tu stai jos?", "english": "Ты сидишь?", "pronoun": "tu", "conjugated_verb": "stai"},
+      {"romanian": "El stă la coadă.", "english": "Он стоит в очереди.", "pronoun": "el/ea", "conjugated_verb": "stă"},
+      {"romanian": "Noi stăm în fața casei.", "english": "Мы стоим перед домом.", "pronoun": "noi", "conjugated_verb": "stăm"},
+      {"romanian": "Voi stați în drum?", "english": "Вы стоите на пути?", "pronoun": "voi", "conjugated_verb": "stați"},
+      {"romanian": "Ei stau în liniște.", "english": "Они стоят в тишине.", "pronoun": "ei/ele", "conjugated_verb": "stau"}
+    ]
+  },
+  {
+    "infinitive": "a aduce",
+    "translation": "приводить",
+    "sentences": [
+      {"romanian": "Eu aduc un prieten.", "english": "Я привожу друга.", "pronoun": "eu", "conjugated_verb": "aduc"},
+      {"romanian": "Tu aduci un animal de companie?", "english": "Ты приводишь домашнее животное?", "pronoun": "tu", "conjugated_verb": "aduci"},
+      {"romanian": "Ea aduce bucurie.", "english": "Она приносит радость.", "pronoun": "el/ea", "conjugated_verb": "aduce"},
+      {"romanian": "Noi aducem vești bune.", "english": "Мы приносим хорошие новости.", "pronoun": "noi", "conjugated_verb": "aducem"},
+      {"romanian": "Voi aduceți amintiri?", "english": "Вы приносите воспоминания?", "pronoun": "voi", "conjugated_verb": "aduți"},
+      {"romanian": "Ei aduc cafea.", "english": "Они приносят кофе.", "pronoun": "ei/ele", "conjugated_verb": "aduc"}
+    ]
+  },
+  {
+    "infinitive": "a scoate",
+    "translation": "вынимать, вытаскивать",
+    "sentences": [
+      {"romanian": "Eu scot cartea din geantă.", "english": "Я вынимаю книгу из сумки.", "pronoun": "eu", "conjugated_verb": "scot"},
+      {"romanian": "Tu scoți gunoiul?", "english": "Ты выносишь мусор?", "pronoun": "tu", "conjugated_verb": "scoți"},
+      {"romanian": "El scoate cheile din buzunar.", "english": "Он вынимает ключи из кармана.", "pronoun": "el/ea", "conjugated_verb": "scoate"},
+      {"romanian": "Noi scoatem bani de la bancă.", "english": "Мы снимаем деньги в банке.", "pronoun": "noi", "conjugated_verb": "scoatem"},
+      {"romanian": "Voi scoateți pantofii?", "english": "Вы снимаете обувь?", "pronoun": "voi", "conjugated_verb": "scoateți"},
+      {"romanian": "Ei scot la iveală adevărul.", "english": "Они раскрывают правду.", "pronoun": "ei/ele", "conjugated_verb": "scot"}
+    ]
+  },
+  {
+    "infinitive": "a trece",
+    "translation": "переходить",
+    "sentences": [
+      {"romanian": "Eu trec strada.", "english": "Я перехожу улицу.", "pronoun": "eu", "conjugated_verb": "trec"},
+      {"romanian": "Tu treci granița?", "english": "Ты пересекаешь границу?", "pronoun": "tu", "conjugated_verb": "treci"},
+      {"romanian": "El trece râul înot.", "english": "Он переплывает реку.", "pronoun": "el/ea", "conjugated_verb": "trece"},
+      {"romanian": "Noi trecem munții.", "english": "Мы пересекаем горы.", "pronoun": "noi", "conjugated_verb": "trecem"},
+      {"romanian": "Voi treceți de partea mea?", "english": "Вы переходите на мою сторону?", "pronoun": "voi", "conjugated_verb": "treceți"},
+      {"romanian": "Ei trec prin dificultăți.", "english": "Они проходят через трудности.", "pronoun": "ei/ele", "conjugated_verb": "trec"}
+    ]
+  },
+  {
+    "infinitive": "a cădea",
+    "translation": "падать",
+    "sentences": [
+      {"romanian": "Eu cad de pe scaun.", "english": "Я падаю со стула.", "pronoun": "eu", "conjugated_verb": "cad"},
+      {"romanian": "Tu cazi des?", "english": "Ты часто падаешь?", "pronoun": "tu", "conjugated_verb": "cazi"},
+      {"romanian": "El cade pe gheață.", "english": "Он падает на лед.", "pronoun": "el/ea", "conjugated_verb": "cade"},
+      {"romanian": "Noi cădem de oboseală.", "english": "Мы падаем от усталости.", "pronoun": "noi", "conjugated_verb": "cădem"},
+      {"romanian": "Voi cădeți ușor?", "english": "Вы легко падаете?", "pronoun": "voi", "conjugated_verb": "cădeți"},
+      {"romanian": "Ele cad din copac.", "english": "Они падают с дерева.", "pronoun": "ei/ele", "conjugated_verb": "cad"}
+    ]
+  },
+  {
+    "infinitive": "a apuca",
+    "translation": "успевать, хватать",
+    "sentences": [
+      {"romanian": "Eu apuc trenul.", "english": "Я успеваю на поезд.", "pronoun": "eu", "conjugated_verb": "apuc"},
+      {"romanian": "Tu apuci să mănânci?", "english": "Ты успеваешь поесть?", "pronoun": "tu", "conjugated_verb": "apuți"},
+      {"romanian": "El apucă o carte de pe raft.", "english": "Он хватает книгу с полки.", "pronoun": "el/ea", "conjugated_verb": "apucă"},
+      {"romanian": "Noi apucăm ocazia.", "english": "Мы хватаем возможность.", "pronoun": "noi", "conjugated_verb": "apucăm"},
+      {"romanian": "Voi apucați să vedeți filmul?", "english": "Вы успеваете посмотреть фильм?", "pronoun": "voi", "conjugated_verb": "apucați"},
+      {"romanian": "Ei apucă ultimul bilet.", "english": "Они хватают последний билет.", "pronoun": "ei/ele", "conjugated_verb": "apucă"}
+    ]
+  },
+  {
+    "infinitive": "a stinge",
+    "translation": "гасить, тушить",
+    "sentences": [
+      {"romanian": "Eu sting lumina.", "english": "Я выключаю свет.", "pronoun": "eu", "conjugated_verb": "sting"},
+      {"romanian": "Tu stingi focul?", "english": "Ты тушишь огонь?", "pronoun": "tu", "conjugated_verb": "stingi"},
+      {"romanian": "El stinge țigara.", "english": "Он тушит сигарету.", "pronoun": "el/ea", "conjugated_verb": "stinge"},
+      {"romanian": "Noi stingem setea.", "english": "Мы утоляем жажду.", "pronoun": "noi", "conjugated_verb": "stingem"},
+      {"romanian": "Voi stingeți radioul?", "english": "Вы выключаете радио?", "pronoun": "voi", "conjugated_verb": "stingeți"},
+      {"romanian": "Ei sting lumânările.", "english": "Они гасят свечи.", "pronoun": "ei/ele", "conjugated_verb": "sting"}
+    ]
+  },
+  {
+    "infinitive": "a stârni",
+    "translation": "вызывать, провоцировать",
+    "sentences": [
+      {"romanian": "Eu stârnesc curiozitatea.", "english": "Я вызываю любопытство.", "pronoun": "eu", "conjugated_verb": "stârnesc"},
+      {"romanian": "Tu stârnești probleme?", "english": "Ты провоцируешь проблемы?", "pronoun": "tu", "conjugated_verb": "stârnești"},
+      {"romanian": "El stârnește râsete.", "english": "Он вызывает смех.", "pronoun": "el/ea", "conjugated_verb": "stârnește"},
+      {"romanian": "Noi stârnim discuții.", "english": "Мы вызываем дискуссии.", "pronoun": "noi", "conjugated_verb": "stârnim"},
+      {"romanian": "Voi stârniți interesul?", "english": "Вы вызываете интерес?", "pronoun": "voi", "conjugated_verb": "stârniți"},
+      {"romanian": "Ei stârnesc emoții.", "english": "Они вызывают эмоции.", "pronoun": "ei/ele", "conjugated_verb": "stârnesc"}
+    ]
+  },
+  {
+    "infinitive": "a se gândi",
+    "translation": "думать",
+    "sentences": [
+      {"romanian": "Eu mă gândesc la tine.", "english": "Я думаю о тебе.", "pronoun": "eu", "conjugated_verb": "mă gândesc"},
+      {"romanian": "Tu te gândești la viitor?", "english": "Ты думаешь о будущем?", "pronoun": "tu", "conjugated_verb": "te gândești"},
+      {"romanian": "El se gândește mult.", "english": "Он много думает.", "pronoun": "el/ea", "conjugated_verb": "se gândește"},
+      {"romanian": "Noi ne gândim la soluții.", "english": "Мы думаем о решениях.", "pronoun": "noi", "conjugated_verb": "ne gândim"},
+      {"romanian": "Voi vă gândiți la asta?", "english": "Вы думаете об этом?", "pronoun": "voi", "conjugated_verb": "vă gândiți"},
+      {"romanian": "Ei se gândesc la vacanță.", "english": "Они думают об отпуске.", "pronoun": "ei/ele", "conjugated_verb": "se gândesc"}
+    ]
+  },
+  {
+    "infinitive": "a zâmbi",
+    "translation": "улыбаться",
+    "sentences": [
+      {"romanian": "Eu zâmbesc des.", "english": "Я часто улыбаюсь.", "pronoun": "eu", "conjugated_verb": "zâmbesc"},
+      {"romanian": "Tu zâmbești mereu?", "english": "Ты всегда улыбаешься?", "pronoun": "tu", "conjugated_verb": "zâmbești"},
+      {"romanian": "Ea zâmbește frumos.", "english": "Она красиво улыбается.", "pronoun": "el/ea", "conjugated_verb": "zâmbește"},
+      {"romanian": "Noi zâmbim la glumă.", "english": "Мы улыбаемся шутке.", "pronoun": "noi", "conjugated_verb": "zâmbim"},
+      {"romanian": "Voi zâmbiți la succes?", "english": "Вы улыбаетесь успеху?", "pronoun": "voi", "conjugated_verb": "zâmbiți"},
+      {"romanian": "Ei zâmbesc la copii.", "english": "Они улыбаются детям.", "pronoun": "ei/ele", "conjugated_verb": "zâmbesc"}
+    ]
+  }
+]

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Упражнения по глаголам</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding-top: 30px;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .exercise-card {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+            text-align: left;
+        }
+
+        .exercise-card p {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .exercise-card strong {
+            color: #007bff;
+        }
+
+        .input-group {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .input-group label {
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        /* Стиль для выпадающего списка */
+        .input-group select {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1em;
+            text-align: center;
+            cursor: pointer;
+            background-color: #f9f9f9;
+        }
+
+        .check-button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+            margin-bottom: 10px;
+        }
+
+        .check-button:hover {
+            background-color: #218838;
+        }
+
+        .feedback-message {
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            display: none;
+        }
+
+        .feedback-message.correct {
+            background-color: #d4edda;
+            color: #155724;
+            border-color: #c3e6cb;
+        }
+
+        .feedback-message.incorrect {
+            background-color: #f8d7da;
+            color: #721c24;
+            border-color: #f5c6cb;
+        }
+
+        .navigation-buttons {
+            margin-top: 20px;
+        }
+
+        .navigation-buttons button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+            margin: 0 10px;
+        }
+
+        .navigation-buttons button:hover {
+            background-color: #0056b3;
+        }
+
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #5a6268;
+        }
+
+        .loading-message {
+            font-size: 1.1em;
+            color: #555;
+            margin-top: 20px;
+        }
+
+        .loading-message.error-message {
+            color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Упражнения по глаголам (Настоящее время)</h1>
+        <div id="loading-message" class="loading-message">Загрузка упражнений...</div>
+        <div id="exercise-content" style="display: none;">
+            <div class="exercise-card">
+                <p id="sentence-text"></p>
+                <p id="infinitive-text" style="font-style: italic; font-size: 0.9em;"></p>
+                <div class="input-group">
+                    <label for="user-answer-select">Выберите правильное спряжение:</label>
+                    <select id="user-answer-select"></select>
+                    <button id="check-answer-btn" class="check-button">Проверить</button>
+                    <div id="feedback" class="feedback-message"></div>
+                </div>
+            </div>
+
+            <div class="navigation-buttons">
+                <button id="prev-exercise-btn">Предыдущее</button>
+                <button id="next-exercise-btn">Следующее</button>
+            </div>
+        </div>
+        <button onclick="location.href='verbs.html'" class="back-button">Назад к глаголам</button>
+    </div>
+
+    <script>
+        let exercisesData = [];
+        let allVerbsData = []; // To store all verb conjugations for generating options
+        let currentExerciseIndex = 0;
+
+        const loadingMessage = document.getElementById('loading-message');
+        const exerciseContent = document.getElementById('exercise-content');
+        const sentenceText = document.getElementById('sentence-text');
+        const infinitiveText = document.getElementById('infinitive-text');
+        const userAnswerSelect = document.getElementById('user-answer-select');
+        const checkAnswerBtn = document.getElementById('check-answer-btn');
+        const feedbackMessage = document.getElementById('feedback');
+        const prevExerciseBtn = document.getElementById('prev-exercise-btn');
+        const nextExerciseBtn = document.getElementById('next-exercise-btn');
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Fetch both verb_sentences.json and verbs.json
+            Promise.all([
+                fetch('verb_sentences.json').then(response => {
+                    if (!response.ok) throw new Error(`HTTP error! status: ${response.status} for verb_sentences.json`);
+                    return response.json();
+                }),
+                fetch('verbs.json').then(response => {
+                    if (!response.ok) throw new Error(`HTTP error! status: ${response.status} for verbs.json`);
+                    return response.json();
+                })
+            ])
+            .then(([sentencesData, verbsData]) => {
+                allVerbsData = verbsData; // Store all verb conjugations
+
+                exercisesData = sentencesData.flatMap(verb => verb.sentences.map(sentence => ({
+                    infinitive: verb.infinitive,
+                    translation: verb.translation,
+                    romanian: sentence.romanian,
+                    english: sentence.english,
+                    pronoun: sentence.pronoun,
+                    conjugated_verb: sentence.conjugated_verb
+                })));
+
+                if (exercisesData.length > 0) {
+                    loadingMessage.style.display = 'none';
+                    exerciseContent.style.display = 'block';
+                    displayExercise();
+                } else {
+                    loadingMessage.textContent = 'Нет данных для упражнений. Проверьте файлы JSON.';
+                    loadingMessage.classList.add('error-message');
+                }
+            })
+            .catch(error => {
+                console.error('Ошибка загрузки данных:', error);
+                loadingMessage.textContent = `Ошибка при загрузке упражнений: ${error.message}. Убедитесь, что файлы 'verb_sentences.json' и 'verbs.json' существуют и содержат корректные данные.`;
+                loadingMessage.classList.add('error-message');
+            });
+
+            checkAnswerBtn.addEventListener('click', checkAnswer);
+            nextExerciseBtn.addEventListener('click', showNextExercise);
+            prevExerciseBtn.addEventListener('click', showPrevExercise);
+        });
+
+        function displayExercise() {
+            if (exercisesData.length === 0) return;
+
+            const exercise = exercisesData[currentExerciseIndex];
+            const originalSentence = exercise.romanian;
+            const verbToHide = exercise.conjugated_verb;
+            const targetPronoun = exercise.pronoun;
+            const infinitiveVerb = exercise.infinitive;
+
+            // Replace the conjugated verb with a blank space for the user to fill
+            const sentenceWithBlank = originalSentence.replace(new RegExp(`\\b${verbToHide}\\b`, 'gi'), '_______');
+
+            sentenceText.innerHTML = `Заполните пропуск: <br> ${sentenceWithBlank}`;
+            infinitiveText.textContent = `(Инфинитив: ${infinitiveVerb} - ${exercise.translation}, Местоимение: ${targetPronoun})`;
+
+            generateOptions(infinitiveVerb, targetPronoun);
+
+            feedbackMessage.style.display = 'none';
+            feedbackMessage.classList.remove('correct', 'incorrect');
+        }
+
+        function generateOptions(infinitive, targetPronoun) {
+            userAnswerSelect.innerHTML = '<option value="">-- Выберите --</option>'; // Clear previous options
+            const correctConjugation = exercisesData[currentExerciseIndex].conjugated_verb;
+
+            let possibleOptions = [];
+
+            // 1. Добавляем правильный ответ
+            possibleOptions.push(`${targetPronoun} ${correctConjugation}`);
+
+            // 2. Добавляем другие спряжения того же глагола для разных местоимений (чтобы были неправильные варианты)
+            const verbEntry = allVerbsData.find(v => v.infinitive === infinitive);
+            if (verbEntry && verbEntry.conjugation && verbEntry.conjugation.present) {
+                for (const pron in verbEntry.conjugation.present) {
+                    const conjugatedForm = verbEntry.conjugation.present[pron];
+                    const option = `${pron} ${conjugatedForm}`;
+                    if (option.toLowerCase() !== possibleOptions[0].toLowerCase() && !possibleOptions.includes(option)) {
+                        possibleOptions.push(option);
+                    }
+                }
+            }
+
+            // 3. Добавляем спряжения других рандомных глаголов для того же местоимения, чтобы было больше вариативности
+            // Сначала найдем несколько случайных глаголов, отличных от текущего
+            const otherVerbs = allVerbsData.filter(v => v.infinitive !== infinitive);
+            // Возьмем до 3 случайных других глаголов
+            const randomVerbs = shuffleArray(otherVerbs).slice(0, 3);
+
+            randomVerbs.forEach(v => {
+                if (v.conjugation && v.conjugation.present && v.conjugation.present[targetPronoun]) {
+                    const conjugatedForm = v.conjugation.present[targetPronoun];
+                    const option = `${targetPronoun} ${conjugatedForm}`;
+                    if (!possibleOptions.includes(option)) { // Избегаем дубликатов
+                        possibleOptions.push(option);
+                    }
+                }
+            });
+
+
+            // Перемешиваем варианты, чтобы правильный ответ не всегда был первым
+            const shuffledOptions = shuffleArray(possibleOptions);
+
+            shuffledOptions.forEach(option => {
+                const optElement = document.createElement('option');
+                optElement.value = option;
+                optElement.textContent = option;
+                userAnswerSelect.appendChild(optElement);
+            });
+        }
+
+        // Fisher-Yates (Knuth) Shuffle
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        function checkAnswer() {
+            const userAnswer = userAnswerSelect.value.trim();
+            const exercise = exercisesData[currentExerciseIndex];
+            const correctConjugatedVerb = exercise.conjugated_verb;
+            const correctPronoun = exercise.pronoun;
+            const expectedAnswer = `${correctPronoun} ${correctConjugatedVerb}`;
+
+            feedbackMessage.style.display = 'block';
+
+            if (userAnswer.toLowerCase() === expectedAnswer.toLowerCase()) {
+                feedbackMessage.textContent = `Правильно! (${expectedAnswer}). Перевод: ${exercise.english}`;
+                feedbackMessage.classList.add('correct');
+                feedbackMessage.classList.remove('incorrect');
+            } else {
+                feedbackMessage.textContent = `Неправильно. Правильный ответ: ${expectedAnswer}. Перевод: ${exercise.english}`;
+                feedbackMessage.classList.add('incorrect');
+                feedbackMessage.classList.remove('correct');
+            }
+        }
+
+        function showNextExercise() {
+            currentExerciseIndex = (currentExerciseIndex + 1) % exercisesData.length;
+            displayExercise();
+        }
+
+        function showPrevExercise() {
+            currentExerciseIndex = (currentExerciseIndex - 1 + exercisesData.length) % exercisesData.length;
+            displayExercise();
+        }
+    </script>
+</body>
+</html>
