@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест: Прилагательные</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding-top: 30px;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 700px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        #russian-sentence {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        #question-prompt {
+            font-size: 1.1em;
+            color: #777;
+            margin-bottom: 20px;
+        }
+        #options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        #options-container button {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 1.1em;
+            color: #333;
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s ease, border-color 0.2s ease;
+            text-align: left; /* Align text to left */
+        }
+        #options-container button:hover:not(:disabled) {
+            background-color: #e0e0e0;
+        }
+        #options-container button.correct {
+            background-color: #d4edda;
+            border-color: #28a745;
+            color: #155724;
+        }
+        #options-container button.incorrect {
+            background-color: #f8d7da;
+            border-color: #dc3545;
+            color: #721c24;
+        }
+        #next-question-button {
+            padding: 10px 20px;
+            font-size: 1.1em;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            display: none;
+        }
+        #next-question-button:hover {
+            background-color: #218838;
+        }
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #5a6268;
+        }
+        #progress-bar {
+            width: 100%;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        #progress {
+            height: 15px;
+            width: 0%;
+            background-color: #007bff;
+            border-radius: 5px;
+            text-align: center;
+            color: white;
+            line-height: 15px;
+            font-size: 0.8em;
+            transition: width 0.5s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Тест: Прилагательные</h1>
+        <div id="progress-bar">
+            <div id="progress">0%</div>
+        </div>
+        <p id="russian-sentence"></p>
+        <p id="question-prompt"></p>
+        <div id="options-container"></div>
+        <button id="next-question-button" onclick="nextQuestion()">Следующий вопрос</button>
+    </div>
+    <button class="back-button" onclick="location.href='index.html'">На главную</button>
+
+    <script>
+        const questions = [
+            // Высокая стена
+            {
+                "id": 1,
+                "russian_phrase": "высокая стена",
+                "question_type": "(неопределенное, единственное число)",
+                "correct_answer": "un perete înalt",
+                "options": ["un perete înalt", "peretele înalt", "o perete înalt", "un perete înalți"]
+            },
+            {
+                "id": 2,
+                "russian_phrase": "высокая стена",
+                "question_type": "(определенное, единственное число)",
+                "correct_answer": "peretele înalt",
+                "options": ["peretele înalt", "un perete înalt", "perete înalt", "peretele înalți"]
+            },
+            {
+                "id": 3,
+                "russian_phrase": "высокая стена",
+                "question_type": "(неопределенное, множественное число)",
+                "correct_answer": "niște pereți înalți",
+                "options": ["niște pereți înalți", "pereții înalți", "niște pereți înalt", "un perete înalți"]
+            },
+            {
+                "id": 4,
+                "russian_phrase": "высокая стена",
+                "question_type": "(определенное, множественное число)",
+                "correct_answer": "pereții înalți",
+                "options": ["pereții înalți", "niște pereți înalți", "pereții înalt", "peretele înalt"]
+            },
+
+            // Красивая мебель
+            {
+                "id": 5,
+                "russian_phrase": "красивая мебель",
+                "question_type": "(неопределенное, единственное число)",
+                "correct_answer": "o mobilă frumoasă",
+                "options": ["o mobilă frumoasă", "mobila frumoasă", "un mobilă frumoasă", "o mobilă frumoase"]
+            },
+            {
+                "id": 6,
+                "russian_phrase": "красивая мебель",
+                "question_type": "(определенное, единственное число)",
+                "correct_answer": "mobila frumoasă",
+                "options": ["mobila frumoasă", "o mobilă frumoasă", "mobilă frumoasă", "mobila frumoase"]
+            },
+            {
+                "id": 7,
+                "russian_phrase": "красивая мебель",
+                "question_type": "(неопределенное, множественное число)",
+                "correct_answer": "niște mobile frumoase",
+                "options": ["niște mobile frumoase", "mobilele frumoase", "niște mobile frumoasă", "o mobilă frumoase"]
+            },
+            {
+                "id": 8,
+                "russian_phrase": "красивая мебель",
+                "question_type": "(определенное, множественное число)",
+                "correct_answer": "mobilele frumoase",
+                "options": ["mobilele frumoase", "niște mobile frumoase", "mobilele frumoasă", "mobila frumoasă"]
+            },
+
+            // Красный ковер
+            {
+                "id": 9,
+                "russian_phrase": "красный ковер",
+                "question_type": "(неопределенное, единственное число)",
+                "correct_answer": "un covor roșu",
+                "options": ["un covor roșu", "covorul roșu", "o covor roșu", "un covor roșii"]
+            },
+            {
+                "id": 10,
+                "russian_phrase": "красный ковер",
+                "question_type": "(определенное, единственное число)",
+                "correct_answer": "covorul roșu",
+                "options": ["covorul roșu", "un covor roșu", "covor roșu", "covorul roșii"]
+            },
+            {
+                "id": 11,
+                "russian_phrase": "красный ковер",
+                "question_type": "(неопределенное, множественное число)",
+                "correct_answer": "niște covoare roșii",
+                "options": ["niște covoare roșii", "covoarele roșii", "niște covoare roșu", "un covor roșii"]
+            },
+            {
+                "id": 12,
+                "russian_phrase": "красный ковер",
+                "question_type": "(определенное, множественное число)",
+                "correct_answer": "covoarele roșii",
+                "options": ["covoarele roșii", "niște covoare roșii", "covoarele roșu", "covorul roșu"]
+            },
+
+            // Голубое кресло
+            {
+                "id": 13,
+                "russian_phrase": "голубое кресло",
+                "question_type": "(неопределенное, единственное число)",
+                "correct_answer": "un fotoliu albastru",
+                "options": ["un fotoliu albastru", "fotoliul albastru", "o fotoliu albastru", "un fotoliu albastre"]
+            },
+            {
+                "id": 14,
+                "russian_phrase": "голубое кресло",
+                "question_type": "(определенное, единственное число)",
+                "correct_answer": "fotoliul albastru",
+                "options": ["fotoliul albastru", "un fotoliu albastru", "fotoliu albastru", "fotoliul albastre"]
+            },
+            {
+                "id": 15,
+                "russian_phrase": "голубое кресло",
+                "question_type": "(неопределенное, множественное число)",
+                "correct_answer": "niște fotolii albastre",
+                "options": ["niște fotolii albastre", "fotoliile albastre", "niște fotolii albastru", "un fotoliu albastre"]
+            },
+            {
+                "id": 16,
+                "russian_phrase": "голубое кресло",
+                "question_type": "(определенное, множественное число)",
+                "correct_answer": "fotoliile albastre",
+                "options": ["fotoliile albastre", "niște fotolii albastre", "fotoliile albastru", "fotoliul albastru"]
+            },
+
+            // Голубая занавеска
+            {
+                "id": 17,
+                "russian_phrase": "голубая занавеска",
+                "question_type": "(неопределенное, единственное число)",
+                "correct_answer": "o perdea albastră",
+                "options": ["o perdea albastră", "perdeaua albastră", "un perdea albastră", "o perdea albastre"]
+            },
+            {
+                "id": 18,
+                "russian_phrase": "голубая занавеска",
+                "question_type": "(определенное, единственное число)",
+                "correct_answer": "perdeaua albastră",
+                "options": ["perdeaua albastră", "o perdea albastră", "perdea albastră", "perdeaua albastre"]
+            },
+            {
+                "id": 19,
+                "russian_phrase": "голубая занавеска",
+                "question_type": "(неопределенное, множественное число)",
+                "correct_answer": "niște perdele albastre",
+                "options": ["niște perdele albastre", "perdelele albastre", "niște perdele albastră", "o perdea albastre"]
+            },
+            {
+                "id": 20,
+                "russian_phrase": "голубая занавеска",
+                "question_type": "(определенное, множественное число)",
+                "correct_answer": "perdelele albastre",
+                "options": ["perdelele albastre", "niște perdele albastre", "perdelele albastră", "perdeaua albastră"]
+            },
+
+            // Белый холодильник
+            {
+                "id": 21,
+                "russian_phrase": "белый холодильник",
+                "question_type": "(неопределенное, единственное число)",
+                "correct_answer": "un frigider alb",
+                "options": ["un frigider alb", "frigiderul alb", "o frigider alb", "un frigider albe"]
+            },
+            {
+                "id": 22,
+                "russian_phrase": "белый холодильник",
+                "question_type": "(определенное, единственное число)",
+                "correct_answer": "frigiderul alb",
+                "options": ["frigiderul alb", "un frigider alb", "frigider alb", "frigiderul albe"]
+            },
+            {
+                "id": 23,
+                "russian_phrase": "белый холодильник",
+                "question_type": "(неопределенное, множественное число)",
+                "correct_answer": "niște frigidere albe",
+                "options": ["niște frigidere albe", "frigiderele albe", "niște frigidere alb", "un frigider albe"]
+            },
+            {
+                "id": 24,
+                "russian_phrase": "белый холодильник",
+                "question_type": "(определенное, множественное число)",
+                "correct_answer": "frigiderele albe",
+                "options": ["frigiderele albe", "niște frigidere albe", "frigiderele alb", "frigiderul alb"]
+            },
+
+            // Серая клеенка
+            {
+                "id": 25,
+                "russian_phrase": "серая клеенка",
+                "question_type": "(неопределенное, единственное число)",
+                "correct_answer": "o mușama gri",
+                "options": ["o mușama gri", "mușamaua gri", "un mușama gri", "o mușama grice"]
+            },
+            {
+                "id": 26,
+                "russian_phrase": "серая клеенка",
+                "question_type": "(определенное, единственное число)",
+                "correct_answer": "mușamaua gri",
+                "options": ["mușamaua gri", "o mușama gri", "mușama gri", "mușamaua grice"]
+            },
+            {
+                "id": 27,
+                "russian_phrase": "серая клеенка",
+                "question_type": "(неопределенное, множественное число)",
+                "correct_answer": "niște mușamale gri",
+                "options": ["niște mușamale gri", "mușamalele gri", "niște mușamale grice", "o mușama gri"]
+            },
+            {
+                "id": 28,
+                "russian_phrase": "серая клеенка",
+                "question_type": "(определенное, множественное число)",
+                "correct_answer": "mușamalele gri",
+                "options": ["mușamalele gri", "niște mușamale gri", "mușamalele grice", "mușamaua gri"]
+            },
+
+            // Черный шкаф
+            {
+                "id": 29,
+                "russian_phrase": "черный шкаф",
+                "question_type": "(неопределенное, единственное число)",
+                "correct_answer": "un dulap negru",
+                "options": ["un dulap negru", "dulapul negru", "o dulap negru", "un dulap negre"]
+            },
+            {
+                "id": 30,
+                "russian_phrase": "черный шкаф",
+                "question_type": "(определенное, единственное число)",
+                "correct_answer": "dulapul negru",
+                "options": ["dulapul negru", "un dulap negru", "dulap negru", "dulapul negre"]
+            },
+            {
+                "id": 31,
+                "russian_phrase": "черный шкаф",
+                "question_type": "(неопределенное, множественное число)",
+                "correct_answer": "niște dulapuri negre",
+                "options": ["niște dulapuri negre", "dulapurile negre", "niște dulapuri negru", "un dulap negre"]
+            },
+            {
+                "id": 32,
+                "russian_phrase": "черный шкаф",
+                "question_type": "(определенное, множественное число)",
+                "correct_answer": "dulapurile negre",
+                "options": ["dulapurile negre", "niște dulapuri negre", "dulapurile negru", "dulapul negru"]
+            },
+
+            // Светлая кухня
+            {
+                "id": 33,
+                "russian_phrase": "светлая кухня",
+                "question_type": "(неопределенное, единственное число)",
+                "correct_answer": "o bucătărie luminoasă",
+                "options": ["o bucătărie luminoasă", "bucătăria luminoasă", "un bucătărie luminoasă", "o bucătărie luminoase"]
+            },
+            {
+                "id": 34,
+                "russian_phrase": "светлая кухня",
+                "question_type": "(определенное, единственное число)",
+                "correct_answer": "bucătăria luminoasă",
+                "options": ["bucătăria luminoasă", "o bucătărie luminoasă", "bucătărie luminoasă", "bucătăria luminoase"]
+            },
+            {
+                "id": 35,
+                "russian_phrase": "светлая кухня",
+                "question_type": "(неопределенное, множественное число)",
+                "correct_answer": "niște bucătării luminoase",
+                "options": ["niște bucătării luminoase", "bucătăriile luminoase", "niște bucătării luminoasă", "o bucătărie luminoase"]
+            },
+            {
+                "id": 36,
+                "russian_phrase": "светлая кухня",
+                "question_type": "(определенное, множественное число)",
+                "correct_answer": "bucătăriile luminoase",
+                "options": ["bucătăriile luminoase", "niște bucătării luminoase", "bucătăriile luminoasă", "bucătăria luminoasă"]
+            },
+
+            // Высокий стол
+            {
+                "id": 37,
+                "russian_phrase": "высокий стол",
+                "question_type": "(неопределенное, единственное число)",
+                "correct_answer": "o masă înaltă",
+                "options": ["o masă înaltă", "masa înaltă", "un masă înaltă", "o masă înalte"]
+            },
+            {
+                "id": 38,
+                "russian_phrase": "высокий стол",
+                "question_type": "(определенное, единственное число)",
+                "correct_answer": "masa înaltă",
+                "options": ["masa înaltă", "o masă înaltă", "masă înaltă", "masa înalte"]
+            },
+            {
+                "id": 39,
+                "russian_phrase": "высокий стол",
+                "question_type": "(неопределенное, множественное число)",
+                "correct_answer": "niște mese înalte",
+                "options": ["niște mese înalte", "mesele înalte", "niște mese înaltă", "o masă înalte"]
+            },
+            {
+                "id": 40,
+                "russian_phrase": "высокий стол",
+                "question_type": "(определенное, множественное число)",
+                "correct_answer": "mesele înalte",
+                "options": ["mesele înalte", "niște mese înalte", "mesele înaltă", "masa înaltă"]
+            },
+
+            // Высокое окно
+            {
+                "id": 41,
+                "russian_phrase": "высокое окно",
+                "question_type": "(неопределенное, единственное число)",
+                "correct_answer": "un geam înalt",
+                "options": ["un geam înalt", "geamul înalt", "o geam înalt", "un geam înalte"]
+            },
+            {
+                "id": 42,
+                "russian_phrase": "высокое окно",
+                "question_type": "(определенное, единственное число)",
+                "correct_answer": "geamul înalt",
+                "options": ["geamul înalt", "un geam înalt", "geam înalt", "geamul înalte"]
+            },
+            {
+                "id": 43,
+                "russian_phrase": "высокое окно",
+                "question_type": "(неопределенное, множественное число)",
+                "correct_answer": "niște geamuri înalte",
+                "options": ["niște geamuri înalte", "geamurile înalte", "niște geamuri înalt", "un geam înalte"]
+            },
+            {
+                "id": 44,
+                "russian_phrase": "высокое окно",
+                "question_type": "(определенное, множественное число)",
+                "correct_answer": "geamurile înalte",
+                "options": ["geamurile înalte", "niște geamuri înalte", "geamurile înalt", "geamul înalt"]
+            },
+
+            // Новый квартал
+            {
+                "id": 45,
+                "russian_phrase": "новый квартал",
+                "question_type": "(неопределенное, единственное число)",
+                "correct_answer": "un cartier nou",
+                "options": ["un cartier nou", "cartierul nou", "o cartier nou", "un cartier noi"]
+            },
+            {
+                "id": 46,
+                "russian_phrase": "новый квартал",
+                "question_type": "(определенное, единственное число)",
+                "correct_answer": "cartierul nou",
+                "options": ["cartierul nou", "un cartier nou", "cartier nou", "cartierul noi"]
+            },
+            {
+                "id": 47,
+                "russian_phrase": "новый квартал",
+                "question_type": "(неопределенное, множественное число)",
+                "correct_answer": "niște cartiere noi",
+                "options": ["niște cartiere noi", "cartierele noi", "niște cartiere nou", "un cartier noi"]
+            },
+            {
+                "id": 48,
+                "russian_phrase": "новый квартал",
+                "question_type": "(определенное, множественное число)",
+                "correct_answer": "cartierele noi",
+                "options": ["cartierele noi", "niște cartiere noi", "cartierele nou", "cartierul nou"]
+            }
+        ];
+
+        let currentQuestionIndex = 0;
+        let correctAnswersCount = 0;
+
+        const russianSentenceDisplay = document.getElementById('russian-sentence');
+        const questionPromptDisplay = document.getElementById('question-prompt');
+        const optionsContainer = document.getElementById('options-container');
+        const nextQuestionButton = document.getElementById('next-question-button');
+        const progressBar = document.getElementById('progress');
+
+        function loadQuestion() {
+            if (currentQuestionIndex < questions.length) {
+                const question = questions[currentQuestionIndex];
+                russianSentenceDisplay.textContent = question.russian_phrase;
+                questionPromptDisplay.textContent = `Переведите ${question.question_type}:`;
+                optionsContainer.innerHTML = '';
+
+                const shuffledOptions = [...question.options].sort(() => Math.random() - 0.5);
+
+                shuffledOptions.forEach(option => {
+                    const button = document.createElement('button');
+                    button.textContent = option;
+                    button.addEventListener('click', () => checkAnswer(button, option, question.correct_answer));
+                    optionsContainer.appendChild(button);
+                });
+
+                nextQuestionButton.style.display = 'none';
+                enableOptions();
+                updateProgressBar();
+            } else {
+                showQuizResult();
+            }
+        }
+
+        function checkAnswer(clickedButton, selectedOption, correctAnswer) {
+            disableOptions();
+
+            if (selectedOption.toLowerCase() === correctAnswer.toLowerCase()) {
+                clickedButton.classList.add('correct');
+                correctAnswersCount++;
+            } else {
+                clickedButton.classList.add('incorrect');
+                Array.from(optionsContainer.children).forEach(button => {
+                    if (button.textContent.toLowerCase() === correctAnswer.toLowerCase()) {
+                        button.classList.add('correct');
+                    }
+                });
+            }
+            nextQuestionButton.style.display = 'block';
+        }
+
+        function disableOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.disabled = true;
+            });
+        }
+
+        function enableOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.disabled = false;
+                button.classList.remove('correct', 'incorrect');
+            });
+        }
+
+        function nextQuestion() {
+            currentQuestionIndex++;
+            loadQuestion();
+        }
+
+        function updateProgressBar() {
+            const progressPercentage = (currentQuestionIndex / questions.length) * 100;
+            progressBar.style.width = `${progressPercentage}%`;
+            progressBar.textContent = `${Math.round(progressPercentage)}%`;
+        }
+
+        function showQuizResult() {
+            russianSentenceDisplay.textContent = '';
+            questionPromptDisplay.innerHTML = `Тест завершен! Вы набрали ${correctAnswersCount} из ${questions.length} правильных ответов.`;
+            optionsContainer.innerHTML = '';
+            nextQuestionButton.style.display = 'none';
+            progressBar.style.width = '100%';
+            progressBar.textContent = '100%';
+        }
+
+        window.onload = loadQuestion;
+    </script>
+</body>
+</html>

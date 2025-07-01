@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест: СКОЛЬКО (CÂT, CÂTĂ, CÂTI, CÂTE)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 700px;
+            width: 90%;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #0056b3;
+            margin-bottom: 20px;
+        }
+        .question-russian {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        .question-romanian {
+            font-size: 1.5em;
+            font-style: italic;
+            color: #007bff;
+            margin-bottom: 30px;
+        }
+        .options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .option-button {
+            width: 100%;
+            padding: 12px 20px;
+            font-size: 1.1em;
+            color: #fff;
+            background-color: #6c757d;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .option-button:hover:not(:disabled) {
+            background-color: #5a6268;
+        }
+        .option-button:disabled {
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+        .option-button.correct {
+            background-color: #28a745;
+        }
+        .option-button.incorrect {
+            background-color: #dc3545;
+        }
+        .feedback {
+            margin-top: 15px;
+            font-weight: bold;
+            font-size: 1.2em;
+            min-height: 1.5em; /* Ensure space for feedback */
+        }
+        .next-button {
+            padding: 12px 30px;
+            font-size: 1.1em;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+        .next-button:hover:not(:disabled) {
+            background-color: #0056b3;
+        }
+        .next-button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Тест: СКОЛЬКО (CÂT, CÂTĂ, CÂTI, CÂTE)</h1>
+        <p class="question-russian" id="russian-question"></p>
+        <p class="question-romanian" id="romanian-question"></p>
+        <div class="options-container" id="options-container">
+            </div>
+        <div class="feedback" id="feedback"></div>
+        <button class="next-button" id="next-button" disabled>Следующий вопрос</button>
+    </div>
+
+    <script>
+        const questions = [
+            {
+                russian: "Сколько у тебя друзей?",
+                romanian_q: "Câți prieteni ai?",
+                correct_answer: "Eu am cinci prieteni.",
+                options: ["Eu am cinci prieteni.", "Eu am cinci prietene.", "Eu are cinci prieteni.", "Tu am cinci prieteni."]
+            },
+            {
+                russian: "Сколько у Марни книг?",
+                romanian_q: "Câte cărți are Marni?",
+                correct_answer: "Marni are zece cărți.",
+                options: ["Marni are zece cărți.", "Marni are zece carti.", "Marni este zece cărți.", "Marni ai zece cărți."]
+            },
+            {
+                russian: "Сколько у Андрея учеников?",
+                romanian_q: "Câți elevi are Andrei?",
+                correct_answer: "Andrei are cincisprezece elevi.",
+                options: ["Andrei are cincisprezece elevi.", "Andrei are cincisprezece eleve.", "Andrei are cincisprezece elevii.", "Andrei ai cincisprezece elevi."]
+            },
+            {
+                russian: "Сколько окон в комнате?",
+                romanian_q: "Câte ferestre sunt în cameră?",
+                correct_answer: "În cameră sunt două ferestre.",
+                options: ["În cameră sunt două ferestre.", "În cameră sunt doi ferestre.", "În cameră este două ferestre.", "În cameră sunt două ferestri."]
+            },
+            {
+                russian: "Сколько студентов в группе?",
+                romanian_q: "Câți studenți sunt în grupă?",
+                correct_answer: "În grupă sunt douăzeci de studenți.",
+                options: ["În grupă sunt douăzeci de studenți.", "În grupă sunt douăzeci studenți.", "În grupă este douăzeci de studenți.", "În grupă sunt douăzeci de student."]
+            },
+            {
+                russian: "Сколько французов в университете?",
+                romanian_q: "Câți francezi sunt în universitate?",
+                correct_answer: "În universitate sunt trei francezi.",
+                options: ["În universitate sunt trei francezi.", "În universitate sunt trei franceze.", "În universitate este trei francezi.", "În universitate sunt treisprezece francezi."]
+            },
+            {
+                russian: "Сколько дверей в коридоре?",
+                romanian_q: "Câte uși sunt pe coridor?",
+                correct_answer: "Pe coridor sunt patru uși.",
+                options: ["Pe coridor sunt patru uși.", "Pe coridor sunt patru usi.", "Pe coridor este patru uși.", "Pe coridor sunt patra uși."]
+            },
+            {
+                russian: "Сколько резинок на столе?",
+                romanian_q: "Câte gume sunt pe masă?",
+                correct_answer: "Pe masă sunt două gume.",
+                options: ["Pe masă sunt două gume.", "Pe masă sunt doi gume.", "Pe masă este două gume.", "Pe masă sunt două gumă."]
+            },
+            {
+                russian: "Сколько инженеров на заводе?",
+                romanian_q: "Câți ingineri sunt în fabrică?",
+                correct_answer: "În fabrică sunt cincizeci de ingineri.",
+                options: ["În fabrică sunt cincizeci de ingineri.", "În fabrică sunt cincizeci ingineri.", "În fabrică este cincizeci de ingineri.", "În fabrică sunt cincizeci de inginerii."]
+            },
+            {
+                russian: "Сколько у нас сегодня часов (уроков, занятий, лекций)?",
+                romanian_q: "Câte ore (lecții) avem astăzi?",
+                correct_answer: "Astăzi avem trei ore (lecții).",
+                options: ["Astăzi avem trei ore (lecții).", "Astăzi avem trei ore (lecți).", "Astăzi are trei ore (lecții).", "Astăzi avem patru ore (lecții)."]
+            },
+            {
+                russian: "Сколько у тебя коллег?",
+                romanian_q: "Câți colegi ai?",
+                correct_answer: "Eu am opt colegi.",
+                options: ["Eu am opt colegi.", "Eu am opt colege.", "Eu are opt colegi.", "Tu am opt colegi."]
+            },
+            {
+                russian: "Сколько вас в группе?",
+                romanian_q: "Câți sunteți în grupă?",
+                correct_answer: "Suntem șaptesprezece în grupă.",
+                options: ["Suntem șaptesprezece în grupă.", "Sunt șaptesprezece în grupă.", "Suntem șaptisprezece în grupă.", "Sunteți șaptesprezece în grupă."]
+            },
+            {
+                russian: "Сколько их (книг) здесь?",
+                romanian_q: "Câte sunt (cărți) aici?",
+                correct_answer: "Sunt șase aici.",
+                options: ["Sunt șase aici.", "Sunt șase carți aici.", "Este șase aici.", "Sunt șasi aici."]
+            },
+            {
+                russian: "Сколько их (инженеров) на заводе?",
+                romanian_q: "Câți sunt (ingineri) în fabrică?",
+                correct_answer: "Sunt douăzeci și cinci în fabrică.",
+                options: ["Sunt douăzeci și cinci în fabrică.", "Sunt douăzeci si cinci în fabrică.", "Este douăzeci и пять в фабрика.", "Sunt douăzeci и пять в фабрики."]
+            },
+            {
+                russian: "Сколько ламп на столе?",
+                romanian_q: "Câte lămpi sunt pe masă?",
+                correct_answer: "Pe masă sunt trei lămpi.",
+                options: ["Pe masă sunt trei lămpi.", "Pe masă sunt trei lampă.", "Pe masă este trei lămpi.", "Pe masă sunt три lămpe."]
+            }
+        ];
+
+        let currentQuestionIndex = 0;
+        const russianQuestionEl = document.getElementById('russian-question');
+        const romanianQuestionEl = document.getElementById('romanian-question');
+        const optionsContainer = document.getElementById('options-container');
+        const feedbackEl = document.getElementById('feedback');
+        const nextButton = document.getElementById('next-button');
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        function displayQuestion() {
+            if (currentQuestionIndex >= questions.length) {
+                russianQuestionEl.textContent = "Тест завершен!";
+                romanianQuestionEl.textContent = "Поздравляем!";
+                optionsContainer.innerHTML = '';
+                feedbackEl.textContent = '';
+                nextButton.style.display = 'none';
+                return;
+            }
+
+            const currentQuestion = questions[currentQuestionIndex];
+            russianQuestionEl.textContent = currentQuestion.russian;
+            romanianQuestionEl.textContent = currentQuestion.romanian_q;
+            optionsContainer.innerHTML = '';
+            feedbackEl.textContent = '';
+            nextButton.disabled = true;
+
+            const shuffledOptions = [...currentQuestion.options];
+            shuffleArray(shuffledOptions);
+
+            shuffledOptions.forEach(option => {
+                const button = document.createElement('button');
+                button.classList.add('option-button');
+                button.textContent = option;
+                button.addEventListener('click', () => checkAnswer(button, option, currentQuestion.correct_answer));
+                optionsContainer.appendChild(button);
+            });
+        }
+
+        function checkAnswer(selectedButton, selectedOption, correctAnswer) {
+            const buttons = optionsContainer.querySelectorAll('.option-button');
+            buttons.forEach(button => {
+                button.disabled = true; // Disable all buttons after selection
+                if (button.textContent === correctAnswer) {
+                    button.classList.add('correct'); // Highlight correct answer
+                }
+            });
+
+            if (selectedOption === correctAnswer) {
+                selectedButton.classList.add('correct');
+                feedbackEl.textContent = 'Правильно!';
+                feedbackEl.style.color = '#28a745';
+            } else {
+                selectedButton.classList.add('incorrect');
+                feedbackEl.textContent = 'Неправильно. Правильный ответ подсвечен зеленым.';
+                feedbackEl.style.color = '#dc3545';
+            }
+            nextButton.disabled = false; // Enable next button
+        }
+
+        function nextQuestion() {
+            currentQuestionIndex++;
+            displayQuestion();
+        }
+
+        nextButton.addEventListener('click', nextQuestion);
+
+        // Initial display
+        displayQuestion();
+    </script>
+</body>
+</html>

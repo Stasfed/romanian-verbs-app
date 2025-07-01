@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест: Возвратные глаголы</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding-top: 30px;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 700px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        #question-counter {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        #russian-question {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 30px;
+        }
+        #options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .option-button {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 1.1em;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-align: left;
+        }
+        .option-button:hover:not(:disabled) {
+            background-color: #0056b3;
+        }
+        .option-button.correct {
+            background-color: #28a745;
+        }
+        .option-button.incorrect {
+            background-color: #dc3545;
+        }
+        .option-button:disabled {
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+        #feedback-message {
+            margin-top: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        #next-question-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        #next-question-button:hover {
+            background-color: #5a6268;
+        }
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #5a6268;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Тест: Возвратные глаголы</h1>
+        <div id="question-counter"></div>
+        <div id="russian-question"></div>
+        <div id="options-container"></div>
+        <div id="feedback-message"></div>
+        <button id="next-question-button" style="display: none;">Следующий вопрос</button>
+    </div>
+    <button class="back-button" onclick="location.href='index.html'">На главную</button>
+
+    <script>
+        const questions = [
+            {
+                russianQuestion: "Здесь строится дом. (a se construi)",
+                correctAnswer: "Aici se construiește o casă.",
+                options: [
+                    "Aici se construiește o casă.",
+                    "Aici construiește o casă.",
+                    "Aici se construiesc o casă.",
+                    "Se construiește o casă aici."
+                ]
+            },
+            {
+                russianQuestion: "Вы встретились в парке? Нет, мы встретились в магазине. (a se întâlni)",
+                correctAnswer: "V-ați întâlnit în parc? Nu, ne-am întâlnit la magazin.",
+                options: [
+                    "V-ați întâlnit în parc? Nu, ne-am întâlnit la magazin.",
+                    "Ați întâlnit în parc? Nu, am întâlnit la magazin.",
+                    "V-ați întâlnit în parc? Nu, ne-ați întâlnit la magazin.",
+                    "V-ați întâlnit în parc? Nu, am întâlnit la magazin."
+                ]
+            },
+            {
+                russianQuestion: "Они хорошо (bine) знают друг друга, но видятся редко (rar). (a se cunoaște, a se vedea)",
+                correctAnswer: "Se cunosc bine, dar se văd rar.",
+                options: [
+                    "Se cunosc bine, dar se văd rar.",
+                    "Se cunosc bine, dar văd rar.",
+                    "Cunosc bine, dar se văd rar.",
+                    "Ei se cunosc bine, dar se văd rar."
+                ]
+            },
+            {
+                russianQuestion: "Обычно я встаю в 8:15, но сегодня я встал в 9:13. (a se trezi)",
+                correctAnswer: "De obicei mă trezesc la ora opt și un sfert, dar azi m-am trezit la ora nouă și treisprezece minute.",
+                options: [
+                    "De obicei mă trezesc la ora opt și un sfert, dar azi m-am trezit la ora nouă și treisprezece minute.",
+                    "De obicei mă trezesc la ora opt și cincisprezece minute, dar astăzi m-am trezit la ora nouă și treisprezece minute.",
+                    "De obicei eu mă trezesc la ora opt și un sfert, dar azi m-am trezit la ora nouă și treisprezece minute.",
+                    "De obicei mă trezesc la opt și cincisprezece, dar azi am trezit la nouă și treisprezece."
+                ]
+            },
+            {
+                russianQuestion: "Может (poate) прогуляемся? (a se plimba)",
+                correctAnswer: "Poate ne vom plimba?",
+                options: [
+                    "Poate ne vom plimba?",
+                    "Poate ne plimbăm?",
+                    "Poate vom plimba?",
+                    "Poate ne vom plimbăm?"
+                ]
+            },
+            {
+                russianQuestion: "Как пишется это слово? (a se scrie)",
+                correctAnswer: "Cum se scrie acest cuvânt?",
+                options: [
+                    "Cum se scrie acest cuvânt?",
+                    "Cum scrie acest cuvânt?",
+                    "Cum se scriu acest cuvânt?",
+                    "Cum se scrie cuvântul acesta?"
+                ]
+            },
+            {
+                russianQuestion: "Что продается в киоске? В киоске продаются газеты и журналы. (a se vinde)",
+                correctAnswer: "Ce se vinde la chioșc? La chioșc se vând ziare și reviste.",
+                options: [
+                    "Ce se vinde la chioșc? La chioșc se vând ziare și reviste.",
+                    "Ce vinde la chioșc? La chioșc se vând ziare și reviste.",
+                    "Ce se vând la chioșc? La chioșc se vând ziare și reviste.",
+                    "Ce se vinde în chioșc? În chioșc se vând ziare și reviste."
+                ]
+            },
+            {
+                russianQuestion: "Я встал, оделся и ушел. (a se ridica, a se îmbrăca, a se duce)",
+                correctAnswer: "M-am ridicat, m-am îmbrăcat și m-am dus.",
+                options: [
+                    "M-am ridicat, m-am îmbrăcat și m-am dus.",
+                    "Am ridicat, am îmbrăcat și am dus.",
+                    "M-am ridicat, m-am îmbrăcat și am dus.",
+                    "M-am ridicat, m-am îmbrăcat și m-am dus eu."
+                ]
+            },
+            {
+                russianQuestion: "Он торопится. У него нет времени. (a se grăbi)",
+                correctAnswer: "El se grăbește. Nu are timp.",
+                options: [
+                    "El se grăbește. Nu are timp.",
+                    "El grăbește. Nu are timp.",
+                    "Se grăbește. Nu are timp.",
+                    "El se grăbește. El nu are timp."
+                ]
+            },
+            {
+                russianQuestion: "Я встала, оделась, причесалась и села за стол. (a se ridica, a se îmbraca, a se pieptăna, a se așeza)",
+                correctAnswer: "M-am ridicat, m-am îmbrăcat, m-am pieptănat și m-am așezat la masă.",
+                options: [
+                    "M-am ridicat, m-am îmbrăcat, m-am pieptănat și m-am așezat la masă.",
+                    "Am ridicat, am îmbrăcat, am pieptănat и am așezat la masă.",
+                    "M-am ridicat, m-am îmbrăcat, m-am pieptănat și am așezat la masă.",
+                    "M-am ridicat, m-am îmbrăcat, m-am pieptănat și m-am așezat la masa."
+                ]
+            },
+            {
+                russianQuestion: "Мы ложимся спать. (a se culca)",
+                correctAnswer: "Ne culcăm să dormim.",
+                options: [
+                    "Ne culcăm să dormim.",
+                    "Ne culcăm.",
+                    "Ne culcăm pentru a dormi.",
+                    "Ne culcăm la dormit."
+                ]
+            }
+        ];
+
+        let currentQuestionIndex = 0;
+        let shuffledQuestions = [];
+
+        const questionCounterElement = document.getElementById('question-counter');
+        const russianQuestionElement = document.getElementById('russian-question');
+        const optionsContainer = document.getElementById('options-container');
+        const feedbackMessageElement = document.getElementById('feedback-message');
+        const nextQuestionButton = document.getElementById('next-question-button');
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        function loadQuestion() {
+            if (currentQuestionIndex >= shuffledQuestions.length) {
+                displayQuizEnd();
+                return;
+            }
+
+            const currentQuestion = shuffledQuestions[currentQuestionIndex];
+            questionCounterElement.textContent = `Вопрос ${currentQuestionIndex + 1} из ${shuffledQuestions.length}`;
+            russianQuestionElement.textContent = currentQuestion.russianQuestion;
+            optionsContainer.innerHTML = '';
+            feedbackMessageElement.textContent = '';
+            nextQuestionButton.style.display = 'none';
+            enableOptions();
+
+            const shuffledOptions = [...currentQuestion.options].sort(() => Math.random() - 0.5);
+
+            shuffledOptions.forEach(option => {
+                const button = document.createElement('button');
+                button.classList.add('option-button');
+                button.textContent = option;
+                button.addEventListener('click', () => checkAnswer(button, option, currentQuestion.correctAnswer));
+                optionsContainer.appendChild(button);
+            });
+        }
+
+        function checkAnswer(clickedButton, selectedOption, correctAnswer) {
+            disableOptions();
+
+            if (selectedOption === correctAnswer) {
+                clickedButton.classList.add('correct');
+                feedbackMessageElement.textContent = 'Правильно!';
+                feedbackMessageElement.style.color = '#28a745';
+            } else {
+                clickedButton.classList.add('incorrect');
+                feedbackMessageElement.textContent = 'Неправильно. Правильный ответ: ' + correctAnswer;
+                feedbackMessageElement.style.color = '#dc3545';
+                Array.from(optionsContainer.children).forEach(button => {
+                    if (button.textContent === correctAnswer) {
+                        button.classList.add('correct');
+                    }
+                });
+            }
+            nextQuestionButton.style.display = 'block';
+        }
+
+        function disableOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.disabled = true;
+            });
+        }
+
+        function enableOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.disabled = false;
+                button.classList.remove('correct', 'incorrect');
+            });
+        }
+
+        function displayQuizEnd() {
+            questionCounterElement.textContent = '';
+            russianQuestionElement.textContent = 'Тест завершен!';
+            feedbackMessageElement.textContent = 'Вы прошли все вопросы.';
+            optionsContainer.innerHTML = '';
+            nextQuestionButton.style.display = 'none';
+        }
+
+        nextQuestionButton.addEventListener('click', () => {
+            currentQuestionIndex++;
+            loadQuestion();
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            shuffledQuestions = [...questions];
+            shuffleArray(shuffledQuestions);
+            loadQuestion();
+        });
+    </script>
+</body>
+</html>

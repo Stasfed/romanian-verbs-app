@@ -33,7 +33,7 @@
             margin-bottom: 15px;
             font-size: 18px;
             color: white;
-            background-color: #007bff;
+            background-color: #007bff; /* Стандартный синий, если нет специфического класса */
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -51,20 +51,36 @@
             cursor: not-allowed;
         }
 
-        /* Добавлен стиль для кнопки "Наречия" */
+        /* Стиль для кнопки "Наречия" */
         .adverbs-button {
-            background-color: #17a2b8; /* Цвет для наречий, чтобы отличать */
+            background-color: #17a2b8; /* Цвет для наречий */
         }
         .adverbs-button:hover {
             background-color: #138496;
         }
 
-        /* Добавлен стиль для кнопки "Существительные" */
+        /* Стиль для кнопки "Существительные" */
         .nouns-button {
             background-color: #ffc107; /* Желтый цвет для существительных */
         }
         .nouns-button:hover {
             background-color: #e0a800;
+        }
+
+        /* Стиль для кнопки "Глаголы" */
+        .verbs-button {
+            background-color: #28a745; /* Зеленый цвет для глаголов */
+        }
+        .verbs-button:hover {
+            background-color: #218838;
+        }
+
+        /* Стиль для кнопки "Родительный падеж" */
+        .genetiv-button {
+            background-color: #6f42c1; /* Фиолетовый цвет для родительного падежа */
+        }
+        .genetiv-button:hover {
+            background-color: #5a359b;
         }
     </style>
 </head>
@@ -73,9 +89,11 @@
         <h1>Румынский язык</h1>
         <div class="button-group">
             <button onclick="location.href='nouns.html'" class="nouns-button">Существительные</button>
-            <button onclick="location.href='adjectives.html'">Прилагательные</button>
+            <button onclick="location.href='adjectives.html'" class="adjectives-button">Прилагательные</button>
+            <button onclick="location.href='verbs.html'" class="verbs-button">Глаголы</button>
+            <button onclick="location.href='genetiv_theory.html'" class="genetiv-button">Родительный падеж</button>
             <button onclick="location.href='adverbs.html'" class="adverbs-button">Наречия</button>
-            </div>
+        </div>
     </div>
 </body>
 </html>

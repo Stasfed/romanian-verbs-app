@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест: Наречия MAI, NU MAI, NUMAI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding-top: 30px;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        #russian-sentence {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        #romanian-question-display {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 30px;
+        }
+        #options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px; /* Отступ между кнопками */
+            margin-bottom: 20px;
+        }
+        #options-container button {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 1.1em;
+            color: #333;
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s ease, border-color 0.2s ease;
+        }
+        #options-container button:hover:not(:disabled) {
+            background-color: #e0e0e0;
+        }
+        #options-container button.correct {
+            background-color: #d4edda;
+            border-color: #28a745;
+            color: #155724;
+        }
+        #options-container button.incorrect {
+            background-color: #f8d7da;
+            border-color: #dc3545;
+            color: #721c24;
+        }
+        #next-question-button {
+            padding: 10px 20px;
+            font-size: 1.1em;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            display: none; /* Скрыта по умолчанию */
+        }
+        #next-question-button:hover {
+            background-color: #218838;
+        }
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #5a6268;
+        }
+        #progress-bar {
+            width: 100%;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        #progress {
+            height: 15px;
+            width: 0%;
+            background-color: #007bff;
+            border-radius: 5px;
+            text-align: center;
+            color: white;
+            line-height: 15px;
+            font-size: 0.8em;
+            transition: width 0.5s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Тест: Наречия MAI, NU MAI, NUMAI</h1>
+        <div id="progress-bar">
+            <div id="progress">0%</div>
+        </div>
+        <p id="russian-sentence"></p>
+        <div id="romanian-question-display"></div>
+        <div id="options-container"></div>
+        <button id="next-question-button" onclick="nextQuestion()">Следующий вопрос</button>
+    </div>
+    <button class="back-button" onclick="location.href='index.html'">На главную</button>
+
+    <script>
+        const questions = [
+            {
+                "id": 1,
+                "russian_sentence": "Ты еще учишься в университете?",
+                "romanian_sentence_before_blank": "Tu ______ înveți la universitate?",
+                "romanian_correct_answer": "mai",
+                "romanian_options": ["mai", "nu mai", "numai"]
+            },
+            {
+                "id": 2,
+                "russian_sentence": "Нет, я уже не учусь в университете, я работаю в школе.",
+                "romanian_sentence_before_blank": "Nu, eu ______ învăț la universitate, lucrez la școală.",
+                "romanian_correct_answer": "nu mai",
+                "romanian_options": ["mai", "nu mai", "numai"]
+            },
+            {
+                "id": 3,
+                "russian_sentence": "Твои родители (все) еще живут в Киеве?",
+                "romanian_sentence_before_blank": "Părinții tăi ______ locuiesc la Kiev?",
+                "romanian_correct_answer": "mai",
+                "romanian_options": ["mai", "nu mai", "numai"]
+            },
+            {
+                "id": 4,
+                "russian_sentence": "Нет, мои родители больше не живут в Киеве, они живут в Москве.",
+                "romanian_sentence_before_blank": "Nu, părinții mei ______ locuiesc la Kiev, ei locuiesc la Moscova.",
+                "romanian_correct_answer": "nu mai",
+                "romanian_options": ["mai", "nu mai", "numai"]
+            },
+            {
+                "id": 5,
+                "russian_sentence": "Сегодня у нас еще два часа (занятий).",
+                "romanian_sentence_before_blank": "Astăzi ______ avem două ore.",
+                "romanian_correct_answer": "mai",
+                "romanian_options": ["mai", "nu mai", "numai"]
+            },
+            {
+                "id": 6,
+                "russian_sentence": "Я беру еще две тетради.",
+                "romanian_sentence_before_blank": "______ iau două caiete.",
+                "romanian_correct_answer": "Mai",
+                "romanian_options": ["Mai", "Nu mai", "Numai"]
+            },
+            {
+                "id": 7,
+                "russian_sentence": "Я не беру больше книги в библиотеке.",
+                "romanian_sentence_before_blank": "Eu ______ iau cărți de la bibliotecă.",
+                "romanian_correct_answer": "nu mai",
+                "romanian_options": ["mai", "nu mai", "numai"]
+            },
+            {
+                "id": 8,
+                "russian_sentence": "Библиотека больше не выдает книги на дом.",
+                "romanian_sentence_before_blank": "Biblioteca ______ eliberează cărți acasă.",
+                "romanian_correct_answer": "nu mai",
+                "romanian_options": ["mai", "nu mai", "numai"]
+            },
+            {
+                "id": 9,
+                "russian_sentence": "В комнате еще два стола и два стула.",
+                "romanian_sentence_before_blank": "În cameră ______ sunt două mese și două scaune.",
+                "romanian_correct_answer": "mai",
+                "romanian_options": ["mai", "nu mai", "numai"]
+            },
+            {
+                "id": 10,
+                "russian_sentence": "У меня в портфеле еще одна ручка.",
+                "romanian_sentence_before_blank": "______ am un stilou în servieta mea.",
+                "romanian_correct_answer": "Mai",
+                "romanian_options": ["Mai", "Nu mai", "Numai"]
+            },
+            {
+                "id": 11,
+                "russian_sentence": "Ваши дедушка и бабушка еще живы?",
+                "romanian_sentence_before_blank": "Bunicii voștri ______ sunt în viață?",
+                "romanian_correct_answer": "mai",
+                "romanian_options": ["mai", "nu mai", "numai"]
+            },
+            {
+                "id": 12,
+                "russian_sentence": "Нет, их уже нет в живых.",
+                "romanian_sentence_before_blank": "Nu, ei ______ sunt în viață.",
+                "romanian_correct_answer": "nu mai",
+                "romanian_options": ["mai", "nu mai", "numai"]
+            },
+            {
+                "id": 13,
+                "russian_sentence": "Только у тебя есть словарь.",
+                "romanian_sentence_before_blank": "______ tu ai dicționar.",
+                "romanian_correct_answer": "Numai",
+                "romanian_options": ["Mai", "Nu mai", "Numai"]
+            },
+            {
+                "id": 14,
+                "russian_sentence": "Я беру только одну книгу.",
+                "romanian_sentence_before_blank": "Eu iau ______ o carte.",
+                "romanian_correct_answer": "numai",
+                "romanian_options": ["mai", "nu mai", "numai"]
+            },
+            {
+                "id": 15,
+                "russian_sentence": "В комнате только один стол.",
+                "romanian_sentence_before_blank": "În cameră este ______ o masă.",
+                "romanian_correct_answer": "numai",
+                "romanian_options": ["mai", "nu mai", "numai"]
+            },
+            {
+                "id": 16,
+                "russian_sentence": "У него только один брат.",
+                "romanian_sentence_before_blank": "El are ______ un frate.",
+                "romanian_correct_answer": "numai",
+                "romanian_options": ["mai", "nu mai", "numai"]
+            },
+            {
+                "id": 17,
+                "russian_sentence": "У меня только сестра.",
+                "romanian_sentence_before_blank": "Eu am ______ o soră.",
+                "romanian_correct_answer": "numai",
+                "romanian_options": ["mai", "nu mai", "numai"]
+            }
+        ];
+
+        let currentQuestionIndex = 0;
+        let correctAnswersCount = 0;
+
+        const russianSentenceDisplay = document.getElementById('russian-sentence');
+        const romanianQuestionDisplay = document.getElementById('romanian-question-display');
+        const optionsContainer = document.getElementById('options-container');
+        const nextQuestionButton = document.getElementById('next-question-button');
+        const progressBar = document.getElementById('progress');
+
+        function loadQuestion() {
+            if (currentQuestionIndex < questions.length) {
+                const question = questions[currentQuestionIndex];
+                russianSentenceDisplay.textContent = question.russian_sentence;
+                romanianQuestionDisplay.innerHTML = question.romanian_sentence_before_blank.replace('______', '<span style="color: red;">______</span>');
+                optionsContainer.innerHTML = ''; // Clear previous options
+
+                // Shuffle options
+                const shuffledOptions = [...question.romanian_options].sort(() => Math.random() - 0.5);
+
+                shuffledOptions.forEach(option => {
+                    const button = document.createElement('button');
+                    button.textContent = option;
+                    button.addEventListener('click', () => checkAnswer(button, option, question.romanian_correct_answer));
+                    optionsContainer.appendChild(button);
+                });
+
+                nextQuestionButton.style.display = 'none'; // Hide next button
+                enableOptions();
+                updateProgressBar();
+            } else {
+                showQuizResult();
+            }
+        }
+
+        function checkAnswer(clickedButton, selectedOption, correctAnswer) {
+            disableOptions(); // Disable all buttons after a choice
+
+            if (selectedOption.toLowerCase() === correctAnswer.toLowerCase()) {
+                clickedButton.classList.add('correct');
+                correctAnswersCount++;
+            } else {
+                clickedButton.classList.add('incorrect');
+                // Highlight the correct answer
+                Array.from(optionsContainer.children).forEach(button => {
+                    if (button.textContent.toLowerCase() === correctAnswer.toLowerCase()) {
+                        button.classList.add('correct');
+                    }
+                });
+            }
+            nextQuestionButton.style.display = 'block'; // Show next button
+        }
+
+        function disableOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.disabled = true;
+            });
+        }
+
+        function enableOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.disabled = false;
+                button.classList.remove('correct', 'incorrect'); // Reset colors
+            });
+        }
+
+        function nextQuestion() {
+            currentQuestionIndex++;
+            loadQuestion();
+        }
+
+        function updateProgressBar() {
+            const progressPercentage = (currentQuestionIndex / questions.length) * 100;
+            progressBar.style.width = `${progressPercentage}%`;
+            progressBar.textContent = `${Math.round(progressPercentage)}%`;
+        }
+
+        function showQuizResult() {
+            romanianQuestionDisplay.innerHTML = `Тест завершен! Вы набрали ${correctAnswersCount} из ${questions.length} правильных ответов.`;
+            russianSentenceDisplay.textContent = '';
+            optionsContainer.innerHTML = '';
+            nextQuestionButton.style.display = 'none';
+            progressBar.style.width = '100%';
+            progressBar.textContent = '100%';
+        }
+
+        // Initialize the quiz
+        window.onload = loadQuestion;
+    </script>
+</body>
+</html>

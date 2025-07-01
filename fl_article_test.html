@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Упражнение: Определенный артикль</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 700px;
+            width: 90%;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #0056b3;
+            margin-bottom: 20px;
+        }
+        .question-russian {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        .romanian-incomplete {
+            font-size: 1.4em;
+            font-style: italic;
+            color: #007bff;
+            margin-bottom: 30px;
+        }
+        .options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .option-button {
+            width: 100%;
+            padding: 12px 20px;
+            font-size: 1.1em;
+            color: #fff;
+            background-color: #6c757d;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-align: left;
+        }
+        .option-button:hover:not(:disabled) {
+            background-color: #5a6268;
+        }
+        .option-button:disabled {
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+        .option-button.correct {
+            background-color: #28a745;
+        }
+        .option-button.incorrect {
+            background-color: #dc3545;
+        }
+        .feedback {
+            margin-top: 15px;
+            font-weight: bold;
+            font-size: 1.2em;
+            min-height: 1.5em; /* Ensure space for feedback */
+        }
+        .next-button {
+            padding: 12px 30px;
+            font-size: 1.1em;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+        .next-button:hover:not(:disabled) {
+            background-color: #0056b3;
+        }
+        .next-button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Упражнение: Определенный артикль</h1>
+        <p class="question-russian" id="russian-question"></p>
+        <p class="romanian-incomplete" id="romanian-incomplete"></p>
+        <div class="options-container" id="options-container">
+            </div>
+        <div class="feedback" id="feedback"></div>
+        <button class="next-button" id="next-button" disabled>Следующий вопрос</button>
+    </div>
+
+    <script>
+        const questions = [
+            {
+                russian: "1. В классе студент.",
+                romanian_before_blank: "În clasă este ___.",
+                correct_fill: "un student",
+                options: ["un student", "studentul", "studenți", "o studentă"],
+                full_romanian: "În clasă este un student."
+            },
+            {
+                russian: "2. Студент находится у доски.",
+                romanian_before_blank: "___ este la tablă.",
+                correct_fill: "Studentul",
+                options: ["Studentul", "Un student", "Studenții", "Student"],
+                full_romanian: "Studentul este la tablă."
+            },
+            {
+                russian: "3. Какой-то студент находится за дверью.",
+                romanian_before_blank: "___ student este după ușă.",
+                correct_fill: "Un",
+                options: ["Un", "Studentul", "Niște", "O"],
+                full_romanian: "Un student este după ușă."
+            },
+            {
+                russian: "4. У Марии есть кошка.",
+                romanian_before_blank: "Maria are ___ pisică.",
+                correct_fill: "o",
+                options: ["o", "pisica", "un", "pisică"],
+                full_romanian: "Maria are o pisică."
+            },
+            {
+                russian: "5. Кошка была на окне.",
+                romanian_before_blank: "___ a fost pe geam.",
+                correct_fill: "Pisica",
+                options: ["Pisica", "O pisică", "Pisici", "Pisica asta"],
+                full_romanian: "Pisica a fost pe geam."
+            },
+            {
+                russian: "6. Кошке было 2 года.",
+                romanian_before_blank: "___ a avut doi ani.",
+                correct_fill: "Pisica",
+                options: ["Pisica", "O pisică", "Pisici", "Pisica aceea"],
+                full_romanian: "Pisica a avut doi ani."
+            },
+            {
+                russian: "7. У Павла и Ольги есть дети. (Первая часть)",
+                romanian_before_blank: "Pavel și Olga au ___ copii.",
+                correct_fill: "", // Здесь артикля нет, или он нулевой
+                options: ["", "niște", "copiii", "doi"], // Пустая строка как вариант
+                full_romanian: "Pavel și Olga au copii."
+            },
+            {
+                russian: "7. Детям 12 лет. (Вторая часть)",
+                romanian_before_blank: "___ au doisprezece ani.",
+                correct_fill: "Copiii",
+                options: ["Copiii", "Niște copii", "Un copil", "Copii"],
+                full_romanian: "Copiii au doisprezece ani."
+            },
+            {
+                russian: "8. Чай с сахаром.",
+                romanian_before_blank: "___ este cu zahăr.",
+                correct_fill: "Ceaiul",
+                options: ["Ceaiul", "Un ceai", "Ceai", "O ceai"],
+                full_romanian: "Ceaiul este cu zahăr."
+            },
+            {
+                russian: "9. Я на остановке имени Ползунова.",
+                romanian_before_blank: "Eu sunt la stația ___ Polzunov.",
+                correct_fill: "", // Здесь артикля нет
+                options: ["", "un", "o", "la"],
+                full_romanian: "Eu sunt la stația Polzunov."
+            },
+            {
+                russian: "10. Я была в библиотеке имени Павлова.",
+                romanian_before_blank: "Eu am fost la biblioteca ___ Pavlov.",
+                correct_fill: "", // Здесь артикля нет
+                options: ["", "o", "o bibliotecă", "la"],
+                full_romanian: "Eu am fost la biblioteca Pavlov."
+            },
+            {
+                russian: "11. У Васи есть сестра. (Первая часть)",
+                romanian_before_blank: "Vasile are ___ soră.",
+                correct_fill: "o",
+                options: ["o", "sora", "un", "soră"],
+                full_romanian: "Vasile are o soră."
+            },
+            {
+                russian: "11. Сестра преподаватель в школе имени Чехова. (Вторая часть)",
+                romanian_before_blank: "___ este profesoară la școala ___ Cehov.",
+                correct_fill: "Sora",
+                options: ["Sora", "O soră", "Soră", "Sora lui"],
+                full_romanian: "Sora este profesoară la școala Cehov." // For the second blank "Cehov", it's a proper noun, no article needed
+            },
+            {
+                russian: "12. Преподаватель на занятии.",
+                romanian_before_blank: "___ este la lecție.",
+                correct_fill: "Profesorul",
+                options: ["Profesorul", "Un profesor", "Profesori", "O profesoară"],
+                full_romanian: "Profesorul este la lecție."
+            },
+            {
+                russian: "13. Врач на совещании.",
+                romanian_before_blank: "___ este la ședință.",
+                correct_fill: "Medicul",
+                options: ["Medicul", "Un medic", "Doctorul", "Medici"],
+                full_romanian: "Medicul este la ședință."
+            },
+            {
+                russian: "14. Они врачи.",
+                romanian_before_blank: "Ei/Ele sunt ___.",
+                correct_fill: "medici", // Без артикля, т.к. профессия во множ. числе после "sunt"
+                options: ["medici", "medicii", "un medic", "o medică"],
+                full_romanian: "Ei/Ele sunt medici."
+            },
+            {
+                russian: "15. Все девочки на работе.",
+                romanian_before_blank: "___ fetele sunt la serviciu.",
+                correct_fill: "Toate",
+                options: ["Toate", "Toți", "Tot", "Toate fete"],
+                full_romanian: "Toate fetele sunt la serviciu."
+            },
+            {
+                russian: "16. Все собаки на улице.",
+                romanian_before_blank: "___ câinii sunt afară.",
+                correct_fill: "Toți",
+                options: ["Toți", "Toate", "Tot", "Toti caini"],
+                full_romanian: "Toți câinii sunt afară."
+            },
+            {
+                russian: "17. Стакан был на столе. (Первая часть)",
+                romanian_before_blank: "___ a fost pe masă.",
+                correct_fill: "Paharul",
+                options: ["Paharul", "Un pahar", "Pahare", "Pahar"],
+                full_romanian: "Paharul a fost pe masă."
+            },
+            {
+                russian: "17. Вся вода была на полу. (Вторая часть)",
+                romanian_before_blank: "___ apa a fost pe podea.",
+                correct_fill: "Toată",
+                options: ["Toată", "Tot", "Toți", "Tota"],
+                full_romanian: "Toată apa a fost pe podea."
+            },
+            {
+                russian: "18. У Михаила была девушка (o prietenă). (Первая часть)",
+                romanian_before_blank: "Mihai a avut ___ prietenă.",
+                correct_fill: "o",
+                options: ["o", "prietena", "un", "prietenă"],
+                full_romanian: "Mihai a avut o prietenă."
+            },
+            {
+                russian: "18. Девушка была из Румынии. (Вторая часть)",
+                romanian_before_blank: "___ a fost din România.",
+                correct_fill: "Prietenă", // Here "Prietenă" acts as the subject, with the indefinite "o" implied from the first sentence context, or "Prietena" if it's the specific one. Let's make it definite.
+                options: ["Prietena", "O prietenă", "Prietenă", "Prietene"],
+                full_romanian: "Prietena a fost din România."
+            },
+            {
+                russian: "19. В магазине есть кофейня (o cafenea). (Первая часть)",
+                romanian_before_blank: "În magazin este ___ cafenea.",
+                correct_fill: "o",
+                options: ["o", "cafeneaua", "un", "cafenea"],
+                full_romanian: "În magazin este o cafenea."
+            },
+            {
+                russian: "19. Кофе там очень вкусный. (Вторая часть)",
+                romanian_before_blank: "___ acolo este delicioasă.",
+                correct_fill: "Cafeaua",
+                options: ["Cafeaua", "O cafea", "Cafea", "Cafele"],
+                full_romanian: "Cafeaua acolo este delicioasă."
+            },
+            {
+                russian: "20. Какие-то книги на окне. (Первая часть)",
+                romanian_before_blank: "___ cărți sunt pe geam.",
+                correct_fill: "Niște",
+                options: ["Niște", "Cărțile", "Cărți", "O carte"],
+                full_romanian: "Niște cărți sunt pe geam."
+            },
+            {
+                russian: "20. Книги старые, но интересные. (Вторая часть)",
+                romanian_before_blank: "___ sunt vechi, dar interesante.",
+                correct_fill: "Cărțile",
+                options: ["Cărțile", "Niște cărți", "Cărți", "Carte"],
+                full_romanian: "Cărțile sunt vechi, dar interesante."
+            },
+            {
+                russian: "21. У меня есть игра. (Первая часть)",
+                romanian_before_blank: "Eu am ___ joc.",
+                correct_fill: "un",
+                options: ["un", "jocul", "o", "joc"],
+                full_romanian: "Eu am un joc."
+            },
+            {
+                russian: "21. Игра на полке. (Вторая часть)",
+                romanian_before_blank: "___ este pe raft.",
+                correct_fill: "Jocul",
+                options: ["Jocul", "Un joc", "Joc", "Jocul acesta"],
+                full_romanian: "Jocul este pe raft."
+            },
+            {
+                russian: "22. У Кристины есть 2 дочки. (Первая часть)",
+                romanian_before_blank: "Cristina are două ___.",
+                correct_fill: "fiice", // Numbers don't take an indefinite article before the noun.
+                options: ["fiice", "fii", "fiicele", "o fiică"],
+                full_romanian: "Cristina are două fiice."
+            },
+            {
+                russian: "22. Дочери в музыкальной школе. (Вторая часть)",
+                romanian_before_blank: "___ sunt la școala muzicală.",
+                correct_fill: "Fiicele",
+                options: ["Fiicele", "Două fiice", "Fiice", "Fiica"],
+                full_romanian: "Fiicele sunt la școala muzicală."
+            }
+        ];
+
+        let currentQuestionIndex = 0;
+        const russianQuestionEl = document.getElementById('russian-question');
+        const romanianIncompleteEl = document.getElementById('romanian-incomplete');
+        const optionsContainer = document.getElementById('options-container');
+        const feedbackEl = document.getElementById('feedback');
+        const nextButton = document.getElementById('next-button');
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        function displayQuestion() {
+            if (currentQuestionIndex >= questions.length) {
+                russianQuestionEl.textContent = "Упражнение завершено!";
+                romanianIncompleteEl.textContent = "Поздравляем! Вы прошли все вопросы.";
+                optionsContainer.innerHTML = '';
+                feedbackEl.textContent = '';
+                nextButton.style.display = 'none';
+                return;
+            }
+
+            const currentQuestion = questions[currentQuestionIndex];
+            russianQuestionEl.textContent = currentQuestion.russian;
+            romanianIncompleteEl.textContent = currentQuestion.romanian_before_blank.replace("___", "______"); // Show a blank
+            optionsContainer.innerHTML = '';
+            feedbackEl.textContent = '';
+            nextButton.disabled = true;
+
+            const shuffledOptions = [...currentQuestion.options];
+            shuffleArray(shuffledOptions);
+
+            shuffledOptions.forEach(option => {
+                const button = document.createElement('button');
+                button.classList.add('option-button');
+                button.textContent = option;
+                button.addEventListener('click', () => checkAnswer(button, option, currentQuestion.correct_fill, currentQuestion.full_romanian));
+                optionsContainer.appendChild(button);
+            });
+        }
+
+        function checkAnswer(selectedButton, selectedOption, correctFill, fullRomanianSentence) {
+            const buttons = optionsContainer.querySelectorAll('.option-button');
+            buttons.forEach(button => {
+                button.disabled = true; // Disable all buttons after selection
+                if (button.textContent === correctFill) {
+                    button.classList.add('correct'); // Highlight correct answer
+                }
+            });
+
+            if (selectedOption === correctFill) {
+                selectedButton.classList.add('correct');
+                feedbackEl.textContent = 'Правильно! Полное предложение: ' + fullRomanianSentence;
+                feedbackEl.style.color = '#28a745';
+            } else {
+                selectedButton.classList.add('incorrect');
+                feedbackEl.textContent = 'Неправильно. Правильный ответ подсвечен зеленым. Полное предложение: ' + fullRomanianSentence;
+                feedbackEl.style.color = '#dc3545';
+            }
+            nextButton.disabled = false; // Enable next button
+        }
+
+        function nextQuestion() {
+            currentQuestionIndex++;
+            displayQuestion();
+        }
+
+        nextButton.addEventListener('click', nextQuestion);
+
+        // Initial display
+        displayQuestion();
+    </script>
+</body>
+</html>

@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест по родительному падежу</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding-top: 30px;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        #russian-translation {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        #question-display {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 30px;
+        }
+        #options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px; /* Отступ между кнопками */
+            margin-bottom: 20px;
+        }
+        #options-container button {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 1.1em;
+            color: #333;
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s ease, border-color 0.2s ease;
+        }
+        #options-container button:hover:not(:disabled) {
+            background-color: #e0e0e0;
+        }
+        #options-container button.correct {
+            background-color: #d4edda;
+            border-color: #28a745;
+            color: #155724;
+        }
+        #options-container button.incorrect {
+            background-color: #f8d7da;
+            border-color: #dc3545;
+            color: #721c24;
+        }
+        #next-question-button {
+            padding: 10px 20px;
+            font-size: 1.1em;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            display: none; /* Скрыта по умолчанию */
+        }
+        #next-question-button:hover {
+            background-color: #218838;
+        }
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #5a6268;
+        }
+        #progress-bar {
+            width: 100%;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        #progress {
+            height: 15px;
+            width: 0%;
+            background-color: #007bff;
+            border-radius: 5px;
+            text-align: center;
+            color: white;
+            line-height: 15px;
+            font-size: 0.8em;
+            transition: width 0.5s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Тест: Родительный падеж на румынском</h1>
+        <div id="progress-bar">
+            <div id="progress">0%</div>
+        </div>
+        <p id="russian-translation"></p>
+        <div id="question-display"></div>
+        <div id="options-container"></div>
+        <button id="next-question-button" onclick="nextQuestion()">Следующий вопрос</button>
+    </div>
+    <button class="back-button" onclick="location.href='index.html'">На главную</button>
+
+    <script>
+        const questions = [
+  {
+    "id": 1,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 2,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 3,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 4,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 5,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 6,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 7,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 8,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 9,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 10,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 11,
+    "romanian_full_sentence": "Ei evită greșelile.",
+    "romanian_sentence_before_blank": "Ei evită ______.",
+    "romanian_correct_answer": "greșelile",
+    "romanian_options": [
+      "greșelile",
+      "greșeli",
+      "la greșeli",
+      "de greșeli"
+    ],
+    "russian_translation": "Они избегают ошибок.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 12,
+    "romanian_full_sentence": "În cameră nu era lumină.",
+    "romanian_sentence_before_blank": "În cameră nu era ______.",
+    "romanian_correct_answer": "lumină",
+    "romanian_options": [
+      "lumină",
+      "lumina",
+      "la lumină",
+      "de lumină"
+    ],
+    "russian_translation": "В комнате не было света.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 13,
+    "romanian_full_sentence": "Nu știe parola.",
+    "romanian_sentence_before_blank": "Nu știe ______.",
+    "romanian_correct_answer": "parola",
+    "romanian_options": [
+      "parola",
+      "parolă",
+      "la parolă",
+      "de parolă"
+    ],
+    "russian_translation": "Он не знает пароля.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 14,
+    "romanian_full_sentence": "Ea se teme de întuneric.",
+    "romanian_sentence_before_blank": "Ea se teme de ______.",
+    "romanian_correct_answer": "întuneric",
+    "romanian_options": [
+      "întuneric",
+      "întunericul",
+      "la întuneric",
+      "de întuneric"
+    ],
+    "russian_translation": "Она боится темноты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 15,
+    "romanian_full_sentence": "Nu am găsit răspunsul.",
+    "romanian_sentence_before_blank": "Nu am găsit ______.",
+    "romanian_correct_answer": "răspunsul",
+    "romanian_options": [
+      "răspunsul",
+      "răspuns",
+      "la răspuns",
+      "de răspuns"
+    ],
+    "russian_translation": "Мы не нашли ответа.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 16,
+    "romanian_full_sentence": "Nu văd sensul.",
+    "romanian_sentence_before_blank": "Nu văd ______.",
+    "romanian_correct_answer": "sensul",
+    "romanian_options": [
+      "sensul",
+      "sens",
+      "la sens",
+      "de sens"
+    ],
+    "russian_translation": "Я не вижу смысла.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 17,
+    "romanian_full_sentence": "Ei așteaptă începutul concertului.",
+    "romanian_sentence_before_blank": "Ei așteaptă începutul ______.",
+    "romanian_correct_answer": "concertului",
+    "romanian_options": [
+      "concertului",
+      "concert",
+      "la concert",
+      "de concert"
+    ],
+    "russian_translation": "Они ждут начала концерта.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 18,
+    "romanian_full_sentence": "Am evitat neplăcerile.",
+    "romanian_sentence_before_blank": "Am evitat ______.",
+    "romanian_correct_answer": "neplăcerile",
+    "romanian_options": [
+      "neplăcerile",
+      "neplăceri",
+      "la neplăceri",
+      "de neplăceri"
+    ],
+    "russian_translation": "Мы избежали неприятностей.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 19,
+    "romanian_full_sentence": "El își caută geaca.",
+    "romanian_sentence_before_blank": "El își caută ______.",
+    "romanian_correct_answer": "geaca",
+    "romanian_options": [
+      "geaca",
+      "geacă",
+      "la geacă",
+      "de geacă"
+    ],
+    "russian_translation": "Он ищет свою куртку.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 20,
+    "romanian_full_sentence": "Nu are bani.",
+    "romanian_sentence_before_blank": "Nu are ______.",
+    "romanian_correct_answer": "bani",
+    "romanian_options": [
+      "bani",
+      "banii",
+      "la bani",
+      "de bani"
+    ],
+    "russian_translation": "У него нет денег.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  }
+];
+
+        let currentQuestionIndex = 0;
+        let correctAnswersCount = 0;
+
+        const russianTranslationDisplay = document.getElementById('russian-translation');
+        const questionDisplay = document.getElementById('question-display');
+        const optionsContainer = document.getElementById('options-container');
+        const nextQuestionButton = document.getElementById('next-question-button');
+        const progressBar = document.getElementById('progress');
+
+        function loadQuestion() {
+            if (currentQuestionIndex < questions.length) {
+                const question = questions[currentQuestionIndex];
+                russianTranslationDisplay.textContent = question.russian_translation;
+                questionDisplay.innerHTML = question.romanian_sentence_before_blank.replace('______', '<span style="color: red;">______</span>');
+                optionsContainer.innerHTML = ''; // Clear previous options
+
+                // Shuffle options to ensure randomness
+                const shuffledOptions = [...question.romanian_options].sort(() => Math.random() - 0.5);
+
+                shuffledOptions.forEach(option => {
+                    const button = document.createElement('button');
+                    button.textContent = option;
+                    button.addEventListener('click', () => checkAnswer(button, option, question.romanian_correct_answer));
+                    optionsContainer.appendChild(button);
+                });
+
+                nextQuestionButton.style.display = 'none'; // Hide next button
+                enableOptions();
+                updateProgressBar();
+            } else {
+                showQuizResult();
+            }
+        }
+
+        function checkAnswer(clickedButton, selectedOption, correctAnswer) {
+            disableOptions(); // Disable all buttons after a choice
+
+            if (selectedOption === correctAnswer) {
+                clickedButton.classList.add('correct');
+                correctAnswersCount++;
+            } else {
+                clickedButton.classList.add('incorrect');
+                // Highlight the correct answer
+                Array.from(optionsContainer.children).forEach(button => {
+                    if (button.textContent === correctAnswer) {
+                        button.classList.add('correct');
+                    }
+                });
+            }
+            nextQuestionButton.style.display = 'block'; // Show next button
+        }
+
+        function disableOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.disabled = true;
+            });
+        }
+
+        function enableOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.disabled = false;
+                button.classList.remove('correct', 'incorrect'); // Reset colors
+            });
+        }
+
+        function nextQuestion() {
+            currentQuestionIndex++;
+            loadQuestion();
+        }
+
+        function updateProgressBar() {
+            const progressPercentage = (currentQuestionIndex / questions.length) * 100;
+            progressBar.style.width = `${progressPercentage}%`;
+            progressBar.textContent = `${Math.round(progressPercentage)}%`;
+        }
+
+        function showQuizResult() {
+            questionDisplay.innerHTML = `Тест завершен! Вы набрали ${correctAnswersCount} из ${questions.length} правильных ответов.`;
+            russianTranslationDisplay.textContent = '';
+            optionsContainer.innerHTML = '';
+            nextQuestionButton.style.display = 'none';
+            progressBar.style.width = '100%';
+            progressBar.textContent = '100%';
+        }
+
+        // Initialize the quiz
+        window.onload = loadQuestion;
+    </script>
+</body>
+</html>

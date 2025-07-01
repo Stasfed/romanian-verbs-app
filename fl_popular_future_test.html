@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест: Народное будущее время</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding-top: 30px;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 700px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        #question-counter {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        #russian-question {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 30px;
+        }
+        #options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .option-button {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 1.1em;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-align: left;
+        }
+        .option-button:hover:not(:disabled) {
+            background-color: #0056b3;
+        }
+        .option-button.correct {
+            background-color: #28a745;
+        }
+        .option-button.incorrect {
+            background-color: #dc3545;
+        }
+        .option-button:disabled {
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+        #feedback-message {
+            margin-top: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        #next-question-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        #next-question-button:hover {
+            background-color: #5a6268;
+        }
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #5a6268;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Тест: Народное будущее время</h1>
+        <div id="question-counter"></div>
+        <div id="russian-question"></div>
+        <div id="options-container"></div>
+        <div id="feedback-message"></div>
+        <button id="next-question-button" style="display: none;">Следующий вопрос</button>
+    </div>
+    <button class="back-button" onclick="location.href='index.html'">На главную</button>
+
+    <script>
+        const questions = [
+            {
+                russianQuestion: "В этом году мы поедем на море. А вы куда поедете?",
+                correctAnswer: "În anul curent o să mergem la mare. Iar voi unde o să mergeți?",
+                options: [
+                    "În anul curent o să mergem la mare. Iar voi unde o să mergeți?",
+                    "În anul acesta o să mergem la mare. Iar voi unde o să mergeți?",
+                    "În anul curent vom merge la mare. Iar voi unde veți merge?",
+                    "În anul curent o să mergem la mare. Iar voi unde mergeți?"
+                ]
+            },
+            {
+                russianQuestion: "Я поеду в Румынию, Мария поедет на черное море в Крым.",
+                correctAnswer: "Eu o să merg în România, Maria o să meargă la Marea Neagră în Crimeea.",
+                options: [
+                    "Eu o să merg în România, Maria o să meargă la Marea Neagră în Crimeea.",
+                    "Eu o să merg în România, Maria va merge la Marea Neagră în Crimeea.",
+                    "Eu voi merge în România, Maria o să meargă la Marea Neagră în Crimeea.",
+                    "Eu o să merg în România, Maria o să merge la Marea Neagră în Crimeea."
+                ]
+            },
+            {
+                russianQuestion: "Я больше не буду опаздывать.",
+                correctAnswer: "Nu o să mai întârzii.",
+                options: [
+                    "Nu o să mai întârzii.",
+                    "Nu voi mai întârzia.",
+                    "Nu o să întârzi.",
+                    "Nu o să mai întârzii eu."
+                ]
+            },
+            {
+                russianQuestion: "Не ходите в поликлинику, мы вызовем врача на дом.",
+                correctAnswer: "Nu mergeți la policlinică, noi o să chemăm medicul acasă.",
+                options: [
+                    "Nu mergeți la policlinică, noi o să chemăm medicul acasă.",
+                    "Nu mergeți la policlinică, noi o să chemăm doctorul acasă.",
+                    "Nu mergeți la policlinică, vom chema medicul acasă.",
+                    "Nu o să mergeți la policlinică, noi o să chemăm medicul acasă."
+                ]
+            },
+            {
+                russianQuestion: "Мы не будем изучать немецкий язык, мы будем изучать английский.",
+                correctAnswer: "Nu o să studiem limba germană, o să studiem engleza.",
+                options: [
+                    "Nu o să studiem limba germană, o să studiem engleza.",
+                    "Nu vom studia limba germană, vom studia engleza.",
+                    "Nu o să studiem limba germană, o să studiem limba engleză."
+                ]
+            },
+            {
+                russianQuestion: "Я буду часто приходить к тебе.",
+                correctAnswer: "O să vin des la tine.",
+                options: [
+                    "O să vin des la tine.",
+                    "Voi veni des la tine.",
+                    "Eu o să vin des la tine."
+                ]
+            }
+        ];
+
+        let currentQuestionIndex = 0;
+        let shuffledQuestions = [];
+
+        const questionCounterElement = document.getElementById('question-counter');
+        const russianQuestionElement = document.getElementById('russian-question');
+        const optionsContainer = document.getElementById('options-container');
+        const feedbackMessageElement = document.getElementById('feedback-message');
+        const nextQuestionButton = document.getElementById('next-question-button');
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        function loadQuestion() {
+            if (currentQuestionIndex >= shuffledQuestions.length) {
+                displayQuizEnd();
+                return;
+            }
+
+            const currentQuestion = shuffledQuestions[currentQuestionIndex];
+            questionCounterElement.textContent = `Вопрос ${currentQuestionIndex + 1} из ${shuffledQuestions.length}`;
+            russianQuestionElement.textContent = currentQuestion.russianQuestion;
+            optionsContainer.innerHTML = '';
+            feedbackMessageElement.textContent = '';
+            nextQuestionButton.style.display = 'none';
+            enableOptions();
+
+            const shuffledOptions = [...currentQuestion.options].sort(() => Math.random() - 0.5);
+
+            shuffledOptions.forEach(option => {
+                const button = document.createElement('button');
+                button.classList.add('option-button');
+                button.textContent = option;
+                button.addEventListener('click', () => checkAnswer(button, option, currentQuestion.correctAnswer));
+                optionsContainer.appendChild(button);
+            });
+        }
+
+        function checkAnswer(clickedButton, selectedOption, correctAnswer) {
+            disableOptions();
+
+            if (selectedOption === correctAnswer) {
+                clickedButton.classList.add('correct');
+                feedbackMessageElement.textContent = 'Правильно!';
+                feedbackMessageElement.style.color = '#28a745';
+            } else {
+                clickedButton.classList.add('incorrect');
+                feedbackMessageElement.textContent = 'Неправильно. Правильный ответ: ' + correctAnswer;
+                feedbackMessageElement.style.color = '#dc3545';
+                Array.from(optionsContainer.children).forEach(button => {
+                    if (button.textContent === correctAnswer) {
+                        button.classList.add('correct');
+                    }
+                });
+            }
+            nextQuestionButton.style.display = 'block';
+        }
+
+        function disableOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.disabled = true;
+            });
+        }
+
+        function enableOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.disabled = false;
+                button.classList.remove('correct', 'incorrect');
+            });
+        }
+
+        function displayQuizEnd() {
+            questionCounterElement.textContent = '';
+            russianQuestionElement.textContent = 'Тест завершен!';
+            feedbackMessageElement.textContent = 'Вы прошли все вопросы.';
+            optionsContainer.innerHTML = '';
+            nextQuestionButton.style.display = 'none';
+        }
+
+        nextQuestionButton.addEventListener('click', () => {
+            currentQuestionIndex++;
+            loadQuestion();
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            shuffledQuestions = [...questions];
+            shuffleArray(shuffledQuestions);
+            loadQuestion();
+        });
+    </script>
+</body>
+</html>

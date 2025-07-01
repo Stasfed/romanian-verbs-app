@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Упражнение: Перевод предложения</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding-top: 30px;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        #question-display {
+            font-size: 2em;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 30px;
+        }
+        #options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px; /* Отступ между кнопками */
+        }
+        .option-button {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-align: left;
+        }
+        .option-button:hover:not(:disabled) {
+            background-color: #0056b3;
+        }
+        .option-button.correct {
+            background-color: #28a745; /* Зеленый для правильного ответа */
+        }
+        .option-button.incorrect {
+            background-color: #dc3545; /* Красный для неправильного ответа */
+        }
+        .option-button:disabled {
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+        .message {
+            margin-top: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #5a6268;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Перевод предложения</h1>
+        <div id="question-display"></div>
+        <div id="options-container"></div>
+        <div id="message" class="message"></div>
+    </div>
+    <button class="back-button" onclick="location.href='index.html'">На главную</button>
+
+    <script>
+        const questionElement = document.getElementById('question-display');
+        const optionsContainer = document.getElementById('options-container');
+        const messageElement = document.getElementById('message');
+
+        const question = "Я читаю книгу.";
+        const correctAnswer = "Eu citesc o carte.";
+        const options = [
+            "Eu citeste o carte.",
+            "Eu citesc o carte.",
+            "Eu citesc carte.",
+            "Mie citesc o carte."
+        ];
+
+        function loadQuestion() {
+            questionElement.textContent = question;
+            optionsContainer.innerHTML = '';
+            messageElement.textContent = '';
+
+            // Shuffle options to ensure correct answer is not always in the same position
+            const shuffledOptions = [...options].sort(() => Math.random() - 0.5);
+
+            shuffledOptions.forEach(option => {
+                const button = document.createElement('button');
+                button.classList.add('option-button');
+                button.textContent = option;
+                button.addEventListener('click', () => checkAnswer(button, option));
+                optionsContainer.appendChild(button);
+            });
+            enableOptions();
+        }
+
+        function checkAnswer(clickedButton, selectedOption) {
+            disableOptions(); // Отключаем все кнопки после выбора
+
+            if (selectedOption === correctAnswer) {
+                clickedButton.classList.add('correct');
+                messageElement.textContent = 'Правильно!';
+                messageElement.style.color = '#28a745';
+            } else {
+                clickedButton.classList.add('incorrect');
+                messageElement.textContent = 'Неправильно. Попробуйте еще раз.';
+                messageElement.style.color = '#dc3545';
+                // Найти и подсветить правильный ответ
+                Array.from(optionsContainer.children).forEach(button => {
+                    if (button.textContent === correctAnswer) {
+                        button.classList.add('correct');
+                    }
+                });
+            }
+        }
+
+        function disableOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.disabled = true;
+            });
+        }
+
+        function enableOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.disabled = false;
+                button.classList.remove('correct', 'incorrect'); // Сбрасываем цвета
+            });
+        }
+
+        // Load the question when the page loads
+        document.addEventListener('DOMContentLoaded', loadQuestion);
+    </script>
+</body>
+</html>

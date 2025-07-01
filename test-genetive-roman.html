@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Test de genitiv în limba română</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background: #f8f8f8;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    .question {
+      margin-bottom: 20px;
+      padding: 15px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    select {
+      padding: 5px;
+      font-size: 16px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background: #3498db;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .result {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Test: Genitivul în limba română</h1>
+
+  <form id="genitiv-test">
+    <div class="question">
+      <label>1. ________ este importantă.</label><br>
+      <select name="q1">
+        <option value="">--Alege răspunsul--</option>
+        <option value="Decizia mea">Decizia mea</option>
+        <option value="Decizie">Decizie</option>
+        <option value="Deciziei mele">Deciziei mele</option>
+      </select>
+    </div>
+
+    <div class="question">
+      <label>2. Am uitat ________.</label><br>
+      <select name="q2">
+        <option value="">--Alege răspunsul--</option>
+        <option value="Adresa prietenului meu">Adresa prietenului meu</option>
+        <option value="Adresă">Adresă</option>
+        <option value="Prietenul meu adresă">Prietenul meu adresă</option>
+      </select>
+    </div>
+
+    <div class="question">
+      <label>3. Vom utiliza ________.</label><br>
+      <select name="q3">
+        <option value="">--Alege răspunsul--</option>
+        <option value="Sugestii">Sugestii</option>
+        <option value="Sugestiile voastre">Sugestiile voastre</option>
+        <option value="Sugestiilor voastre">Sugestiilor voastre</option>
+      </select>
+    </div>
+
+    <div class="question">
+      <label>4. A pierdut ________.</label><br>
+      <select name="q4">
+        <option value="">--Alege răspunsul--</option>
+        <option value="Cheia mașinii">Cheia mașinii</option>
+        <option value="Cheii mașinii mele">Cheii mașinii mele</option>
+        <option value="Cheia mașinii mele">Cheia mașinii mele</option>
+      </select>
+    </div>
+
+    <div class="question">
+      <label>5. Ei vor revizui ________.</label><br>
+      <select name="q5">
+        <option value="">--Alege răspunsul--</option>
+        <option value="Formatul documentului lor">Formatul documentului lor</option>
+        <option value="Format document">Format document</option>
+        <option value="Formatul documentului">Formatul documentului</option>
+      </select>
+    </div>
+
+    <button type="button" onclick="checkAnswers()">Verifică</button>
+
+    <div class="result" id="result"></div>
+  </form>
+
+  <script>
+    function checkAnswers() {
+      const answers = {
+        q1: "Deciziei mele",
+        q2: "Adresa prietenului meu",
+        q3: "Sugestiilor voastre",
+        q4: "Cheia mașinii mele",
+        q5: "Formatul documentului lor"
+      };
+
+      let score = 0;
+      for (let key in answers) {
+        const userAnswer = document.querySelector(`select[name="${key}"]`).value;
+        if (userAnswer === answers[key]) {
+          score++;
+        }
+      }
+
+      const result = document.getElementById("result");
+      result.textContent = `Ai răspuns corect la ${score} din 5 întrebări.`;
+    }
+  </script>
+</body>
+</html>
+

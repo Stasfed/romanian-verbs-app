@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест: Глаголы «Быть» и «Иметь»</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding-top: 30px;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 700px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        #instruction-display {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 15px;
+            min-height: 25px; /* Для предотвращения "прыжков" */
+        }
+        #question-display {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 30px;
+            min-height: 60px; /* Для предотвращения "прыжков" */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap; /* Позволяет тексту переноситься на новую строку */
+            padding: 0 10px;
+        }
+        #options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        #options-container button {
+            padding: 12px 20px;
+            font-size: 1.1em;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-align: left; /* Выравнивание текста по левому краю для длинных предложений */
+        }
+        #options-container button:hover:not(:disabled) {
+            background-color: #0056b3;
+        }
+        #options-container button.correct {
+            background-color: #28a745; /* Зеленый для правильного ответа */
+        }
+        #options-container button.incorrect {
+            background-color: #dc3545; /* Красный для неправильного ответа */
+        }
+        #options-container button:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+        #feedback {
+            font-size: 1.1em;
+            margin-top: 20px;
+            min-height: 20px; /* Чтобы избежать "прыжков" макета */
+        }
+        #next-question-btn, .back-button {
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        #next-question-btn:hover, .back-button:hover {
+            background-color: #5a6268;
+        }
+        #next-question-btn:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Упражнения: Глаголы «Быть» и «Иметь»</h1>
+        <div id="instruction-display"></div>
+        <div id="question-display"></div>
+        <div id="options-container">
+            </div>
+        <div id="feedback"></div>
+        <button id="next-question-btn" style="display: none;">Следующий вопрос</button>
+    </div>
+
+    <button onclick="location.href='index.html'" class="back-button">На главную</button>
+
+    <script>
+        const questions = [
+            {
+                type: "translation",
+                russianSentence: "Сколько денег (bani) было у Виктории?",
+                correctAnswer: "Câți bani a avut Victoria?",
+                options: [
+                    "Câți bani a avut Victoria?",
+                    "Câți bani a fost Victoria?",
+                    "Câți bani are Victoria?",
+                    "Câți bani Victoria a avut?"
+                ],
+                instruction: "Переведите предложение на румынский язык:"
+            },
+            {
+                type: "translation",
+                russianSentence: "Сколько лет Ольге и Павлу?",
+                correctAnswer: "Câți ani au Olga și Pavel?",
+                options: [
+                    "Câți ani au Olga și Pavel?",
+                    "Câți ani sunt Olga și Pavel?",
+                    "Câți ani este Olga și Pavel?",
+                    "Câți ani are Olga și Pavel?"
+                ],
+                instruction: "Переведите предложение на румынский язык:"
+            },
+            {
+                type: "translation",
+                russianSentence: "Сколько воды (apă) было в стакане (pahar)?",
+                correctAnswer: "Câtă apă a fost în pahar?",
+                options: [
+                    "Câtă apă a fost în pahar?",
+                    "Câtă apă a avut în pahar?",
+                    "Câtă apă este în pahar?",
+                    "Câtă apă în pahar a fost?"
+                ],
+                instruction: "Переведите предложение на румынский язык:"
+            },
+            {
+                type: "translation",
+                russianSentence: "У тебя будет свободное время (timp liber)?",
+                correctAnswer: "Vei avea timp liber?",
+                options: [
+                    "Vei avea timp liber?",
+                    "Vei fi timp liber?",
+                    "Ai timp liber?",
+                    "Va avea timp liber?"
+                ],
+                instruction: "Переведите предложение на румынский язык:"
+            },
+            {
+                type: "translation",
+                russianSentence: "Когда у тебя будет свободное время (timp liber)?",
+                correctAnswer: "Când vei avea timp liber?",
+                options: [
+                    "Când vei avea timp liber?",
+                    "Când vei fi timp liber?",
+                    "Când ai timp liber?",
+                    "Când vei avea liber timp?"
+                ],
+                instruction: "Переведите предложение на румынский язык:"
+            },
+            {
+                type: "translation",
+                russianSentence: "У меня нет свободного времени.",
+                correctAnswer: "Nu am timp liber.",
+                options: [
+                    "Nu am timp liber.",
+                    "Nu sunt timp liber.",
+                    "Nu este timp liber.",
+                    "Nu voi avea timp liber."
+                ],
+                instruction: "Переведите предложение на румынский язык:"
+            },
+            {
+                type: "translation",
+                russianSentence: "У Раду и Родики нет детей потому, что (pentru că) они студенты.",
+                correctAnswer: "Radu și Rodica nu au copii pentru că sunt studenți.",
+                options: [
+                    "Radu și Rodica nu au copii pentru că sunt studenți.",
+                    "Radu și Rodica nu sunt copii pentru că sunt studenți.",
+                    "Radu și Rodica nu au copii pentru că au studenți.",
+                    "Radu și Rodica nu are copii для потому что este studenți."
+                ],
+                instruction: "Переведите предложение на румынский язык:"
+            },
+            {
+                type: "translation",
+                russianSentence: "Где Вы (вежливое Вы) были?",
+                correctAnswer: "Unde ați fost (dumneavoastră)?",
+                options: [
+                    "Unde ați fost (dumneavoastră)?",
+                    "Unde ați avut (dumneavoastră)?",
+                    "Unde sunteți (dumneavoastră)?",
+                    "Unde fost ați (dumneavoastră)?"
+                ],
+                instruction: "Переведите предложение на румынский язык:"
+            },
+            {
+                type: "translation",
+                russianSentence: "Где Мария и Ольга? Они были на работе, сейчас (acum) они дома.",
+                correctAnswer: "Unde sunt Maria și Olga? Ele au fost la muncă, acum ele sunt acasă.",
+                options: [
+                    "Unde sunt Maria și Olga? Ele au fost la muncă, acum ele sunt acasă.",
+                    "Unde au Maria și Olga? Ele au avut la muncă, acum ele au acasă.",
+                    "Unde sunt Maria și Olga? Ele sunt la muncă, acum ele au acasă.",
+                    "Unde sunt Maria și Olga? Ele au fost la muncă, acum ele au acasă." 
+                ],
+                instruction: "Переведите предложение на румынский язык:"
+            },
+            {
+                type: "translation",
+                russianSentence: "Кто будет дома?",
+                correctAnswer: "Cine va fi acasă?",
+                options: [
+                    "Cine va fi acasă?",
+                    "Cine va avea acasă?",
+                    "Cine este acasă?",
+                    "Cine va acasă fi?"
+                ],
+                instruction: "Переведите предложение на румынский язык:"
+            },
+            {
+                type: "translation",
+                russianSentence: "Сколько цветов было у Тебя (вежливое Ты)?",
+                correctAnswer: "Câte flori ați avut (dumneavoastră)?",
+                options: [
+                    "Câte flori ați avut (dumneavoastră)?",
+                    "Câte flori ați fost (dumneavoastră)?",
+                    "Câte flori aveți (dumneavoastră)?",
+                    "Câte flori (dumneavoastră) ați avut?"
+                ],
+                instruction: "Переведите предложение на румынский язык:"
+            },
+            {
+                type: "translation",
+                russianSentence: "У них не было денег. Почему (De ce) у них не было денег? Потому, что (pentru că) они дети и (și) им 14 лет.",
+                correctAnswer: "Ei nu au avut bani. De ce nu au avut bani? Pentru că ei sunt copii și au 14 ani.",
+                options: [
+                    "Ei nu au avut bani. De ce nu au avut bani? Pentru că ei sunt copii și au 14 ani.",
+                    "Ei nu au fost bani. De ce nu au fost bani? Pentru că ei au copii și sunt 14 ani.",
+                    "Ei nu au avut bani. De ce nu au avut bani? Pentru că ei au copii и sunt 14 ani.",
+                    "Ei nu au avut bani. De ce nu au avut bani? Pentru că ei sunt copii и este 14 ani."
+                ],
+                instruction: "Переведите предложение на румынский язык:"
+            }
+        ];
+
+        let currentQuestionIndex = 0;
+        const instructionDisplay = document.getElementById('instruction-display');
+        const questionDisplay = document.getElementById('question-display');
+        const optionsContainer = document.getElementById('options-container');
+        const feedback = document.getElementById('feedback');
+        const nextQuestionButton = document.getElementById('next-question-btn');
+
+        function loadQuestion() {
+            if (currentQuestionIndex >= questions.length) {
+                questionDisplay.innerHTML = "Тест завершен! Молодец!<br><br>Вы можете начать заново, обновив страницу.";
+                instructionDisplay.textContent = "";
+                optionsContainer.innerHTML = "";
+                feedback.textContent = "";
+                nextQuestionButton.style.display = 'none';
+                return;
+            }
+
+            const currentQuestion = questions[currentQuestionIndex];
+            instructionDisplay.textContent = currentQuestion.instruction;
+
+            questionDisplay.innerHTML = currentQuestion.russianSentence;
+
+            optionsContainer.innerHTML = ""; // Очищаем предыдущие варианты
+            feedback.textContent = ""; // Очищаем обратную связь
+
+            // Перемешиваем варианты для каждого вопроса
+            const shuffledOptions = [...currentQuestion.options].sort(() => Math.random() - 0.5);
+
+            shuffledOptions.forEach(option => {
+                const button = document.createElement('button');
+                button.textContent = option;
+                button.addEventListener('click', () => checkAnswer(button, option, currentQuestion.correctAnswer));
+                optionsContainer.appendChild(button);
+            });
+
+            nextQuestionButton.style.display = 'none';
+            enableOptions();
+        }
+
+        function checkAnswer(clickedButton, selectedOption, correctAnswer) {
+            disableOptions(); // Отключаем все кнопки после выбора
+
+            if (selectedOption === correctAnswer) {
+                clickedButton.classList.add('correct');
+                feedback.textContent = "Правильно!";
+                feedback.style.color = "green";
+            } else {
+                clickedButton.classList.add('incorrect');
+                feedback.textContent = `Неправильно. Правильный ответ: ${correctAnswer}`;
+                feedback.style.color = "red";
+                // Найти и подсветить правильный ответ
+                Array.from(optionsContainer.children).forEach(button => {
+                    if (button.textContent === correctAnswer) {
+                        button.classList.add('correct');
+                    }
+                });
+            }
+            nextQuestionButton.style.display = 'block'; // Показываем кнопку "Следующий вопрос"
+        }
+
+        function disableOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.disabled = true;
+            });
+        }
+
+        function enableOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.disabled = false;
+                button.classList.remove('correct', 'incorrect'); // Сбрасываем цвета
+            });
+        }
+
+        nextQuestionButton.addEventListener('click', () => {
+            currentQuestionIndex++;
+            loadQuestion();
+        });
+
+        // Загрузка первого вопроса при загрузке страницы
+        document.addEventListener('DOMContentLoaded', loadQuestion);
+    </script>
+</body>
+</html>

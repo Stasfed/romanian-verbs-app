@@ -1,0 +1,3002 @@
+[
+  {
+    "id": 1,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 2,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 3,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 4,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 5,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 6,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 7,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 8,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 9,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 10,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 11,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 12,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 13,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 14,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 15,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 16,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 17,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 18,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 19,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 20,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 21,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 22,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 23,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 24,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 25,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 26,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 27,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 28,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 29,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 30,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 31,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 32,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 33,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 34,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 35,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 36,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 37,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 38,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 39,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 40,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 41,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 42,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 43,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 44,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 45,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 46,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 47,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 48,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 49,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 50,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 51,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 52,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 53,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 54,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 55,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 56,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 57,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 58,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 59,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 60,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 61,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 62,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 63,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 64,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 65,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 66,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 67,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 68,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 69,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 70,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 71,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 72,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 73,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 74,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 75,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 76,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 77,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 78,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 79,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 80,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 81,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 82,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 83,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 84,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 85,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 86,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 87,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 88,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 89,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 90,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 91,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 92,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 93,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 94,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 95,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 96,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 97,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 98,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 99,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 100,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 101,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 102,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 103,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 104,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 105,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 106,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 107,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 108,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 109,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 110,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 111,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 112,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 113,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 114,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 115,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 116,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 117,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 118,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 119,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 120,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 121,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 122,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 123,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 124,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 125,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 126,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 127,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 128,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 129,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 130,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 131,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 132,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 133,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 134,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 135,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 136,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 137,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 138,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 139,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 140,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 141,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 142,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 143,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 144,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 145,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 146,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 147,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 148,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 149,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 150,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 151,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 152,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 153,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 154,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 155,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 156,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 157,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 158,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 159,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 160,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 161,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 162,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 163,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 164,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 165,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 166,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 167,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 168,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 169,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 170,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 171,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 172,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 173,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 174,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 175,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 176,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 177,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 178,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 179,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 180,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 181,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 182,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 183,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 184,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 185,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 186,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 187,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 188,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 189,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 190,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 191,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 192,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 193,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 194,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 195,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 196,
+    "romanian_full_sentence": "Nu am carte.",
+    "romanian_sentence_before_blank": "Nu am ______.",
+    "romanian_correct_answer": "carte",
+    "romanian_options": [
+      "carte",
+      "cartă",
+      "la carte",
+      "de carte"
+    ],
+    "russian_translation": "У меня нет книги.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 197,
+    "romanian_full_sentence": "Am așteptat începutul întâlnirii.",
+    "romanian_sentence_before_blank": "Am așteptat începutul ______.",
+    "romanian_correct_answer": "întâlnirii",
+    "romanian_options": [
+      "întâlnirii",
+      "întâlnire",
+      "la întâlnire",
+      "de întâlnire"
+    ],
+    "russian_translation": "Мы ждали начала встречи.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 198,
+    "romanian_full_sentence": "Lui îi este frică de înălțime.",
+    "romanian_sentence_before_blank": "Lui îi este frică de ______.",
+    "romanian_correct_answer": "înălțime",
+    "romanian_options": [
+      "înălțime",
+      "înălțimea",
+      "la înălțime",
+      "de înălțime"
+    ],
+    "russian_translation": "Он боится высоты.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 199,
+    "romanian_full_sentence": "Sora nu are telefon.",
+    "romanian_sentence_before_blank": "Sora nu are ______.",
+    "romanian_correct_answer": "telefon",
+    "romanian_options": [
+      "telefon",
+      "telefonul",
+      "la telefon",
+      "de telefon"
+    ],
+    "russian_translation": "У сестры нет телефона.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  },
+  {
+    "id": 200,
+    "romanian_full_sentence": "Nu am auzit soneria.",
+    "romanian_sentence_before_blank": "Nu am auzit ______.",
+    "romanian_correct_answer": "soneria",
+    "romanian_options": [
+      "soneria",
+      "sonerie",
+      "la sonerie",
+      "de sonerie"
+    ],
+    "russian_translation": "Я не слышал звонка.",
+    "grammatical_case": "genetiv",
+    "context": "Существительное в родительном падеже"
+  }
+]

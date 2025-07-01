@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест: Степени сравнения</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding-top: 30px;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 700px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        #question-counter {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        #russian-question {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 30px;
+        }
+        #options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .option-button {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 1.1em;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-align: left;
+        }
+        .option-button:hover:not(:disabled) {
+            background-color: #0056b3;
+        }
+        .option-button.correct {
+            background-color: #28a745;
+        }
+        .option-button.incorrect {
+            background-color: #dc3545;
+        }
+        .option-button:disabled {
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+        #feedback-message {
+            margin-top: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        #next-question-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        #next-question-button:hover {
+            background-color: #5a6268;
+        }
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #5a6268;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Тест: Степени сравнения прилагательных и наречий</h1>
+        <div id="question-counter"></div>
+        <div id="russian-question"></div>
+        <div id="options-container"></div>
+        <div id="feedback-message"></div>
+        <button id="next-question-button" style="display: none;">Следующий вопрос</button>
+    </div>
+    <button class="back-button" onclick="location.href='index.html'">На главную</button>
+
+    <script>
+        const questions = [
+            {
+                russianQuestion: "Дочь так же красива, как и ее мать.",
+                correctAnswer: "Fiica este la fel de frumoasă ca și mama ei.",
+                options: [
+                    "Fiica este la fel de frumoasă ca și mama ei.",
+                    "Fiica este tot atât de frumoasă ca și mama ei.",
+                    "Fiica este mai frumoasă ca și mama ei.",
+                    "Fiica este frumos ca și mama ei."
+                ]
+            },
+            {
+                russianQuestion: "Сын так же высок, как и отец.",
+                correctAnswer: "Fiul este tot atât de înalt ca și tata.",
+                options: [
+                    "Fiul este tot atât de înalt ca și tata.",
+                    "Fiul este la fel de înalt ca și tata.",
+                    "Fiul este mai înalt ca și tata.",
+                    "Fiul este înalt ca și tata."
+                ]
+            },
+            {
+                russianQuestion: "Здание кинотеатра такое же старое, как и здание вокзала.",
+                correctAnswer: "Clădirea cinematografului este tot așa de veche ca și clădirea gării.",
+                options: [
+                    "Clădirea cinematografului este tot așa de veche ca și clădirea gării.",
+                    "Clădirea cinematografului este la fel de veche ca și clădirea gării.",
+                    "Clădirea cinematografului este mai veche decât clădirea gării.",
+                    "Clădirea cinematografului este veche ca și clădirea gării."
+                ]
+            },
+            {
+                russianQuestion: "Он читает по-румынски так же хорошо, как и ты.",
+                correctAnswer: "El citește românește la fel de bine ca și tine.",
+                options: [
+                    "El citește românește la fel de bine ca și tine.",
+                    "El citește românește tot atât de bine ca și tine.",
+                    "El citește românește mai bine decât tine.",
+                    "El citește românește bun ca și tine."
+                ]
+            },
+            {
+                russianQuestion: "Фильм лучше романа?",
+                correctAnswer: "Filmul este mai bun decât romanul?",
+                options: [
+                    "Filmul este mai bun decât romanul?",
+                    "Filmul este cel mai bun decât romanul?",
+                    "Filmul este bun decât romanul?",
+                    "Filmul este mai bun ca romanul?"
+                ]
+            },
+            {
+                russianQuestion: "— Нет, фильм хуже романа.",
+                correctAnswer: "— Nu, filmul este mai rău decât romanul.",
+                options: [
+                    "— Nu, filmul este mai rău decât romanul.",
+                    "— Nu, filmul este cel mai rău decât romanul.",
+                    "— Nu, filmul este rău decât romanul.",
+                    "— Nu, filmul este mai rău ca romanul."
+                ]
+            },
+            {
+                russianQuestion: "Зима холоднее осени, осень холоднее лета.",
+                correctAnswer: "Iarna este mai rece decât toamna, toamna este mai rece decât vara.",
+                options: [
+                    "Iarna este mai rece decât toamna, toamna este mai rece decât vara.",
+                    "Iarna este cel mai rece decât toamna, toamna este cel mai rece decât vara.",
+                    "Iarna este rece decât toamna, toamna este rece decât vara.",
+                    "Iarna este mai rece ca toamna, toamna este mai rece ca vara."
+                ]
+            },
+            {
+                russianQuestion: "Весной не так тепло: (досл. менее тепло), как летом.",
+                correctAnswer: "Primăvara este mai puțin cald decât vara.",
+                options: [
+                    "Primăvara este mai puțin cald decât vara.",
+                    "Primăvara este mai puțin cald ca vara.",
+                    "Primăvara este cel mai puțin cald decât vara.",
+                    "Primăvara este mai puțin caldă decât vara."
+                ]
+            },
+            {
+                russianQuestion: "Он говорит по-французски лучше меня.",
+                correctAnswer: "El vorbește franceza mai bine decât mine.",
+                options: [
+                    "El vorbește franceza mai bine decât mine.",
+                    "El vorbește franceza cel mai bine decât mine.",
+                    "El vorbește franceza bine decât mine.",
+                    "El vorbește franceza mai bun decât mine."
+                ]
+            },
+            {
+                russianQuestion: "Она идет быстрее Марии.",
+                correctAnswer: "Ea merge mai repede decât Maria.",
+                options: [
+                    "Ea merge mai repede decât Maria.",
+                    "Ea merge cel mai repede decât Maria.",
+                    "Ea merge repede decât Maria.",
+                    "Ea merge mai rapid decât Maria."
+                ]
+            },
+            {
+                russianQuestion: "У них в библиотеке самые свежие журналы и самые новые книги.",
+                correctAnswer: "În biblioteca lor sunt cele mai recente reviste și cele mai noi cărți.",
+                options: [
+                    "În biblioteca lor sunt cele mai recente reviste și cele mai noi cărți.",
+                    "În biblioteca lor sunt cele mai recent reviste și cele mai nou cărți.",
+                    "În biblioteca lor sunt cel mai recente reviste și cel mai noi cărți.",
+                    "În biblioteca lor sunt mai recente reviste și mai noi cărți."
+                ]
+            },
+            {
+                russianQuestion: "Он дает всегда самые полезные советы.",
+                correctAnswer: "El dă mereu cele mai utile sfaturi.",
+                options: [
+                    "El dă mereu cele mai utile sfaturi.",
+                    "El dă mereu cele mai util sfaturi.",
+                    "El dă mereu cel mai utile sfaturi.",
+                    "El dă mereu mai utile sfaturi."
+                ]
+            }
+        ];
+
+        let currentQuestionIndex = 0;
+        let shuffledQuestions = [];
+
+        const questionCounterElement = document.getElementById('question-counter');
+        const russianQuestionElement = document.getElementById('russian-question');
+        const optionsContainer = document.getElementById('options-container');
+        const feedbackMessageElement = document.getElementById('feedback-message');
+        const nextQuestionButton = document.getElementById('next-question-button');
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        function loadQuestion() {
+            if (currentQuestionIndex >= shuffledQuestions.length) {
+                displayQuizEnd();
+                return;
+            }
+
+            const currentQuestion = shuffledQuestions[currentQuestionIndex];
+            questionCounterElement.textContent = `Вопрос ${currentQuestionIndex + 1} из ${shuffledQuestions.length}`;
+            russianQuestionElement.textContent = currentQuestion.russianQuestion;
+            optionsContainer.innerHTML = '';
+            feedbackMessageElement.textContent = '';
+            nextQuestionButton.style.display = 'none';
+            enableOptions();
+
+            const shuffledOptions = [...currentQuestion.options].sort(() => Math.random() - 0.5);
+
+            shuffledOptions.forEach(option => {
+                const button = document.createElement('button');
+                button.classList.add('option-button');
+                button.textContent = option;
+                button.addEventListener('click', () => checkAnswer(button, option, currentQuestion.correctAnswer));
+                optionsContainer.appendChild(button);
+            });
+        }
+
+        function checkAnswer(clickedButton, selectedOption, correctAnswer) {
+            disableOptions();
+
+            if (selectedOption === correctAnswer) {
+                clickedButton.classList.add('correct');
+                feedbackMessageElement.textContent = 'Правильно!';
+                feedbackMessageElement.style.color = '#28a745';
+            } else {
+                clickedButton.classList.add('incorrect');
+                feedbackMessageElement.textContent = 'Неправильно. Правильный ответ: ' + correctAnswer;
+                feedbackMessageElement.style.color = '#dc3545';
+                Array.from(optionsContainer.children).forEach(button => {
+                    if (button.textContent === correctAnswer) {
+                        button.classList.add('correct');
+                    }
+                });
+            }
+            nextQuestionButton.style.display = 'block';
+        }
+
+        function disableOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.disabled = true;
+            });
+        }
+
+        function enableOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.disabled = false;
+                button.classList.remove('correct', 'incorrect');
+            });
+        }
+
+        function displayQuizEnd() {
+            questionCounterElement.textContent = '';
+            russianQuestionElement.textContent = 'Тест завершен!';
+            feedbackMessageElement.textContent = 'Вы прошли все вопросы.';
+            optionsContainer.innerHTML = '';
+            nextQuestionButton.style.display = 'none';
+        }
+
+        nextQuestionButton.addEventListener('click', () => {
+            currentQuestionIndex++;
+            loadQuestion();
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            shuffledQuestions = [...questions];
+            shuffleArray(shuffledQuestions);
+            loadQuestion();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест: Порядковые числительные</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding-top: 30px;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 700px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        #question-counter {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        #russian-question {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 30px;
+        }
+        #options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .option-button {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 1.1em;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-align: left;
+        }
+        .option-button:hover:not(:disabled) {
+            background-color: #0056b3;
+        }
+        .option-button.correct {
+            background-color: #28a745;
+        }
+        .option-button.incorrect {
+            background-color: #dc3545;
+        }
+        .option-button:disabled {
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+        #feedback-message {
+            margin-top: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        #next-question-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        #next-question-button:hover {
+            background-color: #5a6268;
+        }
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #5a6268;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Тест: Порядковые числительные</h1>
+        <div id="question-counter"></div>
+        <div id="russian-question"></div>
+        <div id="options-container"></div>
+        <div id="feedback-message"></div>
+        <button id="next-question-button" style="display: none;">Следующий вопрос</button>
+    </div>
+    <button class="back-button" onclick="location.href='index.html'">На главную</button>
+
+    <script>
+        const questions = [
+            {
+                russianQuestion: "первый день года",
+                correctAnswer: "prima zi a anului",
+                options: [
+                    "prima zi a anului",
+                    "primul zi a anului",
+                    "al primul zi a anului",
+                    "primul zi an"
+                ]
+            },
+            {
+                russianQuestion: "первые дома квартала",
+                correctAnswer: "primele case ale cartierului",
+                options: [
+                    "primele case ale cartierului",
+                    "primul case ale cartierului",
+                    "primii case ale cartierului",
+                    "prima case ale cartierului"
+                ]
+            },
+            {
+                russianQuestion: "первое слово ребенка",
+                correctAnswer: "primul cuvânt al copilului",
+                options: [
+                    "primul cuvânt al copilului",
+                    "prima cuvânt al copilului",
+                    "a primul cuvânt al copilului",
+                    "primul cuvânt copil"
+                ]
+            },
+            {
+                russianQuestion: "первая лекция преподавателя",
+                correctAnswer: "prima lecție a profesorului",
+                options: [
+                    "prima lecție a profesorului",
+                    "primul lecție a profesorului",
+                    "a prima lecție a profesorului",
+                    "prima lecție profesor"
+                ]
+            },
+            {
+                russianQuestion: "первая книга писателя",
+                correctAnswer: "prima carte a scriitorului",
+                options: [
+                    "prima carte a scriitorului",
+                    "primul carte a scriitorului",
+                    "a prima carte a scriitorului",
+                    "prima carte scriitor"
+                ]
+            },
+            {
+                russianQuestion: "мой первый сын",
+                correctAnswer: "primul meu fiu",
+                options: [
+                    "primul meu fiu",
+                    "prima mea fiu",
+                    "a primul meu fiu",
+                    "primul fiu meu"
+                ]
+            },
+            {
+                russianQuestion: "моя первая дочь",
+                correctAnswer: "prima mea fiică",
+                options: [
+                    "prima mea fiică",
+                    "primul meu fiică",
+                    "a prima mea fiică",
+                    "prima fiică mea"
+                ]
+            },
+            {
+                russianQuestion: "его первые слова",
+                correctAnswer: "primele lui cuvinte",
+                options: [
+                    "primele lui cuvinte",
+                    "primii lui cuvinte",
+                    "prima lui cuvinte",
+                    "primul lui cuvinte"
+                ]
+            },
+            {
+                russianQuestion: "ее первые шаги",
+                correctAnswer: "primii ei pași",
+                options: [
+                    "primii ei pași",
+                    "primele ei pași",
+                    "primul ei pași",
+                    "prima ei pași"
+                ]
+            },
+            {
+                russianQuestion: "двадцать первый день месяца",
+                correctAnswer: "a douăzeci și una zi a lunii",
+                options: [
+                    "a douăzeci și una zi a lunii",
+                    "al douăzeci și unu zi a lunii",
+                    "douăzeci și unu zi a lunii",
+                    "a douăzeci și unu ziua lunii"
+                ]
+            },
+            {
+                russianQuestion: "моя третья статья",
+                correctAnswer: "al treilea articol al meu",
+                options: [
+                    "al treilea articol al meu",
+                    "a treia articol al meu",
+                    "al treilea meu articol",
+                    "treilea articol al meu"
+                ]
+            },
+            {
+                russianQuestion: "мой первый ученик",
+                correctAnswer: "primul meu elev",
+                options: [
+                    "primul meu elev",
+                    "prima mea elev",
+                    "a primul meu elev",
+                    "primul elev meu"
+                ]
+            },
+            {
+                russianQuestion: "их тридцать первая встреча",
+                correctAnswer: "a treizeci și una întâlnire a lor",
+                options: [
+                    "a treizeci și una întâlnire a lor",
+                    "al treizeci și unu întâlnire a lor",
+                    "treizeci și una întâlnire a lor",
+                    "a treizeci și unu întâlnirea lor"
+                ]
+            },
+            {
+                russianQuestion: "его пятый сын",
+                correctAnswer: "al cincilea fiu al lui",
+                options: [
+                    "al cincilea fiu al lui",
+                    "a cincea fiu al lui",
+                    "al cincilea lui fiu",
+                    "cincilea fiu al lui"
+                ]
+            },
+            {
+                russianQuestion: "ее пятое заявление",
+                correctAnswer: "a cincea cerere a ei",
+                options: [
+                    "a cincea cerere a ei",
+                    "al cincilea cerere a ei",
+                    "a cincea ei cerere",
+                    "cincea cerere a ei"
+                ]
+            },
+            {
+                russianQuestion: "вижу второе окно",
+                correctAnswer: "văd a doua fereastră",
+                options: [
+                    "văd a doua fereastră",
+                    "văd al doilea fereastră",
+                    "văd doi fereastră",
+                    "văd a doua geam"
+                ]
+            },
+            {
+                russianQuestion: "вижу вторую дверь",
+                correctAnswer: "văd a doua ușă",
+                options: [
+                    "văd a doua ușă",
+                    "văd al doilea ușă",
+                    "văd doi ușă",
+                    "văd a două ușă"
+                ]
+            },
+            {
+                russianQuestion: "смотрю (досл. вижу) четвертый фильм",
+                correctAnswer: "văd al patrulea film",
+                options: [
+                    "văd al patrulea film",
+                    "văd a patra film",
+                    "văd patru film",
+                    "văd al patrulea filma"
+                ]
+            }
+        ];
+
+        let currentQuestionIndex = 0;
+        let shuffledQuestions = [];
+
+        const questionCounterElement = document.getElementById('question-counter');
+        const russianQuestionElement = document.getElementById('russian-question');
+        const optionsContainer = document.getElementById('options-container');
+        const feedbackMessageElement = document.getElementById('feedback-message');
+        const nextQuestionButton = document.getElementById('next-question-button');
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        function loadQuestion() {
+            if (currentQuestionIndex >= shuffledQuestions.length) {
+                displayQuizEnd();
+                return;
+            }
+
+            const currentQuestion = shuffledQuestions[currentQuestionIndex];
+            questionCounterElement.textContent = `Вопрос ${currentQuestionIndex + 1} из ${shuffledQuestions.length}`;
+            russianQuestionElement.textContent = currentQuestion.russianQuestion;
+            optionsContainer.innerHTML = '';
+            feedbackMessageElement.textContent = '';
+            nextQuestionButton.style.display = 'none';
+            enableOptions();
+
+            const shuffledOptions = [...currentQuestion.options].sort(() => Math.random() - 0.5);
+
+            shuffledOptions.forEach(option => {
+                const button = document.createElement('button');
+                button.classList.add('option-button');
+                button.textContent = option;
+                button.addEventListener('click', () => checkAnswer(button, option, currentQuestion.correctAnswer));
+                optionsContainer.appendChild(button);
+            });
+        }
+
+        function checkAnswer(clickedButton, selectedOption, correctAnswer) {
+            disableOptions();
+
+            if (selectedOption === correctAnswer) {
+                clickedButton.classList.add('correct');
+                feedbackMessageElement.textContent = 'Правильно!';
+                feedbackMessageElement.style.color = '#28a745';
+            } else {
+                clickedButton.classList.add('incorrect');
+                feedbackMessageElement.textContent = 'Неправильно. Правильный ответ: ' + correctAnswer;
+                feedbackMessageElement.style.color = '#dc3545';
+                Array.from(optionsContainer.children).forEach(button => {
+                    if (button.textContent === correctAnswer) {
+                        button.classList.add('correct');
+                    }
+                });
+            }
+            nextQuestionButton.style.display = 'block';
+        }
+
+        function disableOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.disabled = true;
+            });
+        }
+
+        function enableOptions() {
+            Array.from(optionsContainer.children).forEach(button => {
+                button.disabled = false;
+                button.classList.remove('correct', 'incorrect');
+            });
+        }
+
+        function displayQuizEnd() {
+            questionCounterElement.textContent = '';
+            russianQuestionElement.textContent = 'Тест завершен!';
+            feedbackMessageElement.textContent = 'Вы прошли все вопросы.';
+            optionsContainer.innerHTML = '';
+            nextQuestionButton.style.display = 'none';
+        }
+
+        nextQuestionButton.addEventListener('click', () => {
+            currentQuestionIndex++;
+            loadQuestion();
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            shuffledQuestions = [...questions];
+            shuffleArray(shuffledQuestions);
+            loadQuestion();
+        });
+    </script>
+</body>
+</html>
